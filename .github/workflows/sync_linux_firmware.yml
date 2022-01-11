@@ -1,0 +1,33 @@
+name: Sync linux-firmware repository
+
+on:
+  schedule:
+    # Trigger ever day at 5:00, 8:00, 11:00, 14:00, 17:00, 20:00
+    - cron: '0 5,8,11,14,17,20 * * *'
+
+jobs:
+  update-dns:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Sync linux-firmware repository
+      run: ./sync_linux_firmware.py && ./sync_linux_firmware.py > output_linux_firmware.txt
+
+    - name: Show git status
+      run: git status
+
+    - name: Show git diff
+      run: git diff
+
+    - name: Commit the diff
+      run: |
+        if git status --short | grep '^' ; then
+            git config user.name "Automatic Updater"
+            git config user.email "automatic-updater"
+            git add .
+            git add -u .
+            git commit -m "Sync linux-firmware repository $(date --utc +"%Y-%m-%d %H:%M:%S")"
+            git push origin main
+        fi
