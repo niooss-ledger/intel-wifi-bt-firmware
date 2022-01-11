@@ -4,10 +4,13 @@ import hashlib
 from pathlib import Path
 import re
 import subprocess
+import sys
 
 
 BASE_PATH = Path(__file__).parent
 LINUX_FIRMWARE_REPO = BASE_PATH / "linux-firmware"
+LINUX_FIRMWARE_URL = "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git"
+IWLWIFI_FIRMWARE_URL = "https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware.git"
 
 
 # Fixup data because linux-firmware is not clean enough
@@ -29,24 +32,24 @@ FIXUP_VERSION_DATA = {
 
 
 def sync_linux_firmware(fw_repo):
-    if 0:
-        if fw_repo.exists():
-            print(f"Updating {fw_repo} ...")
-            subprocess.run(("git", "fetch", "origin"), cwd=fw_repo, check=True)
-        else:
-            print(f"Cloning {fw_repo} ...")
-            subprocess.run(
-                (
-                    "git",
-                    "clone",
-                    "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git",
-                    str(fw_repo),
-                ),
-                cwd=fw_repo.parent,
-                check=True,
-            )
+    if fw_repo.exists():
+        print(f"Updating {fw_repo} ...", file=sys.stderr)
+        subprocess.run(("git", "fetch", "origin"), cwd=fw_repo, check=True)
+        subprocess.run(("git", "fetch", "iwlwifi"), cwd=fw_repo, check=True)
+    else:
+        print(f"Cloning {fw_repo} ...", file=sys.stderr)
+        subprocess.run(
+            ("git", "clone", fw_url, str(LINUX_FIRMWARE_URL)),
+            cwd=fw_repo.parent,
+            check=True,
+        )
+        subprocess.run(
+            ("git", "remote", "add", "-f", "iwlwifi", str(IWLWIFI_FIRMWARE_URL)),
+            cwd=fw_repo,
+            check=True,
+        )
 
-    print("Getting all commits")
+    print("Getting all commits", file=sys.stderr)
     previous_file_names = {}
     cmd_out = subprocess.check_output(
         ("git", "log", "--format=%H %as", "--all", "--reverse"),
