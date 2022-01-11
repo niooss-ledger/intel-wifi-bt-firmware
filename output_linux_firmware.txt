@@ -1,0 +1,1550 @@
+Getting all commits
+2009-01-20 caef650a8c909f557ed7f6b23c413401d6994fdb added 3 files
+  - iwlwifi-3945-2.ucode version 15.28.2.8 (149816 bytes)
+  - iwlwifi-4965-2.ucode version 228.57.2.23 (187764 bytes)
+  - iwlwifi-5000-1.ucode version 5.4.1.16 (345008 bytes)
+
+2009-05-14 d90a18c9e7eef19ab978c4c0bb2d2d4b8fa49dce added 1 files
+  - iwlwifi-3945-2.ucode version 15.32.2.9 (150100 bytes)
+
+2009-05-14 80a203275fc368db0a5f166c42dd35a4a22f2453 added 1 files
+  - iwlwifi-5150-2.ucode version 8.24.2.2 (337400 bytes)
+
+2009-07-09 b55ed032c7b19e954841796b372d8e291f2a6199 added 1 files
+  - iwlwifi-4965-2.ucode version 228.61.2.24 (187972 bytes)
+
+2009-08-05 5801391181c1ae3d82c286ab51ef14224eb13cf5 added 1 files
+  - iwlwifi-5000-2.ucode version 8.24.2.12 (353240 bytes)
+
+2009-08-14 c296f41d63e3734af83fbd39dc1c49a32734f8fb added 1 files
+  - iwlwifi-1000-3.ucode version 128.50.3.1 (335056 bytes)
+
+2010-02-23 171dbc3dd2bfb74a0f1063fb8065b03ca768beff added 1 files
+  - iwlwifi-6000-4.ucode version 9.193.4.1 (462280 bytes)
+
+2010-06-03 85212bf6501da865e570f6b2f6fbd6f212850609 added 1 files
+  - iwlwifi-6050-4.ucode version 9.201.4.1 (463692 bytes)
+
+2010-09-08 3e5311dd330b40bd986586ab62c30de3959ea88d added 1 files
+  - iwlwifi-6050-4.ucode version 9.201.4.1 (463692 bytes)
+
+2010-12-17 3feb2d9526e505002a5de08d01aaa733f5a8721d added 1 files
+  - iwlwifi-6000g2a-5.ucode version 17.168.5.1 (443436 bytes)
+
+2010-12-17 dd6e5da98a9637ab78f63aecc124ef79438167c8 added 1 files
+  - iwlwifi-6000g2b-5.ucode version 17.168.5.1 (460236 bytes)
+
+2010-12-17 eb0ad4ffc1e2fe02bccae2f7102e3ffc8101ac55 added 1 files
+  - iwlwifi-6050-5.ucode version 41.28.5.1 (469780 bytes)
+
+2011-01-22 5890cd450f9f73be7a9bda5dc3301d897a5ac886 added 1 files
+  - iwlwifi-100-5.ucode version 39.31.5.1 (337572 bytes)
+
+2011-02-25 8654e2dd962899cbc81b3735c7122ca40fa5ea0e added 1 files
+  - iwlwifi-5000-5.ucode version 8.83.5.1 (340696 bytes)
+
+2011-06-02 362aad9d211e0ca7f151fb6e2f170ad93aa4a3b5 added 1 files
+  - iwlwifi-6000-4.ucode version 9.221.4.1 (454608 bytes)
+
+2011-06-03 7522de5d09b434602389ea63058a1fe0cbac3b3f added 1 files
+  - iwlwifi-1000-5.ucode version 39.31.5.1 (337520 bytes)
+
+2011-06-24 5fabb3600f58259af171fe7d2f7e23760ccf1239 added 1 files
+  - iwlwifi-6000g2a-5.ucode version 17.168.5.3 (444128 bytes)
+
+2012-01-23 afe92a82d8825527bca60913de6bcf395329a060 added 1 files
+  - iwlwifi-105-6.ucode version 18.168.6.1 (689680 bytes)
+
+2012-01-23 5d1a03de9630e882f5c66eb3f516a206ce3c7714 added 1 files
+  - iwlwifi-135-6.ucode version 18.168.6.1 (701228 bytes)
+
+2012-01-23 26be5d1c761f14187623c036d062bac98b582608 added 1 files
+  - iwlwifi-2000-6.ucode version 18.168.6.1 (695876 bytes)
+
+2012-01-23 4ee709b2efd24fd7ca94587b54a6a80f7ae01f39 added 1 files
+  - iwlwifi-2030-6.ucode version 18.168.6.1 (707392 bytes)
+
+2012-01-23 652fbb406bf9dd9a4b88f95b0190a99fa706bd33 added 1 files
+  - iwlwifi-6000g2b-6.ucode version 18.168.6.1 (679436 bytes)
+
+2012-08-03 bbede96f3d68ac056ae5d9f6ac56819b6462f4f5 added 1 files
+  - iwlwifi-6000g2a-6.ucode version 18.168.6.1 (677296 bytes)
+
+2013-04-22 120a97ff309b6a20812f13d0f9da231eacc3311a added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version 2013-04-22 (13315 bytes)
+  - intel/ibt-hw-37.7.bseq version 2013-04-22 (96 bytes)
+
+2013-06-24 e982abf07f7986ca42b8cfdeb3374d009c18902a added 2 files
+  - iwlwifi-3160-7.ucode version 22.0.7.0 (670172 bytes)
+  - iwlwifi-7260-7.ucode version 22.0.7.0 (682892 bytes)
+
+2013-08-22 74c9a8ceb4fe9d0491dc6b9859766e5a66c0c96c added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version 2013-08-22 (16516 bytes)
+
+2013-09-10 74ed315573d41783f98f38cb264512344d41c599 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version 1334.02.2E (16761 bytes)
+
+2013-11-13 0b6ac6bcbf3d39416e774428f8cbb3bddc5002a3 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version 1344.01.33 (18145 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version 1344.01.33 (17917 bytes)
+
+2013-06-24 824994715e0276e64cdbf2badbe02921a78fb287 added 2 files
+  - iwlwifi-3160-7.ucode version 22.1.7.0 (670484 bytes)
+  - iwlwifi-7260-7.ucode version 22.1.7.0 (683236 bytes)
+
+2013-06-24 11fdbda75cebef71e878fd0dfa6bfca984be35f4 added 2 files
+  - iwlwifi-3160-8.ucode version 22.15.8.0 (662032 bytes)
+  - iwlwifi-7260-8.ucode version 22.15.8.0 (674628 bytes)
+
+2014-02-24 509a474f31360bce4546046ab037ddad1cc0471a added 2 files
+  - iwlwifi-3160-8.ucode version 22.24.8.0 (667284 bytes)
+  - iwlwifi-7260-8.ucode version 22.24.8.0 (679780 bytes)
+
+2014-03-22 a205d6f5a01fa0c926da6c0cb94941f80453d580 added 1 files
+  - iwlwifi-7265-8.ucode version 22.24.8.0 (690452 bytes)
+
+2014-04-27 7a67dbf9c087ef64b3d3fc9ce448c2efdb2e365f added 3 files
+  - iwlwifi-3160-9.ucode version 22.212.9.0 (666256 bytes)
+  - iwlwifi-7260-9.ucode version 22.212.9.0 (678904 bytes)
+  - iwlwifi-7265-9.ucode version 22.212.9.0 (691320 bytes)
+
+2014-05-19 e2844339cb779c00f856c554958e16beca99b462 added 3 files
+  - iwlwifi-3160-9.ucode version 23.214.9.0 (666792 bytes)
+  - iwlwifi-7260-9.ucode version 23.214.9.0 (679380 bytes)
+  - iwlwifi-7265-9.ucode version 23.214.9.0 (691960 bytes)
+
+2014-03-14 8148e535536e21b2daf4c1d78dff438d128a3f95 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version auto.WP_1303_02_patch_0.1.54.1 (21121 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version auto.WP_1303_02_patch_0.1.54.1 (21001 bytes)
+
+2014-03-14 01ca0001935ec78fabd4ca6fb80b5609f0e6c5be added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_13.1 (10612 bytes)
+  - intel/ibt-hw-37.8.bseq version 1339_02.00 (96 bytes)
+
+2014-03-21 6c2381e8b45e918efda37ba84da64d1eacfc36d4 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version WP_1345_01_patch_0.0.06.1 (3558 bytes)
+
+2014-04-08 4083e7bc1389c62498d471eb4ae8b9ecdfbd0935 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version auto.WP_1303_02_patch_0.1.55.1 (21198 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version auto.WP_1303_02_patch_0.1.55.1 (20989 bytes)
+
+2014-07-18 4db2e12a0b62eefa132d586f1b46cb376fd4412a added 3 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version WP_1303_02_patch_0.0.65.1 (24137 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version WP_1345_01_patch_0.0.13.1 (12316 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version WP_1303_02_patch_0.0.65.1 (23911 bytes)
+
+2014-07-18 b8c260df9115aec46bcad9dca9be0dd79ccd1a4b added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_27.1 (18017 bytes)
+
+2014-06-11 a2ff576cd0c8d367943a1d5d4b65554a5c8c198a added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version WP_1345_01_patch_0.0.10.1 (9602 bytes)
+
+2014-08-26 13eb208681bf7cc7434189dd925e587d12707d50 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_31.1 (21775 bytes)
+
+2014-08-14 e3d07daa2e88c78ac9c891edf7cbd699d9dff4bc added 3 files
+  - iwlwifi-3160-9.ucode version 25.222.9.0 (669156 bytes)
+  - iwlwifi-7260-9.ucode version 25.222.9.0 (681464 bytes)
+  - iwlwifi-7265-9.ucode version 25.222.9.0 (697012 bytes)
+
+2014-10-09 0e5f63771d0df6d7859f7c4100a74d737c62ac88 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version STP2_D0_1417_04_patch_04.1 (8441 bytes)
+
+2014-11-20 99b625714de705b167803799e13f423772b07f31 added 3 files
+  - iwlwifi-3160-9.ucode version 25.228.9.0 (669872 bytes)
+  - iwlwifi-7260-9.ucode version 25.228.9.0 (680508 bytes)
+  - iwlwifi-7265-9.ucode version 25.228.9.0 (697828 bytes)
+
+2014-11-21 eaac078974ea6a9a3f430017fec308c7c80b4107 added 4 files
+  - iwlwifi-3160-10.ucode version 23.10.10.0 (610168 bytes)
+  - iwlwifi-7260-10.ucode version 23.10.10.0 (672480 bytes)
+  - iwlwifi-7265-10.ucode version 23.10.10.0 (736968 bytes)
+  - iwlwifi-7265D-10.ucode version 23.10.10.0 (740636 bytes)
+
+2014-12-11 a876c69f042cf4732755b325d3b709125bb51a06 added 4 files
+  - iwlwifi-3160-10.ucode version 23.11.10.0 (610064 bytes)
+  - iwlwifi-7260-10.ucode version 23.11.10.0 (672372 bytes)
+  - iwlwifi-7265-10.ucode version 23.11.10.0 (736864 bytes)
+  - iwlwifi-7265D-10.ucode version 23.11.10.0 (740456 bytes)
+
+2015-02-03 32c3d50a64069835bb7d6721635b6b00beb1c950 added 4 files
+  - iwlwifi-3160-12.ucode version 25.15.12.0 (683996 bytes)
+  - iwlwifi-7260-12.ucode version 25.15.12.0 (782300 bytes)
+  - iwlwifi-7265-12.ucode version 25.15.12.0 (880604 bytes)
+  - iwlwifi-7265D-12.ucode version 25.15.12.0 (1002800 bytes)
+
+2015-02-03 db791814210548225868f9ede6efeda1c89ca870 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version WP_1303_02_patch_0.0.72.1 (24778 bytes)
+
+2015-02-03 fbccd2ab7781e0d9011731203b0722a6af3acde4 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version WP_1303_02_patch_0.0.72.1 (25004 bytes)
+
+2015-02-03 15cc9dfd034223fae4b7968a3eadfb978cd67162 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version WP_1345_01_patch_0.0.24.1 (16552 bytes)
+
+2015-02-03 38bac8e3ad4726c2d00189630d04102e307c82b5 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_40.1 (23450 bytes)
+
+2015-02-03 1100606d5b44415c656d4a3b3054b4d4786f860d added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version WP_1345_01_patch_0.0.24.1 (16716 bytes)
+
+2015-02-03 17657c35869baa999b454e868cd3d5a7e1656425 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version STP2_D0_1417_04_patch_09.1 (10677 bytes)
+
+2015-02-17 039e932b8d95a351a686a7096384d2cc2a24c75d added 4 files
+  - iwlwifi-3160-10.ucode version 23.14.10.0 (610008 bytes)
+  - iwlwifi-7260-10.ucode version 23.14.10.0 (672368 bytes)
+  - iwlwifi-7265-10.ucode version 23.14.10.0 (736860 bytes)
+  - iwlwifi-7265D-10.ucode version 23.14.10.0 (740452 bytes)
+
+2015-02-20 237ebb43e142e5febd60d14a61c5b2e42cff0e48 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version STP2_D0_1417_04_patch_09.1 (10677 bytes)
+
+2015-03-03 d81bc142d7068073699ce6ffbfbdf268baa9f200 added 4 files
+  - iwlwifi-3160-10.ucode version 23.15.10.0 (609892 bytes)
+  - iwlwifi-7260-10.ucode version 23.15.10.0 (672352 bytes)
+  - iwlwifi-7265-10.ucode version 23.15.10.0 (736844 bytes)
+  - iwlwifi-7265D-10.ucode version 23.15.10.0 (740436 bytes)
+
+2015-03-18 888ea193da7f6e3f03758e89bd1785d3fa393760 added 4 files
+  - iwlwifi-3160-12.ucode version 25.17.12.0 (683996 bytes)
+  - iwlwifi-7260-12.ucode version 25.17.12.0 (782300 bytes)
+  - iwlwifi-7265-12.ucode version 25.17.12.0 (880604 bytes)
+  - iwlwifi-7265D-12.ucode version 25.17.12.0 (1002800 bytes)
+
+2015-05-06 520952e556380b414fc86662361ea58530a8186e added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_43.1 (24121 bytes)
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version STP2_D0_1417_04_patch_15.1 (24486 bytes)
+
+2015-05-06 6a02a3164c16b49493bdbeef482c9a28775f7b77 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version WP_1345_01_patch_0.0.26.1 (17508 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version WP_1345_01_patch_0.0.26.1 (17310 bytes)
+
+2015-05-06 3161bfa479d5e9ed4f46b57df9bcecbbc4f8eb3c added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version WP_1303_02_patch_0.0.79.1 (25575 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version WP_1303_02_patch_0.0.79.1 (25366 bytes)
+
+2015-05-10 c6c4150eaaffef76d8e3a3be13c822f0e2cd4dc6 added 5 files
+  - iwlwifi-3160-13.ucode version 25.30.13.0 (688616 bytes)
+  - iwlwifi-7260-13.ucode version 25.30.13.0 (786920 bytes)
+  - iwlwifi-7265-13.ucode version 25.30.13.0 (885224 bytes)
+  - iwlwifi-7265D-13.ucode version 25.30.13.0 (1008692 bytes)
+  - iwlwifi-8000C-13.ucode version 25.30.13.0 (1745176 bytes)
+
+2015-06-25 696403047a940c425c93cb8da1efcec6ffda0b6e added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0190 (9 bytes)
+  - intel/ibt-11-5.sfi version LnP_SfP_REL0190 (570160 bytes)
+
+2015-09-21 01f57c63a0d2fd822462b5eedb09ff3a92fbcb29 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version WP_1303_02_patch_0.0.83.1 (25343 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version WP_1303_02_patch_0.0.83.1 (25117 bytes)
+
+2015-09-21 05af03fe2500d52cb766b9aebb8257c255ea24c7 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version WP_1345_01_patch_0.0.34.1 (21161 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version WP_1345_01_patch_0.0.34.1 (20997 bytes)
+
+2015-09-21 07cd0b29e95f61bb0cdbcc86fc5cc2def0755916 added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version STP2_C0_1339_02_patch_54.1 (27481 bytes)
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version STP2_D0_1417_04_patch_28.1 (27244 bytes)
+
+2015-10-07 d82d3c1e5eddb811a38513a7e5b33202773f0fff added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version STP_D1_REL_9 (13239 bytes)
+
+2015-11-10 1406ec112423c8f70d503d3cd44c6f8e147f7ac3 added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version BT_StonePeak_C0_REL_55_0001 (27505 bytes)
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version BT_StonePeak_D0_REL_32_0002 (30212 bytes)
+
+2015-08-26 7514f28c7621398a187e98b9439fba8f9fa5dca0 added 5 files
+  - iwlwifi-3160-16.ucode version 16.242414.0 (918212 bytes)
+  - iwlwifi-7260-16.ucode version 16.242414.0 (1049284 bytes)
+  - iwlwifi-7265-16.ucode version 16.242414.0 (1180356 bytes)
+  - iwlwifi-7265D-16.ucode version 16.242414.0 (1384500 bytes)
+  - iwlwifi-8000C-16.ucode version 16.242414.0 (2351636 bytes)
+
+2016-01-11 40e9ae84308274b91ac069fba2f1a290fcdc83fc added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version STP_D1_REL_13 (30307 bytes)
+
+2016-01-29 4592e376ebfadc3922073b44b648dee043b078f1 added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version BT_StonePeak_C0_REL_57_0002 (30851 bytes)
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version BT_StonePeak_D0_REL_35_0002 (38291 bytes)
+
+2016-01-29 ede3068ff64ddfee34387e10c3865fdede9801d0 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_37_0001 (21908 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_37_0001 (21727 bytes)
+
+2016-01-29 7b1a5cb6a2cd379f470058580be2a41f5d5c4867 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version 2016-01-29 (25857 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version 2016-01-29 (25631 bytes)
+
+2016-03-08 a2c354e64cec4b1146054c7e5b7df4329af752a7 added 4 files
+  - iwlwifi-3168-21.ucode version 21.302800.0 (1384856 bytes)
+  - iwlwifi-7265D-21.ucode version 21.302800.0 (1385368 bytes)
+  - iwlwifi-8000C-21.ucode version 21.302800.0 (2394060 bytes)
+  - iwlwifi-8265-21.ucode version 21.302800.0 (2389968 bytes)
+
+2016-04-08 a6910d4e684c951193fa750c1f0f2dfbc6f670a9 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version STP_D1_REL_18 (43496 bytes)
+
+2016-04-14 986a5a8bbbb9f39079dd845c4a6b2f9bc8f0a3a5 added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0257 (18 bytes)
+  - intel/ibt-11-5.sfi version LnP_SfP_REL0257 (583444 bytes)
+
+2016-06-01 e45d3860987a68a4c317e7b6e62bb81ffde8a93b added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq version BT_WilkinsPeak_B3_REL_86_0001 (25853 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version BT_WilkinsPeak_B3_REL_86_0001 (25627 bytes)
+
+2016-06-01 f5b546819836f207a6df58d48423ca6112cd2801 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_38_0001 (22089 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_38_0001 (21908 bytes)
+
+2016-06-08 85e19c2c248421a6ab1b673533d88036ae9d15e2 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_20_0001 (45680 bytes)
+
+2016-06-08 b6b402c4332a13e73e8a05d4b1b1a3c6dc4ad7f0 added 2 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version BT_StonePeak_C0_REL_58_0001 (31019 bytes)
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version BT_StonePeak_D0_REL_37_0002 (38621 bytes)
+
+2016-06-08 a4bbc8112cc04fcc0e0861e8b72197b6cb83ab83 added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0330 (586204 bytes)
+
+2016-06-14 19e24461c3dcfd8ef13d2d4dc2287ef1bb50eb71 added 2 files
+  - intel/ibt-11-16.ddc version BT_WindStormPeak_REL0060 (9 bytes)
+  - intel/ibt-11-16.sfi version BT_WindStormPeak_REL0060 (584264 bytes)
+
+2016-07-06 a14150061388f4bcbf3c3499f1b12e3f0d5c0e7b added 2 files
+  - intel/ibt-12-16.ddc version BT_WindStormPeak_REL0060 (9 bytes)
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0060 (584264 bytes)
+
+2016-07-10 f2cf4d67e8eced29c8a473d3a27057aa2df57c42 added 4 files
+  - iwlwifi-3160-17.ucode version 17.352738.0 (918268 bytes)
+  - iwlwifi-7260-17.ucode version 17.352738.0 (1049340 bytes)
+  - iwlwifi-7265-17.ucode version 17.352738.0 (1180412 bytes)
+  - iwlwifi-7265D-17.ucode version 17.352738.0 (1383604 bytes)
+
+2016-07-10 b224bd0c77370a58b996a7be2c322b9fb4849398 added 4 files
+  - iwlwifi-3168-22.ucode version 22.361476.0 (1028032 bytes)
+  - iwlwifi-7265D-22.ucode version 22.361476.0 (1028316 bytes)
+  - iwlwifi-8000C-22.ucode version 22.361476.0 (2120860 bytes)
+  - iwlwifi-8265-22.ucode version 22.361476.0 (1811984 bytes)
+
+2016-11-30 df1b2365a07aefb01b07e013a234178ee15df627 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq version BT_StonePeak_C0_REL_59_0001 (31056 bytes)
+
+2016-11-30 7ff994c152539bb8f06664c9ec3fd870105fd9db added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_25_0001 (47932 bytes)
+
+2016-11-30 fb328183532ffc7a1a54e84fb53467e275a95b79 added 2 files
+  - intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_39_0001 (22069 bytes)
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_39_0001 (21888 bytes)
+
+2016-11-30 28ddb05aeeffcc08b2c18ea29793ff6e7f94b974 added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0351_incorrect (57 bytes)
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0351 (583012 bytes)
+
+2016-11-30 87941021a622c882b1921df85d6115940a4e568a added 2 files
+  - intel/ibt-12-16.ddc version BT_WindStormPeak_REL0082_incorrect (22 bytes)
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0082 (583520 bytes)
+
+2016-12-08 581f24500138f5e410d51ab63b205be9a52f4c77 added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0351 (18 bytes)
+  - intel/ibt-12-16.ddc version BT_WindStormPeak_REL0082 (9 bytes)
+
+2017-01-12 350a1921e5b84df015283a49120efa43c20a9545 added 3 files
+  - iwlwifi-3160-17.ucode version 17.459231.0 (918268 bytes)
+  - iwlwifi-7260-17.ucode version 17.459231.0 (1049340 bytes)
+  - iwlwifi-7265-17.ucode version 17.459231.0 (1180412 bytes)
+
+2017-01-07 c1844f3f49edeb5acd1ae0d1b390ba71949e3bdd added 3 files
+  - iwlwifi-7265D-22.ucode version 22.391740.0 (1028376 bytes)
+  - iwlwifi-8000C-22.ucode version 22.391740.0 (2120860 bytes)
+  - iwlwifi-8265-22.ucode version 22.391740.0 (1811984 bytes)
+
+2017-01-12 b689306274099710f9f85eaab584604ca11ee54a added 4 files
+  - iwlwifi-3168-27.ucode version 27.455470.0 (1032168 bytes)
+  - iwlwifi-7265D-27.ucode version 27.455470.0 (1032452 bytes)
+  - iwlwifi-8000C-27.ucode version 27.455470.0 (2227284 bytes)
+  - iwlwifi-8265-27.ucode version 27.455470.0 (2234528 bytes)
+
+2017-03-03 abd9a17168b3acf2cd66a18247df3889f56db9fd added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_28_0001 (44846 bytes)
+
+2017-03-03 7020dc6c88c950a7ac798dc3ba91b22a3a3976bd added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0370 (18 bytes)
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0370 (586840 bytes)
+
+2017-03-03 1dcf7691f623c24762976e2debe05248d627e814 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0101 (592984 bytes)
+
+2017-01-07 ca89d62df8fbeb0b8131437dfd5b8098c85f8164 added 1 files
+  - iwlwifi-3168-22.ucode version 22.391740.0 (1028092 bytes)
+
+2017-06-16 8613e560991e76768d8abb0336cd8e95ac5fc201 added 4 files
+  - iwlwifi-3168-27.ucode version 27.541033.0 (1032436 bytes)
+  - iwlwifi-7265D-27.ucode version 27.541033.0 (1032740 bytes)
+  - iwlwifi-8000C-27.ucode version 27.541033.0 (2227284 bytes)
+  - iwlwifi-8265-27.ucode version 27.541033.0 (2234528 bytes)
+
+2017-06-16 d392df8feda805e37022686d76be96de407a9e18 added 4 files
+  - iwlwifi-3168-29.ucode version 29.541020.0 (1036372 bytes)
+  - iwlwifi-7265D-29.ucode version 29.541020.0 (1036528 bytes)
+  - iwlwifi-8000C-31.ucode version 31.532993.0 (2309768 bytes)
+  - iwlwifi-8265-31.ucode version 31.532993.0 (2303024 bytes)
+
+2017-10-13 796c91268eb1b4a24ffb90dd1c681c7d88f5c061 added 6 files
+  - iwlwifi-3160-17.ucode version 17.589903.0 (918268 bytes)
+  - iwlwifi-3168-29.ucode version 29.588277.0 (1036372 bytes)
+  - iwlwifi-7260-17.ucode version 17.589903.0 (1049340 bytes)
+  - iwlwifi-7265D-29.ucode version 29.588277.0 (1036528 bytes)
+  - iwlwifi-8000C-31.ucode version 31.560484.0 (2310116 bytes)
+  - iwlwifi-8265-31.ucode version 31.560484.0 (2307104 bytes)
+
+2017-10-13 1a5fd9460d380acecb6cda96736d975ec8f57f6a added 5 files
+  - iwlwifi-3160-17.ucode version 17.608620.0 (918268 bytes)
+  - iwlwifi-3168-29.ucode version 29.610311.0 (1036372 bytes)
+  - iwlwifi-7260-17.ucode version 17.608620.0 (1049340 bytes)
+  - iwlwifi-7265-17.ucode version 17.608620.0 (1180412 bytes)
+  - iwlwifi-7265D-29.ucode version 29.610311.0 (1036528 bytes)
+
+2017-10-13 5a05332d5deda87daf6f24902951927985a7348f added 2 files
+  - iwlwifi-8000C-34.ucode version 34.610288.0 (2448976 bytes)
+  - iwlwifi-8265-34.ucode version 34.610288.0 (2440780 bytes)
+
+2017-10-13 c4276b65390d32d33c8263a7e3c8be0db8cccad4 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-33.ucode version 33.610294.0 (2632620 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-33.ucode version 33.610294.0 (2637216 bytes)
+
+2017-10-13 85313b4aa4ef0c2ce41bbd0ffdb9b03363256f28 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-34.ucode version 34.618819.0 (2677620 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-34.ucode version 34.618819.0 (2677772 bytes)
+
+2017-11-30 73d13b5023ed4944de58277e5b65522ffa116247 added 8 files
+
+2017-11-30 041aff8e35fb322251bde3314738c1cdcddbc29d added 8 files
+
+2017-11-30 db9964e24d3bacf22319292f64230501edec6cb8 added 8 files
+  - intel/ibt-17-0-1.ddc version BT_JeffersonPeak_A0_B0_REL0186 (14 bytes)
+  - intel/ibt-17-0-1.sfi version BT_JeffersonPeak_A0_B0_REL0186 (615400 bytes)
+  - intel/ibt-17-1.ddc version BT_JeffersonPeak_A0_B0_REL0186 (14 bytes)
+  - intel/ibt-17-1.sfi version BT_JeffersonPeak_A0_B0_REL0186 (615400 bytes)
+  - intel/ibt-17-16-1.ddc version BT_JeffersonPeak_B0_B0_REL0186 (14 bytes)
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0186 (576268 bytes)
+  - intel/ibt-17-2.ddc version BT_JeffersonPeak_B0_B0_REL0186 (14 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0186 (576268 bytes)
+
+2017-11-30 97339b3a1d3bf3e4c40d679896a27a25fa83765f added 8 files
+  - intel/ibt-18-0-1.ddc version BT_ThunderPeak_A0_B0_REL0186 (14 bytes)
+  - intel/ibt-18-0-1.sfi version BT_ThunderPeak_A0_B0_REL0186 (615400 bytes)
+  - intel/ibt-18-1.ddc version BT_ThunderPeak_A0_B0_REL0186 (14 bytes)
+  - intel/ibt-18-1.sfi version BT_ThunderPeak_A0_B0_REL0186 (615400 bytes)
+  - intel/ibt-18-16-1.ddc version BT_ThunderPeak_B0_B0_REL0186 (14 bytes)
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0186 (576268 bytes)
+  - intel/ibt-18-2.ddc version BT_ThunderPeak_B0_B0_REL0186 (14 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0186 (576268 bytes)
+
+2017-11-30 9a843a1ce31c162d337b9edce0749c4806fbcd36 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0173 (587108 bytes)
+
+2017-11-30 fdee922a785212be7ccced6809b337290fdac971 added 2 files
+  - intel/ibt-11-5.ddc version LnP_SfP_REL0432 (18 bytes)
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0432 (593260 bytes)
+
+2018-01-30 8ad0c1338d457a271fc5123c6b4497161e8c1ff2 added 2 files
+  - intel/ibt-12-16.ddc version BT_WindStormPeak_REL0185 (14 bytes)
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0185 (588696 bytes)
+
+2018-01-30 c818f1fd33177d2ed234f78bbaef83bfc86a3f7c added 4 files
+  - intel/ibt-18-0-1.sfi version BT_ThunderPeak_A0_B0_REL0201 (625216 bytes)
+  - intel/ibt-18-1.sfi version BT_ThunderPeak_A0_B0_REL0201 (625216 bytes)
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0201 (578848 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0201 (578848 bytes)
+
+2018-01-30 7f9e72632cc366585687ffcfc059f88569527974 added 4 files
+  - intel/ibt-17-0-1.sfi version BT_JeffersonPeak_A0_B0_REL0201 (625216 bytes)
+  - intel/ibt-17-1.sfi version BT_JeffersonPeak_A0_B0_REL0201 (625216 bytes)
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0201 (578848 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0201 (578848 bytes)
+
+2018-03-02 e27d4b7e5c2e948dff36ed5c8ac90da94e317067 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-34.ucode version 34.ba501b11.0 (2678284 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-34.ucode version 34.ba501b11.0 (2678092 bytes)
+
+2018-03-08 6cdc95180911c63be5fe3392f4112183c13269e7 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_51_00001 (47627 bytes)
+
+2018-03-20 9cb49be0eecf1de2c020e9de235a4fb5fd6665d7 added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0458 (594912 bytes)
+
+2018-03-20 58cdb52e3da075bb5d5c37fad39751a88e33be97 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0196 (592408 bytes)
+
+2018-03-20 89139e8890476c9659ff46b2598b6c0b68461d20 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0219 (627540 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0219 (627540 bytes)
+
+2018-03-20 31accdf103b27725b8629ddca8e01c7b0ad22518 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627540 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627540 bytes)
+
+2018-03-02 c711ea5834f2d625b096108ac0117ee4ed31aff5 added 6 files
+  - iwlwifi-7260-17.ucode version 17.388f111f.0 (1049340 bytes)
+  - iwlwifi-7265D-29.ucode version 29.3e3b4de5.0 (1036432 bytes)
+  - iwlwifi-8000C-36.ucode version 36.e91976c0.0 (2486572 bytes)
+  - iwlwifi-8265-36.ucode version 36.e91976c0.0 (2498044 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-38.ucode version 38.c0e03d94.0 (2520568 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-38.ucode version 38.c0e03d94.0 (2521412 bytes)
+
+2018-04-04 50c132306e524dc9038d4a42205921730a3add24 added 3 files
+  - iwlwifi-3160-17.ucode version 17.388f111f.0 (918268 bytes)
+  - iwlwifi-3168-29.ucode version 29.3e3b4de5.0 (1036276 bytes)
+  - iwlwifi-7265-17.ucode version 17.388f111f.0 (1180412 bytes)
+
+2018-04-17 f8659345b97aaed635a84711f032cb41eb10d3a1 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0203 (591248 bytes)
+
+2018-04-17 bf3934fa8f15f36dcd7d856ed5123b6f27d32360 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0230 (626244 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0230 (626244 bytes)
+
+2018-04-30 40d41172ea0d6f143b97ed51996beed7a6215941 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627852 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627852 bytes)
+
+2018-05-16 e94352cf328ae718e47e3899ebd050465755db04 added 4 files
+  - intel/ibt-17-16-1.ddc version BT_JeffersonPeak_B0_B0_REL0263 (29 bytes)
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0263 (628332 bytes)
+  - intel/ibt-17-2.ddc version BT_JeffersonPeak_B0_B0_REL0263 (29 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0263 (628332 bytes)
+
+2018-05-16 897330f38d2db8986fc8965709b1852ba76896a7 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_52_00001 (48587 bytes)
+
+2018-05-16 c84bd6688f6e5863dd57cb1ed0512e732d436cb2 added 4 files
+  - intel/ibt-18-16-1.ddc version BT_ThunderPeak_B0_B0_REL0263 (29 bytes)
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0263 (628332 bytes)
+  - intel/ibt-18-2.ddc version BT_ThunderPeak_B0_B0_REL0263 (29 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0263 (628332 bytes)
+
+2018-05-16 70353356f8a01b6593ea94fd6ed6e9593fd0da1f added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq version BT_WilkinsPeak_B3_REL_87_0001 (25775 bytes)
+
+2018-05-16 629a5e089e300ba153c1358cca2193a7671c2f80 added 1 files
+  - intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq version BT_WilkinsPeak_B5_REL_42_0001 (23105 bytes)
+
+2018-05-16 112d300c26dfbb9cebbf63781214c007fc203611 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0226 (592520 bytes)
+
+2018-05-22 3f8243c8c0363fb5752a1b0e9aaafccb3abc3159 added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0473 (595092 bytes)
+
+2018-05-28 6be4747ea1d731f661c5320acf3f1273a459d6da added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_54_00003 (47463 bytes)
+
+2018-05-28 9489f5524917a42637c3b46d904fff80818a0766 added 1 files
+  - intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq version BT_StonePeak_D0_REL_50_0002 (39295 bytes)
+
+2018-07-30 41bdd3bd2aa8c887030bc23127bf528e90d8f07c added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0487 (594532 bytes)
+
+2018-07-30 9767096da19a94ad1ce301367ac027ac20985d95 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0244 (592464 bytes)
+
+2018-07-30 c2d8f1b7f820b31b6120d741c23db23340a72821 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0329 (628584 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0329 (628584 bytes)
+
+2018-07-30 88132309652c13e1d0ac9b8e5643f5602f48abae added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0329 (628584 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0329 (628584 bytes)
+
+2018-07-30 f1b95fe5a51830bb8c1712082de4279a042376b6 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_52_00005 (48587 bytes)
+
+2018-05-06 58265e0def90e8f1b6c1987fbf70af983e84d514 added 7 files
+  - iwlwifi-3160-17.ucode version 17.bfb58538.0 (918268 bytes)
+  - iwlwifi-7260-17.ucode version 17.bfb58538.0 (1049340 bytes)
+  - iwlwifi-7265-17.ucode version 17.bfb58538.0 (1180412 bytes)
+  - iwlwifi-8000C-36.ucode version 36.7596afd4.0 (2486572 bytes)
+  - iwlwifi-8265-36.ucode version 36.7596afd4.0 (2498044 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-38.ucode version 38.0cef09c1.0 (2520584 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-38.ucode version 38.0cef09c1.0 (2521412 bytes)
+
+2018-09-17 b1ac8f4b7e6046b7a0aeaf1000929a5c5feae3af added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-38.ucode version 38.755cfdd8.0 (2520568 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-38.ucode version 38.755cfdd8.0 (2521412 bytes)
+
+2018-09-17 da110f2f392ab0f9a4e3cc35402b1f3e2c58127f added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-41.ucode version 38.1f1e8d4a.0 (2961864 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-41.ucode version 41.1f1e8d4a.0 (2620368 bytes)
+
+2018-10-17 66b58d49f8c6d2b5ff23eabba7c5a4404eaaf1dd added 4 files
+  - intel/ibt-17-16-1.ddc version BT_JeffersonPeak_B0_B0_REL0369 (14 bytes)
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0369 (640328 bytes)
+  - intel/ibt-17-2.ddc version BT_JeffersonPeak_B0_B0_REL0369 (14 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0369 (640328 bytes)
+
+2018-10-17 d8e8163cf7c082bda83887adf246e866919682f9 added 4 files
+  - intel/ibt-18-16-1.ddc version BT_ThunderPeak_B0_B0_REL0369 (14 bytes)
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0369 (640328 bytes)
+  - intel/ibt-18-2.ddc version BT_ThunderPeak_B0_B0_REL0369 (14 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0369 (640328 bytes)
+
+2018-10-17 c34a52ab7dee9911457ce183a6d5db09f16fe8b1 added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0487 (595248 bytes)
+
+2018-10-17 2618544162a4bae4d948cd98c03de932e53060d3 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0285 (592656 bytes)
+
+2018-12-16 8a396b612b1fa1d91bf523b2273568a40f4225b8 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-41.ucode version 41.fc1a7aea.0 (2620464 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-41.ucode version 41.fc1a7aea.0 (2620656 bytes)
+
+2018-12-16 156b549e41164ae335adc37fab6fc4375f59b5d9 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-43.ucode version 43.c73114b3.0 (2543532 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-43.ucode version 43.c73114b3.0 (2558172 bytes)
+
+2018-12-16 8707ef3313ee0f6737683c93aa2cb1dff6483643 added 2 files
+  - iwlwifi-8000C-36.ucode version 36.9f0a2d68.0 (2486572 bytes)
+  - iwlwifi-8265-36.ucode version 36.9f0a2d68.0 (2498044 bytes)
+
+2018-12-30 b727739187f05e16e0b84da29615f165e102a2f6 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-43.ucode version 43.95eb4e97.0 (2543536 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-43.ucode version 43.95eb4e97.0 (2558176 bytes)
+
+2018-12-21 9723ba423eb48332f7bdb9e85cab6905c3a37a08 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0386 (641280 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0386 (641280 bytes)
+
+2018-12-21 ae90c3bce108ac623bc0bae44a7b411e4fa42e7c added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0386 (641280 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0386 (641280 bytes)
+
+2018-12-21 f0896585b04f84f48f1aaff6619adce43822747b added 1 files
+  - intel/ibt-11-5.sfi version BT_LightningPeak_REL0487 (588196 bytes)
+
+2018-12-21 89d37c65a413852a0688b9aee6f74dbc53cf8cb5 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0295 (585328 bytes)
+
+2019-02-20 55fa1fbae78512c305153aeb66ef5cd948ea3709 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0395 (642664 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0395 (642664 bytes)
+
+2019-02-20 30b931413997178cab3163c1cf15f54c59c486c9 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0395 (642664 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0395 (642664 bytes)
+
+2019-03-13 1f5641cc74cfc6783b474541ca91339080950bdd added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0420 (648108 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0420 (648108 bytes)
+
+2019-03-13 046d1085b19ef56a0409d8c8190e50eeec13e40c added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0420 (648108 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0420 (648108 bytes)
+
+2019-03-13 efd2c1cc375cff1c17b4259d99a7fee240c3b510 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0299 (585628 bytes)
+
+2019-04-04 1b3456c3360be6c6333ba0350316500afa9b2524 added 4 files
+  - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL0246 (70 bytes)
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0246 (755276 bytes)
+  - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL_0246 (70 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0246 (755276 bytes)
+
+2019-03-14 fdfb1531c40d89a3ac115d7fb23fb23a3867c017 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.b20aefee.0 (1450328 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.b20aefee.0 (1456084 bytes)
+
+2019-04-03 68040cebb900a0b1f25938ee386ba94838fce301 added 3 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.c9682e2b.0 (1453508 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.c9682e2b.0 (1459224 bytes)
+  - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044068 bytes)
+
+2019-05-03 95a93535b723085ff74845eb8733d01c8ff5c052 added 3 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.3cfab8da.0 (1448644 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.3cfab8da.0 (1456088 bytes)
+  - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044072 bytes)
+
+2019-05-08 cedd50026c565d153cb6e4d6d9c8fd4db39d6242 added 2 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0275 (716180 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0275 (716180 bytes)
+
+2019-05-08 29a536a02cadb75b84c6c0b5d7af22d34d278563 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0440 (653852 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0440 (653852 bytes)
+
+2019-05-08 bccb385e07ec3a4d3af6b02adedaea0dc9811e28 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0440 (653852 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0440 (653852 bytes)
+
+2019-05-08 1f8ebdfc2634944cc70c1ca3b4f167e39a7109c1 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0306 (585744 bytes)
+
+2019-06-11 1e8253bbaafb2b7d70726d17d90708a3d6223b53 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0450 (653088 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0450 (653088 bytes)
+
+2019-06-11 abb7cb6465ddaa64eab9ee487024b9aaee780f4b added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0450 (653088 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0450 (653088 bytes)
+
+2019-06-11 a03f1a0aa95cebd2848e2b91c8bd8885e7ea7784 added 4 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0282 (715376 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0282 (715376 bytes)
+  - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL0282 (70 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0282 (715376 bytes)
+
+2019-06-02 5157165f22041346b3a82e12ba072d456777fdf2 added 2 files
+  - iwlwifi-8000C-36.ucode version 36.8fd77bb3.0 (2400700 bytes)
+  - iwlwifi-8265-36.ucode version 36.8fd77bb3.0 (2414296 bytes)
+
+2019-04-03 b44321804352ea595cddffbd8fad81a6c91c128d added 3 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.0e6a7071.0 (1459060 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.0e6a7071.0 (1460792 bytes)
+  - iwlwifi-cc-a0-48.ucode version 48.cf26e080.0 (1096052 bytes)
+
+2019-06-20 e58cbf78678fd872d0cf7ab858ba0030cd8695b0 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1460788 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1462324 bytes)
+
+2019-06-20 71ef30cd7feff104542e264e9948107034b5eec0 added 1 files
+  - iwlwifi-cc-a0-48.ucode version 48.13675109.0 (1096684 bytes)
+
+2019-06-20 90e6845190c2f32bb631f40a9d6c929eb504a82f added 6 files
+  - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.13675109.0 (1106208 bytes)
+  - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.13675109.0 (1053156 bytes)
+  - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.13675109.0 (1106228 bytes)
+  - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.13675109.0 (1053176 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.13675109.0 (1105648 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.13675109.0 (1052968 bytes)
+
+2019-06-28 fd69a5dc345d425bbb08add4642e1ae2a399f308 added 10 files
+  - intel/ibt-19-0-0.ddc version BT_Quasar_REL0282 (70 bytes)
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0282 (715376 bytes)
+  - intel/ibt-19-0-1.ddc version BT_Quasar_REL0282 (70 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0282 (715376 bytes)
+  - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0282 (70 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0282 (715376 bytes)
+  - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0282 (70 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0282 (715896 bytes)
+  - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL0282 (70 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0282 (715896 bytes)
+
+2019-07-10 7444ca40083a14682a8caa44f2c0505aa7fa43ce added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0472 (655908 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0472 (655908 bytes)
+
+2019-07-10 a5ee41544a092e35fb6b8324687e8a32488f6e26 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0472 (655908 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0472 (655908 bytes)
+
+2019-07-10 dbcc2fb9a18de0116bd5d92a9435417b6a842cb8 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0310 (722072 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0310 (722072 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0310 (722072 bytes)
+
+2019-07-10 d52556e4592e64023157a83fb0f483661f23ac0e added 7 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0310 (722576 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0310 (722576 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0310 (722576 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0310 (722576 bytes)
+  - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL0310 (70 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0310 (722576 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0310 (722576 bytes)
+
+2019-07-20 b5f09bb4f816abace0227d0f4e749859364cef6b added 7 files
+  - iwlwifi-3168-29.ucode version 29.3e3b4de5.0 (1036300 bytes)
+  - iwlwifi-7265D-29.ucode version 29.3e3b4de5.0 (1036668 bytes)
+  - iwlwifi-8000C-36.ucode version 36.8fd77bb3.0 (2401356 bytes)
+  - iwlwifi-8265-36.ucode version 36.8fd77bb3.0 (2414592 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1467952 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1469012 bytes)
+  - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044452 bytes)
+
+2019-07-20 cd6cb7bc50aa77d531c4417ffe1237510b71c73e added 7 files
+  - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.13675109.0 (1106204 bytes)
+  - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.13675109.0 (1052772 bytes)
+  - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.13675109.0 (1106224 bytes)
+  - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.13675109.0 (1052792 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.13675109.0 (1105644 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.13675109.0 (1052584 bytes)
+  - iwlwifi-cc-a0-48.ucode version 48.13675109.0 (1096680 bytes)
+
+2019-08-20 fe48882708de5444e66f01c8f5e116aac1e3e6e7 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0482 (655364 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0482 (655364 bytes)
+
+2019-08-20 b6427bf4faae9b8864e303d88c3ec8d0df017dac added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0482 (655364 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0482 (655364 bytes)
+
+2019-08-20 c0ca980cee321554a9452edc74d0658beb086f71 added 6 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0318 (722132 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0318 (722132 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+
+2019-08-20 665001af2ddef7ab74ef98015c218bda625b3ad7 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0318 (722132 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0318 (722132 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0318 (722132 bytes)
+
+2019-08-23 40e4162adfc91390f6fbbd8269f9439832af1dde added 11 files
+  - iwlwifi-8000C-36.ucode version 36.77d01142.0 (2401356 bytes)
+  - iwlwifi-8265-36.ucode version 36.77d01142.0 (2414592 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.6bf1df06.0 (1462068 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.6bf1df06.0 (1463820 bytes)
+  - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.4fa0041f.0 (1106228 bytes)
+  - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.4fa0041f.0 (1052796 bytes)
+  - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.4fa0041f.0 (1106248 bytes)
+  - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.4fa0041f.0 (1052816 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.4fa0041f.0 (1105668 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.4fa0041f.0 (1052608 bytes)
+  - iwlwifi-cc-a0-48.ucode version 48.4fa0041f.0 (1096704 bytes)
+
+2019-08-28 fe1ae0d2ceebe52848700e632a294238ba89f154 added 2 files
+  - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL0318 (70 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0318 (743750 bytes)
+
+2019-09-09 6c6918ad8ae0dfb2cb591484eba525409980c16f added 1 files
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+
+2019-10-10 b68efd7abd7767198d0d68f4cf7f1e343f435142 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0489 (655844 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0489 (655844 bytes)
+
+2019-10-10 fdab23aa4d9dea8ee3d5b05a0c54ee2f77d771ce added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0489 (655844 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0489 (655844 bytes)
+
+2019-10-10 7a79d2208caa8bdce6ba0e9414ac6d3d64014988 added 7 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0333 (722132 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0333 (722132 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0333 (722132 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+
+2019-10-10 4c3e853c757c5df035e72ee7203124e54230d74c added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0333 (722536 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0333 (722536 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0333 (722132 bytes)
+
+2019-10-23 340e06eb4b57da0cbceb25faf7b526263b3e3dfa added 4 files
+  - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL0333 (70 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+  - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL0333 (70 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL0333 (722536 bytes)
+
+2019-11-13 96c399470f0c3dac01106e8966117eb8049caa52 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0519 (656092 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0519 (656092 bytes)
+
+2019-11-13 84a7ca591a1b3c9b7a0253af44e227586d02ddd7 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0519 (656092 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0519 (656092 bytes)
+
+2019-11-13 6272383bd8d745ad52d56975dc45f6b00fafa041 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0352 (722372 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0352 (722372 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0352 (722372 bytes)
+
+2019-11-13 c62c3c26a5e77585e20e1b2b0f10976c36d4e910 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0352 (722372 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0352 (722372 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0352 (722372 bytes)
+
+2020-01-21 aab62bce414083dfa6db76d487e364cbb07f2a08 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0532 (664592 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0532 (664592 bytes)
+
+2020-01-21 d03f79cbe8acf5d7f8e6bcad21ee2f71b7f35f4e added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0532 (664592 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0532 (664592 bytes)
+
+2020-01-21 0dc1611a682a5eb8d1bac6c6e8755c3386012aa3 added 18 files
+  - intel/ibt-19-0-0.ddc version BT_Quasar_REL0352 (42 bytes)
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0352 (729372 bytes)
+  - intel/ibt-19-0-1.ddc version BT_Quasar_REL0352 (42 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0352 (729372 bytes)
+  - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+  - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
+
+2020-01-21 1eb2408c6feacccd10b02a49214745f15d1c6fb7 added 6 files
+  - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL0367 (42 bytes)
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0367 (729372 bytes)
+  - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL0367 (42 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0367 (729372 bytes)
+  - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL0367 (42 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0367 (729372 bytes)
+
+2020-02-24 efcfa03ae6100dfe523ebf612e03c3a90fc4c794 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0381 (731504 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0381 (731504 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0381 (731504 bytes)
+
+2020-03-16 9361709f415b68df9fd109012c930621646a3779 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0538 (664012 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL0538 (664012 bytes)
+
+2020-03-16 426db502f7d2a1b94fbe17f5831023063be07eb3 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0538 (664012 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0538 (664012 bytes)
+
+2020-03-16 b9f720f01f8dcdf0e17ad1b88309ec157532489a added 18 files
+  - intel/ibt-19-0-0.ddc version BT_Quasar_REL0384 (27 bytes)
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL0384 (731040 bytes)
+  - intel/ibt-19-0-1.ddc version BT_Quasar_REL0384 (27 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL0384 (731040 bytes)
+  - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+  - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL0384 (27 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0384 (731040 bytes)
+
+2020-03-16 8eb0b281511d6455ca9151e52f694dc982193251 added 6 files
+  - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL0384 (27 bytes)
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0384 (731040 bytes)
+  - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL0384 (27 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL0384 (731040 bytes)
+  - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL0384 (27 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL0384 (731040 bytes)
+
+2020-03-27 677930a7d7422930df71adace36f17e996658f45 added 9 files
+  - intel/ibt-19-0-0.ddc version BT_Quasar_REL0384 (14 bytes)
+  - intel/ibt-19-0-1.ddc version BT_Quasar_REL0384 (14 bytes)
+  - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+  - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+
+2020-03-27 47533bc283fb759c14831172b38a5f06c6f2dc2c added 3 files
+  - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+  - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+  - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+
+2020-04-22 dc3047c536c0a253a1830feea0be7fabb2a74749 added 4 files
+  - intel/ibt-18-16-1.ddc version BT_ThunderPeak_B0_B0_REL6412 (9 bytes)
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL6412 (670576 bytes)
+  - intel/ibt-18-2.ddc version BT_ThunderPeak_B0_B0_REL6412 (9 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL6412 (670576 bytes)
+
+2020-04-22 642d11556c08e1c97d54deeafbe613b0dd52e500 added 4 files
+  - intel/ibt-17-16-1.ddc version BT_JeffersonPeak_B0_B0_REL6412 (9 bytes)
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL6412 (670576 bytes)
+  - intel/ibt-17-2.ddc version BT_JeffersonPeak_B0_B0_REL6412 (9 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL6412 (670576 bytes)
+
+2020-04-22 c5ac1add86be7a90d0c573c957e37c610f3d7f25 added 18 files
+  - intel/ibt-19-0-0.ddc version BT_Quasar_REL6356 (9 bytes)
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL6356 (739648 bytes)
+  - intel/ibt-19-0-1.ddc version BT_Quasar_REL6356 (9 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL6356 (739648 bytes)
+  - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+  - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL6356 (9 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL6356 (739648 bytes)
+
+2020-04-22 b2cad6a2d733d9b10d25a31874a51d96908d6e89 added 6 files
+  - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL6356 (9 bytes)
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL6356 (739648 bytes)
+  - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL6356 (9 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL6356 (739648 bytes)
+  - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL6356 (9 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL6356 (739648 bytes)
+
+2019-08-23 50c1340bef482f4eb5febebc09f377130ba6664a added 1 files
+  - iwlwifi-8265-36.ucode version 36.77d01142.0 (2409984 bytes)
+
+2019-08-23 2ae99744efc14e5329a551251e22b33213224f11 added 13 files
+  - iwlwifi-3168-29.ucode version 29.09bd31e1.0 (1036288 bytes)
+  - iwlwifi-7265D-29.ucode version 29.09bd31e1.0 (1036656 bytes)
+  - iwlwifi-8000C-36.ucode version 36.952d9faa.0 (2401100 bytes)
+  - iwlwifi-8265-36.ucode version 36.952d9faa.0 (2409984 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.ceaaecdc.0 (1455420 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.ceaaecdc.0 (1458436 bytes)
+  - iwlwifi-Qu-b0-hr-b0-50.ucode version 50.3e391d3e.0 (1103952 bytes)
+  - iwlwifi-Qu-b0-jf-b0-50.ucode version 50.3e391d3e.0 (1053004 bytes)
+  - iwlwifi-Qu-c0-hr-b0-50.ucode version 50.3e391d3e.0 (1103968 bytes)
+  - iwlwifi-Qu-c0-jf-b0-50.ucode version 50.3e391d3e.0 (1053020 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-50.ucode version 50.3e391d3e.0 (1103952 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-50.ucode version 50.3e391d3e.0 (1053004 bytes)
+  - iwlwifi-cc-a0-50.ucode version 50.3e391d3e.0 (1101228 bytes)
+
+2020-05-18 5ee1c7d65c26b90b796362ac1b5715435e2a1384 added 18 files
+  - iwlwifi-8000C-36.ucode version 36.79ff3ccf.0 (2401100 bytes)
+  - iwlwifi-8265-36.ucode version 36.79ff3ccf.0 (2409984 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.8902351f.0 (1481104 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.8902351f.0 (1470272 bytes)
+  - iwlwifi-Qu-b0-hr-b0-53.ucode version 53.c31ac674.0 (1209628 bytes)
+  - iwlwifi-Qu-b0-hr-b0-55.ucode version 55.d9698065.0 (1223144 bytes)
+  - iwlwifi-Qu-b0-jf-b0-53.ucode version 53.c31ac674.0 (1147104 bytes)
+  - iwlwifi-Qu-b0-jf-b0-55.ucode version 55.d9698065.0 (1163672 bytes)
+  - iwlwifi-Qu-c0-hr-b0-53.ucode version 53.c31ac674.0 (1209644 bytes)
+  - iwlwifi-Qu-c0-hr-b0-55.ucode version 55.d9698065.0 (1223160 bytes)
+  - iwlwifi-Qu-c0-jf-b0-53.ucode version 53.c31ac674.0 (1147120 bytes)
+  - iwlwifi-Qu-c0-jf-b0-55.ucode version 55.d9698065.0 (1163688 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-53.ucode version 53.c31ac674.0 (1209628 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-55.ucode version 55.d9698065.0 (1223140 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-53.ucode version 53.c31ac674.0 (1147104 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-55.ucode version 55.d9698065.0 (1163668 bytes)
+  - iwlwifi-cc-a0-53.ucode version 53.c31ac674.0 (1205332 bytes)
+  - iwlwifi-cc-a0-55.ucode version 55.d9698065.0 (1219356 bytes)
+
+2020-05-27 5ee82c0c4ed79787e9cf49293bd7be971db5494e added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL8356 (670704 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL8356 (670704 bytes)
+
+2020-05-27 49669231ba938752386583a8e58c0a6097f18983 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL8356 (670704 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL8356 (670704 bytes)
+
+2020-05-27 391494397f7198d579e76757e615515f757d1157 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL8301 (739660 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL8301 (739660 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL8301 (739660 bytes)
+
+2020-05-27 887d2a103c2bdd267dbca5bed39b1b493d6cbe13 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL8301 (739660 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL8301 (739660 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL8301 (739660 bytes)
+
+2020-07-10 44bf1b149f154ea92ba9b7972860cc3068825f3b added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL10183 (670872 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL10183 (670872 bytes)
+
+2020-07-10 07b037512c7dbb0e8bb72745b1429028e73d4bf2 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL10183 (670872 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL10183 (670872 bytes)
+
+2020-07-10 b7849f7ccf268a909a80b090db131ab22ca160b9 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL9916 (752524 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL9916 (752524 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL9916 (752524 bytes)
+
+2020-07-10 3d3a06f720856cb897a8541951edd0b8f6f54a98 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL9916 (752524 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL9916 (752524 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL9916 (752524 bytes)
+
+2020-09-14 db3038082c01b3855e23545735d1dcbc5d50f932 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL13313 (670112 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL13313 (670112 bytes)
+
+2020-09-14 28b333db67955584b7b0407c12fa5452f56f4d45 added 1 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL13313 (670112 bytes)
+
+2020-09-14 1d1586a56c8067e00118f3a0464fdf2fb58eee26 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL13705 (756748 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL13705 (756748 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL13705 (756748 bytes)
+
+2020-09-14 07367b9514c5d2115bcdf31a722f5b58fb3e0c61 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL13705 (756748 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL13705 (756748 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL13705 (756748 bytes)
+
+2020-09-23 afbfb5ff9bc9cdab8079a4687dad2bc88041c050 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_65_00001 (45954 bytes)
+
+2019-08-23 346057dbe7c7595748e61b8a5b962e5c7316924b added 4 files
+  - iwlwifi-3168-29.ucode version 29.0bd893f3.0 (1036288 bytes)
+  - iwlwifi-7265D-29.ucode version 29.0bd893f3.0 (1036444 bytes)
+  - iwlwifi-8000C-36.ucode version 36.ad812ee0.0 (2428004 bytes)
+  - iwlwifi-8265-36.ucode version 36.ad812ee0.0 (2436632 bytes)
+
+2020-05-18 4f41e9d6437d03e7ce9279076107dd08f46656f3 added 10 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.4d093a30.0 (1512096 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.4d093a30.0 (1483116 bytes)
+  - iwlwifi-Qu-b0-hr-b0-59.ucode version 59.601f3a66.0 (1300764 bytes)
+  - iwlwifi-Qu-b0-jf-b0-59.ucode version 59.601f3a66.0 (1226208 bytes)
+  - iwlwifi-Qu-c0-hr-b0-59.ucode version 59.601f3a66.0 (1300780 bytes)
+  - iwlwifi-Qu-c0-jf-b0-59.ucode version 59.601f3a66.0 (1226224 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-59.ucode version 59.601f3a66.0 (1299660 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-59.ucode version 59.601f3a66.0 (1226064 bytes)
+  - iwlwifi-cc-a0-59.ucode version 59.601f3a66.0 (1261280 bytes)
+  - iwlwifi-ty-a0-gf-a0-59.ucode version 59.601f3a66.0 (1413868 bytes)
+
+2020-11-26 5cbf459c1ed9440543bd7283b77f732a1dbdad07 added 2 files
+  - intel/ibt-0041-0041.ddc version BT_TyphoonPeak_REL14428 (9 bytes)
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL14428 (622872 bytes)
+
+2020-11-26 7eb7fda50e9aa554c6bfafdd456e6c2ea54f6163 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL15791 (627940 bytes)
+
+2020-12-14 27a368934f4d28b9b54f2cc5051074aef85f53b6 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL17064 (674672 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL17064 (674672 bytes)
+
+2020-12-14 94de5e2d3c3d43c178e4c3881fec64179dc22bcf added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL17064 (674672 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL17064 (674672 bytes)
+
+2020-12-14 209924807c6f444c5c9b1342f0d75c2bdf4953ac added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL17535 (762700 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL17535 (762700 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL17535 (762700 bytes)
+
+2020-12-14 23da8690e68a245eedd96fe3088fb21727f5515c added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL17535 (762700 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL17535 (762700 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL17535 (762700 bytes)
+
+2020-12-14 28185ecdc797ca5e6d67a4237766503e94b9603a added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL17510 (626340 bytes)
+
+2021-02-01 13979c3a51d068fc1b66df1065d9479bddcb418f added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL19994 (773632 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL19994 (773632 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL19994 (773632 bytes)
+
+2021-02-01 3027ae40cf3e43725c45e53085b5e0484f09ea71 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL19994 (772256 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL19994 (773632 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL19994 (772256 bytes)
+
+2021-02-01 d33d2d86ce3ad2ed1a4e196840fdd3a814d34433 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL19922 (629916 bytes)
+
+2021-03-10 11b7607b738eceacdf32505cb77b8151602bff9b added 1 files
+  - iwlwifi-7265D-29.ucode version 29.f2390aa8.0 (1036772 bytes)
+
+2021-03-10 4f549062619750e76f3155fc50b5c0f6529eed8a added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.6f9f215c.0 (1514240 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.6f9f215c.0 (1485556 bytes)
+
+2021-03-10 5a2fd63596125d4ed5ac65614b1811b2d4a68536 added 9 files
+  - iwlwifi-Qu-b0-hr-b0-62.ucode version 62.49eeb572.0 (1329296 bytes)
+  - iwlwifi-Qu-b0-jf-b0-62.ucode version 62.49eeb572.0 (1248672 bytes)
+  - iwlwifi-Qu-c0-hr-b0-62.ucode version 62.49eeb572.0 (1329312 bytes)
+  - iwlwifi-Qu-c0-jf-b0-62.ucode version 62.49eeb572.0 (1248688 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-62.ucode version 62.49eeb572.0 (1328924 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-62.ucode version 62.49eeb572.0 (1248672 bytes)
+  - iwlwifi-cc-a0-62.ucode version 62.49eeb572.0 (1292672 bytes)
+  - iwlwifi-ty-a0-gf-a0-62.ucode version 62.49eeb572.0 (1455104 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2021-03-10 (27456 bytes)
+
+2021-03-10 c8d0db53c5626e93de1b60897a1b3884d42542f1 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL21113 (775272 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL21113 (775272 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL21113 (775272 bytes)
+
+2021-03-10 9e96e501927602e7a87dbd25a1b0d3407c0b18ac added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL21113 (775272 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL21113 (773896 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL21113 (773896 bytes)
+
+2021-03-10 3568f962908cd9be9128de5cb732f4f58880a41f added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL21046 (630696 bytes)
+
+2021-04-09 73144e02dcff54529ab42d951de682740d204180 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL23303 (782744 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL23303 (782744 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL23303 (782744 bytes)
+
+2021-04-26 4116d72b9709ef8e6d34ad1ed082a5e1be6cf72e added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0306 (584000 bytes)
+
+2021-04-26 195ecf149c789cc451fd250ede82c540fd367a51 added 1 files
+  - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_66_1167 (46817 bytes)
+
+2021-04-26 47650a0b94c0049ac9162256d96c456364c91499 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL23926 (784388 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL23926 (784388 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL23926 (784388 bytes)
+
+2021-04-26 a7f124958e870649dbfe76de1d4994c4747fb54c added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL23926 (783012 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL23926 (784388 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL23926 (783012 bytes)
+
+2021-04-26 687d64a4da5ad8bbc9e95d51af75374d13c4bd0d added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL19718 (675092 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL19718 (675092 bytes)
+
+2021-04-26 9be3daa2587e01d6a27e4f8667d3338413884e7f added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL19718 (675092 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL19718 (675092 bytes)
+
+2021-04-26 fa0efeff4894e36b9c3964376f2c99fae101d147 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL23884 (633200 bytes)
+
+2021-03-10 2b13afc1a0ff82a5ebfc389f44c7cb9f5ca94774 added 9 files
+  - iwlwifi-Qu-b0-hr-b0-63.ucode version 63.c04f3485.0 (1334856 bytes)
+  - iwlwifi-Qu-b0-jf-b0-63.ucode version 63.c04f3485.0 (1252748 bytes)
+  - iwlwifi-Qu-c0-hr-b0-63.ucode version 63.c04f3485.0 (1334872 bytes)
+  - iwlwifi-Qu-c0-jf-b0-63.ucode version 63.c04f3485.0 (1252764 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-63.ucode version 63.c04f3485.0 (1334804 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-63.ucode version 63.c04f3485.0 (1252744 bytes)
+  - iwlwifi-cc-a0-63.ucode version 63.c04f3485.0 (1298688 bytes)
+  - iwlwifi-ty-a0-gf-a0-63.ucode version 63.c04f3485.0 (1460012 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2021-03-10 (27456 bytes)
+
+2021-03-10 15f424bf026a1a749038ce4749e28c7cb9884f60 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.6b541b68.0 (1514876 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.6b541b68.0 (1485620 bytes)
+
+2021-03-10 56115b259807e0417f30ef84bc6d2093572e6901 added 2 files
+  - iwlwifi-8000C-36.ucode version 36.ca7b901d.0 (2428004 bytes)
+  - iwlwifi-8265-36.ucode version 36.ca7b901d.0 (2436632 bytes)
+
+2021-06-21 57d8a397abb6e2edc0f4d639e96592e500f39cc8 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL25791 (787116 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL25791 (787116 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL25791 (787116 bytes)
+
+2021-06-21 34803c20f1e79ea8d5d718b17738e48c61ae9d87 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL25791 (787116 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL25791 (785740 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL25791 (785740 bytes)
+
+2021-06-21 25ddc612fd2f62190a96245bb3c6ca04d8ea8481 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL23884 (636084 bytes)
+
+2021-07-19 5de082d4d0f2db7722c9e6f5c9cff1fefd8073be added 2 files
+  - iwlwifi-ty-a0-gf-a0-66.ucode version 66.55c64978.0 (1477864 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2021-07-19 (27480 bytes)
+
+2021-08-05 152f45478ca6349fcf89b50f0d525227ca6e9605 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL28502 (639860 bytes)
+
+2021-08-31 1418f75c63fbc72de41aba61376ea30d199cd23e added 2 files
+  - iwlwifi-so-a0-gf-a0-64.ucode version 64.97bbee0a.0 (1515812 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2021-08-31 (41804 bytes)
+
+2021-08-31 0324161cb0723fccf5d7659114851cf8c1b1cda6 added 4 files
+  - iwlwifi-so-a0-gf-a0-64.ucode version 64.97bbee0a.0 (1515812 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2021-08-31 (41804 bytes)
+  - iwlwifi-so-a0-hr-b0-64.ucode version 64.97bbee0a.0 (1427384 bytes)
+  - iwlwifi-so-a0-jf-b0-64.ucode version 64.97bbee0a.0 (1365628 bytes)
+
+2021-09-15 f23ceabb0e491a439cba2d974b5e049aa5c272f9 added 1 files
+  - intel/ibt-12-16.sfi version BT_WindStormPeak_REL1236 (583976 bytes)
+
+2021-09-15 2e9f79e817907a75a14e37a0a978f75533341407 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL19878 (674456 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL19878 (674456 bytes)
+
+2021-09-15 0b9a965369463e7fddac93bbc5d68e3166edc73a added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL19878 (674456 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL19878 (674456 bytes)
+
+2021-09-15 142174abc58e4529d5c4ec410a955bf0885dbe6f added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL30628 (796540 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL30628 (796540 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL30628 (796540 bytes)
+
+2021-09-15 c1a40907c11a9e95f6cbb63adab72fc74b51a88d added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL30628 (795164 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL30628 (796540 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL30628 (795164 bytes)
+
+2021-09-15 087753f61e17ac978c97bc9e838bd64837675c44 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL31586 (672072 bytes)
+
+2021-09-15 b7e0c80b00bb4e3d4c845f2270c5c0c8262154ca added 2 files
+  - intel/ibt-0040-0041.ddc version BT_GarfieldPeak_REL31586 (13 bytes)
+  - intel/ibt-0040-0041.sfi version BT_GarfieldPeak_REL31586 (731716 bytes)
+
+2021-09-22 692d69654747e65b6f2f54899b7d43a59c4f87a4 added 4 files
+  - intel/ibt-0040-2120.ddc version BT_Solar_JfP2_REL31586 (9 bytes)
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL31586 (731716 bytes)
+  - intel/ibt-1040-2120.ddc version BT_Solar_JfP2_REL31586 (9 bytes)
+  - intel/ibt-1040-2120.sfi version BT_Solar_JfP2_REL31586 (731716 bytes)
+
+2021-09-22 a67f3f2248e5c7aa2e7ec8e86d7679d6f53e485d added 4 files
+  - intel/ibt-0040-4150.ddc version BT_Solar_HrP2_REL31586 (9 bytes)
+  - intel/ibt-0040-4150.sfi version BT_Solar_HrP2_REL31586 (731716 bytes)
+  - intel/ibt-1040-4150.ddc version BT_Solar_HrP2_REL31586 (9 bytes)
+  - intel/ibt-1040-4150.sfi version BT_Solar_HrP2_REL31586 (731716 bytes)
+
+2021-09-22 b377ccf4f1ba7416b08c7f1170c3e28a460ac29e added 2 files
+  - intel/ibt-1040-0041.ddc version BT_Solar_GfP2_REL31586 (9 bytes)
+  - intel/ibt-1040-0041.sfi version BT_Solar_GfP2_REL31586 (731716 bytes)
+
+2021-09-28 1da51af0d480d5f72024f886fc632e10a8ba97c5 added 4 files
+  - intel/ibt-0040-1020.ddc version BT_Solar_JfP1_REL31586 (9 bytes)
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL31586 (731716 bytes)
+  - intel/ibt-1040-1020.ddc version BT_Solar_JfP1_REL31586 (9 bytes)
+  - intel/ibt-1040-1020.sfi version BT_Solar_JfP1_REL31586 (731716 bytes)
+
+2021-10-08 0757d997823f36d9d1b56f5f8cc665b16641eeeb added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL31749 (799480 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL31749 (799480 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL31749 (799480 bytes)
+
+2021-10-08 fb6279d7c8895f3d6fe346b65b4366843fd512e5 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL31749 (798104 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL31749 (799480 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL31749 (798104 bytes)
+
+2021-10-08 927a886b00bcd1377e8faa759bf5e214ff1cb84d added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL19919 (674672 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL19919 (674672 bytes)
+
+2021-10-08 f6837cf6ab9f7aed75cc3d3a127ed3819c90d2a2 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL19919 (674672 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL19919 (674672 bytes)
+
+2021-10-08 da9bbff78d2bb838ec9f14139cc02a064743def2 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL31878 (674472 bytes)
+
+2021-10-08 69b7b23126c1ed9ea7883c7be5970bc0712b2029 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL31878 (734140 bytes)
+
+2021-10-08 807aa1ae9906a323ef0915c6a6f3796f5d271787 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL31878 (734140 bytes)
+
+2021-10-08 48f3784ec4f6d90182729d312bbb782d03e76228 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_HrP2_REL31878 (734140 bytes)
+
+2021-10-08 696b79da1d17257f3295c29eacc178047923be3d added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_HrP2_REL31878 (734140 bytes)
+
+2021-10-08 ed1ca50d4f1e53b2f3d0f3c40b05faaab8637972 added 1 files
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL31878 (734140 bytes)
+
+2021-10-08 494a8c543b210ffc879843fc252a715708c5462c added 1 files
+  - intel/ibt-1040-2120.sfi version BT_SolarF_JfP2_REL31878 (734140 bytes)
+
+2021-10-08 78a1d6da1e34143f6ec461e9e367014912277e88 added 1 files
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL31878 (734140 bytes)
+
+2021-10-08 b563148fd28623f6b6ce68bb06c3dd3bd138b058 added 1 files
+  - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL31878 (734140 bytes)
+
+2021-11-01 564d97abfa7d0071c47be16e7b691fdc7c6cf22b added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.5e069cbd.0 (1519264 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.5e069cbd.0 (1490096 bytes)
+
+2021-11-01 4474519a1fd4e7167afae7c5ca2c1b93e17b4d8a added 8 files
+  - iwlwifi-QuZ-a0-hr-b0-67.ucode version 67.8f59b80b.0 (1347524 bytes)
+  - iwlwifi-cc-a0-67.ucode version 67.8f59b80b.0 (1310488 bytes)
+  - iwlwifi-so-a0-gf-a0-67.ucode version 67.8f59b80b.0 (1524432 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2021-11-01 (41804 bytes)
+  - iwlwifi-so-a0-gf4-a0-67.ucode version 67.8f59b80b.0 (1541932 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2021-11-01 (21576 bytes)
+  - iwlwifi-ty-a0-gf-a0-67.ucode version 67.8f59b80b.0 (1482872 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2021-11-01 (41612 bytes)
+
+2021-11-23 36c115ff1f064e3f6a0aa7b96b0f245661ff51b9 added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL34173 (790636 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL34173 (790636 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL34713 (790636 bytes)
+
+2021-11-23 3ed33dbb9b2752c0a574036a69e7171c3c236b07 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL34713 (789260 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL34713 (790636 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL34713 (789260 bytes)
+
+2021-11-23 edf3ed5a4beb8bb21f3796ca8d2bccb95e04ae5b added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL20028 (674768 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL20028 (674768 bytes)
+
+2021-11-23 38f78f6210c5da5a226a22cf2354f57e1cf64dc8 added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL20028 (674768 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL20028 (674768 bytes)
+
+2021-11-23 fbbc3a814e491b1cbf38d31494657347200dcb77 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL34345 (667224 bytes)
+
+2021-11-23 0e81be32a4c5da15a8b754724158b87a5281c47c added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL34345 (727264 bytes)
+
+2021-11-23 12739a5fdc51cac3d905b4f2e39af14c819e0841 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL34345 (727264 bytes)
+
+2021-11-23 afafd4bb98649f005da1ac5e8209f4c613b547c9 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_HrP2_REL34345 (727264 bytes)
+
+2021-11-23 0c353e11922827a1056f125b57d7f7394803b533 added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_HrP2_REL34345 (727264 bytes)
+
+2021-11-23 625e4549faf9a7c1ac7bf3670470e0b33d2b6bd9 added 1 files
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL34345 (727264 bytes)
+
+2021-11-23 bfab8df7478eedc078ae8881e6e9856baac106f4 added 1 files
+  - intel/ibt-1040-2120.sfi version BT_SolarF_JfP2_REL34345 (727264 bytes)
+
+2021-11-23 8eec9ef62eadfe6963bc49482380146e45cbf153 added 1 files
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL34345 (727264 bytes)
+
+2021-11-23 b0e898fbaf377c99a36aac6fdeb7250003648ca4 added 1 files
+  - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL34345 (727264 bytes)
+
+2022-01-03 f4dfaa47bd6ef26c7abea0f5446b7aab8ebc2ab3 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL35927 (666952 bytes)
+
+2022-01-03 5a043feeecff9835e1d7772c988563fbad7acb62 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL35927 (727016 bytes)
+
+2022-01-03 0bcd019910b47f644d735c4cf1d03b7744e32219 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL35927 (727016 bytes)
+
+2022-01-03 a6d067a2c0d85c3a8e4ab8789d0c1cece6b62af3 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_HrP2_REL35927 (727016 bytes)
+
+2022-01-03 4cac2be38add6369d4c68967126e392700e9db54 added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_HrP2_REL35927 (727016 bytes)
+
+2022-01-03 ab78b8f87ed25b554aeae32f5e767d48292e3370 added 1 files
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL35927 (727016 bytes)
+
+2022-01-03 fb52a6df0a08b617617764cdcfa63c1765d88a23 added 1 files
+  - intel/ibt-1040-2120.sfi version BT_SolarF_JfP2_REL35927 (727016 bytes)
+
+2022-01-03 e30f0aea819a4818383267764b662c0b23fdc7b3 added 1 files
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL35927 (727016 bytes)
+
+2022-01-03 8a94bbe2e377a8ffaf25513b35ee99ff97614534 added 1 files
+  - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL35927 (727016 bytes)
+
+2022-01-10 78db259f8dbbe026ebfc46857d44a0b1d9da7f9c added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.4e1ceb39.0 (1519544 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.4e1ceb39.0 (1490376 bytes)
+
+2022-01-10 23e0197e9e6fe9ca0d2ead3a3df3c41df97ad16b added 15 files
+  - iwlwifi-Qu-b0-hr-b0-68.ucode version 68.01d30b0c.0 (1355836 bytes)
+  - iwlwifi-Qu-b0-jf-b0-68.ucode version 68.01d30b0c.0 (1275268 bytes)
+  - iwlwifi-Qu-c0-hr-b0-68.ucode version 68.01d30b0c.0 (1355852 bytes)
+  - iwlwifi-Qu-c0-jf-b0-68.ucode version 68.01d30b0c.0 (1275284 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-68.ucode version 68.01d30b0c.0 (1355800 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-68.ucode version 68.01d30b0c.0 (1275264 bytes)
+  - iwlwifi-cc-a0-68.ucode version 68.01d30b0c.0 (1314392 bytes)
+  - iwlwifi-so-a0-gf-a0-68.ucode version 68.01d30b0c.0 (1533812 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2022-01-10 (41808 bytes)
+  - iwlwifi-so-a0-gf4-a0-68.ucode version 68.01d30b0c.0 (1552216 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2022-01-10 (21576 bytes)
+  - iwlwifi-so-a0-hr-b0-68.ucode version 68.01d30b0c.0 (1429192 bytes)
+  - iwlwifi-so-a0-jf-b0-68.ucode version 68.01d30b0c.0 (1378284 bytes)
+  - iwlwifi-ty-a0-gf-a0-68.ucode version 68.01d30b0c.0 (1494304 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2022-01-10 (41588 bytes)
+
+2022-01-11 76e8373e07753ebe406f314894f6eae9f8493dfe added 8 files
+  - iwlwifi-Qu-b0-hr-b0-66.ucode version 66.f1c864e0.0 (1344220 bytes)
+  - iwlwifi-Qu-b0-jf-b0-66.ucode version 66.f1c864e0.0 (1262312 bytes)
+  - iwlwifi-Qu-c0-hr-b0-66.ucode version 66.f1c864e0.0 (1344236 bytes)
+  - iwlwifi-Qu-c0-jf-b0-66.ucode version 66.f1c864e0.0 (1262328 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-66.ucode version 66.f1c864e0.0 (1344216 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-66.ucode version 66.f1c864e0.0 (1262244 bytes)
+  - iwlwifi-cc-a0-66.ucode version 66.f1c864e0.0 (1307180 bytes)
+  - iwlwifi-ty-a0-gf-a0-66.ucode version 66.f1c864e0.0 (1481960 bytes)
