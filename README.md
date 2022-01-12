@@ -10,3 +10,4 @@ Source of files:
   - Linux firmware "early releases" tree: <https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware.git/>
 
 - <https://www.intel.com/content/www/us/en/products/details/wireless.html>
+- Windows driver: <https://www.intel.com/content/www/us/en/download/18231/intel-proset-wireless-software-and-drivers-for-it-admins.html>
