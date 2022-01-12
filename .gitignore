@@ -1,1 +1,4 @@
 /linux-firmware
+__pycache__
+*.pyc
+*.pyo
