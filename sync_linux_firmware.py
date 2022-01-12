@@ -39,7 +39,7 @@ def sync_linux_firmware(fw_repo):
     else:
         print(f"Cloning {fw_repo} ...", file=sys.stderr)
         subprocess.run(
-            ("git", "clone", fw_url, str(LINUX_FIRMWARE_URL)),
+            ("git", "clone", str(LINUX_FIRMWARE_URL), LINUX_FIRMWARE_REPO.name),
             cwd=fw_repo.parent,
             check=True,
         )
