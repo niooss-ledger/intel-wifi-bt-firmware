@@ -188,7 +188,18 @@ def sync_linux_firmware(fw_repo: Path) -> None:
                 if all_file_hashes[local_file_name] == file_bytes_digest:
                     # Skip a file with the same digest
                     continue
-                # raise RuntimeError(f"Duplicate local file name {local_file_name}")
+                # Add suffix while the file is not present
+                already_seen_file_with_content = False
+                while True:
+                    local_file_name += "_"
+                    if local_file_name not in all_file_hashes:
+                        break
+                    if all_file_hashes[local_file_name] == file_bytes_digest:
+                        already_seen_file_with_content = True
+                        break
+                if already_seen_file_with_content:
+                    continue
+                print(f"    Warning: duplicate local file name, using {local_file_name}")
             all_file_hashes[local_file_name] = file_bytes_digest
 
             # Save the firmware file
