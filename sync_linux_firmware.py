@@ -5,6 +5,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+from typing import Dict
 
 
 BASE_PATH = Path(__file__).parent
@@ -31,7 +32,7 @@ FIXUP_VERSION_DATA = {
 }
 
 
-def sync_linux_firmware(fw_repo):
+def sync_linux_firmware(fw_repo: Path) -> None:
     if fw_repo.exists():
         print(f"Updating {fw_repo} ...", file=sys.stderr)
         subprocess.run(("git", "fetch", "origin"), cwd=fw_repo, check=True)
@@ -50,7 +51,7 @@ def sync_linux_firmware(fw_repo):
         )
 
     print("Getting all commits", file=sys.stderr)
-    previous_file_names = {}
+    all_file_hashes: Dict[str, bytes] = {}
     cmd_out = subprocess.check_output(
         ("git", "log", "--format=%H %as", "--all", "--reverse"),
         stdin=subprocess.DEVNULL,
@@ -113,7 +114,7 @@ def sync_linux_firmware(fw_repo):
         whence_file = whence_file_bytes.decode("utf-8")
 
         # Read files
-        if previous_file_names:
+        if all_file_hashes:
             print("")
         print(f"{commit_date} {commit_hash} added {len(fw_file_hashes)} files")
         for file_name, file_hash in sorted(fw_file_hashes.items()):
@@ -183,12 +184,12 @@ def sync_linux_firmware(fw_repo):
             print(f"  - {file_name} version {version} ({len(file_bytes)} bytes)")
 
             file_bytes_digest = hashlib.sha256(file_bytes).digest()
-            if local_file_name in previous_file_names:
-                if previous_file_names[local_file_name] == file_bytes_digest:
+            if local_file_name in all_file_hashes:
+                if all_file_hashes[local_file_name] == file_bytes_digest:
                     # Skip a file with the same digest
                     continue
                 # raise RuntimeError(f"Duplicate local file name {local_file_name}")
-            previous_file_names[local_file_name] = file_bytes_digest
+            all_file_hashes[local_file_name] = file_bytes_digest
 
             # Save the firmware file
             local_directory = BASE_PATH / local_dir_name
