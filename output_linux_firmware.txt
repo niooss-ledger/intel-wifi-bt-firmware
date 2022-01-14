@@ -506,7 +506,9 @@
 
 2018-04-30 40d41172ea0d6f143b97ed51996beed7a6215941 added 2 files
   - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627852 bytes)
+    Warning: duplicate local file name, using ibt-17-16-1.sfi__BT_JeffersonPeak_B0_B0_REL0219_
   - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL0219 (627852 bytes)
+    Warning: duplicate local file name, using ibt-17-2.sfi__BT_JeffersonPeak_B0_B0_REL0219_
 
 2018-05-16 e94352cf328ae718e47e3899ebd050465755db04 added 4 files
   - intel/ibt-17-16-1.ddc version BT_JeffersonPeak_B0_B0_REL0263 (29 bytes)
@@ -589,6 +591,7 @@
 
 2018-10-17 c34a52ab7dee9911457ce183a6d5db09f16fe8b1 added 1 files
   - intel/ibt-11-5.sfi version BT_LightningPeak_REL0487 (595248 bytes)
+    Warning: duplicate local file name, using ibt-11-5.sfi__BT_LightningPeak_REL0487_
 
 2018-10-17 2618544162a4bae4d948cd98c03de932e53060d3 added 1 files
   - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0285 (592656 bytes)
@@ -619,6 +622,7 @@
 
 2018-12-21 f0896585b04f84f48f1aaff6619adce43822747b added 1 files
   - intel/ibt-11-5.sfi version BT_LightningPeak_REL0487 (588196 bytes)
+    Warning: duplicate local file name, using ibt-11-5.sfi__BT_LightningPeak_REL0487__
 
 2018-12-21 89d37c65a413852a0688b9aee6f74dbc53cf8cb5 added 1 files
   - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0295 (585328 bytes)
@@ -661,6 +665,7 @@
   - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.3cfab8da.0 (1448644 bytes)
   - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.3cfab8da.0 (1456088 bytes)
   - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044072 bytes)
+    Warning: duplicate local file name, using iwlwifi-cc-a0-46.ucode__46.3cfab8da.0_
 
 2019-05-08 cedd50026c565d153cb6e4d6d9c8fd4db39d6242 added 2 files
   - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL0275 (716180 bytes)
@@ -751,21 +756,35 @@
 
 2019-07-20 b5f09bb4f816abace0227d0f4e749859364cef6b added 7 files
   - iwlwifi-3168-29.ucode version 29.3e3b4de5.0 (1036300 bytes)
+    Warning: duplicate local file name, using iwlwifi-3168-29.ucode__29.3e3b4de5.0_
   - iwlwifi-7265D-29.ucode version 29.3e3b4de5.0 (1036668 bytes)
+    Warning: duplicate local file name, using iwlwifi-7265D-29.ucode__29.3e3b4de5.0_
   - iwlwifi-8000C-36.ucode version 36.8fd77bb3.0 (2401356 bytes)
+    Warning: duplicate local file name, using iwlwifi-8000C-36.ucode__36.8fd77bb3.0_
   - iwlwifi-8265-36.ucode version 36.8fd77bb3.0 (2414592 bytes)
+    Warning: duplicate local file name, using iwlwifi-8265-36.ucode__36.8fd77bb3.0_
   - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1467952 bytes)
+    Warning: duplicate local file name, using iwlwifi-9000-pu-b0-jf-b0-46.ucode__46.a41adfe7.0_
   - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1469012 bytes)
+    Warning: duplicate local file name, using iwlwifi-9260-th-b0-jf-b0-46.ucode__46.a41adfe7.0_
   - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044452 bytes)
+    Warning: duplicate local file name, using iwlwifi-cc-a0-46.ucode__46.3cfab8da.0__
 
 2019-07-20 cd6cb7bc50aa77d531c4417ffe1237510b71c73e added 7 files
   - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.13675109.0 (1106204 bytes)
+    Warning: duplicate local file name, using iwlwifi-Qu-b0-hr-b0-48.ucode__48.13675109.0_
   - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.13675109.0 (1052772 bytes)
+    Warning: duplicate local file name, using iwlwifi-Qu-b0-jf-b0-48.ucode__48.13675109.0_
   - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.13675109.0 (1106224 bytes)
+    Warning: duplicate local file name, using iwlwifi-Qu-c0-hr-b0-48.ucode__48.13675109.0_
   - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.13675109.0 (1052792 bytes)
+    Warning: duplicate local file name, using iwlwifi-Qu-c0-jf-b0-48.ucode__48.13675109.0_
   - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.13675109.0 (1105644 bytes)
+    Warning: duplicate local file name, using iwlwifi-QuZ-a0-hr-b0-48.ucode__48.13675109.0_
   - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.13675109.0 (1052584 bytes)
+    Warning: duplicate local file name, using iwlwifi-QuZ-a0-jf-b0-48.ucode__48.13675109.0_
   - iwlwifi-cc-a0-48.ucode version 48.13675109.0 (1096680 bytes)
+    Warning: duplicate local file name, using iwlwifi-cc-a0-48.ucode__48.13675109.0_
 
 2019-08-20 fe48882708de5444e66f01c8f5e116aac1e3e6e7 added 2 files
   - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0482 (655364 bytes)
@@ -807,6 +826,7 @@
 
 2019-09-09 6c6918ad8ae0dfb2cb591484eba525409980c16f added 1 files
   - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL0318 (722132 bytes)
+    Warning: duplicate local file name, using ibt-19-32-4.sfi__BT_HarrisonPeak_REL0318_
 
 2019-10-10 b68efd7abd7767198d0d68f4cf7f1e343f435142 added 2 files
   - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0489 (655844 bytes)
@@ -871,8 +891,10 @@
 2020-01-21 0dc1611a682a5eb8d1bac6c6e8755c3386012aa3 added 18 files
   - intel/ibt-19-0-0.ddc version BT_Quasar_REL0352 (42 bytes)
   - intel/ibt-19-0-0.sfi version BT_Quasar_REL0352 (729372 bytes)
+    Warning: duplicate local file name, using ibt-19-0-0.sfi__BT_Quasar_REL0352_
   - intel/ibt-19-0-1.ddc version BT_Quasar_REL0352 (42 bytes)
   - intel/ibt-19-0-1.sfi version BT_Quasar_REL0352 (729372 bytes)
+    Warning: duplicate local file name, using ibt-19-0-1.sfi__BT_Quasar_REL0352_
   - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
   - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL0367 (729372 bytes)
   - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0367 (42 bytes)
@@ -945,19 +967,31 @@
 
 2020-03-27 677930a7d7422930df71adace36f17e996658f45 added 9 files
   - intel/ibt-19-0-0.ddc version BT_Quasar_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-0-0.ddc__BT_Quasar_REL0384_
   - intel/ibt-19-0-1.ddc version BT_Quasar_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-0-1.ddc__BT_Quasar_REL0384_
   - intel/ibt-19-0-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-0-4.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-16-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-16-4.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-240-1.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-240-1.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-240-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-240-4.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-32-0.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-32-0.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-32-1.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-32-1.ddc__BT_HarrisonPeak_REL0384_
   - intel/ibt-19-32-4.ddc version BT_HarrisonPeak_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-19-32-4.ddc__BT_HarrisonPeak_REL0384_
 
 2020-03-27 47533bc283fb759c14831172b38a5f06c6f2dc2c added 3 files
   - intel/ibt-20-0-3.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-20-0-3.ddc__BT_CyclonePeak_A0_REL0384_
   - intel/ibt-20-1-3.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-20-1-3.ddc__BT_CyclonePeak_A0_REL0384_
   - intel/ibt-20-1-4.ddc version BT_CyclonePeak_A0_REL0384 (14 bytes)
+    Warning: duplicate local file name, using ibt-20-1-4.ddc__BT_CyclonePeak_A0_REL0384_
 
 2020-04-22 dc3047c536c0a253a1830feea0be7fabb2a74749 added 4 files
   - intel/ibt-18-16-1.ddc version BT_ThunderPeak_B0_B0_REL6412 (9 bytes)
@@ -1001,6 +1035,7 @@
 
 2019-08-23 50c1340bef482f4eb5febebc09f377130ba6664a added 1 files
   - iwlwifi-8265-36.ucode version 36.77d01142.0 (2409984 bytes)
+    Warning: duplicate local file name, using iwlwifi-8265-36.ucode__36.77d01142.0_
 
 2019-08-23 2ae99744efc14e5329a551251e22b33213224f11 added 13 files
   - iwlwifi-3168-29.ucode version 29.09bd31e1.0 (1036288 bytes)
@@ -1232,6 +1267,7 @@
 
 2021-04-26 4116d72b9709ef8e6d34ad1ed082a5e1be6cf72e added 1 files
   - intel/ibt-12-16.sfi version BT_WindStormPeak_REL0306 (584000 bytes)
+    Warning: duplicate local file name, using ibt-12-16.sfi__BT_WindStormPeak_REL0306_
 
 2021-04-26 195ecf149c789cc451fd250ede82c540fd367a51 added 1 files
   - intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq version BT_StonePeak_D1_REL_66_1167 (46817 bytes)
@@ -1273,6 +1309,7 @@
   - iwlwifi-cc-a0-63.ucode version 63.c04f3485.0 (1298688 bytes)
   - iwlwifi-ty-a0-gf-a0-63.ucode version 63.c04f3485.0 (1460012 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2021-03-10 (27456 bytes)
+    Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2021-03-10_
 
 2021-03-10 15f424bf026a1a749038ce4749e28c7cb9884f60 added 2 files
   - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.6b541b68.0 (1514876 bytes)
@@ -1300,6 +1337,7 @@
 
 2021-06-21 25ddc612fd2f62190a96245bb3c6ca04d8ea8481 added 1 files
   - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL23884 (636084 bytes)
+    Warning: duplicate local file name, using ibt-0041-0041.sfi__BT_TyphoonPeak_REL23884_
 
 2021-07-19 5de082d4d0f2db7722c9e6f5c9cff1fefd8073be added 2 files
   - iwlwifi-ty-a0-gf-a0-66.ucode version 66.55c64978.0 (1477864 bytes)
@@ -1314,6 +1352,7 @@
 
 2021-08-31 0324161cb0723fccf5d7659114851cf8c1b1cda6 added 4 files
   - iwlwifi-so-a0-gf-a0-64.ucode version 64.97bbee0a.0 (1515812 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0-64.ucode__64.97bbee0a.0_
   - iwlwifi-so-a0-gf-a0.pnvm version 2021-08-31 (41804 bytes)
   - iwlwifi-so-a0-hr-b0-64.ucode version 64.97bbee0a.0 (1427384 bytes)
   - iwlwifi-so-a0-jf-b0-64.ucode version 64.97bbee0a.0 (1365628 bytes)
