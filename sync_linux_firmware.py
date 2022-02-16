@@ -162,22 +162,25 @@ def sync_linux_firmware(fw_repo: Path) -> None:
                 # Strip leading "v"
                 if re.match(r"^v([0-9.]+)$", version):
                     version = version[1:]
+
+                date_and_version = f"{commit_date}__{version}"
             else:
                 # print(f"\033[33mWarning: unable to find {file_name!r} in WHENCE at commit {commit_hash}\033[m")
                 # Use the date by default
                 version = commit_date
+                date_and_version = commit_date
 
             if file_name.startswith("intel/ibt-"):
-                local_file_name = f"{file_name[6:]}__{version}"
+                local_file_name = f"{file_name[6:]}__{date_and_version}"
                 local_dir_name = "intel_bluetooth"
             elif file_name.startswith("iwlwifi-"):
-                local_file_name = f"{file_name}__{version}"
+                local_file_name = f"{file_name}__{date_and_version}"
                 local_dir_name = "intel_wifi"
             else:
                 raise RuntimeError(f"Unable to categorize {file_name!r} in commit {commit_hash}")
 
             # Sanity check
-            assert re.match(r"^[-0-9A-Za-z._]+$", version), f"Invalid format for version {version!r}"
+            assert re.match(r"^[-0-9A-Za-z._]+$", date_and_version), f"Invalid format for version {date_and_version!r}"
             assert re.match(r"^[-0-9A-Za-z./]+$", file_name), f"Invalid format for file name {file_name!r}"
             assert re.match(r"^[-0-9A-Za-z._]+$", local_file_name), f"Invalid format for local name {local_file_name!r}"
 
