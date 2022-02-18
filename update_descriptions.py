@@ -13,7 +13,7 @@ def update_descriptions() -> None:
     for file_path in BASE_PATH.glob("intel_wifi/**/*"):
         if not file_path.is_file():
             continue
-        if file_path.name in {"README.md", "LICENSE"}:
+        if file_path.name == "LICENSE" or file_path.suffix in {".md", ".txt"}:
             continue
 
         desc_file = DESCRIPTIONS_PATH / file_path.relative_to(BASE_PATH)

@@ -418,13 +418,13 @@ class MvmCommandGroups(enum.IntEnum):
     LEGACY = 0x0
     LONG = 0x1
     SYSTEM = 0x2
-    MAC_CONF = 0x3
-    PHY_OPS = 0x4
+    MAC_CONF = 0x3  # Medium Access Controller Configuration
+    PHY_OPS = 0x4  # Physical Layer Operations
     DATA_PATH = 0x5
-    NAN = 0x7
-    LOCATION = 0x8  # Was TOF until
-    PROT_OFFLOAD = 0xB
-    REGULATORY_AND_NVM = 0xC
+    NAN = 0x7  # Neighbor Awareness Networking
+    LOCATION = 0x8  # Was TOF (Time of Flight)
+    PROT_OFFLOAD = 0xB  # Protocol Offload
+    REGULATORY_AND_NVM = 0xC  # Non-Volatile Memory
     DEBUG = 0xF
 
     @classmethod
