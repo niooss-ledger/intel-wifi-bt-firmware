@@ -11,6 +11,13 @@ References:
   Structures for parsing a firmware are located in drivers/net/wireless/intel/iwlwifi/fw/file.h
 - For macOS version: https://github.com/OpenIntelWireless/itlwm
   (archived project) https://github.com/AppleIntelWifi/adapter
+
+Wifi command codes are defined:
+- in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlwifi/fw/api
+- in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16
+- in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/iwlegacy/commands.h?id=dbdac2b581811e1f2a573454451136c2497de4fc
+- in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/iwlegacy/iwl-commands.h?id=7f8e12238049b0e5398e77cdf15f95a41077841f
+- in https://github.com/OpenIntelWireless/itlwm/blob/v2.1.0/itlwm/hal_iwm/if_iwmreg.h
 """
 import argparse
 import enum
@@ -453,6 +460,7 @@ class LegacyCmds(enum.IntEnum):
     ADD_STA = 0x18
     REMOVE_STA = 0x19
     FW_GET_ITEM_CMD = 0x1A
+    N_3945_RX = 0x1B  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n100
     TX_CMD = 0x1C
     SCD_QUEUE_CFG = 0x1D
     TXPATH_FLUSH = 0x1E
@@ -466,39 +474,71 @@ class LegacyCmds(enum.IntEnum):
     BINDING_CONTEXT_CMD = 0x2B
     TIME_QUOTA_CMD = 0x2C
     NON_QOS_TX_COUNTER_CMD = 0x2D
+    C_RATE_SCALE = 0x47  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n102
     LEDS_CMD = 0x48
-    LQ_CMD = 0x4E
+    LQ_CMD = 0x4E  # Link Quality
     FW_PAGING_BLOCK_CMD = 0x4F
     SCAN_OFFLOAD_REQUEST_CMD = 0x51
     SCAN_OFFLOAD_ABORT_CMD = 0x52
     HOT_SPOT_CMD = 0x53
+    NET_DETECT_CONFIG_CMD = 0x54
+    # NET_DETECT_PROFILES_QUERY_CMD = 0x56
     SCAN_OFFLOAD_PROFILES_QUERY_CMD = 0x56
+    NET_DETECT_PROFILES_CMD = 0x57
+    # NET_DETECT_HOTSPOTS_CMD = 0x58 Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/drivers/net/wireless/iwlwifi/mvm/fw-api.h?id=b04998f3d57adc9ccde264b125bc4ff00b9993d5
+    SCAN_OFFLOAD_HOTSPOTS_CONFIG_CMD = 0x58
+    # NET_DETECT_HOTSPOTS_QUERY_CMD = 0x59 Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/drivers/net/wireless/iwlwifi/mvm/fw-api.h?id=b04998f3d57adc9ccde264b125bc4ff00b9993d5
+    SCAN_OFFLOAD_HOTSPOTS_QUERY_CMD = 0x59
+    BT_COEX_UPDATE_SW_BOOST = 0x5A
     BT_COEX_UPDATE_CORUN_LUT = 0x5B
     BT_COEX_UPDATE_REDUCED_TXP = 0x5C
     BT_COEX_CI = 0x5D
+    TEMPERATURE_NOTIFICATION = 0x62
+    CALIBRATION_CFG_CMD = 0x65
+    CALIBRATION_RES_NOTIFICATION = 0x66
+    CALIBRATION_COMPLETE_NOTIFICATION = 0x67
+    RADIO_VERSION_NOTIFICATION = 0x68
     PHY_CONFIGURATION_CMD = 0x6A
     CALIB_RES_NOTIF_PHY_DB = 0x6B
     PHY_DB_CMD = 0x6C
     SCAN_OFFLOAD_COMPLETE = 0x6D
     SCAN_OFFLOAD_UPDATE_PROFILES_CMD = 0x6E
+    SCAN_OFFLOAD_CONFIG_CMD = 0x6F
+    C_CHANNEL_SWITCH = 0x72  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n107
+    N_CHANNEL_SWITCH = 0x73  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n108
+    C_SPECTRUM_MEASUREMENT = 0x74  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n109
+    N_SPECTRUM_MEASUREMENT = 0x75  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n110
     POWER_TABLE_CMD = 0x77
     PSM_UAPSD_AP_MISBEHAVING_NOTIFICATION = 0x78
+    N_PM_SLEEP = 0x7A  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n114
+    N_PM_DEBUG_STATS = 0x7B  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n115
     REPLY_THERMAL_MNG_BACKOFF = 0x7E
+    SCAN_REQUEST_CMD = 0x80
+    SCAN_ABORT_CMD = 0x81
+    SCAN_START_NOTIFICATION = 0x82
+    # SCAN_RESULTS_NOTIFICATION = 0x83
     DC2DC_CONFIG_CMD = 0x83
+    SCAN_COMPLETE_NOTIFICATION = 0x84
     NVM_ACCESS_CMD = 0x88
+    SET_CALIB_DEFAULT_CMD = 0x8E
     BEACON_NOTIFICATION = 0x90
     BEACON_TEMPLATE_CMD = 0x91
+    C_TX_PWR_TBL = 0x97  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n129
     TX_ANT_CONFIGURATION_CMD = 0x98
     BT_CONFIG = 0x9B
     STATISTICS_CMD = 0x9C
     STATISTICS_NOTIFICATION = 0x9D
     EOSP_NOTIFICATION = 0x9E
     REDUCE_TX_POWER_CMD = 0x9F
+    CARD_STATE_CMD = 0xA0
     CARD_STATE_NOTIFICATION = 0xA1
     MISSED_BEACONS_NOTIFICATION = 0xA2
+    C_CT_KILL_CONFIG = 0xA4  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n144
     TDLS_CONFIG_CMD = 0xA7
+    C_SENSITIVITY = 0xA8  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n145
     MAC_PM_POWER_TABLE = 0xA9
     TDLS_CHANNEL_SWITCH_NOTIFICATION = 0xAA
+    C_PHY_CALIBRATION = 0xB0  # From https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16#n146
     MFUART_LOAD_NOTIFICATION = 0xB1
     RSS_CONFIG_CMD = 0xB3
     SCAN_ITERATION_COMPLETE_UMAC = 0xB5
@@ -510,6 +550,8 @@ class LegacyCmds(enum.IntEnum):
     MCC_UPDATE_CMD = 0xC8
     MCC_CHUB_UPDATE_CMD = 0xC9
     MARKER_CMD = 0xCB
+    BT_COEX_PRIO_TABLE = 0xCC
+    BT_COEX_PROT_ENV = 0xCD
     BT_PROFILE_NOTIFICATION = 0xCE
     BCAST_FILTER_CMD = 0xCF
     MCAST_FILTER_CMD = 0xD0
@@ -520,6 +562,7 @@ class LegacyCmds(enum.IntEnum):
     OFFLOADS_QUERY_CMD = 0xD5
     REMOTE_WAKE_CONFIG_CMD = 0xD6
     MATCH_FOUND_NOTIFICATION = 0xD9
+    CMD_DTS_MEASUREMENT_TRIGGER = 0xDC
     DTS_MEASUREMENT_NOTIFICATION = 0xDD
     WOWLAN_PATTERNS = 0xE0
     WOWLAN_CONFIGURATION = 0xE1
@@ -527,9 +570,11 @@ class LegacyCmds(enum.IntEnum):
     WOWLAN_TKIP_PARAM = 0xE3
     WOWLAN_KEK_KCK_MATERIAL = 0xE4
     WOWLAN_GET_STATUSES = 0xE5
+    WOWLAN_TX_POWER_PER_DB = 0xE6
     SCAN_ITERATION_COMPLETE = 0xE7
     D0I3_END_CMD = 0xED
     LTR_CONFIG = 0xEE
+    REPLY_DEBUG_CMD = 0xF0
     LDBG_CONFIG_CMD = 0xF6
     DEBUG_LOG_MSG = 0xF7
 
