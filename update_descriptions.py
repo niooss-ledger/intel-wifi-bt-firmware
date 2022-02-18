@@ -16,6 +16,17 @@ def update_descriptions() -> None:
         if file_path.name == "LICENSE" or file_path.suffix in {".md", ".txt"}:
             continue
 
+        # Ignore some files which are known to not be supported
+        if file_path.name in {
+            "ipw2200-ibss.fw",
+            "ipw2100-1.3-i.fw",
+            "ipw2100-1.3.fw",
+            "ipw2100-1.3-p.fw",
+            "ipw2200-bss.fw",
+            "ipw2200-sniffer.fw",
+        }:
+            continue
+
         desc_file = DESCRIPTIONS_PATH / file_path.relative_to(BASE_PATH)
         desc_file.parent.mkdir(parents=True, exist_ok=True)
 

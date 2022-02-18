@@ -1,0 +1,189 @@
+Header: version 18 'stream:CoreCycle15_stab@266249' build 0x41009
+- PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
+- MEM_DESC (0 bytes): empty
+- FLAGS (4 bytes): 0x5BFB4B7F
+- API_CHANGES_SET (8 bytes): index=0 flags=0x0D9BFFFB
+- ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x0305205A
+        [ 1] LAR_SUPPORT
+        [ 3] BEAMFORMER
+        [ 4] (unknown)
+        [ 6] TDLS_SUPPORT
+        [13] TDLS_CHANNEL_SWITCH
+        [16] (unknown)
+        [18] HOTSPOT_SUPPORT
+        [24] (unknown)
+        [25] (unknown)
+- ENABLED_CAPABILITIES (8 bytes): index=2 capa=0x00000000
+- CSCHEME (16 bytes): empty
+- NUM_OF_CPU (4 bytes): 1
+- SEC_RT (98308 bytes): runtime ucode at 00800000..00818000 (0x18000=98304 bytes, sha256=38f7ec0576070f0935c1aab756261c070767fbc3810af4917364420737b668a2)
+    Hexdump of start: 00 00 00 00 12 00 00 00 09 10 04 00 00 01 00 00 00 00 00 00 14 bb 80 00 7c 33 80 00 ac f1 80 00
+- SEC_RT (196612 bytes): runtime ucode at 00000000..00030000 (0x30000=196608 bytes, sha256=d42ef894087ecfd09b99b5207799fb5bc48525cd3a0581dcefc8dd24cfb00837)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 20 20 80 0f 01 00 a4 58 20 20 80 0f 01 00 70 24 20 20 80 0f 00 00 04 08
+- SEC_RT (59040 bytes): runtime ucode at 00040000..0004e69c (0xe69c=59036 bytes, sha256=88242e6afb4e9f065694a512016b4ec996c2ba84b693eb43fc30917a5001579f)
+    Hexdump of start: 0f 79 cf 70 80 00 54 f3 85 07 af e8 00 da e0 78 cf 70 80 00 30 3b 00 80 86 e8 cf 70 80 00 2c 3b
+- SEC_RT (36 bytes): runtime ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=734aa53106f9798bd2bded74fe6028673d233a658baaffc503c176189bafe7c8)
+    Hexdump of start: 0f 79 cf 70 80 00 54 f3 85 07 af e8 00 da e0 78 cf 70 80 00 30 3b 00 80 86 e8 cf 70 80 00 2c 3b
+- SEC_INIT (98308 bytes): init ucode at 00800000..00818000 (0x18000=98304 bytes, sha256=9925484556c87dbeed4b457794b5433bcb316ec0fecfaa8da37f869e5a92625a)
+    Hexdump of start: 00 00 00 00 12 00 00 00 09 10 04 00 00 09 00 00 00 00 00 00 14 d1 80 00 c4 22 80 00 64 fa 80 00
+- SEC_INIT (196612 bytes): init ucode at 00000000..00030000 (0x30000=196608 bytes, sha256=ea90dc66d073b2358441313b11a451b0786bb8a8f4a35de76c8f8ae739b38f05)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 20 20 80 0f 00 00 6c c6 20 20 80 0f 00 00 0c a0 20 20 80 0f 00 00 4c 06
+- SEC_INIT (26356 bytes): init ucode at 00040000..000466f0 (0x66f0=26352 bytes, sha256=0763e9b568fdfdb643dd366619d79da415c7f821061d20acdafcdf4af565cb43)
+    Hexdump of start: f1 c0 05 d8 15 b8 10 18 00 08 05 d8 15 b8 10 18 40 08 cf 70 80 00 2c 10 0e 0f 2f e6 24 d9 e2 09
+- SEC_INIT (36 bytes): init ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=fade7117733740e5e56599c74681969c941dd88ef967351412fef8e111d2c1e4)
+    Hexdump of start: f1 c0 05 d8 15 b8 10 18 00 08 05 d8 15 b8 10 18 40 08 cf 70 80 00 2c 10 0e 0f 2f e6 24 d9 e2 09
+- SEC_WOWLAN (98308 bytes): wowlan ucode at 00800000..00818000 (0x18000=98304 bytes, sha256=8653f7c0915c39af6b61a4a14ecfa7296cdb0594ed08bb344e3d4c8ccce870e4)
+    Hexdump of start: 00 00 00 00 12 00 00 00 09 10 04 00 00 05 00 00 00 00 00 00 e0 c1 80 00 f4 39 80 00 18 02 81 00
+- SEC_WOWLAN (196612 bytes): wowlan ucode at 00000000..00030000 (0x30000=196608 bytes, sha256=d34fc3541f1b66ae00babfae27b980250ccdaf2481ebb563da1277c975bc27fe)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 20 20 80 0f 00 00 54 f7 20 20 80 0f 00 00 f4 cf 20 20 80 0f 00 00 00 09
+- SEC_WOWLAN (48044 bytes): wowlan ucode at 00040000..0004bba8 (0xbba8=48040 bytes, sha256=74924634da666d2d95f881444ddb15d9f96b57b7238402cab003e2f0bc106f7f)
+    Hexdump of start: 0f 79 cf 70 81 00 c0 03 11 06 2f e6 00 da e0 78 cf 70 80 00 20 3f 00 80 86 e8 cf 70 80 00 1c 3f
+- SEC_WOWLAN (36 bytes): wowlan ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=24b2eabca631b0a437cf352145e16599053b7be3c3f27624c3c015cc3ab88c26)
+    Hexdump of start: 0f 79 cf 70 81 00 c0 03 11 06 2f e6 00 da e0 78 cf 70 80 00 20 3f 00 80 86 e8 cf 70 80 00 1c 3f
+- SEC_RT_USNIFFER (98308 bytes): usniffer ucode at 00800000..00818000 (0x18000=98304 bytes, sha256=8449e12625966fd03db2969b0b41327830a8c997818ecc12ec73b14bfa3685fd)
+    Hexdump of start: 00 00 00 00 12 00 00 00 09 10 04 00 00 01 00 00 00 00 00 00 a0 bb 80 00 f0 33 80 00 64 f2 80 00
+- SEC_RT_USNIFFER (196612 bytes): usniffer ucode at 00000000..00030000 (0x30000=196608 bytes, sha256=83169aff4c025cb46f3913cfb6e93749c913eb612d1c1c5570880c99d24f7baf)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 20 20 80 0f 01 00 30 60 20 20 80 0f 01 00 60 2b 20 20 80 0f 00 00 0c 08
+- SEC_RT_USNIFFER (61192 bytes): usniffer ucode at 00040000..0004ef04 (0xef04=61188 bytes, sha256=b6f280ad14c5a9396a6a70c4f074108593eb01b7d00b6397f0eca0fa389629de)
+    Hexdump of start: 0f 79 cf 70 80 00 0c f4 5d 06 ef e8 00 da e0 78 cf 70 80 00 bc 3b 00 80 86 e8 cf 70 80 00 b8 3b
+- SEC_RT_USNIFFER (36 bytes): usniffer ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=138602faf2f6b4f01c1c30aa4a8cd107364e2ad6cfe553fe42836f8b146799a8)
+    Hexdump of start: 0f 79 cf 70 80 00 0c f4 5d 06 ef e8 00 da e0 78 cf 70 80 00 bc 3b 00 80 86 e8 cf 70 80 00 b8 3b
+- DEF_CALIB (12 bytes): ucode_type=REGULAR flow_trigger=0x008C35FB event_trigger=0x0000B133
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 8] TX_IQ_IDX = 0x100
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [15] ANT_COUPLING_IDX = 0x8000
+- DEF_CALIB (12 bytes): ucode_type=INIT flow_trigger=0x008C15FB event_trigger=0x00000000
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+- DEF_CALIB (12 bytes): ucode_type=WOWLAN flow_trigger=0x008C35FB event_trigger=0x0000B133
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 8] TX_IQ_IDX = 0x100
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [15] ANT_COUPLING_IDX = 0x8000
+- DEF_CALIB (12 bytes): ucode_type=REGULAR_USNIFFER flow_trigger=0x008C35FB event_trigger=0x0000B133
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 8] TX_IQ_IDX = 0x100
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [15] ANT_COUPLING_IDX = 0x8000
+- PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
+- N_SCAN_CHANNELS (4 bytes): 40
+- CMD_VERSIONS (140 bytes, 35 entries):
+    LEGACY(0x0).0x43                                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_RX_MPDU_CMD(0xC1)                  cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).POWER_TABLE_CMD(0x77)                    cmd_ver= 6 notif_ver= 0
+    LEGACY(0x0).UCODE_ALIVE_NTFY(0x01)                   cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).NVM_ACCESS_CMD(0x88)                     cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).LEDS_CMD(0x48)                           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TXPATH_FLUSH(0x1E)                       cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TIME_QUOTA_CMD(0x2C)                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).SCAN_OFFLOAD_ABORT_CMD(0x52)             cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REMOVE_STA(0x19)                         cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).TX_CMD(0x1C)                             cmd_ver= 5 notif_ver= 0
+    LEGACY(0x0).STATISTICS_CMD(0x9C)                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).MAC_CONTEXT_CMD(0x28)                    cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_RX_PHY_CMD(0xC0)                   cmd_ver= 4 notif_ver= 0
+    LEGACY(0x0).ADD_STA(0x18)                            cmd_ver= 7 notif_ver= 0
+    LEGACY(0x0).TX_ANT_CONFIGURATION_CMD(0x98)           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).BT_CONFIG(0x9B)                          cmd_ver= 6 notif_ver= 0
+    LEGACY(0x0).MCAST_FILTER_CMD(0xD0)                   cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).LQ_CMD(0x4E)                             cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).PROT_OFFLOAD_CONFIG_CMD(0xD4)            cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).BT_COEX_CI(0x5D)                         cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).ADD_STA_KEY(0x17)                        cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).SCD_QUEUE_CFG(0x1D)                      cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_THERMAL_MNG_BACKOFF(0x7E)          cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).LTR_CONFIG(0xEE)                         cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).REDUCE_TX_POWER_CMD(0x9F)                cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).REPLY_BEACON_FILTERING_CMD(0xD2)         cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).OFFLOADS_QUERY_CMD(0xD5)                 cmd_ver= 4 notif_ver= 0
+    LEGACY(0x0).DBG_CFG(0x09)                            cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TIME_EVENT_CMD(0x29)                     cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).PHY_CONTEXT_CMD(0x08)                    cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).SCAN_OFFLOAD_REQUEST_CMD(0x51)           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_SF_CFG_CMD(0xD1)                   cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).MAC_PM_POWER_TABLE(0xA9)                 cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).BINDING_CONTEXT_CMD(0x2B)                cmd_ver= 1 notif_ver= 0
+- SDIO_ADMA_ADDR (4 bytes): 0x00407000
+- FW_GSCAN_CAPA (32 bytes):
+    max_scan_cache_size = 4096
+    max_scan_buckets = 16
+    max_ap_cache_per_scan = 16
+    max_rssi_sample_size = 8
+    max_scan_reporting_threshold = 100
+    max_hotlist_aps = 32
+    max_significant_change_aps = 8
+    max_bssid_history_entries = 50
+- FW_VERSION (12 bytes): 18.266249.0
