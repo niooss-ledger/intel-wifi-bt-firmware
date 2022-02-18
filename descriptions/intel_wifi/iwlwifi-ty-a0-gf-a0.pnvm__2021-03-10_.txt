@@ -1,0 +1,14 @@
+- PNVM_SKU (12 bytes): 0x610d0 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0x324CD670
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=06b508629ef20cd6850e53c62fd4ffe8cbfed4d1a3b8df97406b8d9f80259673)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 11 03 21 20 05 0c 00 00 18 00 00 00
+- SEC_RT (11972 bytes): runtime ucode at deadcafe..deadf9be (0x2ec0=11968 bytes, sha256=181719f6e738589a20187197ca42698b95d23634fdc3ee3ba4cdf461cd19cb19)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 aa 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d0 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0x324CD670
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=dd6a55bb275c1b873d40782770726edf22ecdb664133ea3cc2399331ed4f785c)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 11 03 21 20 13 0c 00 00 18 00 00 00
+- SEC_RT (12028 bytes): runtime ucode at deadcafe..deadf9f6 (0x2ef8=12024 bytes, sha256=b818c5d0cb639933083c733c5e34c51b27951731218ec8764192d1bb63ca595b)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 b8 0b 00 30 09 80 03 00 4b 03 4b 03

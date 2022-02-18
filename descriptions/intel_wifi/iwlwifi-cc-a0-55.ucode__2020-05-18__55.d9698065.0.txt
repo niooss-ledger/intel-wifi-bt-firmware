@@ -1,0 +1,552 @@
+Header: version 55 'release/core52::d9698065' build 0xd9698065
+- DEF_CALIB (12 bytes): ucode_type=REGULAR flow_trigger=0x1F1601D3 event_trigger=0x1B06958B
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [17] ABS_IDX = 0x20000
+        [18] AGC_IDX = 0x40000
+        [20] unknown = 0x100000
+        [24] unknown = 0x1000000
+        [25] unknown = 0x2000000
+        [26] unknown = 0x4000000
+        [27] unknown = 0x8000000
+        [28] unknown = 0x10000000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [15] ANT_COUPLING_IDX = 0x8000
+        [17] ABS_IDX = 0x20000
+        [18] AGC_IDX = 0x40000
+        [24] unknown = 0x1000000
+        [25] unknown = 0x2000000
+        [27] unknown = 0x8000000
+        [28] unknown = 0x10000000
+- FW_VERSION (12 bytes): 55.d9698065.0
+- LMAC_DEBUG_ADDRS (32 bytes):
+    error_event_table_ptr = 0x00809538
+    log_event_table_ptr = 0x004DD0B4
+    cpu_register_ptr = 0x00807748
+    dbgm_config_ptr = 0x00801438
+    alive_counter_ptr = 0x00807740
+    scd_base_ptr = 0x00000000
+    st_fwrd_addr = 0x00000000
+    st_fwrd_size = 0x00000000
+- CMD_VERSIONS (272 bytes, 68 entries):
+    LEGACY(0x0).UCODE_ALIVE_NTFY(0x01)                   cmd_ver=99 notif_ver= 4
+    LONG(0x1).PHY_CONTEXT_CMD(0x08)                      cmd_ver= 2 notif_ver= 0
+    LONG(0x1).DBG_CFG(0x09)                              cmd_ver= 1 notif_ver= 0
+    LONG(0x1).SCAN_CFG_CMD(0x0C)                         cmd_ver= 4 notif_ver= 0
+    LONG(0x1).SCAN_REQ_UMAC(0x0D)                        cmd_ver=14 notif_ver= 0
+    LONG(0x1).SCAN_ABORT_UMAC(0x0E)                      cmd_ver= 1 notif_ver= 0
+    LONG(0x1).ADD_STA_KEY(0x17)                          cmd_ver= 2 notif_ver= 0
+    LONG(0x1).ADD_STA(0x18)                              cmd_ver=11 notif_ver= 2
+    LONG(0x1).REMOVE_STA(0x19)                           cmd_ver= 2 notif_ver= 0
+    LONG(0x1).TX_CMD(0x1C)                               cmd_ver= 7 notif_ver= 6
+    LONG(0x1).SCD_QUEUE_CFG(0x1D)                        cmd_ver= 2 notif_ver= 2
+    LONG(0x1).TXPATH_FLUSH(0x1E)                         cmd_ver= 2 notif_ver= 0
+    LONG(0x1).MAC_CONTEXT_CMD(0x28)                      cmd_ver= 5 notif_ver= 0
+    LEGACY(0x0).TIME_EVENT_NOTIFICATION(0x2A)            cmd_ver=99 notif_ver= 2
+    LONG(0x1).BINDING_CONTEXT_CMD(0x2B)                  cmd_ver= 2 notif_ver= 1
+    LONG(0x1).TIME_QUOTA_CMD(0x2C)                       cmd_ver= 2 notif_ver= 1
+    LONG(0x1).0x43                                       cmd_ver= 2 notif_ver= 0
+    LONG(0x1).LEDS_CMD(0x48)                             cmd_ver= 2 notif_ver= 0
+    LONG(0x1).LQ_CMD(0x4E)                               cmd_ver= 4 notif_ver= 0
+    LONG(0x1).FW_PAGING_BLOCK_CMD(0x4F)                  cmd_ver= 2 notif_ver= 0
+    LONG(0x1).0x55                                       cmd_ver= 1 notif_ver= 0
+    LONG(0x1).BT_COEX_CI(0x5D)                           cmd_ver= 2 notif_ver= 0
+    LONG(0x1).PHY_CONFIGURATION_CMD(0x6A)                cmd_ver= 3 notif_ver= 0
+    LONG(0x1).POWER_TABLE_CMD(0x77)                      cmd_ver= 6 notif_ver= 0
+    LONG(0x1).REPLY_THERMAL_MNG_BACKOFF(0x7E)            cmd_ver= 1 notif_ver= 0
+    LONG(0x1).NVM_ACCESS_CMD(0x88)                       cmd_ver= 3 notif_ver= 0
+    LONG(0x1).TX_ANT_CONFIGURATION_CMD(0x98)             cmd_ver= 1 notif_ver= 0
+    LONG(0x1).BT_CONFIG(0x9B)                            cmd_ver= 6 notif_ver= 0
+    LONG(0x1).STATISTICS_CMD(0x9C)                       cmd_ver= 1 notif_ver= 0
+    LONG(0x1).REDUCE_TX_POWER_CMD(0x9F)                  cmd_ver= 5 notif_ver= 0
+    LONG(0x1).MAC_PM_POWER_TABLE(0xA9)                   cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_RX_PHY_CMD(0xC0)                   cmd_ver=99 notif_ver= 4
+    LEGACY(0x0).REPLY_RX_MPDU_CMD(0xC1)                  cmd_ver=99 notif_ver= 2
+    LONG(0x1).MCAST_FILTER_CMD(0xD0)                     cmd_ver= 1 notif_ver= 0
+    LONG(0x1).REPLY_SF_CFG_CMD(0xD1)                     cmd_ver= 3 notif_ver= 0
+    LONG(0x1).REPLY_BEACON_FILTERING_CMD(0xD2)           cmd_ver= 4 notif_ver= 0
+    LONG(0x1).D3_CONFIG_CMD(0xD3)                        cmd_ver= 4 notif_ver= 0
+    LONG(0x1).PROT_OFFLOAD_CONFIG_CMD(0xD4)              cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).OFFLOADS_QUERY_CMD(0xD5)                 cmd_ver=99 notif_ver= 3
+    LONG(0x1).WOWLAN_CONFIGURATION(0xE1)                 cmd_ver= 5 notif_ver= 0
+    LONG(0x1).WOWLAN_TSC_RSC_PARAM(0xE2)                 cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).WOWLAN_GET_STATUSES(0xE5)                cmd_ver=99 notif_ver= 9
+    LEGACY(0x0).0x23                                     cmd_ver=99 notif_ver= 1
+    DEBUG(0xf).0x0A                                      cmd_ver=99 notif_ver= 1
+    LONG(0x1).LTR_CONFIG(0xEE)                           cmd_ver= 3 notif_ver= 0
+    LONG(0x1).0xF2                                       cmd_ver= 7 notif_ver= 0
+    LONG(0x1).LDBG_CONFIG_CMD(0xF6)                      cmd_ver= 7 notif_ver= 0
+    LEGACY(0x0).BA_NOTIF(0xC5)                           cmd_ver=99 notif_ver= 4
+    LEGACY(0x0).MFUART_LOAD_NOTIFICATION(0xB1)           cmd_ver=99 notif_ver= 2
+    PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03)                   cmd_ver= 1 notif_ver= 0
+    PHY_OPS(0x4).TEMP_REPORTING_THRESHOLDS_CMD(0x04)     cmd_ver= 1 notif_ver= 0
+    PHY_OPS(0x4).PER_CHAIN_LIMIT_OFFSET_CMD(0x05)        cmd_ver= 2 notif_ver= 0
+    DATA_PATH(0x5).0x11                                  cmd_ver=99 notif_ver= 0
+    DATA_PATH(0x5).STA_HE_CTXT_CMD(0x07)                 cmd_ver= 2 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).NVM_ACCESS_COMPLETE(0x00)    cmd_ver= 1 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).NVM_GET_INFO(0x02)           cmd_ver= 1 notif_ver= 4
+    0x0D.0x05                                            cmd_ver= 2 notif_ver= 1
+    DEBUG(0xf).UMAC_RD_WR(0x01)                          cmd_ver= 1 notif_ver= 0
+    MAC_CONF(0x3).SESSION_PROTECTION_CMD(0x05)           cmd_ver= 1 notif_ver= 0
+    MAC_CONF(0x3).SESSION_PROTECTION_NOTIF(0xFB)         cmd_ver=99 notif_ver= 2
+    LOCATION(0x8).CSI_CHUNKS_NOTIFICATION(0xFB)          cmd_ver=99 notif_ver= 2
+    LEGACY(0x0).D0I3_END_CMD(0xED)                       cmd_ver=99 notif_ver= 1
+    LOCATION(0x8).TOF_RANGE_REQ_CMD(0x00)                cmd_ver= 9 notif_ver= 1
+    LOCATION(0x8).TOF_RESPONDER_CONFIG_CMD(0x04)         cmd_ver= 7 notif_ver= 0
+    LONG(0x1).SCAN_OFFLOAD_UPDATE_PROFILES_CMD(0x6E)     cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).SCAN_OFFLOAD_PROFILES_QUERY_CMD(0x56)    cmd_ver=99 notif_ver= 5
+    SYSTEM(0x2).SOC_CONFIGURATION_CMD(0x01)              cmd_ver= 2 notif_ver= 0
+    SYSTEM(0x2).SHARED_MEM_CFG_CMD(0x00)                 cmd_ver=99 notif_ver= 3
+- FLAGS (4 bytes): 0xFBFB4B7F
+- ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x9DEF037F
+        [ 0] D0I3_SUPPORT
+        [ 1] LAR_SUPPORT
+        [ 2] UMAC_SCAN
+        [ 3] BEAMFORMER
+        [ 4] (unknown)
+        [ 5] TOF_SUPPORT
+        [ 6] TDLS_SUPPORT
+        [ 8] TXPOWER_INSERTION_SUPPORT
+        [ 9] DS_PARAM_SET_IE_SUPPORT
+        [16] (unknown)
+        [17] CNSLDTD_D3_D0_IMG
+        [18] HOTSPOT_SUPPORT
+        [19] DC2DC_CONFIG_SUPPORT
+        [21] CSUM_SUPPORT
+        [22] RADIO_BEACON_STATS
+        [23] (unknown)
+        [24] (unknown)
+        [26] P2P_SCM_UAPSD
+        [27] (unknown)
+        [28] BT_COEX_PLCR
+        [31] GSCAN_SUPPORT
+- ENABLED_CAPABILITIES (8 bytes): index=2 capa=0xDB91EEDB
+        [64] EXTENDED_DTS_MEASURE
+        [65] SHORT_PM_TIMEOUTS
+        [67] BT_MPLUT_SUPPORT
+        [68] MULTI_QUEUE_RX_SUPPORT
+        [70] CSA_AND_TBTT_OFFLOAD
+        [71] BEACON_ANT_SELECTION
+        [73] LAR_SUPPORT_V3
+        [74] CT_KILL_BY_FW
+        [75] TEMP_THS_REPORT_SUPPORT
+        [77] USNIFFER_UNIFIED
+        [78] (unknown)
+        [79] LMAC_UPLOAD
+        [80] EXTEND_SHARED_MEM_CFG
+        [84] TX_POWER_ACK
+        [87] D3_DEBUG
+        [88] LED_CMD_SUPPORT
+        [89] MCC_UPDATE_11AX_SUPPORT
+        [91] (unknown)
+        [92] DBG_SUSPEND_RESUME_CMD_SUPP
+        [94] (unknown)
+        [95] (unknown)
+- ENABLED_CAPABILITIES (8 bytes): index=3 capa=0x0000000E
+        [97] (unknown)
+        [98] PSC_CHAN_SUPPORT
+        [99] (unknown)
+- API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
+- API_CHANGES_SET (8 bytes): index=1 flags=0xFFD7FFFD
+- API_CHANGES_SET (8 bytes): index=2 flags=0x00000003
+- TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=3 debug_cfg_name='LMAC DEFAULT DEBUG CONFIG'
+- TYPE_REGIONS (64 bytes): id=12 name='error_table_lmac1' type=LMAC_ERROR_TABLE domain=ALWAYS_ON version=1
+    err_table: version=4 base_addr=0x00809538 size=0x0000012C offset=0x00000000
+- PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
+- FW_MEM_SEG (12 bytes): data_type=0 at 00800000..00810000 (0x10000=65536 bytes)
+- FW_MEM_SEG (12 bytes): data_type=1 at 00880000..00888000 (0x8000=32768 bytes)
+- FW_MEM_SEG (12 bytes): data_type=2 at 00400000..00500000 (0x100000=1048576 bytes)
+- FW_MEM_SEG (12 bytes): data_type=8 at 00620000..00626800 (0x6800=26624 bytes)
+- PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
+- MEM_DESC (0 bytes): empty
+- NUM_OF_CPU (4 bytes): 2
+- SEC_RT (1660 bytes): runtime ucode at 00433000..00433678 (0x678=1656 bytes, sha256=eb896e6669f6862343aaf91cf09ea3a9b8f2a871a4b5ea38b2fdf53a94ad52b7)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 02 05 20 20 f9 5d 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 00800000..00808000 (0x8000=32768 bytes, sha256=d02e5fab897fbe3504f716c4b41e727c31c405d4a693569f0d625623c550ff57)
+    Hexdump of start: 37 00 00 00 65 80 69 d9 00 01 00 00 00 00 00 00 38 95 80 00 b4 d0 4d 00 48 77 80 00 38 14 80 00
+- SEC_RT (32772 bytes): runtime ucode at 00808000..00810000 (0x8000=32768 bytes, sha256=a1b1d6a4830f4406da941beb7cad1261f477b927f83caecac3213bdbda3da0c2)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 00000000..00008000 (0x8000=32768 bytes, sha256=042e2bc3810a931191a26c87b7cc8ecf34ff8d604b97b6a94d726d368c46ad93)
+    Hexdump of start: 60 00 00 00 20 32 4f 00 38 19 4f 00 d4 30 4f 00 fc c8 4f 00 fc c8 4f 00 f4 49 4f 00 54 49 4f 00
+- SEC_RT (32772 bytes): runtime ucode at 00008000..00010000 (0x8000=32768 bytes, sha256=4511003a9c5c68b9f383d58e75e492a213c0383856b3e8961b190ab06df91eb9)
+    Hexdump of start: 32 22 80 0f 80 00 5c 33 05 ad ca 08 e0 02 40 40 00 16 0b 70 80 00 34 1d c8 12 0c b6 41 2b c1 10
+- SEC_RT (32772 bytes): runtime ucode at 00010000..00018000 (0x8000=32768 bytes, sha256=1ede2f236cd22a536a37c736fd4de646324e38c2271a36efd571146a66c909fc)
+    Hexdump of start: 6e 0c 80 00 00 16 00 70 a0 00 38 24 05 e8 00 1e 81 70 a0 00 1c 24 8c 22 01 a8 00 1e c1 70 a0 00
+- SEC_RT (32764 bytes): runtime ucode at 00018000..0001fff8 (0x7ff8=32760 bytes, sha256=d8f29129219fcd6028da8c0a3cb335d82931357a6197092a826807e8a1ce131a)
+    Hexdump of start: e2 68 96 c3 ee 71 15 f0 94 c0 22 08 a2 69 2c 73 80 c0 ee 08 22 69 9e c1 80 c0 3e 09 22 69 9e c1
+- SEC_RT (32772 bytes): runtime ucode at 004d8000..004e0000 (0x8000=32768 bytes, sha256=438dfd9453a7684b038a4bdf221b75d63f0e00489bb91641666ca0d7a78c23f5)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 004e0000..004e8000 (0x8000=32768 bytes, sha256=4cb41f44171e2fa084039d66397fb05e8828aef872974b028b3165313c2a676f)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 004e8000..004f0000 (0x8000=32768 bytes, sha256=a98ee00b14bebe105a487a5513b3ea2bd1493088b20ab9be53738cf3821c4cda)
+    Hexdump of start: 00 15 01 18 19 09 80 03 00 16 00 70 80 00 30 8e 40 80 c3 40 00 00 b5 14 e6 0b 4d 97 02 08 c0 04
+- SEC_RT (32772 bytes): runtime ucode at 004f0000..004f8000 (0x8000=32768 bytes, sha256=9aaf01e2c791ad07c2006a8f638cc4213c4a615dfcdc61537ae239d9dea5dca0)
+    Hexdump of start: e1 42 c6 c6 e2 c2 28 45 00 41 0c 74 3a 0b ed 96 4c 71 01 85 00 18 41 00 c2 c6 e0 78 00 16 00 70
+- SEC_RT (20760 bytes): runtime ucode at 004f8000..004fd114 (0x5114=20756 bytes, sha256=f294400cfc233652886764d4a8e8de5de18f81ebab36d9b1a8628ea9b00a3e12)
+    Hexdump of start: 20 20 20 a0 a0 a0 00 10 81 20 20 a0 20 87 20 a0 22 40 1a 08 60 02 2c 72 a2 40 12 08 60 02 2c 72
+- SEC_RT (9108 bytes): runtime ucode at 00622dc0..00625150 (0x2390=9104 bytes, sha256=6fc3c92f418a0caf6e8f6eb74e9ed57a701ac248435f5d2da79ae86879c37764)
+    Hexdump of start: 20 20 c0 10 0f 1b 09 22 80 b0 c0 10 0a 00 1b 40 20 00 1b 6e 17 00 00 61 80 00 1b 6e 4f 00 00 61
+- HW_TYPE (12 bytes): mac_type=0x0034 rf_type=HR2
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x008801E0 dbg_print_buff_addr=0xC044F9DC
+- FW_RECOVERY_INFO (8 bytes): addr=0xC08800C4 size=0x00000118
+- N_SCAN_CHANNELS (4 bytes): 67
+- ENABLED_CAPABILITIES (8 bytes): index=1 capa=0x017FFAEE
+        [33] (unknown)
+        [34] NAN_SUPPORT
+        [35] UMAC_UPLOAD
+        [37] SOC_LATENCY_SUPPORT
+        [38] STA_PM_NOTIF
+        [39] BINDING_CDB_SUPPORT
+        [41] D0I3_END_FIRST
+        [43] TLC_OFFLOAD
+        [44] DYNAMIC_QUOTA
+        [45] COEX_SCHEMA_2
+        [46] CHANNEL_SWITCH_CMD
+        [47] FTM_CALIBRATED
+        [48] ULTRA_HB_CHANNELS
+        [49] CS_MODIFY
+        [50] SET_LTR_GEN2
+        [51] (unknown)
+        [52] SET_PPAG
+        [53] TAS_CFG
+        [54] SESSION_PROT_CMD
+        [56] PROTECTED_TWT
+- TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=4 debug_cfg_name='UMAC DEFAULT DEBUG CONFIG'
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0x00800000 alloc_id=DBGC4 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
+- TYPE_REGIONS (64 bytes): id=0 name='fw_rsp_or_notif' type=RSP_OR_NOTIF domain=ALWAYS_ON version=1
+- TYPE_REGIONS (4600 bytes): id=1 name='prph_mac' type=PERIPHERY_MAC domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[1134] =
+        0x00a05c18 0x00a05c1c 0x00a0c000 0x00a0c004 0x00a0c008 0x00a0c00c 0x00a0c010 0x00a0c014
+        0x00a0c018 0x00a0c020 0x00a0c024 0x00a0c028 0x00a0c038 0x00a0c03c 0x00a0c040 0x00a0c044
+        0x00a0c048 0x00a0c04c 0x00a0c050 0x00a0c054 0x00a0c058 0x00a0c05c 0x00a0c060 0x00a0c064
+        0x00a0c068 0x00a0c06c 0x00a0c070 0x00a0c074 0x00a0c078 0x00a0c07c 0x00a0c080 0x00a0c084
+        0x00a0c088 0x00a0c08c 0x00a0c090 0x00a0c094 0x00a0c0c0 0x00a0c0c4 0x00a0c0c8 0x00a0c0cc
+        0x00a0c0d0 0x00a0c0d4 0x00a0c0d8 0x00a0c0dc 0x00a0c0e0 0x00a0c0e4 0x00a0c0e8 0x00a0c0ec
+        0x00a0c0f0 0x00a0c0f4 0x00a0c0f8 0x00a0c0fc 0x00a0c100 0x00a0c104 0x00a0c10c 0x00a0c110
+        0x00a0c114 0x00a0c17c 0x00a0c180 0x00a0c184 0x00a0c188 0x00a0c190 0x00a0c194 0x00a0c198
+        0x00a0c1a0 0x00a0c1a4 0x00a0c1a8 0x00a0c1b0 0x00a0c1b4 0x00a0c1b8 0x00a0c118 0x00a0c200
+        0x00a0c204 0x00a0c208 0x00a0c20c 0x00a0c210 0x00a0c214 0x00a0c218 0x00a0c21c 0x00a0c220
+        0x00a0c224 0x00a0c228 0x00a0c22c 0x00a0c230 0x00a0c234 0x00a0c238 0x00a0c23c 0x00a0c240
+        0x00a0c244 0x00a0c248 0x00a0c24c 0x00a0c250 0x00a0c254 0x00a0c258 0x00a0c25c 0x00a0c260
+        0x00a0c264 0x00a0c268 0x00a0c26c 0x00a0c270 0x00a0c274 0x00a0c278 0x00a0c27c 0x00a0c2c0
+        0x00a0c2e0 0x00a0c2c4 0x00a0c2e4 0x00a0c2c8 0x00a0c2e8 0x00a0c2cc 0x00a0c2ec 0x00a0c300
+        0x00a0c304 0x00a0c310 0x00a0c150 0x00a0c154 0x00a0c158 0x00a0c15c 0x00a0c160 0x00a0c164
+        0x00a0c168 0x00a0c16c 0x00a0c170 0x00a0c174 0x00a03c00 0x00a03c04 0x00a03c08 0x00a03c0c
+        0x00a03c10 0x00a03c14 0x00a03c18 0x00a03c2c 0x00a03c30 0x00a03c38 0x00a03c3c 0x00a03c78
+        0x00a03c34 0x00a03c7c 0x00a03c5c 0x00a03c80 0x00a03c84 0x00a03c88 0x00a03c1c 0x00a03c20
+        0x00a03c24 0x00a03c28 0x00a03c40 0x00a03c44 0x00a03c48 0x00a03c4c 0x00a03c50 0x00a03c54
+        0x00a03c58 0x00a03c60 0x00a03c64 0x00a03c68 0x00a26cf0 0x00a26cf4 0x00a26cf8 0x00a2ef34
+        0x00a00000 0x00a0000c 0x00a00010 0x00a00014 0x00a00018 0x00a0001c 0x00a00020 0x00a00024
+        0x00a0002c 0x00a00030 0x00a00034 0x00a0003c 0x00a05400 0x00a05404 0x00a05408 0x00a0540c
+        0x00a05410 0x00a05414 0x00a05440 0x00a05444 0x00a05448 0x00a05450 0x00a05454 0x00a05484
+        0x00a05488 0x00a0548c 0x00a05490 0x00a05494 0x00a05498 0x00a0549c 0x00a054a0 0x00a054a4
+        0x00a054a8 0x00a054ac 0x00a054b0 0x00a05464 0x00a054c0 0x00a054c4 0x00a054c8 0x00a054cc
+        0x00a054d0 0x00a054d4 0x00a054d8 0x00a054dc 0x00a054e0 0x00a054e4 0x00a054e8 0x00a054ec
+        0x00a054f0 0x00a054f4 0x00a054f8 0x00a054fc 0x00a05500 0x00a05504 0x00a05508 0x00a0550c
+        0x00a05510 0x00a05540 0x00a05544 0x00a05548 0x00a05554 0x00a05568 0x00a0556c 0x00a05570
+        0x00a05574 0x00a05578 0x00a0557c 0x00a05580 0x00a05584 0x00a05588 0x00a0558c 0x00a05590
+        0x00a05594 0x00a05598 0x00a055b0 0x00a03f00 0x00a03f04 0x00a03f08 0x00a03f0c 0x00a03f14
+        0x00a03f20 0x00a03f24 0x00a03f28 0x00a03f2c 0x00a03f30 0x00a03f34 0x00a03f38 0x00a03f3c
+        0x00a03f40 0x00a03f44 0x00a03f48 0x00a03f4c 0x00a03f50 0x00a03f54 0x00a03f58 0x00a03f5c
+        0x00a05000 0x00a05038 0x00a05008 0x00a0500c 0x00a00410 0x00a00414 0x00a00418 0x00a0041c
+        0x00a00430 0x00a00434 0x00a00438 0x00a0043c 0x00a00444 0x00a0045c 0x00a00488 0x00a0048c
+        0x00a00490 0x00a00494 0x00a0049c 0x00a004a0 0x00a004a4 0x00a004a8 0x00a004ac 0x00a004b0
+        0x00a00510 0x00a00514 0x00a00518 0x00a0051c 0x00a00530 0x00a00538 0x00a0053c 0x00a00c14
+        0x00a00c20 0x00a00c2c 0x00a00c34 0x00a00c40 0x00a00c4c 0x00a00c50 0x00a00c54 0x00a00c84
+        0x00a00c88 0x00a00cc4 0x00a00cc8 0x00a00ce0 0x00a00ce4 0x00a00ce8 0x00a00e14 0x00a00e20
+        0x00a00e2c 0x00a00e34 0x00a00e40 0x00a00e4c 0x00a00e50 0x00a00e54 0x00a00e84 0x00a00e88
+        0x00a00ec4 0x00a00ec8 0x00a00ee0 0x00a00ee4 0x00a00ee8 0x00a00850 0x00a00858 0x00a00810
+        0x00a0085c 0x00a00860 0x00a00880 0x00a00884 0x00a00888 0x00a00890 0x00a00894 0x00a00898
+        0x00a0089c 0x00a008a4 0x00a01004 0x00a01008 0x00a01010 0x00a01018 0x00a01024 0x00a0102c
+        0x00a01030 0x00a01034 0x00a0103c 0x00a01040 0x00a01048 0x00a0104c 0x00a01050 0x00a01058
+        0x00a01064 0x00a01068 0x00a0106c 0x00a01070 0x00a0108c 0x00a0109c 0x00a010a0 0x00a010a4
+        0x00a010a8 0x00a010ac 0x00a010b0 0x00a010b4 0x00a010b8 0x00a010bc 0x00a010c0 0x00a010c4
+        0x00a010c8 0x00a010cc 0x00a010d0 0x00a010d4 0x00a010d8 0x00a010dc 0x00a0a004 0x00a0a008
+        0x00a0a014 0x00a0a020 0x00a0a024 0x00a0a028 0x00a0a02c 0x00a0a030 0x00a0a034 0x00a0a038
+        0x00a0a03c 0x00a0a040 0x00a0a044 0x00a0a048 0x00a0a04c 0x00a0a050 0x00a0a054 0x00a0a058
+        0x00a0a05c 0x00a0a060 0x00a0a064 0x00a0a068 0x00a0a06c 0x00a0a070 0x00a0a074 0x00a0a078
+        0x00a0a07c 0x00a0a080 0x00a0a088 0x00a0a08c 0x00a0a094 0x00a0a09c 0x00a0a0a4 0x00a0a0ac
+        0x00a0a0b4 0x00a0a0b8 0x00a0a0c0 0x00a0a0c4 0x00a0a0c8 0x00a0a0cc 0x00a0a0d0 0x00a0a0d4
+        0x00a0a0d8 0x00a0a0dc 0x00a0a0e0 0x00a0a0e4 0x00a0a0e8 0x00a0a0ec 0x00a0a0f0 0x00a0a0f4
+        0x00a0a0f8 0x00a0a0fc 0x00a0a100 0x00a0a104 0x00a0a108 0x00a0a10c 0x00a0a110 0x00a0a114
+        0x00a0a118 0x00a0a11c 0x00a0a120 0x00a0a124 0x00a0a128 0x00a0a12c 0x00a0a130 0x00a0a134
+        0x00a0a138 0x00a0a13c 0x00a0a1c4 0x00a0a1c8 0x00a0a1cc 0x00a0a1d0 0x00a0a1d4 0x00a0a1d8
+        0x00a0a1dc 0x00a0a1e0 0x00a0a1e4 0x00a0a1e8 0x00a0a1ec 0x00a0a1f0 0x00a0a1f4 0x00a0a1f8
+        0x00a0a1fc 0x00a0a200 0x00a0a204 0x00a0a208 0x00a0a20c 0x00a0a210 0x00a0a214 0x00a0a218
+        0x00a0a21c 0x00a0a220 0x00a0a224 0x00a0a228 0x00a0a22c 0x00a0a230 0x00a0a234 0x00a0a238
+        0x00a0a23c 0x00a0a2c8 0x00a0a2d0 0x00a0a2d8 0x00a0a2dc 0x00a0a2e0 0x00a0a2e4 0x00a0a2e8
+        0x00a0a2ec 0x00a0a2f0 0x00a0a2f4 0x00a0a2f8 0x00a0a2fc 0x00a0a300 0x00a0a304 0x00a0a308
+        0x00a0a30c 0x00a0a310 0x00a0a314 0x00a0a318 0x00a0a31c 0x00a0a320 0x00a0a324 0x00a0a328
+        0x00a0a32c 0x00a0a330 0x00a0a334 0x00a0a338 0x00a0a33c 0x00a0a340 0x00a0a344 0x00a0a348
+        0x00a0a34c 0x00a0a350 0x00a0a354 0x00a0a3d8 0x00a0a3e0 0x00a0a3e8 0x00a0a3ec 0x00a0a3f0
+        0x00a0a3f4 0x00a0a3f8 0x00a0a3fc 0x00a0a400 0x00a0a404 0x00a0a408 0x00a0a40c 0x00a0a410
+        0x00a0a414 0x00a0a418 0x00a0a41c 0x00a0a420 0x00a0a424 0x00a0a428 0x00a0a42c 0x00a0a430
+        0x00a0a434 0x00a0a438 0x00a0a43c 0x00a0a440 0x00a0a444 0x00a0a448 0x00a0a44c 0x00a0a450
+        0x00a0a454 0x00a0a458 0x00a0a45c 0x00a0a460 0x00a0a464 0x00a0a5ec 0x00a0a5f4 0x00a0a5fc
+        0x00a0a604 0x00a0a60c 0x00a0a614 0x00a0a6cc 0x00a0a000 0x00a0a084 0x00a0a2c0 0x00a0a4e8
+        0x00a0a61c 0x00a0a620 0x00a0a624 0x00a0a628 0x00a0a62c 0x00a0a630 0x00a0a634 0x00a0a638
+        0x00a0a63c 0x00a0a640 0x00a0a644 0x00a0a648 0x00a0a64c 0x00a0a6a4 0x00a0a6a8 0x00a0a6ac
+        0x00a0a6c4 0x00a0a6c8 0x00a07e00 0x00a07e10 0x00a07e20 0x00a07e30 0x00a07e40 0x00a07e50
+        0x00a07e60 0x00a07e70 0x00a07e80 0x00a07e90 0x00a07ea0 0x00a07eb0 0x00a07e04 0x00a07e14
+        0x00a07e24 0x00a07e34 0x00a07e44 0x00a07e54 0x00a07e64 0x00a07e74 0x00a07e84 0x00a07e94
+        0x00a07ea4 0x00a07eb4 0x00a07e08 0x00a07e18 0x00a07e28 0x00a07e38 0x00a07e48 0x00a07e58
+        0x00a07e68 0x00a07e78 0x00a07e88 0x00a07e98 0x00a07ea8 0x00a07eb8 0x00a07e0c 0x00a07e1c
+        0x00a07e2c 0x00a07e3c 0x00a07e4c 0x00a07e5c 0x00a07e6c 0x00a07e7c 0x00a07e8c 0x00a07e9c
+        0x00a07eac 0x00a07ebc 0x00a07f00 0x00a07f04 0x00a07f08 0x00a07f0c 0x00a07f14 0x00a07f18
+        0x00a07f1c 0x00a07f20 0x00a07f24 0x00a07f30 0x00a07f34 0x00a07f38 0x00a07f3c 0x00a07f40
+        0x00a07f44 0x00a07f48 0x00a07f4c 0x00a07f50 0x00a07f58 0x00a07f5c 0x00a07f60 0x00a07f64
+        0x00a07f68 0x00a07f6c 0x00a07f70 0x00a07f74 0x00a07f80 0x00a07f84 0x00a07f88 0x00a07f8c
+        0x00a07f90 0x00a07fe0 0x00a07fe4 0x00a07fe8 0x00a07fec 0x00a07ff4 0x00a09800 0x00a09804
+        0x00a09808 0x00a09820 0x00a09824 0x00a09828 0x00a09830 0x00a09834 0x00a09838 0x00a09840
+        0x00a09844 0x00a09848 0x00a0984c 0x00a09850 0x00a09854 0x00a0980c 0x00a09810 0x00a09814
+        0x00a0982c 0x00a01e00 0x00a01e04 0x00a01e08 0x00a01e0c 0x00a01e10 0x00a01e14 0x00a01e20
+        0x00a01e24 0x00a01e28 0x00a01e2c 0x00a01e30 0x00a01e34 0x00a01e60 0x00a01e64 0x00a01e80
+        0x00a01e84 0x00a01ea0 0x00a01ec4 0x00a01ec8 0x00a01ed0 0x00a01ed4 0x00a01c20 0x00a01c64
+        0x00a01c6c 0x00a01c70 0x00a01d00 0x00a01d08 0x00a01d10 0x00a01d18 0x00a01d1c 0x00a01d20
+        0x00a02e00 0x00a02e04 0x00a02e08 0x00a02e0c 0x00a02e10 0x00a02e14 0x00a02e20 0x00a02e24
+        0x00a02e28 0x00a02e2c 0x00a02e30 0x00a02e34 0x00a02e60 0x00a02e64 0x00a02e80 0x00a02e84
+        0x00a02ea0 0x00a02ec0 0x00a02ec4 0x00a02ec8 0x00a02ecc 0x00a02ed0 0x00a03800 0x00a03804
+        0x00a03810 0x00a03814 0x00a03820 0x00a03824 0x00a03844 0x00a03900 0x00a03908 0x00a0390c
+        0x00a03918 0x00a0391c 0x00a03924 0x00a03940 0x00a03944 0x00a05800 0x00a0586c 0x00a05874
+        0x00a0587c 0x00a05860 0x00a05864 0x00a05868 0x00a05878 0x00a05880 0x00a05884 0x00a05888
+        0x00a0588c 0x00a05890 0x00a05894 0x00a05898 0x00a0589c 0x00a058a0 0x00a058a4 0x00a058a8
+        0x00a058ac 0x00a058b0 0x00a058b4 0x00a058b8 0x00a058bc 0x00a058c0 0x00a058c4 0x00a058c8
+        0x00a058cc 0x00a058d0 0x00a058d4 0x00a058d8 0x00a058dc 0x00a058e0 0x00a058e4 0x00a058e8
+        0x00a058ec 0x00a058f0 0x00a058f4 0x00a058f8 0x00a058fc 0x00a05900 0x00a05904 0x00a05908
+        0x00a0590c 0x00a05910 0x00a05914 0x00a05918 0x00a0591c 0x00a05920 0x00a05924 0x00a05928
+        0x00a0592c 0x00a05930 0x00a05934 0x00a05938 0x00a0593c 0x00a05940 0x00a05944 0x00a05948
+        0x00a0594c 0x00a05950 0x00a05954 0x00a05958 0x00a0595c 0x00a05960 0x00a05964 0x00a05968
+        0x00a0596c 0x00a05970 0x00a05974 0x00a05978 0x00a0597c 0x00a02000 0x00a02004 0x00a02008
+        0x00a0200c 0x00a02010 0x00a02014 0x00a02018 0x00a0201c 0x00a02c68 0x00a02024 0x00a02028
+        0x00a0202c 0x00a02080 0x00a02084 0x00a02088 0x00a0208c 0x00a02090 0x00a02094 0x00a020d0
+        0x00a020d4 0x00a020d8 0x00a020dc 0x00a020e4 0x00a020e8 0x00a02c00 0x00a02c04 0x00a02c08
+        0x00a02c0c 0x00a02c10 0x00a02c14 0x00a02c18 0x00a02c1c 0x00a02c20 0x00a02c24 0x00a02c28
+        0x00a02c2c 0x00a02c30 0x00a02c34 0x00a02c38 0x00a02c3c 0x00a02c40 0x00a02c44 0x00a02c48
+        0x00a02c78 0x00a02c80 0x00a02c88 0x00a02c8c 0x00a02c90 0x00a02c94 0x00a02c98 0x00a02c9c
+        0x00a02400 0x00a02404 0x00a02408 0x00a0240c 0x00a02410 0x00a02414 0x00a02420 0x00a0242c
+        0x00a02434 0x00a02438 0x00a0243c 0x00a02440 0x00a025a0 0x00a02448 0x00a0244c 0x00a02450
+        0x00a02454 0x00a02458 0x00a0245c 0x00a02460 0x00a02464 0x00a02468 0x00a0246c 0x00a02470
+        0x00a02474 0x00a02478 0x00a0247c 0x00a02480 0x00a02484 0x00a02488 0x00a0248c 0x00a02490
+        0x00a02494 0x00a02498 0x00a0249c 0x00a024a0 0x00a024a4 0x00a024a8 0x00a024ac 0x00a024b0
+        0x00a024b4 0x00a024b8 0x00a024bc 0x00a024c0 0x00a024c4 0x00a024cc 0x00a024d0 0x00a024d4
+        0x00a024d8 0x00a024dc 0x00a024e0 0x00a024e4 0x00a024e8 0x00a024ec 0x00a024f0 0x00a024f4
+        0x00a024f8 0x00a02520 0x00a0251c 0x00a0252c 0x00a02530 0x00a02534 0x00a02538 0x00a0253c
+        0x00a02540 0x00a02544 0x00a02548 0x00a0254c 0x00a02550 0x00a02554 0x00a02558 0x00a02568
+        0x00a0256c 0x00a02578 0x00a0257c 0x00a02580 0x00a02584 0x00a02588 0x00a0258c 0x00a02590
+        0x00a02594 0x00a0268c 0x00a02690 0x00a02694 0x00a02698 0x00a0269c 0x00a026a0 0x00a026a4
+        0x00a026a8 0x00a0255c 0x00a02564 0x00a02570 0x00a02574 0x00a02598 0x00a0259c 0x00a025a8
+        0x00a025ac 0x00a025b0 0x00a025b4 0x00a025e8 0x00a025ec 0x00a025f0 0x00a025f4 0x00a025b8
+        0x00a025bc 0x00a025c4 0x00a025c8 0x00a025cc 0x00a025d0 0x00a025d4 0x00a025d8 0x00a025dc
+        0x00a025e0 0x00a025e4 0x00a02604 0x00a02608 0x00a02614 0x00a02618 0x00a0261c 0x00a02620
+        0x00a02624 0x00a02628 0x00a0262c 0x00a02638 0x00a02640 0x00a02644 0x00a0264c 0x00a02650
+        0x00a02654 0x00a02658 0x00a0265c 0x00a02660 0x00a02664 0x00a02668 0x00a0266c 0x00a02670
+        0x00a02674 0x00a02678 0x00a0267c 0x00a02680 0x00a02684 0x00a02688 0x00a026b4 0x00a026b8
+        0x00a026c8 0x00a026cc 0x00a03000 0x00a03010 0x00a03014 0x00a0301c 0x00a03020 0x00a03024
+        0x00a03028 0x00a0302c 0x00a03034 0x00a03038 0x00a03040 0x00a03060 0x00a03064 0x00a03068
+        0x00a03070 0x00a03080 0x00a03084 0x00a0308c 0x00a03090 0x00a03098 0x00a030a8 0x00a030b0
+        0x00a030b4 0x00a030bc 0x00a03100 0x00a03104 0x00a03108 0x00a0310c 0x00a03110 0x00a03114
+        0x00a03118 0x00a0311c 0x00a03120 0x00a03124 0x00a03128 0x00a0312c 0x00a04400 0x00a04404
+        0x00a04408 0x00a0440c 0x00a04410 0x00a04414 0x00a04418 0x00a0441c 0x00a04420 0x00a04424
+        0x00a04428 0x00a0442c 0x00a04430 0x00a04434 0x00a04438 0x00a0443c 0x00a04440 0x00a04444
+        0x00a04448 0x00a0444c 0x00a04450 0x00a04454 0x00a04460 0x00a04464 0x00a04468 0x00a0446c
+        0x00a04470 0x00a04474 0x00a04480 0x00a04484 0x00a04488 0x00a0448c 0x00a044c0 0x00a044c4
+        0x00a044c8 0x00a044cc 0x00a044d0 0x00a044d4 0x00a044d8 0x00a044e0 0x00a044e4 0x00a044e8
+        0x00a044ec 0x00a044f8 0x00a044fc 0x00a04500 0x00a04504 0x00a04510 0x00a04514 0x00a04518
+        0x00a0451c 0x00a04520 0x00a04524 0x00a04528 0x00a0452c 0x00a04530 0x00a04534 0x00a04538
+        0x00a04544 0x00a04548 0x00a04560 0x00a04570 0x00a04574 0x00a04578 0x00a0457c 0x00a04590
+        0x00a04598 0x00a045c0 0x00a045c4 0x00a045c8 0x00a045cc 0x00a045d0 0x00a045d4 0x00a045d8
+        0x00a045dc 0x00a045e0 0x00a045e8 0x00a045ec 0x00a045f0 0x00a030d8 0x00a030dc 0x00a030e0
+        0x00a0307c 0x00a030a0 0x00a030ac 0x00a030c0 0x00a030c8 0x00a030cc 0x00a030d0 0x00a030d4
+        0x00a030e4 0x00a030e8 0x00a030ec 0x00a030f0 0x00a030f4 0x00a03044
+- TYPE_REGIONS (76 bytes): id=2 name='prph_phy' type=PERIPHERY_PHY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[3] = 0xa41108 0xa41109 0xa4110f
+- TYPE_REGIONS (80 bytes): id=3 name='txfifo' type=TXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00006FFF, 0x00000000) hdr_only=0 offset=0x00000000
+    addresses[4] = 0xa00414 0xa00410 0xa00418 0xa00424
+- TYPE_REGIONS (76 bytes): id=4 name='rxfifo1_lmac1' type=RXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00000001, 0x00000000) hdr_only=0 offset=0x00000000
+    addresses[3] = 0xa00c50 0xa00c54 0xa00c4c
+- TYPE_REGIONS (76 bytes): id=6 name='rxfifo2_umac' type=RXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00000000, 0x00000001) hdr_only=0 offset=0x00000000
+    addresses[3] = 0xa00e50 0xa00e54 0xa00e4c
+- TYPE_REGIONS (68 bytes): id=8 name='paged_mem' type=PAGING domain=ALWAYS_ON version=1
+    addresses[1] = 0x0
+- TYPE_REGIONS (68 bytes): id=9 name='dccm_umac' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00008000
+    addresses[1] = 0x880000
+- TYPE_REGIONS (64 bytes): id=10 name='error_table_umac' type=UMAC_ERROR_TABLE domain=ALWAYS_ON version=1
+    err_table: version=2 base_addr=0x008801E0 size=0x0000004C offset=0x00000000
+- TYPE_REGIONS (68 bytes): id=11 name='dccm_lmac1' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00010000
+    addresses[1] = 0x800000
+- TYPE_REGIONS (68 bytes): id=15 name='smem' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00100000
+    addresses[1] = 0x400000
+- TYPE_REGIONS (64 bytes): id=16 name='monitor_smem' type=INTERNAL_BUFFER domain=ALWAYS_ON version=1
+    internal_buffer: alloc_id=1 base_addr=0x00400000 size=0x00010000
+- TYPE_REGIONS (68 bytes): id=17 name='chmem' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00006800
+    addresses[1] = 0x620000
+- TYPE_REGIONS (68 bytes): id=18 name='csr' type=CSR domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000400
+    addresses[1] = 0x0
+- TYPE_REGIONS (68 bytes): id=19 name='pci_config' type=PCI_IOSF_CONFIG domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000100
+    addresses[1] = 0x0
+- TYPE_REGIONS (72 bytes): id=20 name='sw_events_mask' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[2] = 0x486a84 0x88482c
+- TYPE_REGIONS (316 bytes): id=21 name='prph_debug' type=PERIPHERY_MAC domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[63] =
+        0x00000214 0x00a0c100 0x00a05464 0x00a0a6cc 0x00a07f4c 0x00a0c020 0x00a0c024 0x00a0c028
+        0x00a0c018 0x00a0c008 0x00a0c10c 0x00a0c000 0x00a0002c 0x00a0c104 0x00a0c17c 0x00a0c180
+        0x00a0c184 0x00a0c188 0x00a0c190 0x00a0c194 0x00a0c198 0x00a0c1a0 0x00a0c1a4 0x00a0c1a8
+        0x00a0c1b0 0x00a0c1b4 0x00a0c1b8 0x00a0c0c0 0x00a0c0c4 0x00a0c0c8 0x00a0c0cc 0x00a0c0d0
+        0x00a0c0d4 0x00a0c0d8 0x00a0c0dc 0x00a0c0e0 0x00a0c0e4 0x00a0c0e8 0x00a0c0ec 0x00a0c0f0
+        0x00a0c0f4 0x00a0c0f8 0x00a0c0fc 0x00a0c080 0x00a0c084 0x00a0c088 0x00a0c08c 0x00a0c090
+        0x00a0c094 0x00a0c118 0x00a0c2c0 0x00a0c2e0 0x00a0c2c4 0x00a0c2e4 0x00a0c2c8 0x00a0c2e8
+        0x00a0c2cc 0x00a0c2ec 0x00a0c300 0x00a0c304 0x00a0c310 0x00a03c04 0x00a03c08
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x00000000003F9F5A
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x00000000003E9F5A
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=12 trigger_reason=0x00001392 apply_policy=0x00000001
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x00000000003E9F02
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000000300000
+- TYPE_TRIGGERS (56 bytes): domain=REPORT_PS time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=f1010000
+- TYPE_TRIGGERS (56 bytes): domain=0x00000002 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=00000010
+- TYPE_TRIGGERS (56 bytes): domain=0x00000004 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=03000018
+- TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=600000 hcmd=LONG(0x1).0xF1 data[12]=010000000500009800000000
+- TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=0 hcmd=PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03) data[12]=01000000ff1f000000000000
+- TYPE_HCMD (32 bytes): domain=0x00000002 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000001600009001000000
+- TYPE_HCMD (32 bytes): domain=0x00000004 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000000b00001801000000
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0xffff0000 alloc_id=DBGC1 buf_location=DRAM_PATH req_size=0x00800000 max_frags_num=1 min_size=0x00008000
+- TYPE_REGIONS (64 bytes): id=29 name='monitor' type=DRAM_BUFFER domain=4294901760 version=1
+    dram_alloc_id = 1
+- TYPE_TRIGGERS (52 bytes): domain=0x04000000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04000000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04000000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04000000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0xcfff0000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0xcfff0000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0xcfff0000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0xcfff0000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x30000000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x30000000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x30000000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x30000000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x08800000 time_point=16 trigger_reason=0x00001B6B apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x08800000 time_point=17 trigger_reason=0x00001B66 apply_policy=0x00000001 regions_mask=0x0000000020010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=19 trigger_reason=0x00001785 apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=20 trigger_reason=0x000017AC apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (56 bytes): domain=0x04000000 time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000001 reserved=0x000000FF regions_mask=0x0000000020000001 data=ff0f0000
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00010000 image_type=4 debug_cfg_name='Internal Preset 0: User Custom'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00020000 image_type=4 debug_cfg_name='Internal Preset 1: Init Default'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00040000 image_type=4 debug_cfg_name='Internal Preset 2: Umac Lmac Periph'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00080000 image_type=4 debug_cfg_name='Internal Preset 3: Data Path Performance'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00100000 image_type=4 debug_cfg_name='Internal Preset 4: Data Path Hw Issues'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00200000 image_type=4 debug_cfg_name='Internal Preset 5: Phy'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00400000 image_type=4 debug_cfg_name='Internal Preset 6: Power'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00800000 image_type=4 debug_cfg_name='Internal Preset 7: Wowlan'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x01000000 image_type=4 debug_cfg_name='Internal Preset 8: BT Coex'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x02000000 image_type=4 debug_cfg_name='Internal Preset 9: Connectivity'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x04000000 image_type=4 debug_cfg_name='Internal Preset 10: BT Only'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x08000000 image_type=4 debug_cfg_name='Internal Preset 11: Validation Default'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x10000000 image_type=4 debug_cfg_name='Internal Preset 12: Init Default MultiCom'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x20000000 image_type=4 debug_cfg_name='Internal Preset 13: BT Coex MultiCom'
+- TYPE_HCMD (28 bytes): domain=0x00010000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000000000000
+- TYPE_HCMD (28 bytes): domain=0x08020000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000001000100
+- TYPE_HCMD (28 bytes): domain=0x00040000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000002000000
+- TYPE_HCMD (28 bytes): domain=0x00080000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000003000000
+- TYPE_HCMD (28 bytes): domain=0x00100000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000004000000
+- TYPE_HCMD (28 bytes): domain=0x00200000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000005000000
+- TYPE_HCMD (28 bytes): domain=0x00400000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000006000000
+- TYPE_HCMD (28 bytes): domain=0x00800000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000007000000
+- TYPE_HCMD (28 bytes): domain=0x01000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000008000000
+- TYPE_HCMD (28 bytes): domain=0x02000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000009000000
+- TYPE_HCMD (28 bytes): domain=0x04000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b0000000a000000
+- TYPE_HCMD (28 bytes): domain=0x10000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000001030000
+- TYPE_HCMD (28 bytes): domain=0x20000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000008010000
+- FW_FSEQ_VERSION (52 bytes): version='FSEQ Version: 89.3.35.22' sha1='FSEQ SHA1:0x3d006467'
+- SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
+- SEC_RT (1660 bytes): runtime ucode at 80433000..80433678 (0x678=1656 bytes, sha256=8cbbe0c2eb39371bfe65a1a766e835b0b254423017ba77f83e2c202d249979d5)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 02 05 20 20 55 86 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at c0080000..c0088000 (0x8000=32768 bytes, sha256=f2ea2e3c27119cff8cf392758bf072646ff9ea34ecbbbfb89917ca3ec3075d50)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 b4 4d 20 20 80 0f 08 c0 e8 49 69 20 00 00 69 20 40 00
+- SEC_RT (32772 bytes): runtime ucode at c0088000..c0090000 (0x8000=32768 bytes, sha256=9c6385c0bbe742d4902c25a9be3cd75461e8366fd61e27d5c6e87c87a7732ff2)
+    Hexdump of start: 00 28 00 da a9 73 22 20 80 0f 47 80 58 43 20 20 80 0f 08 c0 a8 6a e0 78 01 d9 cf 70 88 c0 d0 27
+- SEC_RT (32772 bytes): runtime ucode at c0880000..c0888000 (0x8000=32768 bytes, sha256=001b52d125fbf952dc0925241d37f6fe78326ee0d12c0715925cb97e1ea31b01)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 80448000..80450000 (0x8000=32768 bytes, sha256=4dafbad2bef1bea29041f78687f382949deca08cbcef35a6e407f96105c76a60)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 80450000..80458000 (0x8000=32768 bytes, sha256=a75ce326c60fc82f15973033242479cf906e9fc8f2cefd119ce9ee87e0b10e1a)
+    Hexdump of start: 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 00 00 00 64 64 64 64 64 64 64 64
+- SEC_RT (32772 bytes): runtime ucode at 80458000..80460000 (0x8000=32768 bytes, sha256=1185342937318770dbf9d6b0674d6e6335fd1ea7099ca9a0be25bc5fedd73265)
+    Hexdump of start: 78 40 06 01 00 00 5c 00 00 00 00 00 00 00 00 00 a8 b9 45 80 00 00 44 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 80460000..80468000 (0x8000=32768 bytes, sha256=e38202a9dbc86f4b6b83769ec0a008e4f8f4d91ebe3837ff0399482679419514)
+    Hexdump of start: 38 56 21 86 80 e0 ca 22 21 05 ca 20 81 0f 10 00 0c 03 e2 20 81 0f 08 c0 94 77 01 86 14 d9 22 20
+- SEC_RT (32772 bytes): runtime ucode at 80468000..80470000 (0x8000=32768 bytes, sha256=d86d890993819d81ad8228a5b8ac98a4b2620477b79032e0ed0797591f3a3394)
+    Hexdump of start: 02 d8 c9 71 a2 f1 00 dd 0f f0 5a 25 00 13 30 24 01 30 80 e1 ca 21 42 03 c0 20 02 04 e2 20 82 0f
+- SEC_RT (32772 bytes): runtime ucode at 80470000..80478000 (0x8000=32768 bytes, sha256=f868d9f1308e337b5e90efde3244f9bfd43294c92238d8450df2c627480881d3)
+    Hexdump of start: 01 da 22 20 80 0f 48 80 40 53 80 e5 06 f4 1f 86 22 20 80 0f 47 80 b8 74 20 20 80 0f 08 c0 b0 6a
+- SEC_RT (32772 bytes): runtime ucode at 80478000..80480000 (0x8000=32768 bytes, sha256=2906131ee0951bf852bcec6c7cc1a18590f1099c486e8ba7876c513c8d0a10e1)
+    Hexdump of start: 02 19 42 27 ce 13 d9 62 08 89 da 62 61 b8 08 a9 08 8a 80 e0 2b f4 a9 70 4a 71 00 da e9 73 22 20
+- SEC_RT (32772 bytes): runtime ucode at 80480000..80488000 (0x8000=32768 bytes, sha256=544cd9f53fcfa75fba014534febdaff8266dad58aefed50b5f44d25419750cc0)
+    Hexdump of start: 54 ad 04 10 02 20 40 a0 00 10 00 20 81 e0 0f f4 0c 8d e0 b8 0b f4 cf 73 48 80 d8 64 00 83 e8 ba
+- SEC_RT (6828 bytes): runtime ucode at 80488000..80489aa8 (0x1aa8=6824 bytes, sha256=57f943e0d5529f00a83317962699bf473c934234e7d0ed2446294f64503118c4)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (2296 bytes): runtime ucode at 8040e000..8040e8f4 (0x8f4=2292 bytes, sha256=0289f8341bf69b7dd85cb72ae82fa334c7c5ca6d35a7fba3f8810fa18edef78a)
+    Hexdump of start: 48 7c 00 00 00 00 00 00 f0 8e 00 00 72 fd 00 00 48 74 00 00 c0 00 00 00 10 6c 00 00 ef 00 48 2a
+- SEC_RT (29268 bytes): runtime ucode at 80402000..80409250 (0x7250=29264 bytes, sha256=6874ad1fba909a8372c7851428a683435e7ec27120e5ec3ec4ad2180f9b71c97)
+    Hexdump of start: 80 00 00 01 00 00 00 08 14 00 00 0b 00 00 00 00 80 00 00 02 00 00 72 30 00 00 40 00 20 20 80 0f
+- PAGING (4 bytes): 0x6d000 = 446464 bytes
+- SEC_RT (8 bytes): 0xAAAABBBB => PAGING_SEPARATOR_SECTION
+- SEC_RT (1660 bytes): runtime ucode at 00000000..00000678 (0x678=1656 bytes, sha256=7d2f3ff60f388ee8442a15ea4c45b84f1348655856447c55c85e587b5220bde9)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 02 05 20 20 da b4 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01000000..01008000 (0x8000=32768 bytes, sha256=aface8d64802e65eb4fcde679d7d8bfeea1dcd97c55660d16fa89ffaea6e0ec1)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 04 6a cf 71 00 01 20 e0 80 11 00 00 80 e0 0f f4 62 11 00 06 80 e0 0b f4
+- SEC_RT (32772 bytes): runtime ucode at 01008000..01010000 (0x8000=32768 bytes, sha256=296d0878cecf6996d3b5a4f147ce03660ddbf9f33da7d29f20a55de84dab94fd)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 f4 69 0a 20 80 2f 01 01 94 31 00 10 01 20 a1 81 0a 81 1d 65 00 81 40 20
+- SEC_RT (32772 bytes): runtime ucode at 01010000..01018000 (0x8000=32768 bytes, sha256=ec128cc9bd025d0b53d30639fe517abadb6a815c46aaa3064c9a2292300d0466)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01018000..01020000 (0x8000=32768 bytes, sha256=e7d223a4a2152e1480914ea17a3ba8e115439326ec97b5f45c7cde10343b21ab)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 ec 69 22 20 80 0f 01 01 f8 7d 80 e0 d4 f2 22 20 80 0f 01 01 74 c2 e2 b8
+- SEC_RT (32772 bytes): runtime ucode at 01020000..01028000 (0x8000=32768 bytes, sha256=ef0a6f48b20b1af1f07d76016f5bcf0fa1cea4839f13eaf4df761e63cf6ae99f)
+    Hexdump of start: cc 71 02 01 dc 71 02 01 ec 71 02 01 00 00 00 00 00 00 00 00 00 40 00 00 00 40 00 00 00 40 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01028000..01030000 (0x8000=32768 bytes, sha256=eb99f2aa5d5432a80546377d59fd20676110d0d1685fe96e1dc3ed619c85623e)
+    Hexdump of start: ab 20 02 06 ab 26 02 72 00 00 01 00 ab 26 02 74 00 00 01 00 ab 26 82 74 00 00 01 00 ab 22 02 00
+- SEC_RT (32772 bytes): runtime ucode at 01030000..01038000 (0x8000=32768 bytes, sha256=dca174844ce533e7f643cacf9561bd19da0dc2470ca60beba264f003255dee32)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01038000..01040000 (0x8000=32768 bytes, sha256=b767e2d6410cbabf6d2adf16f6ce3be7ec0bb9c35759d0c78acbe26483623311)
+    Hexdump of start: 92 00 96 00 9a 00 9e 00 a1 00 a5 00 a9 00 ad 00 b0 00 b4 00 b8 00 bb 00 bf 00 c3 00 c6 00 ca 00
+- SEC_RT (32772 bytes): runtime ucode at 01040000..01048000 (0x8000=32768 bytes, sha256=097986cb7ff1322904e260ec9b1cbc22da45468f05641b086ddc065990f2d210)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01048000..01050000 (0x8000=32768 bytes, sha256=c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01050000..01058000 (0x8000=32768 bytes, sha256=2976605097445f6cf61fd9c821efffaa7b30bf3d5f9446f5fc338f5e981aac60)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e
+- SEC_RT (32772 bytes): runtime ucode at 01058000..01060000 (0x8000=32768 bytes, sha256=bfdce2c13b15c4ae9124fa48341a380ccc8244096db95973cddfd7d16145fea5)
+    Hexdump of start: 02 90 04 20 80 0f 00 00 00 80 80 e0 01 d8 e0 7f c0 78 e0 78 f1 c0 22 20 80 0f 08 c0 fc 69 08 76
+- SEC_RT (32772 bytes): runtime ucode at 01060000..01068000 (0x8000=32768 bytes, sha256=a79f9359593b9b37ec5f4b11d77663068e8a9b75b89ccd1409aca18ddd577a68)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 e8 69 40 20 02 04 c0 80 cf 75 06 01 00 10 55 25 53 15 00 db 17 f0 5a 23
+- SEC_RT (20484 bytes): runtime ucode at 01068000..0106d000 (0x5000=20480 bytes, sha256=02aeda92eba8bfc6629b7d0859b63964011e6dfab939b00946509b2d58a9897e)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- FW_DBG_DEST (24 bytes): version=0 monitor_mode=1 size_power=11 base_reg=0x00A03C1C end_reg=0x00A03C20 write_ptr_reg=0x00A03C24 wrap_count=0x00A03C28 base_shift=8 end_shift=8
+- FW_DBG_CONF (340 bytes, 4 entries): id=0 usniffer=1 num_of_hcmds=4
+    [ 0] id=LDBG_CONFIG_CMD data[80]=0c00000000000000000000000c001400000000000000000001800f000100000031001c000100000031001c00000000000000000000000000000000000000000000000000000000000000000000000000
+    [ 1] id=LDBG_CONFIG_CMD data[80]=0e00000000000000000000000c0014000000000003000000ffffffff03000000ffffffff03000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000
+    [ 2] id=LDBG_CONFIG_CMD data[80]=18000000fdfffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [ 3] id=LDBG_CONFIG_CMD data[80]=02000000003f3f0e3f3f3f3f00ff0000bfff7f13000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

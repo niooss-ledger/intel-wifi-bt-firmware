@@ -1,0 +1,14 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 39.dac776d0.0
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880020 dbg_print_buff_addr=0x00880000
+- INST (4 bytes): date 2018-05-30
+- DATA (64 bytes): '::dac776d0'
+- INIT_DATA (4 bytes): e4 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 62120000
+- MEM_DESC (672 bytes): memory at 00000000..00000298 (0x298=664 bytes, sha256=377e669b06f87b22d6d35d0e5928cd0e80275716fa1d1886c3cb77696ec4cde7)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 30 05 18 20 a6 d0 00 00 40 00 00 00
+- MEM_DESC (213000 bytes): memory at 01000000..01034000 (0x34000=212992 bytes, sha256=b74df88322b0cf4e5593ec76d3c07969d0fffcccd34a730585babc1505542256)
+    Hexdump of start: fc 1c 48 b3 fc 1c 88 b3 fc 1c c8 b3 fc 1c 08 b4 fc 1c 48 b4 ab 21 02 06 ab 26 41 70 00 00 0c 80

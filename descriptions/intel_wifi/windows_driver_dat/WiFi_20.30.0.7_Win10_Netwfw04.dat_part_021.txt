@@ -1,0 +1,13 @@
+- INST (4 bytes): date 2017-12-13
+- DATA (64 bytes): 'CoreCycle26_stab::deadbeef'
+- FW_VERSION (12 bytes): 29.deadbeef.0
+- INIT_DATA (4 bytes): f0 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 66000000
+- MEM_DESC (672 bytes): memory at 0043c000..0043c298 (0x298=664 bytes, sha256=40d3fd04cda99017cbc089541f48f561fbc771422fc69b87eebde0a83fa20cbc)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 13 12 17 20 a6 b4 00 00 40 00 00 00
+- MEM_DESC (184328 bytes): memory at 01000000..0102d000 (0x2d000=184320 bytes, sha256=c14bac9a4b73a39608281e043edec880f3edeab02d079a639166a9df4a30fb15)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 64 32 08 77 40 20 0e 0a 00 98 3a 71 82 e0 00 dd 1a f2 11 f6 80 e0 33 f2

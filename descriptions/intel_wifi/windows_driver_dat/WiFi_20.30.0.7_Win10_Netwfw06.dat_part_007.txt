@@ -1,0 +1,13 @@
+- INST (4 bytes): date 2018-01-04
+- DATA (64 bytes): '::521e72d0'
+- FW_VERSION (12 bytes): 36.521e72d0.0
+- INIT_DATA (4 bytes): c8 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 06020000
+- MEM_DESC (672 bytes): memory at 00440000..00440298 (0x298=664 bytes, sha256=60f566535f4e4fb23cf855b1fc254f2df49e9eb78c66a63020739ebfbc3b733f)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 04 01 18 20 a6 b4 00 00 40 00 00 00
+- MEM_DESC (184328 bytes): memory at 01000000..0102d000 (0x2d000=184320 bytes, sha256=3df7f47f009178d895a363f4d6134f0dd7c64de3e23f9fa23f21c4ed4b729727)
+    Hexdump of start: fc 1c 48 b3 fc 1c 88 b3 fc 1c c8 b3 fc 1c 08 b4 fc 1c 48 b4 ab 21 02 06 ab 26 41 70 00 00 0c 80

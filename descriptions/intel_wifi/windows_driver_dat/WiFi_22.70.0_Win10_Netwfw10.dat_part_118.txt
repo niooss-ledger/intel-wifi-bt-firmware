@@ -1,0 +1,172 @@
+- MEM_DESC (1664 bytes): memory at 80200000..80200678 (0x678=1656 bytes, sha256=8e1580500d2f652492af83e33234407ddd959c86cdad24a2bf21044874893ef8)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 59 0c 00 00 18 00 00 00
+- MEM_DESC (9736 bytes): memory at 80204000..80206600 (0x2600=9728 bytes, sha256=c7b6f2d7086b9be0d87324dbfbaef42bac01ec6a0acbe54bf13e31d3a2ae7430)
+    Hexdump of start: 60 40 20 80 dc 40 20 80 dc 40 20 80 dc 40 20 80 dc 40 20 80 dc 40 20 80 dc 40 20 80 dc 40 20 80
+- MEM_DESC (2568 bytes): memory at 80206600..80207000 (0xa00=2560 bytes, sha256=0c77487c79dcae67c25656baa887b7e6314107898df9826c61437b5be34e2a2c)
+    Hexdump of start: 02 00 00 00 03 00 00 00 ff 00 00 00 01 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- PNVM_SKU (12 bytes): 0x610d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=2a75411e658402dd6479a10e16ca19efe707fb3bbc20b6eeb716963fbd5d6997)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=3f8fa34eb53fd891613577c3683598ede0cd23fe7208037ebf614e47cfe47fce)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=40c2aa3692e4e5be7d2db037a87468c3de7d537de095f309fb01a66484bbe68b)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=ab77d89ade7ba85339f07779582e7742ae8d6b7106a423f87e0903942605e86e)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=b3e4d428084f25993fd6fc7e394dc0c79c5982abe7ad7a54c795db47d4b1f61c)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=e75631942e65672ac56db60c79c5bbdc5dd0a503b52a80e59b6d1e340935c1b3)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 09 00 00 18 00 00 00
+- MEM_DESC (9044 bytes): memory at deadcafe..deadee4a (0x234c=9036 bytes, sha256=78d44040809e929ec64920297e09dd4e4e31df023d2b34dd326cc200fc0a6e9e)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=9f2e2c14935bc049499f31ce2350df6847ee2b3150686d4cc650a462a50ebccf)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 18 0c 00 00 18 00 00 00
+- MEM_DESC (12052 bytes): memory at deadcafe..deadfa0a (0x2f0c=12044 bytes, sha256=6b0fb5c4474ff4d1409f599f9437aa2eee1336684a863f68eba64ec743f9c985)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 bd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=cc29d9112001a548ecab538219a68670c0f51f8dcaaaa111fb7472e02f47d155)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 18 0c 00 00 18 00 00 00
+- MEM_DESC (12052 bytes): memory at deadcafe..deadfa0a (0x2f0c=12044 bytes, sha256=6b0fb5c4474ff4d1409f599f9437aa2eee1336684a863f68eba64ec743f9c985)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 bd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=3a08bf5844afb96fbc8f8bf48720a160567c8b5a72d663a2acba732511cce72a)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 18 0c 00 00 18 00 00 00
+- MEM_DESC (12052 bytes): memory at deadcafe..deadfa0a (0x2f0c=12044 bytes, sha256=6b0fb5c4474ff4d1409f599f9437aa2eee1336684a863f68eba64ec743f9c985)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 bd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=9f9ea451c8f2d45f8414ef38614f044f650b4136e92382f019d14fd2467de654)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 18 0c 00 00 18 00 00 00
+- MEM_DESC (12052 bytes): memory at deadcafe..deadfa0a (0x2f0c=12044 bytes, sha256=6b0fb5c4474ff4d1409f599f9437aa2eee1336684a863f68eba64ec743f9c985)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 bd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=f2b6196087004ecb59ee3aaa2c1f2e0198503c0f84cd314609a695b984a6add2)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 18 0c 00 00 18 00 00 00
+- MEM_DESC (12052 bytes): memory at deadcafe..deadfa0a (0x2f0c=12044 bytes, sha256=6b0fb5c4474ff4d1409f599f9437aa2eee1336684a863f68eba64ec743f9c985)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 bd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=0a9c37e3cf90cf35f4602dbf141a76dc032f0584816386f904fb6ec797a0c9e3)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 0c 00 00 18 00 00 00
+- MEM_DESC (12116 bytes): memory at deadcafe..deadfa4a (0x2f4c=12108 bytes, sha256=240a484d8ac77352d78235e4315bec657e511559f51982bc995a9249b012a921)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 cd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=890e291c86aebc6e1f9d7c7d3af02bd64d0ac83ffaf54756fc5a46b16d66c34d)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 0c 00 00 18 00 00 00
+- MEM_DESC (12116 bytes): memory at deadcafe..deadfa4a (0x2f4c=12108 bytes, sha256=240a484d8ac77352d78235e4315bec657e511559f51982bc995a9249b012a921)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 cd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=c58b628a41c1853e1140c5ff400e09cb28a7f6af51f07871a563ae6ab302d2c0)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 0c 00 00 18 00 00 00
+- MEM_DESC (12116 bytes): memory at deadcafe..deadfa4a (0x2f4c=12108 bytes, sha256=240a484d8ac77352d78235e4315bec657e511559f51982bc995a9249b012a921)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 cd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=a4a0bc67b87ca3de4b3c8c0367d6499d78cddc315c538b19a8200da79b5c4351)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 0c 00 00 18 00 00 00
+- MEM_DESC (12116 bytes): memory at deadcafe..deadfa4a (0x2f4c=12108 bytes, sha256=240a484d8ac77352d78235e4315bec657e511559f51982bc995a9249b012a921)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 cd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=8ae5a1a7a98a4a479ed23572412ea14dda14aa112d13a83ffbbdee8eb0bf4ae3)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 28 0c 00 00 18 00 00 00
+- MEM_DESC (12116 bytes): memory at deadcafe..deadfa4a (0x2f4c=12108 bytes, sha256=240a484d8ac77352d78235e4315bec657e511559f51982bc995a9249b012a921)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 cd 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=491ce9839649c1daecbc8c13109673969e5cb09775be82aa8fb98ddf506bf3b6)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1b 0c 00 00 18 00 00 00
+- MEM_DESC (12064 bytes): memory at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=6983c4b2a34f3198ca19f2dbbc2b50f7114cccd32cbe961686797f6226350546)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=BZ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=285bc3d87a41e583c9e9ad94c5284f1e5953cf69f31e3e80debcad3394d4f361)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1b 0c 00 00 18 00 00 00
+- MEM_DESC (12064 bytes): memory at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=6983c4b2a34f3198ca19f2dbbc2b50f7114cccd32cbe961686797f6226350546)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=fe4ea530a94ac08ce675c283b08b79993d620fa5bbb45416123965aa7c870beb)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1b 0c 00 00 18 00 00 00
+- MEM_DESC (12064 bytes): memory at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=6983c4b2a34f3198ca19f2dbbc2b50f7114cccd32cbe961686797f6226350546)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=8c63758ef002f3c0a2f303462cbfa1698652193002c352762334ddadcf9852e3)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1b 0c 00 00 18 00 00 00
+- MEM_DESC (12064 bytes): memory at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=6983c4b2a34f3198ca19f2dbbc2b50f7114cccd32cbe961686797f6226350546)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=849476b9ad302b5f6a84ea661615cff2c2e5c2e6227528c0c8a98cf719212a98)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1b 0c 00 00 18 00 00 00
+- MEM_DESC (12064 bytes): memory at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=6983c4b2a34f3198ca19f2dbbc2b50f7114cccd32cbe961686797f6226350546)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d0 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=32c727052e8053db99d7d41ea13c5170b380269b9698ec8a1f276112d52534b5)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 00 0c 00 00 18 00 00 00
+- MEM_DESC (11956 bytes): memory at deadcafe..deadf9aa (0x2eac=11948 bytes, sha256=186a39dcb087149210a8b01b2565e6bb44245a732ebc17c250c739b8dd477001)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 a5 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d0 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- PNVM_VERSION (4 bytes): 0xD35929D8
+- MEM_DESC (1664 bytes): memory at cafedead..cafee525 (0x678=1656 bytes, sha256=48cb52bd6bcd5feceb7da5cf45037921fd8bfb750a5963a713dd68d3d0618716)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 08 07 21 20 1e 0c 00 00 18 00 00 00
+- MEM_DESC (12076 bytes): memory at deadcafe..deadfa22 (0x2f24=12068 bytes, sha256=5c4c736983470206cb5e1fdbc7fabf982928f929924e82aa7d0f084690480db2)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 85 12 00 00 00 00 00 00 00 00 00 00 c3 0b 00 30 09 80 03 00 4b 03 4b 03

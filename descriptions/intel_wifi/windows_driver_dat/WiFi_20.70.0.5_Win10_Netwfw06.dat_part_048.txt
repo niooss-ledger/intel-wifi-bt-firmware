@@ -1,0 +1,40 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 39.263aa242.0
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880020 dbg_print_buff_addr=0x00880000
+- INST (4 bytes): date 2018-06-25
+- DATA (64 bytes): '::263aa242'
+- INIT_DATA (4 bytes): f4 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: ee1a0000
+- MEM_DESC (1664 bytes): memory at 00000000..00000678 (0x678=1656 bytes, sha256=2b7d875d8676b32786baa1b000429af3a54063d810dab48fa77f3b7a879b8451)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 25 06 18 20 cf b0 01 00 40 00 00 00
+- MEM_DESC (32776 bytes): memory at c0080000..c0088000 (0x8000=32768 bytes, sha256=7184460bfb9a39695d959e2f573f40bd10955968ac8fbcd62236dbb825ec188a)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 5c 36 20 20 80 0f 08 c0 80 34 69 20 00 00 69 20 40 00
+- MEM_DESC (32776 bytes): memory at c0088000..c0090000 (0x8000=32768 bytes, sha256=2212adb87e5e7b7449e2fd82d8b09b969b8e531295c2dd437b90dbcecd23a362)
+    Hexdump of start: e1 10 c5 f1 bc e1 30 f2 07 f6 a8 e1 36 f2 b0 e1 ca 27 a1 11 bb f1 bd e1 1d f2 8c 21 03 80 3b f2
+- MEM_DESC (32776 bytes): memory at c0880000..c0888000 (0x8000=32768 bytes, sha256=3891b5eedc165283ffd99899951b4afeb6689f0347b69bac0083844c98bc0251)
+    Hexdump of start: 10 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 87 45 80
+- MEM_DESC (32776 bytes): memory at 80458000..80460000 (0x8000=32768 bytes, sha256=b39ef0291cd3483a206ca6d8076321eb0a7b952a247c700ca1f5d87ac223ffc6)
+    Hexdump of start: 03 00 00 00 00 00 ff 03 fc 3f 00 00 00 c0 00 00 00 00 00 00 aa aa 03 00 00 00 08 06 00 01 08 00
+- MEM_DESC (32776 bytes): memory at 80460000..80468000 (0x8000=32768 bytes, sha256=c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80468000..80470000 (0x8000=32768 bytes, sha256=d46e100e82bb3efe95727589b401217ab0a3ecad5a0f400c0b166e24fc6156c2)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80470000..80478000 (0x8000=32768 bytes, sha256=454ed68f1862a3fcb56838f558dacfca6dbb746032b2290ee9bd4d8d7abd1933)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80478000..80480000 (0x8000=32768 bytes, sha256=76feff4023036e03a83f5fb8982cb9d9fdd8ca9adb8bfda41765810ffff0e196)
+    Hexdump of start: 00 00 ff ff 00 00 00 00 6c 1a 4a 80 00 00 00 00 00 00 00 00 84 1f 4a 80 00 00 08 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80480000..80488000 (0x8000=32768 bytes, sha256=69cbe87de5b5261c7651d7d297b5aebd345cbca8780fc044ebc1f87760724181)
+    Hexdump of start: 20 a2 00 de 02 f0 01 e6 82 e6 48 00 06 00 cf 75 47 80 bc 14 d6 7d 20 85 0a f0 22 81 a9 70 28 b9
+- MEM_DESC (32776 bytes): memory at 80488000..80490000 (0x8000=32768 bytes, sha256=2b135aba382a83bc43248726901bc9565383073f7a4115c832c57e0fa2f919e8)
+    Hexdump of start: 41 c0 0a 22 80 2f 47 80 60 17 8b 72 c9 70 4a 71 40 25 03 16 22 20 80 0f 49 80 48 11 25 85 01 86
+- MEM_DESC (32776 bytes): memory at 80490000..80498000 (0x8000=32768 bytes, sha256=d988558a3d27362c43d85dd810b5a8bc76e8756a110a3e6be2820d9c9543b7a2)
+    Hexdump of start: 01 13 81 20 49 20 c0 00 80 e1 45 c0 c3 f6 52 72 50 f7 cf 70 00 00 90 27 4a 73 20 20 80 0f 08 c0
+- MEM_DESC (32776 bytes): memory at 80498000..804a0000 (0x8000=32768 bytes, sha256=1fa5043e4f9fa3a2bfd49d00bc6647f8991a432de5785fadae1ba103ab7ece47)
+    Hexdump of start: e7 f3 65 79 00 19 60 03 e9 f1 cf 70 00 00 55 55 c1 c5 e0 7e 41 80 cf 70 88 c0 30 1c 20 88 cf 70
+- MEM_DESC (19968 bytes): memory at 804a0000..804a4df8 (0x4df8=19960 bytes, sha256=4c54b62c6b5bdc540eccaf22bf4e1f5e2fedb5f45cf771135ad6debfa2f6dab3)
+    Hexdump of start: cf 71 88 c0 7c 31 e0 7f 00 a1 e0 78 e1 c5 e1 c6 f1 c0 08 76 cf 70 47 80 5c 2d cf 75 47 80 70 2d
+- MEM_DESC (29156 bytes): memory at 80402000..804091dc (0x71dc=29148 bytes, sha256=8f7e96dbe45a3563d5167d3a57b30e63eabab2be1ec631a8ff835020b96f2abe)
+    Hexdump of start: 80 00 00 01 00 00 00 08 14 00 00 1f 00 00 00 00 80 00 00 02 00 00 71 bc 00 00 40 00 20 20 80 0f

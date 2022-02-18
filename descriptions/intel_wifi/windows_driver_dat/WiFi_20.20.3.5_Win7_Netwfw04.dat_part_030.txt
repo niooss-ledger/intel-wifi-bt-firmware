@@ -1,0 +1,13 @@
+- INST (4 bytes): date 2017-10-22
+- DATA (64 bytes): 'stream:CoreCycle21_stab@608597'
+- FW_VERSION (12 bytes): 24.608597.0
+- INIT_DATA (4 bytes): e0 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x3000003 = 50331651 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 02000000
+- MEM_DESC (672 bytes): memory at 00440000..00440298 (0x298=664 bytes, sha256=5f743640e3d72b678499fd1d4376d03c6aba38f002fb4637f7e590c133fcb046)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 22 10 17 20 a6 34 00 00 40 00 00 00
+- MEM_DESC (53256 bytes): memory at 01000000..0100d000 (0xd000=53248 bytes, sha256=b9cdf59e3ef29082984813365b11f3b4af6902254d68a41924139b7d39a0edab)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 14 11 48 75 40 98 28 76 82 e2 00 d9 18 f2 0a f6 23 ea 47 0a 51 00 22 20

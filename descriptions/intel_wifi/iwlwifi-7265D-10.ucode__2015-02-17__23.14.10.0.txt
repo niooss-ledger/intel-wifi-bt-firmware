@@ -1,0 +1,115 @@
+Header: version 386796032 'stream:CoreCycle7_stab@123233'
+- PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
+- MEM_DESC (0 bytes): empty
+- FLAGS (4 bytes): 0x5BFB4B7F
+- API_CHANGES_SET (8 bytes): index=0 flags=0x000000F3
+- ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x03050018
+        [ 3] BEAMFORMER
+        [ 4] (unknown)
+        [16] (unknown)
+        [18] HOTSPOT_SUPPORT
+        [24] (unknown)
+        [25] (unknown)
+- CSCHEME (16 bytes, 1 entries):
+        cipher = 0x00147201
+        flags = 0x00
+        hdr_len = 18
+        pn_len = 16
+        pn_off = 2
+        key_idx_off = 0
+        key_idx_mask = 1
+        key_idx_shift = 0
+        mic_len = 16
+        hw_cipher = 0x04
+- NUM_OF_CPU (4 bytes): 1
+- SEC_RT (96772 bytes): runtime ucode at 00800000..00817a00 (0x17a00=96768 bytes, sha256=cf41cfee554648c14dc5688346840097104940460ea975544f59b8ff14c14a25)
+    Hexdump of start: 00 00 00 00 0e 17 04 00 00 0a 00 01 00 00 00 00 00 00 00 00 c8 ac 80 00 bc 4b 80 00 60 de 80 00
+- SEC_RT (126256 bytes): runtime ucode at 00000000..0001ed2c (0x1ed2c=126252 bytes, sha256=ce99b2ee907ae3a578bf4389fd6625bdc9ba025c2b4d4412dd76f887c505203c)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 69 20 00 00 69 20 40 00 20 20 80 0f 01 00 18 07 20 20 80 0f 00 00 08 08
+- SEC_RT (54884 bytes): runtime ucode at 00040000..0004d660 (0xd660=54880 bytes, sha256=45bb2d4e9c793369202129d84d245a87e0191589edd4c135c2e802f0a9fee7a8)
+    Hexdump of start: 28 72 0f 79 cf 70 80 00 70 e1 61 03 cf e7 e0 78 08 71 cf 70 80 00 14 50 00 80 87 e8 cf 70 80 00
+- SEC_RT (36 bytes): runtime ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=5d6cc9c2c47cfc1c49745a96a47b56723c9b49a2dfb3df8ac3fbaf573d45e0cd)
+    Hexdump of start: 28 72 0f 79 cf 70 80 00 70 e1 61 03 cf e7 e0 78 08 71 cf 70 80 00 14 50 00 80 87 e8 cf 70 80 00
+- SEC_INIT (96772 bytes): init ucode at 00800000..00817a00 (0x17a00=96768 bytes, sha256=6b761ac175ba420772a2dc90f5e5a87836e291a42f2dcfaf4937fd2a954912a8)
+    Hexdump of start: 00 00 00 00 0e 17 04 00 00 0a 00 09 00 00 00 00 00 00 00 00 dc b8 80 00 c8 20 80 00 98 de 80 00
+- SEC_INIT (81556 bytes): init ucode at 00000000..00013e90 (0x13e90=81552 bytes, sha256=322f63c5a590942dca05b4fcd1e9bed1c0c1f445e868365a7120dbacad2d595d)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 69 20 00 00 69 20 40 00 20 20 80 0f 00 00 94 a0 20 20 80 0f 00 00 4c 06
+- SEC_INIT (20316 bytes): init ucode at 00040000..00044f58 (0x4f58=20312 bytes, sha256=bfb1dba476aa6509b279c5d6926bf9b2a13e028fa2af3c2bd6bb831d456b6054)
+    Hexdump of start: f1 c0 0e 09 0f e0 08 77 28 76 7a 72 9a 73 0a 22 00 21 0a 20 40 21 cf 70 00 00 c8 1b de 0e ef e4
+- SEC_INIT (36 bytes): init ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=b2f1d345797f1a450c8d243fd8a4ae80b0767b4d310bd5cd183ddf140ea88378)
+    Hexdump of start: f1 c0 0e 09 0f e0 08 77 28 76 7a 72 9a 73 0a 22 00 21 0a 20 40 21 cf 70 00 00 c8 1b de 0e ef e4
+- SEC_WOWLAN (96772 bytes): wowlan ucode at 00800000..00817a00 (0x17a00=96768 bytes, sha256=d0b57e70a5ff11d200020b51fefb313c9e7872101118f5c322233e38b2ee3a31)
+    Hexdump of start: 00 00 00 00 0e 17 04 00 00 0a 00 05 00 00 00 00 00 00 00 00 c8 93 80 00 24 36 80 00 04 dc 80 00
+- SEC_WOWLAN (122916 bytes): wowlan ucode at 00000000..0001e020 (0x1e020=122912 bytes, sha256=ec0d7855a3b9e1eb0ceefde97daea206117390be6758ab193cfcd83869881763)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 69 20 00 00 69 20 40 00 20 20 80 0f 00 00 8c c9 20 20 80 0f 00 00 f4 08
+- SEC_WOWLAN (43732 bytes): wowlan ucode at 00040000..0004aad0 (0xaad0=43728 bytes, sha256=2c5650f7bf7f6466439c2428d97cb6d76a216f4a649ab69df0541d0e32bb1101)
+    Hexdump of start: 28 72 0f 79 cf 70 80 00 14 df 69 07 cf e5 e0 78 08 71 cf 70 80 00 b4 39 00 80 87 e8 cf 70 80 00
+- SEC_WOWLAN (36 bytes): wowlan ucode at ffffcccc..ffffccec (0x20=32 bytes, sha256=19a04d0c1f0f07d92c034ac804321360c42aabacf9ee1a6e86704aeca32d605f)
+    Hexdump of start: 28 72 0f 79 cf 70 80 00 14 df 69 07 cf e5 e0 78 08 71 cf 70 80 00 b4 39 00 80 87 e8 cf 70 80 00
+- DEF_CALIB (12 bytes): ucode_type=REGULAR flow_trigger=0x008C35FB event_trigger=0x0000B133
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 8] TX_IQ_IDX = 0x100
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [15] ANT_COUPLING_IDX = 0x8000
+- DEF_CALIB (12 bytes): ucode_type=INIT flow_trigger=0x008C15FB event_trigger=0x00000000
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+- DEF_CALIB (12 bytes): ucode_type=WOWLAN flow_trigger=0x008C35FB event_trigger=0x0000B133
+    flow_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 3] PAPD_IDX = 0x8
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 6] BB_FILTER_IDX = 0x40
+        [ 7] LO_LEAKAGE_IDX = 0x80
+        [ 8] TX_IQ_IDX = 0x100
+        [10] RX_IQ_IDX = 0x400
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [18] AGC_IDX = 0x40000
+        [19] unknown = 0x80000
+        [23] unknown = 0x800000
+    event_trigger:
+        [ 0] XTAL_IDX = 0x1
+        [ 1] TEMPERATURE_IDX = 0x2
+        [ 4] TX_PWR_IDX = 0x10
+        [ 5] DC_IDX = 0x20
+        [ 8] TX_IQ_IDX = 0x100
+        [12] SENSITIVITY_IDX = 0x1000
+        [13] CHAIN_NOISE_IDX = 0x2000
+        [15] ANT_COUPLING_IDX = 0x8000
+- PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
+- N_SCAN_CHANNELS (4 bytes): 40

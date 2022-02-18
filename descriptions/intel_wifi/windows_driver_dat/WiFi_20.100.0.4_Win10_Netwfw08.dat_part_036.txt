@@ -1,0 +1,10 @@
+- INST (4 bytes): date 2018-10-22
+- DATA (64 bytes): '9111a87e938bfaa2b5a104a5f5833d37284b988d::9111a87e'
+- INIT_DATA (4 bytes): f4 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x3000003 = 50331651 bytes
+- MEM_DESC (1664 bytes): memory at 00000000..00000678 (0x678=1656 bytes, sha256=e41dfc5ffa2ef384d05cdd9ad26d13edcbeaf152d9b484556d9dfa9fa8eeb9a8)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 22 10 18 20 aa 0c 00 00 40 00 00 00
+- MEM_DESC (9992 bytes): memory at 80444000..80446700 (0x2700=9984 bytes, sha256=62f6177f822fdfd088de469ba3d90ddd4164257a8e0d353b9beaf3a4686d5a92)
+    Hexdump of start: 20 20 80 0f 44 80 50 40 20 20 80 0f 44 80 50 41 20 20 80 0f 44 80 50 41 69 20 00 00 69 20 40 00
+- MEM_DESC (2312 bytes): memory at 80446700..80447000 (0x900=2304 bytes, sha256=1546d81b5a158e17fee0b931edae58e5e7cf8c34fcc6d0eb0caa3ac2982bd9ae)
+    Hexdump of start: 3c 38 34 30 2c 28 24 20 1c 18 14 10 0c 08 04 00 00 04 00 00 40 00 00 00 00 04 00 00 00 00 62 00

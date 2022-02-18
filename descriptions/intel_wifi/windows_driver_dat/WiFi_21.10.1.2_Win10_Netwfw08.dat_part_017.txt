@@ -1,0 +1,114 @@
+- WOWLAN_DATA (8 bytes): d3 01 16 1f 8b 95 06 1b
+- FW_VERSION (12 bytes): 47.10525457.0
+- LMAC_DEBUG_ADDRS (32 bytes):
+    error_event_table_ptr = 0x0080B79C
+    log_event_table_ptr = 0x004AEA90
+    cpu_register_ptr = 0x00809DB0
+    dbgm_config_ptr = 0x00800E54
+    alive_counter_ptr = 0x00809DAC
+    scd_base_ptr = 0x00000000
+    st_fwrd_addr = 0x00000000
+    st_fwrd_size = 0x00000000
+- CMD_VERSIONS (232 bytes, 58 entries):
+    LEGACY(0x0).UCODE_ALIVE_NTFY(0x01)                   cmd_ver=99 notif_ver= 4
+    LONG(0x1).PHY_CONTEXT_CMD(0x08)                      cmd_ver= 2 notif_ver= 0
+    LONG(0x1).DBG_CFG(0x09)                              cmd_ver= 1 notif_ver= 0
+    LONG(0x1).SCAN_CFG_CMD(0x0C)                         cmd_ver= 3 notif_ver= 0
+    LONG(0x1).SCAN_REQ_UMAC(0x0D)                        cmd_ver= 8 notif_ver= 0
+    LONG(0x1).SCAN_ABORT_UMAC(0x0E)                      cmd_ver= 1 notif_ver= 0
+    LONG(0x1).ADD_STA_KEY(0x17)                          cmd_ver= 2 notif_ver= 0
+    LONG(0x1).ADD_STA(0x18)                              cmd_ver=11 notif_ver= 2
+    LONG(0x1).REMOVE_STA(0x19)                           cmd_ver= 2 notif_ver= 0
+    LONG(0x1).TX_CMD(0x1C)                               cmd_ver= 7 notif_ver= 6
+    LONG(0x1).SCD_QUEUE_CFG(0x1D)                        cmd_ver= 2 notif_ver= 2
+    LONG(0x1).TXPATH_FLUSH(0x1E)                         cmd_ver= 2 notif_ver= 0
+    LONG(0x1).MAC_CONTEXT_CMD(0x28)                      cmd_ver= 4 notif_ver= 0
+    LONG(0x1).TIME_EVENT_CMD(0x29)                       cmd_ver= 2 notif_ver= 1
+    LEGACY(0x0).TIME_EVENT_NOTIFICATION(0x2A)            cmd_ver=99 notif_ver= 1
+    LONG(0x1).BINDING_CONTEXT_CMD(0x2B)                  cmd_ver= 2 notif_ver= 1
+    LONG(0x1).TIME_QUOTA_CMD(0x2C)                       cmd_ver= 2 notif_ver= 1
+    LONG(0x1).0x43                                       cmd_ver= 2 notif_ver= 0
+    LONG(0x1).LEDS_CMD(0x48)                             cmd_ver= 2 notif_ver= 0
+    LONG(0x1).LQ_CMD(0x4E)                               cmd_ver= 3 notif_ver= 0
+    LONG(0x1).FW_PAGING_BLOCK_CMD(0x4F)                  cmd_ver= 2 notif_ver= 0
+    LONG(0x1).0x55                                       cmd_ver= 1 notif_ver= 0
+    LONG(0x1).BT_COEX_CI(0x5D)                           cmd_ver= 2 notif_ver= 0
+    LONG(0x1).PHY_CONFIGURATION_CMD(0x6A)                cmd_ver= 2 notif_ver= 0
+    LONG(0x1).POWER_TABLE_CMD(0x77)                      cmd_ver= 6 notif_ver= 0
+    LONG(0x1).REPLY_THERMAL_MNG_BACKOFF(0x7E)            cmd_ver= 1 notif_ver= 0
+    LONG(0x1).NVM_ACCESS_CMD(0x88)                       cmd_ver= 3 notif_ver= 0
+    LONG(0x1).TX_ANT_CONFIGURATION_CMD(0x98)             cmd_ver= 1 notif_ver= 0
+    LONG(0x1).BT_CONFIG(0x9B)                            cmd_ver= 6 notif_ver= 0
+    LONG(0x1).STATISTICS_CMD(0x9C)                       cmd_ver= 1 notif_ver= 0
+    LONG(0x1).REDUCE_TX_POWER_CMD(0x9F)                  cmd_ver= 5 notif_ver= 0
+    LONG(0x1).0xA3                                       cmd_ver= 1 notif_ver= 0
+    LONG(0x1).MAC_PM_POWER_TABLE(0xA9)                   cmd_ver= 1 notif_ver= 0
+    LONG(0x1).REPLY_RX_PHY_CMD(0xC0)                     cmd_ver= 4 notif_ver= 0
+    LEGACY(0x0).REPLY_RX_MPDU_CMD(0xC1)                  cmd_ver=99 notif_ver= 2
+    LONG(0x1).MCAST_FILTER_CMD(0xD0)                     cmd_ver= 1 notif_ver= 0
+    LONG(0x1).REPLY_SF_CFG_CMD(0xD1)                     cmd_ver= 3 notif_ver= 0
+    LONG(0x1).REPLY_BEACON_FILTERING_CMD(0xD2)           cmd_ver= 4 notif_ver= 0
+    LONG(0x1).D3_CONFIG_CMD(0xD3)                        cmd_ver= 4 notif_ver= 0
+    LONG(0x1).PROT_OFFLOAD_CONFIG_CMD(0xD4)              cmd_ver= 3 notif_ver= 0
+    LONG(0x1).OFFLOADS_QUERY_CMD(0xD5)                   cmd_ver= 4 notif_ver= 0
+    LONG(0x1).WOWLAN_CONFIGURATION(0xE1)                 cmd_ver= 5 notif_ver= 0
+    LONG(0x1).WOWLAN_TSC_RSC_PARAM(0xE2)                 cmd_ver= 2 notif_ver= 0
+    LONG(0x1).WOWLAN_GET_STATUSES(0xE5)                  cmd_ver= 7 notif_ver= 0
+    LONG(0x1).LTR_CONFIG(0xEE)                           cmd_ver= 2 notif_ver= 0
+    LONG(0x1).0xF2                                       cmd_ver= 2 notif_ver= 0
+    LONG(0x1).LDBG_CONFIG_CMD(0xF6)                      cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).BA_NOTIF(0xC5)                           cmd_ver=99 notif_ver= 4
+    LEGACY(0x0).MFUART_LOAD_NOTIFICATION(0xB1)           cmd_ver=99 notif_ver= 2
+    PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03)                   cmd_ver= 1 notif_ver= 0
+    PHY_OPS(0x4).TEMP_REPORTING_THRESHOLDS_CMD(0x04)     cmd_ver= 1 notif_ver= 0
+    PHY_OPS(0x4).PER_CHAIN_LIMIT_OFFSET_CMD(0x05)        cmd_ver= 1 notif_ver= 0
+    DATA_PATH(0x5).0x11                                  cmd_ver=99 notif_ver= 0
+    DATA_PATH(0x5).STA_HE_CTXT_CMD(0x07)                 cmd_ver= 1 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).NVM_ACCESS_COMPLETE(0x00)    cmd_ver= 1 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).NVM_GET_INFO(0x02)           cmd_ver= 1 notif_ver= 4
+    0x0D.0x05                                            cmd_ver= 2 notif_ver= 1
+    DEBUG(0xf).UMAC_RD_WR(0x01)                          cmd_ver= 1 notif_ver= 0
+- WOWLAN_INST (4 bytes): 7f 4b fb fb
+- SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
+- SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee9103
+- SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
+- FLAGS (8 bytes): 0x00000000, 0xFD9BFFFB
+- FLAGS (8 bytes): 0x00000001, 0x0007FFDD
+- OLD_TYPE_REGIONS (84 bytes):
+    Hexdump: 01 00 00 00 01 00 00 00 01 00 00 00 0c 00 00 00 01 00 00 00 00 00 00 00 20 00 00 00 6c 6d 61 63
+- INST (4 bytes): date 2019-04-21
+- DATA (64 bytes): '105254577d8d78cd5cffadec67f75760bccc56f8::10525457'
+- INIT_DATA (4 bytes): f4 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0x1010000 = 16842752 bytes
+- FW_MEM_SEG (12 bytes): data_type=0 at 00800000..00810000 (0x10000=65536 bytes)
+- FW_MEM_SEG (12 bytes): data_type=1 at 00880000..00888000 (0x8000=32768 bytes)
+- FW_MEM_SEG (12 bytes): data_type=2 at 00400000..004d0000 (0xd0000=851968 bytes)
+- FW_MEM_SEG (12 bytes): data_type=8 at 00620000..00626800 (0x6800=26624 bytes)
+- MEM_DESC (1664 bytes): memory at 00430000..00430678 (0x678=1656 bytes, sha256=da5fdd01a8dec29b6ce4ebd557a11c053ca469182a630c881631ffdd731b9454)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 21 04 19 20 77 61 01 00 40 00 00 00
+- MEM_DESC (32776 bytes): memory at 00800000..00808000 (0x8000=32768 bytes, sha256=5955edca3c9117e594d9df03339ce6846af8cd569cc4ff328a0fd2d8deec6b7c)
+    Hexdump of start: 2f 00 00 00 57 54 52 10 00 01 00 00 00 00 00 00 9c b7 80 00 90 ea 4a 00 b0 9d 80 00 54 0e 80 00
+- MEM_DESC (32776 bytes): memory at 00808000..00810000 (0x8000=32768 bytes, sha256=e6d49f98e2bee3b95cc9147878af01046e646c61c90b9d8883afef1462c0222d)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 00000000..00008000 (0x8000=32768 bytes, sha256=d0f041fd08cc8b07a4ed1740d4653f5a087590fa4041217579d11991fb5e17f6)
+    Hexdump of start: 60 00 00 00 84 51 4c 00 6c 37 4c 00 f0 4f 4c 00 1c d8 4c 00 1c d8 4c 00 40 6d 4c 00 a0 6c 4c 00
+- MEM_DESC (32776 bytes): memory at 00008000..00010000 (0x8000=32768 bytes, sha256=b802742aa1c9353a767b7dedaa60aa93aed968dc03bbd2e939e271fe0e93ebab)
+    Hexdump of start: 0d 85 d3 40 a0 00 4c 04 41 c2 00 18 00 20 28 46 fc 10 01 a0 cf 1a 58 b0 41 29 02 03 fc 10 00 a0
+- MEM_DESC (32776 bytes): memory at 00010000..00018000 (0x8000=32768 bytes, sha256=dd38318f31e654e7fc2082383f6fec08a25507761e89a166c0a36eaa76fe5f7b)
+    Hexdump of start: 1d b4 04 71 f2 0f e0 02 00 a1 c9 12 02 b6 f1 c9 15 26 03 70 80 00 e8 29 20 83 6c 12 00 01 38 60
+- MEM_DESC (32768 bytes): memory at 00018000..0001fff8 (0x7ff8=32760 bytes, sha256=faf0733191c1ec60491df69b77fb3dbc58808d7071939d44dfc02f3a5b254b8e)
+    Hexdump of start: 8d 74 14 dd 26 f0 e0 78 8d 74 10 dd 24 f0 e0 78 8d 74 0c dd 22 f0 e0 78 8d 74 08 dd 1f f0 e0 78
+- MEM_DESC (32776 bytes): memory at 004a8000..004b0000 (0x8000=32768 bytes, sha256=ad54d3598073c00d11cc750ec0bdc65a87498487b7593f86dd6f007943e5b118)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 004b0000..004b8000 (0x8000=32768 bytes, sha256=223ad3ce8b0f31be5370a350b3e0f33752270ab968bcfb97489e25ce9b1724f7)
+    Hexdump of start: 19 19 19 19 19 19 19 19 19 19 19 19 19 19 38 38 38 38 3c 40 48 4a 54 60 60 60 38 38 38 38 3c 40
+- MEM_DESC (32776 bytes): memory at 004b8000..004c0000 (0x8000=32768 bytes, sha256=21d35463c9b8cf2c45273ab485a0158a3870502290230cafb850832f57d8e753)
+    Hexdump of start: 00 85 cb 45 80 00 80 59 1c 80 90 e8 21 85 4c 70 6c 70 44 21 40 00 1e b9 13 78 5f b9 c1 b8 c1 b9
+- MEM_DESC (32776 bytes): memory at 004c0000..004c8000 (0x8000=32768 bytes, sha256=2a6156cd18a2670bb55aec8999801f6370ad34cdb3aaf4a7543818a465479e39)
+    Hexdump of start: 41 c0 a6 0b ad ab 80 c0 c2 0b 20 05 80 c0 01 c1 c1 c9 0d 08 41 00 a2 c0 d1 c0 e0 7e de 0c 8d a0
+- MEM_DESC (24980 bytes): memory at 004c8000..004ce18c (0x618c=24972 bytes, sha256=7480be624bf23593d7ebff6c9b3a6de567a91ca96fa9f7461a447077283ec494)
+    Hexdump of start: 40 63 20 a0 e0 7f 41 a0 f1 c0 05 e8 3e 0f ad a7 64 d8 ba 0e 8d a9 d1 c0 e0 7e e0 78 15 26 00 70
+- MEM_DESC (8472 bytes): memory at 00622dc0..00624ed0 (0x2110=8464 bytes, sha256=c1bdae2886abab1b59fbdd764fc0c91a8eb26a1cd13e2c52787aa764ffbd5388)
+    Hexdump of start: 20 20 c0 10 0f 1b 09 22 80 b0 c0 10 0a 00 1b 40 20 00 1b 6e 0f 00 00 61 80 00 1b 6e 47 00 00 61

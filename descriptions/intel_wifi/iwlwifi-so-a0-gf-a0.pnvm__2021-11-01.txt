@@ -1,0 +1,24 @@
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0x4B50F925
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=f969c71cbc62d420326975e14304d7747242fe6136eeee244de5742c23a677d1)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 21 10 21 20 27 0c 00 00 18 00 00 00
+- SEC_RT (12108 bytes): runtime ucode at deadcafe..deadfa46 (0x2f48=12104 bytes, sha256=34e9b4b88b06e4d92cc1e4a9d98750555b7a38505871b38e05a14a69123fc294)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 92 12 00 00 00 00 00 00 00 00 00 00 cc 0b 00 30 09 81 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0x4B50F925
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=d7d84fa8b41e2b7f6eac87136beeff57f888e652f8ec472656979e8ffac798dc)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 21 10 21 20 54 0c 00 00 18 00 00 00
+- SEC_RT (12288 bytes): runtime ucode at deadcafe..deadfafa (0x2ffc=12284 bytes, sha256=f452c14a4c0f9c08913c8bab9622961a01c22fa1e9d16f0469f471fc958e4386)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 92 12 00 00 00 00 00 00 00 00 00 00 f9 0b 00 30 09 81 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
+- HW_TYPE (12 bytes): mac_type=SOF rf_type=GF
+- PNVM_VERSION (4 bytes): 0x4B50F925
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=0239d517df6d907384d4264c8fe8ff3b0c40d45f7c6fc022f634afbf6cbffd89)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 21 10 21 20 35 0c 00 00 18 00 00 00
+- SEC_RT (12164 bytes): runtime ucode at deadcafe..deadfa7e (0x2f80=12160 bytes, sha256=3d7f5c251822daa902e12005e9c03e87e0523ccd098d5ed4c7783a770d675797)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 92 12 00 00 00 00 00 00 00 00 00 00 da 0b 00 30 09 81 03 00 4b 03 4b 03

@@ -1,0 +1,4 @@
+- MEM_DESC (672 bytes): memory at 00000000..00000298 (0x298=664 bytes, sha256=0ef99102f51b407b3d8d934a236504273df40ad46cf37557e3bf7ef29882d683)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 25 07 21 20 a6 ec 00 00 40 00 00 00
+- MEM_DESC (241672 bytes): memory at 01000000..0103b000 (0x3b000=241664 bytes, sha256=5d1eca12dd4d382079dbf1a28ac5f53a8119c1f2479a1335f79ea96ebfa5eb3b)
+    Hexdump of start: fc 1c 48 b3 fc 1c 88 b3 fc 1c c8 b3 fc 1c 08 b4 fc 1c 48 b4 ab 21 02 06 ab 26 41 70 00 00 0c 80

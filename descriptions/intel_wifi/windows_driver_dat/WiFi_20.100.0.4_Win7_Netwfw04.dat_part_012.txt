@@ -1,0 +1,17 @@
+- INST (4 bytes): date 2018-08-26
+- DATA (64 bytes): 'N/A_LOCAL_BRANCH::7266c1f7'
+- FW_VERSION (12 bytes): 24.7266c1f7.0
+- INIT_DATA (4 bytes): c8 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 08000000
+- MEM_DESC (704 bytes): memory at 00405000..004052b8 (0x2b8=696 bytes, sha256=9c7b95644363d7861ffffd6b3e1b0a5b9523c806bc93152de52faa314a3cfcaa)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 26 08 18 20 e4 00 01 00 40 00 00 00
+- MEM_DESC (32776 bytes): memory at c0880000..c0888000 (0x8000=32768 bytes, sha256=b2326f90c74c302900ecc59af5d71bb2c6ddd5ceebcffa7a3b013f2ae0b1edb5)
+    Hexdump of start: ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (65544 bytes): memory at c0080000..c0090000 (0x10000=65536 bytes, sha256=31a066ed2a3d84730a9b422e22c7fa20c5a77dab4616c083d8a6e87401bac418)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 08 a1 20 20 80 0f 08 c0 80 60 69 20 00 00 69 20 40 00
+- MEM_DESC (164064 bytes): memory at 80434800..8045c8d8 (0x280d8=164056 bytes, sha256=561c9c7d9e7662a7ef4819ec48dd4fe5e0bd654c14a2fc0d49f0e25f08827eb8)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 80 0c cf 75 44 80 b4 ae 20 85 40 25 0e 1a 5a 21 02 0a 5a 21 03 03 c7 72

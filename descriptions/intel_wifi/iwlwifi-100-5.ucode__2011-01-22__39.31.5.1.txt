@@ -1,0 +1,18 @@
+Header: version 656344321 '100 fw v39.31.5.1 build 32895\n' build 0x807f
+- INST (126000 bytes): 0x1ec30 bytes, sha256=eb8232f0b69917ee9475a97a17cf1bf43bc1051e95532eb318c39ee24b1e0fc6
+    Hexdump of start: 20 20 80 0f 00 00 40 00 69 20 00 00 69 20 40 00 69 20 00 00 69 20 40 00 20 20 80 0f 00 00 e8 00
+- DATA (49152 bytes): 0xc000 bytes, sha256=79867416de3c2378f81827d75a79284080cc3b64b2af60a24c4dc659c845777c
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 28 0b 80 00 bc 0b 80 00 80 5a 80 00
+- INIT (113044 bytes): 0x1b994 bytes, sha256=d7baa74e883ee25fb56acd7de3ac7078034dc125f95f034b8dfd7da3f0162cf5
+    Hexdump of start: 20 20 80 0f 00 00 40 00 69 20 00 00 69 20 40 00 69 20 00 00 69 20 40 00 20 20 80 0f 00 00 e8 00
+- INIT_DATA (49152 bytes): 0xc000 bytes, sha256=aee55312b958559d513aa2cbeba68d42dfddc56e84b32892220f8ef05fc07531
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 48 0b 80 00 dc 0b 80 00 80 43 80 00
+- PROBE_MAX_LEN (4 bytes): 0x12c = 300 bytes
+- MEM_DESC (0 bytes): empty
+- RUNT_EVTLOG_PTR (4 bytes): 0x00800BBC
+- RUNT_EVTLOG_SIZE (4 bytes): 0x610 = 1552 bytes
+- RUNT_ERRLOG_PTR (4 bytes): 0x00800B28
+- INIT_EVTLOG_PTR (4 bytes): 0x00800BDC
+- INIT_EVTLOG_SIZE (4 bytes): 0x610 = 1552 bytes
+- INIT_ERRLOG_PTR (4 bytes): 0x00800B48
+- PHY_CALIBRATION_SIZE (4 bytes): 18

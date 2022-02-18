@@ -1,0 +1,14 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 39.4b051418.0
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880020 dbg_print_buff_addr=0x00880000
+- INST (4 bytes): date 2018-05-10
+- DATA (64 bytes): 'LOCAL-HEAD::4b051418'
+- INIT_DATA (4 bytes): f4 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 6e1a0000
+- MEM_DESC (672 bytes): memory at 00000000..00000298 (0x298=664 bytes, sha256=e476aafbc4baefb969a9a64f83dea126134c17d8422337f4e8bb974d9c73ad21)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 10 05 18 20 a6 14 01 00 40 00 00 00
+- MEM_DESC (282632 bytes): memory at 01000000..01045000 (0x45000=282624 bytes, sha256=a277b43b5a894e6afa21264504594b59f76fc7628828e46e55eb42e23121fb54)
+    Hexdump of start: fc 1c 48 b3 fc 1c 88 b3 fc 1c c8 b3 fc 1c 08 b4 fc 1c 48 b4 ab 21 02 06 ab 26 41 70 00 00 0c 80

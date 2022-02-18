@@ -1,0 +1,20 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 43.9111a87e.0
+- HW_TYPE (12 bytes): mac_type=PNJ_TH rf_type=TH_JF2
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x008800C4 dbg_print_buff_addr=0xC04446B8
+- N_SCAN_CHANNELS (4 bytes): 52
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 62320000
+- OLD_TYPE_REGIONS (1884 bytes):
+    Hexdump: 01 00 00 00 01 00 00 00 0a 00 00 00 01 00 00 00 02 00 00 00 20 00 00 00 6d 61 63 5f 70 65 72 69
+- OLD_TYPE_TRIGGERS (164 bytes):
+    Hexdump: 01 00 00 00 01 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- INST (4 bytes): date 2018-10-22
+- DATA (64 bytes): '9111a87e938bfaa2b5a104a5f5833d37284b988d::9111a87e'
+- INIT_DATA (4 bytes): f4 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- MEM_DESC (672 bytes): memory at 00000000..00000298 (0x298=664 bytes, sha256=834ac36aef645a7b77f027b8a032644d221f59447cee796be70547c591722bcf)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 22 10 18 20 a6 dc 00 00 40 00 00 00
+- MEM_DESC (225288 bytes): memory at 01000000..01037000 (0x37000=225280 bytes, sha256=b99962e620285c1c6af5d737f384040db1e352113dca0674ef9d0d1ab35cabc6)
+    Hexdump of start: fc 1c 48 b3 fc 1c 88 b3 fc 1c c8 b3 fc 1c 08 b4 fc 1c 48 b4 ab 21 02 06 ab 26 41 70 00 00 0c 80

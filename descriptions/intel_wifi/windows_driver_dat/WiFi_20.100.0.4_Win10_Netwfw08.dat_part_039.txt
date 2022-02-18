@@ -1,0 +1,48 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 43.9111a87e.0
+- HW_TYPE (12 bytes): mac_type=0x0039 rf_type=0x010B
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x008801CC dbg_print_buff_addr=0xC045806C
+- FW_RECOVERY_INFO (8 bytes): addr=0xC08800C4 size=0x00000108
+- N_SCAN_CHANNELS (4 bytes): 52
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: ee3b0000
+- OLD_TYPE_REGIONS (3588 bytes):
+    Hexdump: 01 00 00 00 01 00 00 00 0a 00 00 00 01 00 00 00 02 00 00 00 20 00 00 00 6d 61 63 5f 70 65 72 69
+- OLD_TYPE_TRIGGERS (164 bytes):
+    Hexdump: 01 00 00 00 01 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- INST (4 bytes): date 2018-10-22
+- DATA (64 bytes): '9111a87e938bfaa2b5a104a5f5833d37284b988d::9111a87e'
+- INIT_DATA (4 bytes): f0 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- LMAC_DEBUG_ADDRS (32 bytes):
+    error_event_table_ptr = 0x005C602C
+    log_event_table_ptr = 0x005C5224
+    cpu_register_ptr = 0x005C567C
+    dbgm_config_ptr = 0x005C507C
+    alive_counter_ptr = 0x005C5678
+    scd_base_ptr = 0x00000000
+    st_fwrd_addr = 0x00000000
+    st_fwrd_size = 0x00000000
+- MEM_DESC (1664 bytes): memory at 00000000..00000678 (0x678=1656 bytes, sha256=637356040cf090b0a1202aaf1beace6ca8a1ae0287c985217af8e1dbf48a7e34)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 22 10 18 20 ca 04 01 00 40 00 00 00
+- MEM_DESC (32776 bytes): memory at 01000000..01008000 (0x8000=32768 bytes, sha256=0355620127302760399bd4a0257c2f597d7e31332f35237adac20958886d10c8)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 e4 4e 08 75 cf 76 a0 c0 00 2c 68 16 0f 18 04 80 68 16 01 18 12 78 19 61
+- MEM_DESC (32776 bytes): memory at 01008000..01010000 (0x8000=32768 bytes, sha256=333757ee8b1abeb877c1dc0be51f7d6ef5ee310e006fa264dee9066fcb5a138a)
+    Hexdump of start: ab 20 02 06 ab 26 02 72 00 00 01 00 ab 26 02 74 00 00 01 00 ab 26 82 74 00 00 01 00 ab 22 02 00
+- MEM_DESC (32776 bytes): memory at 01010000..01018000 (0x8000=32768 bytes, sha256=7cc92c554b1bd624c7a513b36496a8399240fc5751c4e418456d9c7af94054e3)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 01018000..01020000 (0x8000=32768 bytes, sha256=5560db1a6a8522c6b390767eb73d03602dc9d9a16c918163f08c7dcbb551a7da)
+    Hexdump of start: 08 71 1f d8 02 f0 61 b8 80 e0 c5 f6 11 21 00 80 fb f3 e0 7e f1 c0 22 20 80 0f 08 c0 e4 4e 08 76
+- MEM_DESC (32776 bytes): memory at 01020000..01028000 (0x8000=32768 bytes, sha256=319710eeb209f844ede20b9b5d5ed7e73d4e0650bf2f2e80d5625c42725bcc40)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 01028000..01030000 (0x8000=32768 bytes, sha256=a754d2cf5f0a5f3f4beebea3612b5d1e5ce51e08852377e43c2abe8dc2e254f7)
+    Hexdump of start: ee 4c 95 0b 42 fa c3 4e 08 2e a1 66 28 d9 24 b2 76 5b a2 49 6d 8b d1 25 72 f8 f6 64 86 68 98 16
+- MEM_DESC (32776 bytes): memory at 01030000..01038000 (0x8000=32768 bytes, sha256=6b334a6dedb19c64ca0dab16a6603a91c820221586b4a47b1341e9c5b96874d5)
+    Hexdump of start: 00 00 c8 01 a9 71 42 20 03 80 e9 70 ca 23 62 00 c9 72 0a 24 00 04 22 20 80 0f 03 01 08 01 52 70
+- MEM_DESC (12296 bytes): memory at 01038000..0103b000 (0x3000=12288 bytes, sha256=c2a8f0e4e67ac9648c56f3e879e2fb912d32fd47574f34126c87c70b444bd3c0)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (8200 bytes): memory at 005c5000..005c7000 (0x2000=8192 bytes, sha256=60f8578cc60ec464261a8c69f09f03ae70ea0ae29d4fe72f3e568447ed1cb3e9)
+    Hexdump of start: 2b 00 00 00 7e a8 11 91 00 01 00 00 00 00 00 00 2c 60 5c 00 24 52 5c 00 7c 56 5c 00 7c 50 5c 00
+- MEM_DESC (16392 bytes): memory at 005c1000..005c5000 (0x4000=16384 bytes, sha256=ef9ea2ae2e471e5734aa1fdcb91f02645365638d4ab2ade5e32ed28433171635)
+    Hexdump of start: 4c 10 5c 00 b8 20 5c 00 68 1c 5c 00 9c 1f 5c 00 c8 30 5c 00 c8 30 5c 00 8c 24 5c 00 ec 23 5c 00

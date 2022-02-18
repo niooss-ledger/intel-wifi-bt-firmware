@@ -1,0 +1,58 @@
+- INST (4 bytes): date 2017-10-23
+- DATA (64 bytes): 'stream:CoreCycle14_stab@608617'
+- FW_VERSION (12 bytes): 17.608617.0
+- INIT_DATA (4 bytes): c8 00 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000005 = 16777221 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0x1011901 = 16849153 bytes
+- WOWLAN_INST (4 bytes): 7f 4b fb fb
+- WOWLAN_DATA (8 bytes): db 10 8e 48 9b 90 02 0a
+- FLAGS (8 bytes): 0x00000000, 0x0D9BFFFB
+- SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f27df9b
+- SEC_RT (8 bytes): 0x00000002, 4 bytes: 01000000
+- N_SCAN_CHANNELS (4 bytes): 52
+- CMD_VERSIONS (108 bytes, 27 entries):
+    LEGACY(0x0).TX_ANT_CONFIGURATION_CMD(0x98)           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).BT_CONFIG(0x9B)                          cmd_ver= 6 notif_ver= 0
+    LEGACY(0x0).LQ_CMD(0x4E)                             cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).POWER_TABLE_CMD(0x77)                    cmd_ver= 6 notif_ver= 0
+    LEGACY(0x0).PROT_OFFLOAD_CONFIG_CMD(0xD4)            cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).UCODE_ALIVE_NTFY(0x01)                   cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).NVM_ACCESS_CMD(0x88)                     cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).BT_COEX_CI(0x5D)                         cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).LEDS_CMD(0x48)                           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TXPATH_FLUSH(0x1E)                       cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TIME_QUOTA_CMD(0x2C)                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).SCAN_OFFLOAD_ABORT_CMD(0x52)             cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_THERMAL_MNG_BACKOFF(0x7E)          cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REDUCE_TX_POWER_CMD(0x9F)                cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).REMOVE_STA(0x19)                         cmd_ver= 2 notif_ver= 0
+    LEGACY(0x0).0x55                                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).MAC_CONTEXT_CMD(0x28)                    cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).STATISTICS_CMD(0x9C)                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).OFFLOADS_QUERY_CMD(0xD5)                 cmd_ver= 4 notif_ver= 0
+    LEGACY(0x0).DBG_CFG(0x09)                            cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).TIME_EVENT_CMD(0x29)                     cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).SCAN_OFFLOAD_REQUEST_CMD(0x51)           cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).PHY_CONTEXT_CMD(0x08)                    cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).REPLY_SF_CFG_CMD(0xD1)                   cmd_ver= 3 notif_ver= 0
+    LEGACY(0x0).ADD_STA(0x18)                            cmd_ver= 7 notif_ver= 0
+    LEGACY(0x0).MAC_PM_POWER_TABLE(0xA9)                 cmd_ver= 1 notif_ver= 0
+    LEGACY(0x0).BINDING_CONTEXT_CMD(0x2B)                cmd_ver= 1 notif_ver= 0
+- FW_GSCAN_CAPA (32 bytes):
+    max_scan_cache_size = 4096
+    max_scan_buckets = 16
+    max_ap_cache_per_scan = 16
+    max_rssi_sample_size = 8
+    max_scan_reporting_threshold = 100
+    max_hotlist_aps = 32
+    max_significant_change_aps = 8
+    max_bssid_history_entries = 50
+- MEM_DESC (704 bytes): memory at 00404000..004042b8 (0x2b8=696 bytes, sha256=464814bb1f9e0a5f54a5f27c50e10e871825836bda6272478e117f8397b0a2c4)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 23 10 17 20 ef cb 01 00 40 00 00 00
+- MEM_DESC (98312 bytes): memory at 00800000..00818000 (0x18000=98304 bytes, sha256=bf4de35c8e10461aa6b8bf6efdb76c4c60e7c3909ae7c55ff3fcaafa93315306)
+    Hexdump of start: 00 00 00 00 11 00 00 00 69 49 09 00 00 01 00 00 00 00 00 00 1c d0 80 00 0c 27 80 00 fc f2 80 00
+- MEM_DESC (327688 bytes): memory at 00000000..00050000 (0x50000=327680 bytes, sha256=d7af73a9925342f6761ecf8da5b639993e41b14fda65427be18c30a66a677516)
+    Hexdump of start: 20 20 80 0f 00 00 40 00 20 20 80 0f 02 00 c8 8c 20 20 80 0f 02 00 28 3e 20 20 80 0f 00 00 54 08
+- MEM_DESC (44300 bytes): memory at 00448000..00452d04 (0xad04=44292 bytes, sha256=10deb6c6b4ea7be471361457ecea860123d14112cdc129233fbfb6b5ef879f99)
+    Hexdump of start: 50 a7 f4 51 53 65 41 7e c3 a4 17 1a 96 5e 27 3a cb 6b ab 3b f1 45 9d 1f ab 58 fa ac 93 03 e3 4b
