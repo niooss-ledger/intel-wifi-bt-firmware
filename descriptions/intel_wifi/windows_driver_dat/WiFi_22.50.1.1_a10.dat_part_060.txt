@@ -1,0 +1,347 @@
+- BOOT (4 bytes): 18 00 33 00
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- FW_VERSION (12 bytes): 64.97bbee0a.0
+- HW_TYPE (12 bytes): mac_type=SNJ rf_type=GF
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880120 dbg_print_buff_addr=0x0048CFF0
+- FW_RECOVERY_INFO (8 bytes): addr=0x00880000 size=0x00000118
+- N_SCAN_CHANNELS (4 bytes): 67
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: eefa7f07
+- TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=4 debug_cfg_name='UMAC DEFAULT DEBUG CONFIG'
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=ALWAYS_ON alloc_id=DBGC1 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0x00800000 alloc_id=DBGC4 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
+- TYPE_REGIONS (64 bytes): id=0 name='fw_rsp_or_notif' type=RSP_OR_NOTIF domain=ALWAYS_ON version=1
+- TYPE_REGIONS (4816 bytes): id=1 name='prph_mac' type=PERIPHERY_MAC domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[1188] =
+        0x00d05c18 0x00d05c1c 0x00d0c000 0x00d0c004 0x00d0c008 0x00d0c00c 0x00d0c010 0x00d0c014
+        0x00d0c018 0x00d0c020 0x00d0c024 0x00d0c028 0x00d0c03c 0x00d0c040 0x00d0c044 0x00d0c048
+        0x00d0c04c 0x00d0c050 0x00d0c054 0x00d0c058 0x00d0c05c 0x00d0c060 0x00d0c064 0x00d0c068
+        0x00d0c06c 0x00d0c070 0x00d0c074 0x00d0c078 0x00d0c07c 0x00d0c080 0x00d0c084 0x00d0c088
+        0x00d0c08c 0x00d0c090 0x00d0c094 0x00d0c0c0 0x00d0c0c4 0x00d0c0c8 0x00d0c0cc 0x00d0c0d0
+        0x00d0c0d4 0x00d0c0d8 0x00d0c0dc 0x00d0c0e0 0x00d0c0e4 0x00d0c0e8 0x00d0c0ec 0x00d0c0f0
+        0x00d0c0f4 0x00d0c0f8 0x00d0c0fc 0x00d0c100 0x00d0c104 0x00d0c10c 0x00d0c110 0x00d0c114
+        0x00d0c17c 0x00d0c180 0x00d0c184 0x00d0c188 0x00d0c190 0x00d0c194 0x00d0c198 0x00d0c1a0
+        0x00d0c1a4 0x00d0c1a8 0x00d0c1b0 0x00d0c1b4 0x00d0c1b8 0x00d0c118 0x00d0c200 0x00d0c204
+        0x00d0c208 0x00d0c20c 0x00d0c210 0x00d0c214 0x00d0c218 0x00d0c21c 0x00d0c220 0x00d0c224
+        0x00d0c228 0x00d0c22c 0x00d0c230 0x00d0c234 0x00d0c238 0x00d0c23c 0x00d0c240 0x00d0c244
+        0x00d0c248 0x00d0c24c 0x00d0c250 0x00d0c254 0x00d0c258 0x00d0c25c 0x00d0c260 0x00d0c264
+        0x00d0c268 0x00d0c26c 0x00d0c270 0x00d0c274 0x00d0c278 0x00d0c27c 0x00d0c2c0 0x00d0c2e0
+        0x00d0c2c4 0x00d0c2e4 0x00d0c2c8 0x00d0c2e8 0x00d0c2cc 0x00d0c2ec 0x00d0c300 0x00d0c304
+        0x00d0c310 0x00d0c150 0x00d0c154 0x00d0c158 0x00d0c15c 0x00d0c160 0x00d0c164 0x00d0c168
+        0x00d0c16c 0x00d0c170 0x00d0c174 0x00d03c00 0x00d03c04 0x00d03c08 0x00d03c0c 0x00d03c10
+        0x00d03c14 0x00d03c18 0x00d03c30 0x00d03c34 0x00d03c5c 0x00d03c64 0x00d03c3c 0x00d03c38
+        0x00d03c40 0x00d03c44 0x00d03c48 0x00d03c4c 0x00d03c50 0x00d03c54 0x00d03c58 0x00d03c60
+        0x00d03c1c 0x00d03c20 0x00d03c24 0x00d03c28 0x00d03c2c 0x00d03d00 0x00d03d04 0x00d03d08
+        0x00d03d0c 0x00d03d1c 0x00d03d2c 0x00d03d54 0x00d03e00 0x00d03e04 0x00d03e08 0x00d03e0c
+        0x00d03e1c 0x00d03e2c 0x00d03e54 0x00d0c11c 0x00d0c120 0x00d0c320 0x00d0c328 0x00d0c330
+        0x00d0c338 0x00a26c64 0x00a26cf0 0x00a26cf4 0x00a26cf8 0x00a26c10 0x00a27c48 0x00d00000
+        0x00d00010 0x00d00014 0x00d00018 0x00d0001c 0x00d00020 0x00d00024 0x00d00030 0x00d05400
+        0x00d05404 0x00d05408 0x00d0540c 0x00d05410 0x00d05414 0x00d05440 0x00d05444 0x00d05448
+        0x00d05450 0x00d05454 0x00d05484 0x00d05488 0x00d0548c 0x00d05490 0x00d05494 0x00d05498
+        0x00d0549c 0x00d054a0 0x00d054a4 0x00d054a8 0x00d054ac 0x00d054b0 0x00d05464 0x00d05420
+        0x00d0543c 0x00d054c0 0x00d054c4 0x00d054c8 0x00d054cc 0x00d054d0 0x00d054d4 0x00d054d8
+        0x00d054dc 0x00d054e0 0x00d05500 0x00d05504 0x00d05508 0x00d0550c 0x00d05510 0x00d05540
+        0x00d05544 0x00d05548 0x00d05554 0x00d05568 0x00d0556c 0x00d05570 0x00d05574 0x00d055b8
+        0x00d05578 0x00d0557c 0x00d05580 0x00d05584 0x00d05588 0x00d0558c 0x00d05590 0x00d05594
+        0x00d05598 0x00d055b0 0x00d055c0 0x00d055c4 0x00d055c8 0x00d055bc 0x00d03f00 0x00d03f04
+        0x00d03f08 0x00d03f0c 0x00d03f14 0x00d03f20 0x00d03f24 0x00d03f28 0x00d03f2c 0x00d03f30
+        0x00d03f34 0x00d03f38 0x00d03f3c 0x00d03f40 0x00d03f44 0x00d03f48 0x00d03f4c 0x00d03f50
+        0x00d03f54 0x00d03f58 0x00d03f5c 0x00d0500c 0x00d05090 0x00d05000 0x00d05004 0x00d05008
+        0x00d05098 0x00d050c0 0x00d050c4 0x00d050c8 0x00d050cc 0x00a00410 0x00a00414 0x00a00418
+        0x00a0041c 0x00a00430 0x00a00434 0x00a00438 0x00a0043c 0x00a00444 0x00a0045c 0x00a00488
+        0x00a0048c 0x00a00490 0x00a00494 0x00a0049c 0x00a004a0 0x00a004a4 0x00a004a8 0x00a004ac
+        0x00a004b0 0x00a00510 0x00a00514 0x00a00518 0x00a0051c 0x00a00530 0x00a00538 0x00a0053c
+        0x00a00c14 0x00a00c20 0x00a00c2c 0x00a00c34 0x00a00c40 0x00a00c4c 0x00a00c50 0x00a00c54
+        0x00a00c84 0x00a00c88 0x00a00cc4 0x00a00cc8 0x00a00ce0 0x00a00ce4 0x00a00ce8 0x00d00e14
+        0x00d00e20 0x00d00e2c 0x00d00e34 0x00d00e40 0x00d00e4c 0x00d00e50 0x00d00e54 0x00d00e84
+        0x00d00e88 0x00d00ec4 0x00d00ec8 0x00d00ee0 0x00d00ee4 0x00d00ee8 0x00a00850 0x00a00858
+        0x00a00810 0x00a0085c 0x00a00860 0x00a00880 0x00a00884 0x00a00888 0x00a00890 0x00a00894
+        0x00a00898 0x00a0089c 0x00a008a4 0x00a01004 0x00a01008 0x00a01010 0x00a01018 0x00a01024
+        0x00a0102c 0x00a01030 0x00a01034 0x00a0103c 0x00a01040 0x00a01048 0x00a0104c 0x00a01050
+        0x00a01058 0x00a01064 0x00a01068 0x00a0106c 0x00a01070 0x00a0108c 0x00a0109c 0x00a010a0
+        0x00a010a4 0x00a010a8 0x00a010ac 0x00a010b0 0x00a010b4 0x00a010b8 0x00a010bc 0x00a01108
+        0x00a0110c 0x00a01110 0x00a01114 0x00a01118 0x00a0111c 0x00a01120 0x00a01124 0x00a01100
+        0x00a01104 0x00a01128 0x00a0112c 0x00a01130 0x00a01134 0x00a01138 0x00a0113c 0x00a0d008
+        0x00a0d00c 0x00a0d018 0x00a0d024 0x00a0d028 0x00a0d02c 0x00a0d030 0x00a0d034 0x00a0d038
+        0x00a0d03c 0x00a0d040 0x00a0d044 0x00a0d048 0x00a0d04c 0x00a0d050 0x00a0d054 0x00a0d058
+        0x00a0d05c 0x00a0d060 0x00a0d064 0x00a0d068 0x00a0d06c 0x00a0d070 0x00a0d074 0x00a0d078
+        0x00a0d07c 0x00a0d080 0x00a0d084 0x00a0d088 0x00a0d08c 0x00a0d094 0x00a0d09c 0x00a0d0a4
+        0x00a0d0ac 0x00a0d0b4 0x00a0d0b8 0x00a0d0c0 0x00a0d0c4 0x00a0d0c8 0x00a0d0cc 0x00a0d0d0
+        0x00a0d0d4 0x00a0d0d8 0x00a0d0dc 0x00a0d0e0 0x00a0d0e4 0x00a0d0e8 0x00a0d0ec 0x00a0d0f0
+        0x00a0d0f4 0x00a0d0f8 0x00a0d0fc 0x00a0d100 0x00a0d104 0x00a0d108 0x00a0d10c 0x00a0d110
+        0x00a0d114 0x00a0d118 0x00a0d11c 0x00a0d120 0x00a0d124 0x00a0d128 0x00a0d12c 0x00a0d130
+        0x00a0d134 0x00a0d138 0x00a0d13c 0x00a0d1c0 0x00a0d1c4 0x00a0d1c8 0x00a0d1cc 0x00a0d1d0
+        0x00a0d1d4 0x00a0d1d8 0x00a0d1dc 0x00a0d1e0 0x00a0d1e4 0x00a0d1e8 0x00a0d1ec 0x00a0d1f0
+        0x00a0d1f4 0x00a0d1f8 0x00a0d1fc 0x00a0d200 0x00a0d204 0x00a0d208 0x00a0d20c 0x00a0d210
+        0x00a0d214 0x00a0d218 0x00a0d21c 0x00a0d220 0x00a0d224 0x00a0d228 0x00a0d22c 0x00a0d230
+        0x00a0d234 0x00a0d238 0x00a0d23c 0x00a0d2d8 0x00a0d2e0 0x00a0d2e8 0x00a0d2ec 0x00a0d2f0
+        0x00a0d2f4 0x00a0d2f8 0x00a0d2fc 0x00a0d300 0x00a0d304 0x00a0d308 0x00a0d30c 0x00a0d310
+        0x00a0d314 0x00a0d318 0x00a0d31c 0x00a0d320 0x00a0d324 0x00a0d328 0x00a0d32c 0x00a0d330
+        0x00a0d334 0x00a0d338 0x00a0d33c 0x00a0d340 0x00a0d344 0x00a0d348 0x00a0d34c 0x00a0d350
+        0x00a0d354 0x00a0d358 0x00a0d35c 0x00a0d360 0x00a0d364 0x00a0d368 0x00a0d36c 0x00a0d370
+        0x00a0d374 0x00a0d378 0x00a0d37c 0x00a0d380 0x00a0d384 0x00a0d388 0x00a0d38c 0x00a0d390
+        0x00a0d394 0x00a0d398 0x00a0d39c 0x00a0d3a0 0x00a0d3a4 0x00a0d3a8 0x00a0d3ac 0x00a0d3b0
+        0x00a0d3b4 0x00a0d3b8 0x00a0d3bc 0x00a0d3c0 0x00a0d3c4 0x00a0d3c8 0x00a0d3cc 0x00a0d3d0
+        0x00a0d3d4 0x00a0d3d8 0x00a0d3dc 0x00a0d3e0 0x00a0d3e4 0x00a0d3e8 0x00a0d3ec 0x00a0d3f0
+        0x00a0d3f4 0x00a0d3f8 0x00a0d3fc 0x00a0d400 0x00a0d404 0x00a0d4f4 0x00a0d2c0 0x00a0d2c8
+        0x00a0d2d0 0x00a0d4f8 0x00a0d408 0x00a0d40c 0x00a0d410 0x00a0d414 0x00a0d418 0x00a0d41c
+        0x00a0d420 0x00a0d424 0x00a0d428 0x00a0d42c 0x00a0d430 0x00a0d434 0x00a0d438 0x00a0d4cc
+        0x00a0d4d0 0x00a0d4d4 0x00a0d4ec 0x00a0d4f0 0x00a0a400 0x00a0a410 0x00a0a420 0x00a0a430
+        0x00a0a440 0x00a0a450 0x00a0a460 0x00a0a470 0x00a0a480 0x00a0a490 0x00a0a4a0 0x00a0a4b0
+        0x00a0a404 0x00a0a414 0x00a0a424 0x00a0a434 0x00a0a444 0x00a0a454 0x00a0a464 0x00a0a474
+        0x00a0a484 0x00a0a494 0x00a0a4a4 0x00a0a4b4 0x00a0a408 0x00a0a418 0x00a0a428 0x00a0a438
+        0x00a0a448 0x00a0a458 0x00a0a468 0x00a0a478 0x00a0a488 0x00a0a498 0x00a0a4a8 0x00a0a4b8
+        0x00a0a40c 0x00a0a41c 0x00a0a42c 0x00a0a43c 0x00a0a44c 0x00a0a45c 0x00a0a46c 0x00a0a47c
+        0x00a0a48c 0x00a0a49c 0x00a0a4ac 0x00a0a4bc 0x00a0a4c0 0x00a0a4c4 0x00a0a4c8 0x00a0a4cc
+        0x00a0a4d4 0x00a0a4d8 0x00a0a4dc 0x00a0a4e0 0x00a0a4e4 0x00a0a4f0 0x00a0a4f4 0x00a0a4f8
+        0x00a0a4fc 0x00a0a500 0x00a0a504 0x00a0a508 0x00a0a50c 0x00a0a510 0x00a0a514 0x00a0a518
+        0x00a0a51c 0x00a0a520 0x00a0a524 0x00a0a528 0x00a0a52c 0x00a0a530 0x00a0a534 0x00a0a538
+        0x00a0a53c 0x00a0a540 0x00a0a544 0x00a0a54c 0x00a0a550 0x00a0a554 0x00a0a558 0x00a0a55c
+        0x00a0a560 0x00d07800 0x00d07820 0x00d07824 0x00d07880 0x00d07884 0x00d07888 0x00d078b0
+        0x00d078b4 0x00d078c0 0x00d07900 0x00d07904 0x00d07908 0x00d0790c 0x00d07910 0x00d07914
+        0x00d078b8 0x00d078bc 0x00d078c4 0x00d07940 0x00a01e00 0x00a01e04 0x00a01e08 0x00a01e0c
+        0x00a01e10 0x00a01e14 0x00a01e20 0x00a01e24 0x00a01e28 0x00a01e2c 0x00a01e30 0x00a01e34
+        0x00a01e60 0x00a01e64 0x00a01e80 0x00a01e84 0x00a01ea0 0x00a01ec4 0x00a01ec8 0x00a01ed0
+        0x00a01ed4 0x00a01c20 0x00a01c64 0x00a01c6c 0x00a01c70 0x00a01d00 0x00a01d08 0x00a01d10
+        0x00a01d18 0x00a01d1c 0x00a01d20 0x00d02e00 0x00d02e04 0x00d02e08 0x00d02e0c 0x00d02e10
+        0x00d02e14 0x00d02e20 0x00d02e24 0x00d02e28 0x00d02e2c 0x00d02e30 0x00d02e34 0x00d02e60
+        0x00d02e64 0x00d02e80 0x00d02e84 0x00d02ea0 0x00d02ec0 0x00d02ec4 0x00d02ec8 0x00d02ecc
+        0x00d02ed0 0x00d03800 0x00d03804 0x00d03810 0x00d03814 0x00d03820 0x00d03824 0x00d03844
+        0x00d03900 0x00d03908 0x00d0390c 0x00d03918 0x00d0391c 0x00d03924 0x00d03940 0x00d03944
+        0x00d038c0 0x00d038c4 0x00d05800 0x00d0586c 0x00d05874 0x00d0587c 0x00d05860 0x00d05864
+        0x00d05868 0x00d05878 0x00d05880 0x00d05884 0x00d05888 0x00d0588c 0x00d05890 0x00d05894
+        0x00d05898 0x00d0589c 0x00d058a0 0x00d058a4 0x00d058a8 0x00d058ac 0x00d058b0 0x00d058b4
+        0x00d058b8 0x00d058bc 0x00d058c0 0x00d058c4 0x00d058c8 0x00d058cc 0x00d058d0 0x00d058d4
+        0x00d058d8 0x00d058dc 0x00d058e0 0x00d058e4 0x00d058e8 0x00d058ec 0x00d058f0 0x00d058f4
+        0x00d058f8 0x00d058fc 0x00d05900 0x00d05904 0x00d05908 0x00d0590c 0x00d05910 0x00d05914
+        0x00d05918 0x00d0591c 0x00d05920 0x00d05924 0x00d05928 0x00d0592c 0x00d05930 0x00d05934
+        0x00d05938 0x00d0593c 0x00d05940 0x00d05944 0x00d05948 0x00d0594c 0x00d05950 0x00d05954
+        0x00d05958 0x00d0595c 0x00d05960 0x00d05964 0x00d05968 0x00d0596c 0x00d05970 0x00d05974
+        0x00d05978 0x00d0597c 0x00a02000 0x00a02004 0x00a02008 0x00a0200c 0x00a02010 0x00a02014
+        0x00a02018 0x00a0201c 0x00d02c68 0x00a02024 0x00a02028 0x00a0202c 0x00a02080 0x00a02084
+        0x00a02088 0x00a0208c 0x00a02090 0x00a02094 0x00a020d0 0x00a020d4 0x00a020d8 0x00a020dc
+        0x00a020e4 0x00a020e8 0x00d02c00 0x00d02c04 0x00d02c08 0x00d02c0c 0x00d02c10 0x00d02c14
+        0x00d02c18 0x00d02c1c 0x00d02c20 0x00d02c24 0x00d02c28 0x00d02c2c 0x00d02c30 0x00d02c34
+        0x00d02c38 0x00d02c3c 0x00d02c40 0x00d02c44 0x00d02c48 0x00d02c78 0x00d02c80 0x00d02c88
+        0x00d02c8c 0x00d02c90 0x00d02c94 0x00d02c98 0x00d02c9c 0x00a02400 0x00a02404 0x00a02408
+        0x00a0240c 0x00a02410 0x00a02414 0x00a02420 0x00a0242c 0x00a02434 0x00a02438 0x00a0243c
+        0x00a02440 0x00a025a0 0x00a02448 0x00a0244c 0x00a02450 0x00a02454 0x00a02458 0x00a0245c
+        0x00a02460 0x00a02464 0x00a02468 0x00a0246c 0x00a02470 0x00a02474 0x00a02478 0x00a0247c
+        0x00a02480 0x00a02484 0x00a02488 0x00a0248c 0x00a02490 0x00a02494 0x00a02498 0x00a0249c
+        0x00a024a0 0x00a024a4 0x00a024a8 0x00a024ac 0x00a024b0 0x00a024b4 0x00a024b8 0x00a024bc
+        0x00a024c0 0x00a024c4 0x00a024cc 0x00a024d0 0x00a024d4 0x00a024d8 0x00a024dc 0x00a024e0
+        0x00a024e4 0x00a024e8 0x00a024ec 0x00a024f0 0x00a024f4 0x00a024f8 0x00a02520 0x00a0251c
+        0x00a0252c 0x00a02530 0x00a02534 0x00a02538 0x00a0253c 0x00a02540 0x00a026e4 0x00a026e8
+        0x00a026f0 0x00a026f8 0x00a02700 0x00a02708 0x00a02710 0x00a02718 0x00a02720 0x00a026ec
+        0x00a026f4 0x00a026fc 0x00a02704 0x00a0270c 0x00a02714 0x00a0271c 0x00a02724 0x00a02728
+        0x00a02730 0x00a02738 0x00a02740 0x00a02748 0x00a02750 0x00a02758 0x00a02760 0x00a0272c
+        0x00a02734 0x00a0273c 0x00a02744 0x00a0274c 0x00a02754 0x00a0275c 0x00a02764 0x00a02768
+        0x00a02770 0x00a02778 0x00a02780 0x00a02788 0x00a02790 0x00a02798 0x00a027a0 0x00a0276c
+        0x00a02774 0x00a0277c 0x00a02784 0x00a0278c 0x00a02794 0x00a0279c 0x00a027a4 0x00a0255c
+        0x00a02564 0x00a02570 0x00a02574 0x00a02598 0x00a0259c 0x00a025a8 0x00a025ac 0x00a025b0
+        0x00a025b4 0x00a025e8 0x00a025ec 0x00a025f0 0x00a025f4 0x00a025b8 0x00a025bc 0x00a025c4
+        0x00a025c8 0x00a025cc 0x00a025d0 0x00a025d4 0x00a025d8 0x00a025dc 0x00a025e0 0x00a025e4
+        0x00a02604 0x00a02608 0x00a02614 0x00a02618 0x00a0261c 0x00a02620 0x00a02624 0x00a02628
+        0x00a0262c 0x00a02638 0x00a02640 0x00a02644 0x00a0264c 0x00a02650 0x00a02654 0x00a02658
+        0x00a0265c 0x00a02660 0x00a02664 0x00a02668 0x00a0266c 0x00a02670 0x00a02674 0x00a02678
+        0x00a0267c 0x00a02680 0x00a02684 0x00a02688 0x00a026b4 0x00a026b8 0x00a026c8 0x00a026cc
+        0x00d03000 0x00d03010 0x00d03014 0x00d0301c 0x00d03020 0x00d03024 0x00d03028 0x00d0302c
+        0x00d03034 0x00d03038 0x00d03040 0x00d03060 0x00d03064 0x00d03068 0x00d03070 0x00d03080
+        0x00d03084 0x00d0308c 0x00d03090 0x00d03098 0x00d030a8 0x00d030b0 0x00d030b4 0x00d030bc
+        0x00d03100 0x00d03104 0x00d03108 0x00d0310c 0x00d03110 0x00d03114 0x00d03118 0x00d0311c
+        0x00d03120 0x00d03124 0x00d03128 0x00d0312c 0x00a04400 0x00a04404 0x00a04408 0x00a0440c
+        0x00a04410 0x00a04414 0x00a04418 0x00a0441c 0x00a04420 0x00a04424 0x00a04428 0x00a0442c
+        0x00a04430 0x00a04434 0x00a04438 0x00a0443c 0x00a04440 0x00a04444 0x00a04448 0x00a0444c
+        0x00a04450 0x00a04454 0x00a04460 0x00a04464 0x00a04468 0x00a0446c 0x00a04470 0x00a04474
+        0x00a04480 0x00a04484 0x00a04488 0x00a0448c 0x00a044c0 0x00a044c4 0x00a044c8 0x00a044cc
+        0x00a044d0 0x00a044d4 0x00a044d8 0x00a044e0 0x00a044e4 0x00a044e8 0x00a044ec 0x00a044f8
+        0x00a044fc 0x00a04500 0x00a04504 0x00a04510 0x00a04514 0x00a04518 0x00a0451c 0x00a04520
+        0x00a04524 0x00a04528 0x00a0452c 0x00a04530 0x00a04534 0x00a04538 0x00a04544 0x00a04548
+        0x00a04560 0x00a04570 0x00a04574 0x00a04578 0x00a0457c 0x00a04590 0x00a04598 0x00a045c0
+        0x00a045c4 0x00a045c8 0x00a045cc 0x00a045d0 0x00a045d4 0x00a045d8 0x00a045dc 0x00a045e0
+        0x00a045e8 0x00a045ec 0x00a045f0 0x00d030d8 0x00d030dc 0x00d030e0 0x00d0307c 0x00d030a0
+        0x00d030ac 0x00d030c0 0x00d030c8 0x00d030cc 0x00d030d0 0x00d030d4 0x00d030e4 0x00d030e8
+        0x00d030ec 0x00d030f0 0x00d030f4 0x00d03044
+- TYPE_REGIONS (84 bytes): id=2 name='prph_phy_lmac1' type=PERIPHERY_PHY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[5] = 0xa44420 0xa44424 0xa4443c 0xaa0000 0xac0404
+- TYPE_REGIONS (76 bytes): id=4 name='rxfifo1_lmac1' type=RXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00000001, 0x00000000) hdr_only=0 offset=0x00000000
+    addresses[3] = 0xa00c50 0xa00c54 0xa00c4c
+- TYPE_REGIONS (76 bytes): id=6 name='rxfifo2_umac' type=RXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00000000, 0x00000001) hdr_only=0 offset=0x00000000
+    addresses[3] = 0xd00e50 0xd00e54 0xd00e4c
+- TYPE_REGIONS (76 bytes): id=7 name='rxfifo2c_umac' type=RXF domain=ALWAYS_ON version=1
+    fifos: fids=(0x00000000, 0x00000002) hdr_only=0 offset=0x00000000
+    addresses[3] = 0xd05a50 0xd05a54 0xd05a4c
+- TYPE_REGIONS (68 bytes): id=8 name='paged_mem' type=PAGING domain=ALWAYS_ON version=1
+    addresses[1] = 0x0
+- TYPE_REGIONS (68 bytes): id=9 name='dccm_umac' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00008000
+    addresses[1] = 0x880000
+- TYPE_REGIONS (64 bytes): id=10 name='error_table_umac' type=SPECIAL_DEVICE_MEMORY domain=ALWAYS_ON version=1
+    special_mem: type=1 version=2 base_addr=0x00880120 size=0x0000004C offset=0x00000000
+- TYPE_REGIONS (68 bytes): id=11 name='dccm_lmac1' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00008000
+    addresses[1] = 0x800000
+- TYPE_REGIONS (68 bytes): id=15 name='hw_smem' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00038000
+    addresses[1] = 0x400000
+- TYPE_REGIONS (68 bytes): id=23 name='sw_smem' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x000C0000
+    addresses[1] = 0x440000
+- TYPE_REGIONS (64 bytes): id=16 name='monitor_smem' type=INTERNAL_BUFFER domain=ALWAYS_ON version=1
+    internal_buffer: alloc_id=1 base_addr=0x00400000 size=0x00021000
+- TYPE_REGIONS (68 bytes): id=17 name='chmem' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00016000
+    addresses[1] = 0x620000
+- TYPE_REGIONS (68 bytes): id=18 name='csr' type=CSR domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000400
+    addresses[1] = 0x0
+- TYPE_REGIONS (68 bytes): id=19 name='pci_config' type=PCI_IOSF_CONFIG domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000100
+    addresses[1] = 0x0
+- TYPE_REGIONS (72 bytes): id=20 name='sw_events_mask' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[2] = 0x4929bc 0xc048fb14
+- TYPE_REGIONS (328 bytes): id=21 name='prph_debug' type=PERIPHERY_MAC domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000004
+    addresses[66] =
+        0x00d0c100 0x00d05464 0x00a0d4f4 0x00a0d4f8 0x00a0a50c 0x00d0c020 0x00d0c024 0x00d0c028
+        0x00d0c018 0x00d0c008 0x00d0c10c 0x00d0c000 0x00d0c104 0x00d0c17c 0x00d0c180 0x00d0c184
+        0x00d0c188 0x00d0c190 0x00d0c194 0x00d0c198 0x00d0c1a0 0x00d0c1a4 0x00d0c1a8 0x00d0c1b0
+        0x00d0c1b4 0x00d0c1b8 0x00d0c0c0 0x00d0c0c4 0x00d0c0c8 0x00d0c0cc 0x00d0c0d0 0x00d0c0d4
+        0x00d0c0d8 0x00d0c0dc 0x00d0c0e0 0x00d0c0e4 0x00d0c0e8 0x00d0c0ec 0x00d0c0f0 0x00d0c0f4
+        0x00d0c0f8 0x00d0c0fc 0x00d0c080 0x00d0c084 0x00d0c088 0x00d0c08c 0x00d0c090 0x00d0c094
+        0x00d0c118 0x00d0c2c0 0x00d0c2e0 0x00d0c2c4 0x00d0c2e4 0x00d0c2c8 0x00d0c2e8 0x00d0c2cc
+        0x00d0c2ec 0x00d0c300 0x00d0c304 0x00d0c310 0x00d03c04 0x00d03c08 0x00d03d04 0x00d03d08
+        0x00d03e04 0x00d03e08
+- TYPE_REGIONS (64 bytes): id=27 name='tlv' type=TLV domain=ALWAYS_ON version=1
+    tlv_mask = 0x3
+- TYPE_REGIONS (68 bytes): id=22 name='wecu' type=DEVICE_MEMORY domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000094
+    addresses[1] = 0x49aa34
+- TYPE_REGIONS (64 bytes): id=26 name='dbg_buff_cfg' type=SPECIAL_DEVICE_MEMORY domain=ALWAYS_ON version=1
+    special_mem: type=6 version=1 base_addr=0xC088023C size=0x0000004C offset=0x00000000
+- TYPE_REGIONS (68 bytes): id=28 name='bt_mini_core' type=PERIPHERY_MAC domain=ALWAYS_ON version=1
+    dev_addr: offset=0x00000000 size=0x00000400
+    addresses[1] = 0xe37800
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 reset_fw=2 regions_mask=0x0000000005FF9FD2
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 reset_fw=2 regions_mask=0x0000000005FF9FD2
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=12 trigger_reason=0x00001392 apply_policy=0x00000001
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 reset_fw=2 regions_mask=0x0000000005FF9F02
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000004310000
+- TYPE_TRIGGERS (56 bytes): domain=REPORT_PS time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=05000098
+- TYPE_TRIGGERS (56 bytes): domain=0x00000002 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=00000010
+- TYPE_TRIGGERS (56 bytes): domain=0x00000004 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=03000018
+- TYPE_TRIGGERS (56 bytes): domain=REPORT_PS time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=0e000018
+- TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=600000 hcmd=LONG(0x1).0xF1 data[12]=010000000500009800000000
+- TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=0 hcmd=PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03) data[12]=01000000ff1f000000000000
+- TYPE_HCMD (32 bytes): domain=0x00000002 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000001600009001000000
+- TYPE_HCMD (32 bytes): domain=0x00000004 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000000b00001801000000
+- TYPE_HCMD (28 bytes): domain=REPORT_PS time_point=3 period_msec=600000 hcmd=LONG(0x1).0xF1 data[8]=000000000e000018
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0xffff0000 alloc_id=DBGC1 buf_location=DRAM_PATH req_size=0x00400000 max_frags_num=16 min_size=0x00000400
+- TYPE_REGIONS (64 bytes): id=29 name='monitor' type=DRAM_BUFFER domain=4294901760 version=1
+    dram_alloc_id = 1
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0x78000000 alloc_id=DBGC2 buf_location=DRAM_PATH req_size=0x00400000 max_frags_num=16 min_size=0x00000400
+- TYPE_REGIONS (64 bytes): id=30 name='monitor2' type=DRAM_BUFFER domain=2013265920 version=1
+    dram_alloc_id = 2
+- TYPE_BUFFER_ALLOCATION (28 bytes): domain=0xfbbf0000 alloc_id=DBGC3 buf_location=DRAM_PATH req_size=0x00400000 max_frags_num=16 min_size=0x00000400
+- TYPE_REGIONS (64 bytes): id=31 name='monitor3' type=DRAM_BUFFER domain=4223598592 version=1
+    dram_alloc_id = 3
+- TYPE_TRIGGERS (52 bytes): domain=0x04400000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04400000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04400000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x04400000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000020000000
+- TYPE_TRIGGERS (52 bytes): domain=0x83bf0000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x00000000A0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x83bf0000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x00000000A0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x83bf0000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x00000000A0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x83bf0000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x00000000A0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x78000000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 regions_mask=0x00000000E0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x78000000 time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 regions_mask=0x00000000E0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x78000000 time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 regions_mask=0x00000000E0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x78000000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x00000000E0000000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=16 trigger_reason=0x00001B6B apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x00800000 time_point=16 trigger_reason=0x00001B6B apply_policy=0x00000001 regions_mask=0x00000000A4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=17 trigger_reason=0x00001B66 apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x00800000 time_point=17 trigger_reason=0x00001B66 apply_policy=0x00000001 regions_mask=0x00000000A4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08800000 time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 regions_mask=0x0000000000010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=18 trigger_reason=0x00001770 apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=19 trigger_reason=0x00001785 apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=20 trigger_reason=0x000017AC apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (52 bytes): domain=0x08000000 time_point=21 trigger_reason=0x0000177F apply_policy=0x00000001 regions_mask=0x00000000E4010000
+- TYPE_TRIGGERS (56 bytes): domain=0x74000000 time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000003 regions_mask=0x0000000024000001 data=ff0f0000
+- TYPE_TRIGGERS (56 bytes): domain=0x74000000 time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000003 regions_mask=0x0000000010000001 data=fa0f0000
+- TYPE_TRIGGERS (52 bytes): domain=0x40000000 time_point=4 trigger_reason=0x0000138A apply_policy=0x00000200 ignore_consec=5000000
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00010000 image_type=4 debug_cfg_name='UserCustom'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00020000 image_type=4 debug_cfg_name='InitDefault'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00040000 image_type=4 debug_cfg_name='UmacLmacPeriph'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00080000 image_type=4 debug_cfg_name='DataPathPerformance'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00100000 image_type=4 debug_cfg_name='DataPathHwIssues'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00200000 image_type=4 debug_cfg_name='Phy'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00400000 image_type=4 debug_cfg_name='Power'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x00800000 image_type=4 debug_cfg_name='D3'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x01000000 image_type=4 debug_cfg_name='BtCoex'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x02000000 image_type=4 debug_cfg_name='Connectivity'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x04000000 image_type=4 debug_cfg_name='System'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x08000000 image_type=4 debug_cfg_name='Validation Default'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x10000000 image_type=4 debug_cfg_name='BT-WiFi System'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x20000000 image_type=4 debug_cfg_name='BT-WiFi Coex Mcom'
+- TYPE_DEBUG_INFO (76 bytes): domain=0x40000000 image_type=4 debug_cfg_name='Release Default'
+- TYPE_HCMD (28 bytes): domain=0x00010000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000000080000
+- TYPE_HCMD (28 bytes): domain=0x00820000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000001080100
+- TYPE_HCMD (28 bytes): domain=0x00040000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000002080000
+- TYPE_HCMD (28 bytes): domain=0x00080000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000003080000
+- TYPE_HCMD (28 bytes): domain=0x00100000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000004080000
+- TYPE_HCMD (28 bytes): domain=0x00200000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000005080000
+- TYPE_HCMD (28 bytes): domain=0x00400000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000006080000
+- TYPE_HCMD (28 bytes): domain=0x01000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000008080000
+- TYPE_HCMD (28 bytes): domain=0x02000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000009080000
+- TYPE_HCMD (28 bytes): domain=0x04000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b0000000a080000
+- TYPE_HCMD (28 bytes): domain=0x10000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b000000010b0100
+- TYPE_HCMD (28 bytes): domain=0x20000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b00000008090000
+- TYPE_HCMD (28 bytes): domain=0x48000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[8]=2b000000010b0100
+- TYPE_HCMD (24 bytes): domain=0xffff0000 time_point=2 period_msec=0 hcmd=DEBUG(0xf).HOST_EVENT_CFG(0x03) data[4]=03000000
+- TYPE_HCMD (100 bytes): domain=0x48000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[80]=140000000000000001000000201e00050000000000000000003f3f3f3f3f0101000000c80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+- TYPE_HCMD (100 bytes): domain=0x48000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[80]=140000000000000001000000201e00040000000001000000ffffffff00000000000000c80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+- TYPE_HCMD (100 bytes): domain=0x48000000 time_point=2 period_msec=0 hcmd=LONG(0x1).LDBG_CONFIG_CMD(0xF6) data[80]=140000000000000001000000201f000300000000000000000100000000000000000000c80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+- TYPE_TRIGGERS (56 bytes): domain=0x48000000 time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000003 regions_mask=0x0000000024000001 data=fb0f0000
+- DATA (64 bytes): 'release/core61::97bbee0a'
+- INIT_DATA (4 bytes): f0 00 00 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- FW_FSEQ_VERSION (52 bytes): version='FSEQ Version: 0.0.2.25' sha1='FSEQ SHA1:0x9e123d61'
+- PHY_INTEGRATION_VERSION (40 bytes): 'PHY Integration Version: 1.1.2'
+- FW_NUM_STATIONS (4 bytes): 15
+- MEM_DESC (1664 bytes): memory at 80440000..80440678 (0x678=1656 bytes, sha256=9329a03ac1561036323d974f04b1de393541e9b1cce2219dde01c65813c0de8d)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 02 05 21 20 f7 a5 01 00 18 00 00 00
+- MEM_DESC (32776 bytes): memory at c0080000..c0088000 (0x8000=32768 bytes, sha256=a00922063ae5aac7918e3968b2ecbd2a3a135e9ac31bf5a62a13910e6206a08b)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 94 4e 20 20 80 0f 08 c0 24 4d 69 20 00 00 69 20 40 00
+- MEM_DESC (32776 bytes): memory at c0088000..c0090000 (0x8000=32768 bytes, sha256=92050013ced9e59d1ff6c13f4ab4870de75df09ba216452ef0b33f562c0a624a)
+    Hexdump of start: 01 d8 c9 71 a9 72 22 20 80 0f 46 80 e4 68 3a 70 2a 6e 00 d8 a9 72 22 20 80 0f 46 80 e4 68 8a 71
+- MEM_DESC (32776 bytes): memory at c0880000..c0888000 (0x8000=32768 bytes, sha256=7b3f82cc14d80594b43e6e90a50241fb87147d004caa0d74ddd52f7a3f7bbd82)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80447000..8044f000 (0x8000=32768 bytes, sha256=1e0f7a695de354f497ce7ba7aadd3a2cd46c22e8a4aece97d88be7c269bbc33f)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 00 18 4a 26 00 00 cf 70 41 80 34 52 00 80 cf 75 41 80 30 52 00 a5 22 20
+- MEM_DESC (32776 bytes): memory at 80458000..80460000 (0x8000=32768 bytes, sha256=0febde537778168671b4391642fa2712e9e9e003899c58b4c401e104f4729d1d)
+    Hexdump of start: f1 c0 cf 70 48 80 ac ed 22 20 80 0f 08 c0 c0 50 22 20 80 0f 48 80 d4 1e 00 d8 8a 21 1f 04 22 20
+- MEM_DESC (32776 bytes): memory at 80460000..80468000 (0x8000=32768 bytes, sha256=ca4ccb295170cb8e7a3bdc0c1ea175c83efd3761b695daf244e8331952c8c28a)
+    Hexdump of start: 80 0f 02 00 02 00 22 20 80 0f 48 80 08 46 a9 70 22 20 80 0f 45 80 04 fe 0f f0 80 15 81 10 a9 70
+- MEM_DESC (32776 bytes): memory at 80468000..80470000 (0x8000=32768 bytes, sha256=5bcfa401ee12b4712b1001d23ec569e88c1d5d22f6157fe8ad8cf90e15abe5d0)
+    Hexdump of start: 80 11 06 a2 00 d9 1b f0 8c 16 81 90 80 e1 ca 21 c2 00 15 f4 03 d9 4f 25 8e 11 87 be c6 a2 e2 80
+- MEM_DESC (32776 bytes): memory at 80470000..80478000 (0x8000=32768 bytes, sha256=60660fdf63fab1b76209b9d283b31cdd7a007cf2206bdde95274516c1326938c)
+    Hexdump of start: 98 09 58 60 da 62 05 d9 28 73 22 20 80 0f 47 80 8c 43 15 25 42 25 e9 70 80 20 18 09 58 60 80 25
+- MEM_DESC (32776 bytes): memory at 80478000..80480000 (0x8000=32768 bytes, sha256=d16a387b82874781fc226912ea347ba728f9f5c017af110e9b7b94c9ef7b9acd)
+    Hexdump of start: 30 b9 b5 92 29 b2 10 bd 34 92 a5 79 79 61 34 b2 30 b9 35 b2 30 92 30 73 c2 f6 10 b2 32 92 30 73
+- MEM_DESC (32776 bytes): memory at 80480000..80488000 (0x8000=32768 bytes, sha256=15ff9da520662547ee13f8a5b4e6827e87de3b9dc906cdbf60eb1326ea2a79f3)
+    Hexdump of start: 50 f7 12 6e 30 24 00 30 2f 20 0a 80 f8 f3 c9 71 0a 72 22 20 80 0f 48 80 2c 00 61 b8 00 1a 00 20
+- MEM_DESC (32776 bytes): memory at 80488000..80490000 (0x8000=32768 bytes, sha256=80460a031babf30f632e025b016645860a4dce16ba82b38e61f0cc03b9db73e7)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (32776 bytes): memory at 80490000..80498000 (0x8000=32768 bytes, sha256=6861d2c12fba3ffa86333f46e76d3b7a9802e3eaf3fd176a03f81dd6760f5d3c)
+    Hexdump of start: 28 6b 05 01 01 00 ff ff 00 00 00 00 b4 6c 05 01 01 00 14 00 00 00 00 00 ac 72 05 01 01 00 04 00
+- MEM_DESC (10988 bytes): memory at 80498000..8049aae4 (0x2ae4=10980 bytes, sha256=c32493cf41d8477e6dc14efe4d95d92b9333c52806b5173cc42bcdc9294b1f2a)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (2372 bytes): memory at 80415000..8041593c (0x93c=2364 bytes, sha256=abade98cb94683d5a7c70676f336b7d8ce7a1a75dc51d01912d837ae50595167)
+    Hexdump of start: 10 6c 00 00 ef 00 08 2a f4 8e 00 00 00 01 00 00 10 6c 00 00 ed 00 08 2a f4 8e 00 00 00 10 00 00
+- MEM_DESC (24976 bytes): memory at 80409000..8040f188 (0x6188=24968 bytes, sha256=5057b340b83c64ae3aa412c67f5aa34b5721a54d95170dd8621c91e2055803c3)
+    Hexdump of start: 80 00 00 01 00 00 00 08 14 00 00 0c 00 00 00 00 80 00 00 02 00 00 61 68 00 00 40 00 20 20 80 0f

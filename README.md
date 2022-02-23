@@ -19,4 +19,12 @@ Source of files:
     - 2021-04-10 <https://downloadmirror.intel.com/655277/WiFi-21.80.1-all.zip>
     - 2021-08-25 <https://downloadmirror.intel.com/646221/WiFi_22.70.0_all.zip>
 
+  - From Gigabyte:
+
+    - 2021-11-05 <https://download.gigabyte.com/FileList/Driver/22.50.1.1.zip?v=4dda8cd82fed8ce6d0e0020fdc1da7e9> (from <https://www.gigabyte.com/fr/Mini-PcBarebone/GB-BER7HS-5700/support#support-dl-driver-wlan>)
+    - 2019-11-29 <https://download.gigabyte.com/FileList/Driver/mb_driver_630_IntelWIFI_21.50.1.1.zip?v=772e6e1beb961666eec9071771024f25> (from <https://www.gigabyte.com/fr/Motherboard/GC-WB1733D-I-rev-1x/support#support-dl-driver>)
+    - 2019-08-06 <https://download.gigabyte.com/FileList/Driver/mb_driver_605_Intelwifi_21.40.1.4.zip?v=7213336dc3cb89b6fc9867bbcc905660> (from <https://www.gigabyte.com/fr/Motherboard/GC-WB1733D-I-rev-1x/support#support-dl-driver>)
+    - 2019-08-06 <https://download.gigabyte.com/FileList/Driver/mb_driver_605_intelwifi_21.20.1.1g.zip?v=15669f32afa6c24e2040ea11ceb59abf> (from <https://www.gigabyte.com/fr/Motherboard/GC-WB1733D-I-rev-1x/support#support-dl-driver>)
+    - 2018-04-17 <https://download.gigabyte.com/FileList/Driver/mb_driver_intel_wifi_20.30.1.zip?v=1b41d397488c7407493550afb999fe21> (from <https://www.gigabyte.com/fr/Motherboard/GC-WB1733D-I-rev-1x/support#support-dl-driver>)
+
   - And also <https://www.driverscloud.com/en/drivers/hardware/107344/intelr-prosetwireless-wifi-software>
