@@ -1606,6 +1606,14 @@ class IntelWifiFirmware:
                 )
                 for idx, cmd in enumerate(conf.hcmd):
                     print(f"    [{idx:2d}] id={cmd.id} data[{cmd.len}]={cmd.data.hex()}", file=out)
+                    # Decode the entry with some asserts to detect new use-cases
+                    assert int(cmd.id) == LegacyCmds.LDBG_CONFIG_CMD
+                    # Linux 5.1 defines LDBG_CFG_COMMAND_SIZE = 80 since
+                    # https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e6aeeb4f45178197c956a5795f49648db67607bd
+                    assert cmd.len == 80
+                    cfg_cmd_type = Int32ul.parse(cmd.data)
+                    print(f"      - type = {cfg_cmd_type:#x}", file=out)
+                    # Then, the remaining of the command is not documented.
             return entry_type, conf
 
         if entry_type == UcodeTlvType.CMD_VERSIONS:  # 48
