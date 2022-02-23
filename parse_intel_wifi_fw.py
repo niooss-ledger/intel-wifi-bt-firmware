@@ -1229,6 +1229,7 @@ class IntelWifiFirmware:
 
     @classmethod
     def parse_all_stream(cls, stream: BinaryIO) -> Generator["IntelWifiFirmware", None, None]:
+        """Parse multiple firmware from a stream"""
         while True:
             try:
                 yield cls.parse_stream(stream)
@@ -1237,8 +1238,38 @@ class IntelWifiFirmware:
 
     @classmethod
     def parse_all_file(cls, path: Path) -> Generator["IntelWifiFirmware", None, None]:
+        """Parse multiple firmware from a file"""
         with path.open("rb") as stream:
             yield from cls.parse_all_stream(stream)
+
+    def write_stream(self, stream: BinaryIO) -> None:
+        """Write the firmware to an output stream"""
+        if self.header_type is None:
+            pass
+        elif self.header_type == "UcodeHeaderV1":
+            UcodeHeaderV1.build_stream(self.header, stream)
+            # The contents of the entries are directly written as-is
+            for entry in self.entries:
+                stream.write(entry.data)
+            return
+        elif self.header_type == "UcodeHeaderV2":
+            UcodeHeaderV2.build_stream(self.header, stream)
+            for entry in self.entries:
+                stream.write(entry.data)
+            return
+        elif self.header_type == "TlvUcodeHeader":
+            TlvUcodeHeader.build_stream(self.header, stream)
+        else:
+            raise NotImplementedError(f"Unsupported FW header {self.header_type!r} ({self.header!r})")
+
+        for entry in self.entries:
+            UcodeTlv.build_stream(entry, stream)
+
+    def write_bytes(self) -> bytes:
+        """Serialize the firmware to bytes"""
+        buffer = io.BytesIO()
+        self.write_stream(buffer)
+        return buffer.getbuffer()
 
     def print_header(self, out: Optional[TextIO] = None) -> None:
         """Print the header"""

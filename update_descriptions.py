@@ -40,6 +40,15 @@ def update_descriptions() -> None:
                 fw.print_header(out=fout)
                 for entry in fw.entries:
                     fw.print_entry(entry, out=fout)
+
+            # Check that write_bytes works
+            with file_path.open("rb") as stream:
+                original_bytes = stream.read()
+            written_bytes = fw.write_bytes()
+            if original_bytes != written_bytes:
+                raise ValueError(
+                    f"Error: {file_path} (described in {desc_file}) was not re-serialized correctly, size {len(original_bytes)} vs. {len(written_bytes)}"  # noqa
+                )
         else:
             # Split the firmware file
             for idx, fw in enumerate(all_fw):
