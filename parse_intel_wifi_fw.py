@@ -1237,6 +1237,12 @@ class IntelWifiFirmware:
                 break
 
     @classmethod
+    def parse_all_bytes(cls, data: bytes) -> Generator["IntelWifiFirmware", None, None]:
+        """Parse multiple firmware from bytes"""
+        with io.BytesIO(data) as stream:
+            yield from cls.parse_all_stream(stream)
+
+    @classmethod
     def parse_all_file(cls, path: Path) -> Generator["IntelWifiFirmware", None, None]:
         """Parse multiple firmware from a file"""
         with path.open("rb") as stream:

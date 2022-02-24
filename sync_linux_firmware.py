@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Sync files from linux-firmware repository"""
+import argparse
 import hashlib
 from pathlib import Path
 import re
 import subprocess
 import sys
 from typing import Dict
+
+from parse_intel_wifi_fw import IntelWifiFirmware, UcodeTlvType
 
 
 BASE_PATH = Path(__file__).parent
@@ -29,10 +32,30 @@ FIXUP_VERSION_DATA = {
     ("28ddb05aeeffcc08b2c18ea29793ff6e7f94b974", "intel/ibt-11-5.ddc"): "LnP/SfP_REL0351_incorrect",
     # The file used an incorrect format and fixed in a later commit, 581f24500138f5e410d51ab63b205be9a52f4c77
     ("87941021a622c882b1921df85d6115940a4e568a", "intel/ibt-12-16.ddc"): "BT_WindStormPeak_REL0082_incorrect",
+    # The API version was incorrectly defined as 38 instead of 41
+    ("da110f2f392ab0f9a4e3cc35402b1f3e2c58127f", "iwlwifi-9000-pu-b0-jf-b0-41.ucode"): "41.1f1e8d4a.0",
+    # The WHENCE file was not updated
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-3168-29.ucode"): "29.62a39462.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-7265D-29.ucode"): "29.62a39462.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-8000C-36.ucode"): "36.77d01142.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-8265-36.ucode"): "36.77d01142.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-9000-pu-b0-jf-b0-46.ucode"): "46.93e59cf4.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-9260-th-b0-jf-b0-46.ucode"): "46.93e59cf4.0",
+    ("b5f09bb4f816abace0227d0f4e749859364cef6b", "iwlwifi-cc-a0-46.ucode"): "46.177b3e46.0",
+    # The WHENCE file was not updated
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-Qu-b0-hr-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-Qu-b0-jf-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-Qu-c0-hr-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-Qu-c0-jf-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-QuZ-a0-hr-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-QuZ-a0-jf-b0-48.ucode"): "48.954cff6d.0",
+    ("cd6cb7bc50aa77d531c4417ffe1237510b71c73e", "iwlwifi-cc-a0-48.ucode"): "48.954cff6d.0",
+    # The WHENCE file was not updated
+    ("50c1340bef482f4eb5febebc09f377130ba6664a", "iwlwifi-8265-36.ucode"): "36.2bba151d.0",
 }
 
 
-def sync_linux_firmware(fw_repo: Path) -> None:
+def sync_linux_firmware(fw_repo: Path, check_fw: bool = False) -> None:
     if fw_repo.exists():
         print(f"Updating {fw_repo} ...", file=sys.stderr)
         subprocess.run(("git", "fetch", "origin"), cwd=fw_repo, check=True)
@@ -186,6 +209,27 @@ def sync_linux_firmware(fw_repo: Path) -> None:
 
             print(f"  - {file_name} version {version} ({len(file_bytes)} bytes)")
 
+            if check_fw and local_dir_name == "intel_wifi":
+                # Load the firmware
+                all_fw = list(IntelWifiFirmware.parse_all_bytes(file_bytes))
+                if len(all_fw) != 1:
+                    raise RuntimeError(f"Unexpected {len(all_fw)} firmware for {file_name!r} in commit {commit_hash}")
+                for entry in all_fw[0].entries:
+                    if int(entry.type_) == UcodeTlvType.FW_VERSION:
+                        _, ent_ver = IntelWifiFirmware.decode_entry(entry)
+                        ent_ver_minor = str(ent_ver.minor) if ent_ver.minor < 0x1000000 else f"{ent_ver.minor:08x}"
+                        ent_ver_str = f"{ent_ver.major}.{ent_ver_minor}.{ent_ver.local_comp}"
+                        if version != ent_ver_str:
+                            if (version, ent_ver_str) in {
+                                ("34.610288.0", "34.0.1"),
+                                ("34.618819.0", "34.0.0"),
+                                ("38.0cef09c1.0", "38.0cef09c1.1"),
+                            }:
+                                # Skip known false-positives
+                                pass
+                            else:
+                                raise RuntimeError(f"File {file_name!r} associated with version {version!r} uses version {ent_ver_str!r} in commit {commit_hash}")
+
             file_bytes_digest = hashlib.sha256(file_bytes).digest()
             if local_file_name in all_file_hashes:
                 if all_file_hashes[local_file_name] == file_bytes_digest:
@@ -213,4 +257,12 @@ def sync_linux_firmware(fw_repo: Path) -> None:
 
 
 if __name__ == "__main__":
-    sync_linux_firmware(LINUX_FIRMWARE_REPO)
+    parser = argparse.ArgumentParser(description="Sync files from linux-firmware repository")
+    parser.add_argument(
+        "-c",
+        "--check",
+        action="store_true",
+        help="check that the firmware can be loaded and that its version is coherent",
+    )
+    args = parser.parse_args()
+    sync_linux_firmware(LINUX_FIRMWARE_REPO, check_fw=args.check)

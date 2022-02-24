@@ -572,7 +572,7 @@
   - iwlwifi-9260-th-b0-jf-b0-38.ucode version 38.755cfdd8.0 (2521412 bytes)
 
 2018-09-17 da110f2f392ab0f9a4e3cc35402b1f3e2c58127f added 2 files
-  - iwlwifi-9000-pu-b0-jf-b0-41.ucode version 38.1f1e8d4a.0 (2961864 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-41.ucode version 41.1f1e8d4a.0 (2961864 bytes)
   - iwlwifi-9260-th-b0-jf-b0-41.ucode version 41.1f1e8d4a.0 (2620368 bytes)
 
 2018-10-17 66b58d49f8c6d2b5ff23eabba7c5a4404eaaf1dd added 4 files
@@ -750,22 +750,22 @@
   - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL0310 (722576 bytes)
 
 2019-07-20 b5f09bb4f816abace0227d0f4e749859364cef6b added 7 files
-  - iwlwifi-3168-29.ucode version 29.3e3b4de5.0 (1036300 bytes)
-  - iwlwifi-7265D-29.ucode version 29.3e3b4de5.0 (1036668 bytes)
-  - iwlwifi-8000C-36.ucode version 36.8fd77bb3.0 (2401356 bytes)
-  - iwlwifi-8265-36.ucode version 36.8fd77bb3.0 (2414592 bytes)
-  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1467952 bytes)
-  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.a41adfe7.0 (1469012 bytes)
-  - iwlwifi-cc-a0-46.ucode version 46.3cfab8da.0 (1044452 bytes)
+  - iwlwifi-3168-29.ucode version 29.62a39462.0 (1036300 bytes)
+  - iwlwifi-7265D-29.ucode version 29.62a39462.0 (1036668 bytes)
+  - iwlwifi-8000C-36.ucode version 36.77d01142.0 (2401356 bytes)
+  - iwlwifi-8265-36.ucode version 36.77d01142.0 (2414592 bytes)
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.93e59cf4.0 (1467952 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.93e59cf4.0 (1469012 bytes)
+  - iwlwifi-cc-a0-46.ucode version 46.177b3e46.0 (1044452 bytes)
 
 2019-07-20 cd6cb7bc50aa77d531c4417ffe1237510b71c73e added 7 files
-  - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.13675109.0 (1106204 bytes)
-  - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.13675109.0 (1052772 bytes)
-  - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.13675109.0 (1106224 bytes)
-  - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.13675109.0 (1052792 bytes)
-  - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.13675109.0 (1105644 bytes)
-  - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.13675109.0 (1052584 bytes)
-  - iwlwifi-cc-a0-48.ucode version 48.13675109.0 (1096680 bytes)
+  - iwlwifi-Qu-b0-hr-b0-48.ucode version 48.954cff6d.0 (1106204 bytes)
+  - iwlwifi-Qu-b0-jf-b0-48.ucode version 48.954cff6d.0 (1052772 bytes)
+  - iwlwifi-Qu-c0-hr-b0-48.ucode version 48.954cff6d.0 (1106224 bytes)
+  - iwlwifi-Qu-c0-jf-b0-48.ucode version 48.954cff6d.0 (1052792 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-48.ucode version 48.954cff6d.0 (1105644 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-48.ucode version 48.954cff6d.0 (1052584 bytes)
+  - iwlwifi-cc-a0-48.ucode version 48.954cff6d.0 (1096680 bytes)
 
 2019-08-20 fe48882708de5444e66f01c8f5e116aac1e3e6e7 added 2 files
   - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL0482 (655364 bytes)
@@ -1000,8 +1000,7 @@
   - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL6356 (739648 bytes)
 
 2019-08-23 50c1340bef482f4eb5febebc09f377130ba6664a added 1 files
-  - iwlwifi-8265-36.ucode version 36.77d01142.0 (2409984 bytes)
-    Warning: duplicate local file name, using iwlwifi-8265-36.ucode__2019-08-23__36.77d01142.0_
+  - iwlwifi-8265-36.ucode version 36.2bba151d.0 (2409984 bytes)
 
 2019-08-23 2ae99744efc14e5329a551251e22b33213224f11 added 13 files
   - iwlwifi-3168-29.ucode version 29.09bd31e1.0 (1036288 bytes)
