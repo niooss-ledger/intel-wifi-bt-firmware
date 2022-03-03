@@ -2,8 +2,8 @@ name: Sync linux-firmware repository
 
 on:
   schedule:
-    # Trigger every day at 5:00
-    - cron: '0 5 * * *'
+    # Trigger every Sunday at 5:00
+    - cron: '0 5 * * 0'
 
 jobs:
   sync-linux-firmware:
@@ -11,6 +11,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        pip3 install 'construct>=2.10'
 
     - name: Sync linux-firmware repository
       run: ./sync_linux_firmware.py && ./sync_linux_firmware.py > output_linux_firmware.txt

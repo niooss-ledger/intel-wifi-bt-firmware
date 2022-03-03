@@ -18,6 +18,8 @@ Wifi command codes are defined:
 - in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/iwlegacy/commands.h?id=dbdac2b581811e1f2a573454451136c2497de4fc
 - in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/iwlegacy/iwl-commands.h?id=7f8e12238049b0e5398e77cdf15f95a41077841f
 - in https://github.com/OpenIntelWireless/itlwm/blob/v2.1.0/itlwm/hal_iwm/if_iwmreg.h
+
+Dependency: construct>=2.10
 """
 import argparse
 import enum
