@@ -153,8 +153,13 @@ class FwIniRegionDeviceMemorySubtype(enum.IntEnum):
     """enum iwl_fw_ini_region_device_memory_subtype (prefix IWL_FW_INI_REGION_DEVICE_MEMORY_SUBTYPE_)"""
 
     HW_SMEM = 1
+    UNKNOWN_2 = 2  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "sw_smem"
+    UNKNOWN_3 = 3  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "chmem"
+    UNKNOWN_4 = 4  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "dccm_umac"
     UMAC_ERROR_TABLE = 5
+    UNKNOWN_6 = 6  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "dccm_lmac1"
     LMAC_1_ERROR_TABLE = 7
+    UNKNOWN_9 = 9  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "dccm_lmac2"
     LMAC_2_ERROR_TABLE = 10
     TCM_1_ERROR_TABLE = 14
     TCM_2_ERROR_TABLE = 16
