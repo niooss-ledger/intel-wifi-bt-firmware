@@ -218,7 +218,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     0x0E.0x17                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x17                                            cmd_ver=99 notif_ver= 1
     0x0E.0x18                                            cmd_ver= 1 notif_ver= 0
-    MAC_CONF(0x3).0xF9                                   cmd_ver=99 notif_ver= 1
+    MAC_CONF(0x3).CHANNEL_SWITCH_ERROR_NOTIF(0xF9)       cmd_ver=99 notif_ver= 1
 - FLAGS (4 bytes): 0xFBFB4B7F
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x9DEF037F
         [ 0] D0I3_SUPPORT
@@ -270,7 +270,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         [99] (unknown)
         [101] (unknown)
         [103] (unknown)
-        [105] (unknown)
+        [105] DUMP_COMPLETE_SUPPORT
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
 - API_CHANGES_SET (8 bytes): index=1 flags=0xFFF7FFFF
 - API_CHANGES_SET (8 bytes): index=2 flags=0x00000003
@@ -342,7 +342,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         [59] HIDDEN_6GHZ_SCAN
         [60] BROADCAST_TWT
         [61] COEX_HIGH_PRIO
-        [63] (unknown)
+        [63] BAID_ML_SUPPORT
 - TYPE_BUFFER_ALLOCATION (28 bytes): domain=0x00800000 alloc_id=DBGC4 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
 - TYPE_REGIONS (64 bytes): id=65536 name='fw_rsp_or_notif' type=RSP_OR_NOTIF domain=ALWAYS_ON version=3
 - TYPE_REGIONS (4652 bytes): id=196609 name='prph_mac' type=PERIPHERY_MAC domain=ALWAYS_ON version=3

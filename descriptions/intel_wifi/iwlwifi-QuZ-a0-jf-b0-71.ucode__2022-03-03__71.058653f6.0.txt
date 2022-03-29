@@ -37,7 +37,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     error_event_table_ptr = 0x004B1724
     log_event_table_ptr = 0x004ACC0C
     cpu_register_ptr = 0x004B0C70
-    dbgm_config_ptr = 0x008016AC
+    dbgm_config_ptr = 0x0080158C
     alive_counter_ptr = 0x004B0C6C
     scd_base_ptr = 0x00000000
     st_fwrd_addr = 0x00000000
@@ -286,31 +286,31 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
 - MEM_DESC (0 bytes): empty
 - NUM_OF_CPU (4 bytes): 2
-- SEC_RT (1660 bytes): runtime ucode at 00433000..00433678 (0x678=1656 bytes, sha256=1844f03972b48da5f175e5870efb6d8bff1608aa6bd67efd427a2ec5181052a7)
-    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 cd 37 01 00 40 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 00800000..00808000 (0x8000=32768 bytes, sha256=a1a7c71ee2ac3d7519919c7618a666557099134177a6028d370ad3ab74fe3dac)
+- SEC_RT (1660 bytes): runtime ucode at 00433000..00433678 (0x678=1656 bytes, sha256=2a6133b1bc27a03a449e7cccdcbd9001eb9c5128b01d2f041ae8595689ad0485)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 01 03 22 20 c8 37 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 00800000..00808000 (0x8000=32768 bytes, sha256=4c8b50f2494fdb860e839c6931e08a7310c62e53960fdda5933de1b07d1392f1)
     Hexdump of start: 47 00 00 00 f6 53 86 05 00 01 00 00 00 00 00 00 24 17 4b 00 0c cc 4a 00 70 0c 4b 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 00808000..00810000 (0x8000=32768 bytes, sha256=63094d42306309251aed52fa9e537be3b34870ce721b7ea9dda442a46dbae874)
+- SEC_RT (32772 bytes): runtime ucode at 00808000..00810000 (0x8000=32768 bytes, sha256=08111ee5d553bbac522948c76568ee96a1d3d918748a2542602c8ac9fee25f12)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 00000000..00008000 (0x8000=32768 bytes, sha256=8a878c0da8290a26b0b65adc82024245231030fe2632ec325b24a0d32df90c13)
-    Hexdump of start: 60 00 00 00 4c bc 4b 00 e0 a6 4b 00 84 ba 4b 00 24 46 4c 00 24 46 4c 00 40 d3 4b 00 a0 d2 4b 00
-- SEC_RT (32772 bytes): runtime ucode at 00008000..00010000 (0x8000=32768 bytes, sha256=4a39708dd1f5ae91b954d8b7eace9fb355014f6cff1176b663588d3c8e66d2d1)
-    Hexdump of start: 80 00 e4 2d 42 78 78 b8 0b 08 03 03 00 96 04 71 00 b6 8a 20 3d 02 62 78 0b 0c 03 10 01 96 04 71
-- SEC_RT (32772 bytes): runtime ucode at 00010000..00018000 (0x8000=32768 bytes, sha256=0570154cff77654f8bcc582831f0e702b347f090909b6dcd882dd2eeb9db8be9)
-    Hexdump of start: 32 0f 22 56 a1 40 1d cc a1 b8 1d 1a 1c 30 ff d8 fe 09 a0 00 a1 41 30 c8 00 20 81 0f 80 00 c8 19
-- SEC_RT (32764 bytes): runtime ucode at 00018000..0001fff8 (0x7ff8=32760 bytes, sha256=888caccf372cc84a9663536c42f8bbe750ecd9db58480d9ed071b1bc15f28613)
-    Hexdump of start: c1 40 86 0a 60 00 2c 70 7c 4e 7e 0a 60 00 02 41 00 22 01 24 10 b9 b9 61 6e 0a 60 00 04 6e c3 41
-- SEC_RT (32772 bytes): runtime ucode at 004a8000..004b0000 (0x8000=32768 bytes, sha256=1e867e5efa7e35b29a1d1c308eb93dda03d09ad360fe6f744bbf73ace2462ba2)
+- SEC_RT (32772 bytes): runtime ucode at 00000000..00008000 (0x8000=32768 bytes, sha256=c63e6a357c738486cf2eef9750230873b09f5201dc0288e5d5edf0c73a7393f8)
+    Hexdump of start: 60 00 00 00 4c bc 4b 00 e0 a6 4b 00 84 ba 4b 00 10 46 4c 00 10 46 4c 00 40 d3 4b 00 a0 d2 4b 00
+- SEC_RT (32772 bytes): runtime ucode at 00008000..00010000 (0x8000=32768 bytes, sha256=8a708f796266acf7c2427f014f245dbf2ce7b3e5faceea39b1992ac6bb7660fc)
+    Hexdump of start: 20 00 02 40 be 0b 62 5a 02 40 2d 70 0d 70 f4 26 01 72 80 00 4c 2c 0f 09 05 00 05 71 f3 08 94 91
+- SEC_RT (32772 bytes): runtime ucode at 00010000..00018000 (0x8000=32768 bytes, sha256=90dc0469aa8ef7913b0b9b6d7e4b49ff37226090238224d4ed417bac2321abee)
+    Hexdump of start: 9e 01 ac 10 00 00 15 26 00 70 80 00 d4 19 20 80 10 e1 20 a0 c6 c6 e0 78 e4 c3 82 24 03 3e 08 46
+- SEC_RT (32764 bytes): runtime ucode at 00018000..0001fff8 (0x7ff8=32760 bytes, sha256=db4c01a0fd1f2e5058884cb7fcb13d6dc91a23ae10fa439207affc6739f4cfb8)
+    Hexdump of start: 30 45 c3 40 00 00 32 2b 5e 0f cf fc 0f 85 1d 08 51 00 1f 0f 91 10 c3 40 80 00 30 8e 00 18 01 00
+- SEC_RT (32772 bytes): runtime ucode at 004a8000..004b0000 (0x8000=32768 bytes, sha256=abe6834aa0be5547abf4ba213fb0b212c192e994f5f5296046b2fdd247b3c6d9)
     Hexdump of start: ff 00 00 00 ff 00 00 00 02 00 00 00 00 00 7f 7f 7f 00 00 00 0f 00 00 00 00 f0 00 f0 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 004b0000..004b8000 (0x8000=32768 bytes, sha256=7877da4b3cf0f8d385d7ad028f30f144b4e42541441afc5ae0a4390b38e661ab)
+- SEC_RT (32772 bytes): runtime ucode at 004b0000..004b8000 (0x8000=32768 bytes, sha256=56f69e4dc2d5536ea6b4800a69496c99f8661a31381b38abfaa15b15677a1d64)
     Hexdump of start: 70 65 70 65 50 66 50 66 20 67 20 67 80 67 80 67 e0 67 e0 67 10 68 10 68 40 68 40 68 70 68 70 68
-- SEC_RT (32772 bytes): runtime ucode at 004b8000..004c0000 (0x8000=32768 bytes, sha256=f9c79549c83611250c8f55b528ee2d29136db11399407082203e95f1680b95ac)
-    Hexdump of start: 4b 00 c8 07 00 82 a3 b8 00 a2 01 81 e0 7f 00 18 41 00 e0 78 01 81 e0 7f 00 18 c1 0f 21 81 79 04
-- SEC_RT (19560 bytes): runtime ucode at 004c0000..004c4c64 (0x4c64=19556 bytes, sha256=5b12146aea8d58d608284337fc3c82b657262eaabb3a6b351f6006368d0fcbb6)
-    Hexdump of start: c1 41 0a 8f d9 1d 02 10 02 0a 6d ab 0c 73 c7 09 11 a0 00 18 03 20 cc c6 c3 41 80 00 f0 7b e0 7f
+- SEC_RT (32772 bytes): runtime ucode at 004b8000..004c0000 (0x8000=32768 bytes, sha256=f906e059827fe07f9d5de0b02cbd5fa6fbc9c570afa84edaf26da4af0cdb6b28)
+    Hexdump of start: 4b 00 c8 07 00 82 a3 b8 00 a2 01 81 e0 7f 00 18 41 00 e0 78 01 81 e0 7f 00 18 c1 0f 21 81 35 04
+- SEC_RT (19540 bytes): runtime ucode at 004c0000..004c4c50 (0x4c50=19536 bytes, sha256=5cbbe4b09b28a0e9631ecc7f3ab02dfc638f5fb91ba326fce98e092575dd9463)
+    Hexdump of start: c1 41 0a 8f d9 1d 02 10 be 09 6d ab 0c 73 c7 09 11 a0 00 18 03 20 cc c6 c3 41 80 00 d0 7a e0 7f
 - SEC_RT (4004 bytes): runtime ucode at 00622dc0..00623d60 (0xfa0=4000 bytes, sha256=bda1e1666d8e66f62069e7d369922f60d7f1c046f1db4c1b81a3c03700d7cbfa)
     Hexdump of start: 20 20 c0 10 0f 1b 09 22 80 b0 c0 10 0a 00 1b 40 20 00 1b 6e 19 00 00 61 80 00 1b 6e 5c 00 00 61
-- HW_TYPE (12 bytes): mac_type=QU rf_type=TH_JF2
+- HW_TYPE (12 bytes): mac_type=QUZ rf_type=TH_JF2
 - UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880124 dbg_print_buff_addr=0x0044FC64
 - FW_RECOVERY_INFO (8 bytes): addr=0x00880000 size=0x00000118
 - N_SCAN_CHANNELS (4 bytes): 67
@@ -615,15 +615,15 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - PHY_INTEGRATION_VERSION (40 bytes): 'PHY Integration Version: 0.0.0'
 - FW_NUM_STATIONS (4 bytes): 15
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
-- SEC_RT (1660 bytes): runtime ucode at 80433000..80433678 (0x678=1656 bytes, sha256=6b255c188c1d61fb0d8f2bb5b5f41bd2dd5a9c1fd5a038095bb7932129420b1e)
-    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 ce 6f 01 00 40 00 00 00
+- SEC_RT (1660 bytes): runtime ucode at 80433000..80433678 (0x678=1656 bytes, sha256=b7ea22dc3a6152c3e5ec33e9b16062fb9b67d6348e3b31fef1428c2f8d50b98b)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 01 03 22 20 ce 6f 01 00 40 00 00 00
 - SEC_RT (32772 bytes): runtime ucode at c0080000..c0088000 (0x8000=32768 bytes, sha256=36bcaa117edbca62419dcd3ac658e2ae8be598845aed423c2b94991ab6c7e6d6)
     Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 98 42 20 20 80 0f 08 c0 00 41 69 20 00 00 69 20 40 00
 - SEC_RT (32772 bytes): runtime ucode at c0088000..c0090000 (0x8000=32768 bytes, sha256=5ed3c3468c50cbd5c0a921f9489a899e075dad51cdc0b843eea9222ce3dbf940)
     Hexdump of start: 22 20 80 0f 46 80 2c 4e a9 70 22 20 80 0f 45 80 f8 83 80 e0 24 f2 6a 70 02 d9 22 20 80 0f 47 80
 - SEC_RT (32772 bytes): runtime ucode at c0880000..c0888000 (0x8000=32768 bytes, sha256=ba4fa4c3454c778e50ab16ad333c68045bf8876b441880aa2bee10113037c4b8)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 80434000..8043c000 (0x8000=32768 bytes, sha256=20e1a3b9a9e7160a1f0eca6218eda32e2b01b4b38ad00af62465367d0fa4f2cb)
+- SEC_RT (32772 bytes): runtime ucode at 80434000..8043c000 (0x8000=32768 bytes, sha256=9fc513b7ec7c1d4871dcb38bf736559f2579031540cc06486ca46be6a6ebe3aa)
     Hexdump of start: f1 c0 22 20 80 0f 08 c0 20 15 0a 20 80 2f 02 80 06 00 cf 70 40 80 4c ea 09 d9 22 20 80 0f 43 80
 - SEC_RT (32772 bytes): runtime ucode at 80448000..80450000 (0x8000=32768 bytes, sha256=0d63daa7854e4f23da85eb604d43db24f72efa78614f31153758884aa9d1bc5e)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -645,8 +645,8 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     Hexdump of start: 80 00 00 01 00 00 00 08 14 00 00 0c 00 00 00 00 80 00 00 02 00 00 60 94 00 00 40 00 20 20 80 0f
 - PAGING (4 bytes): 0x8c000 = 573440 bytes
 - SEC_RT (8 bytes): 0xAAAABBBB => PAGING_SEPARATOR_SECTION
-- SEC_RT (1660 bytes): runtime ucode at 00000000..00000678 (0x678=1656 bytes, sha256=7e40fe3606b501c0203b7ce5aed4d341170fc51b727c16f03a019d48330c3e02)
-    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 ea 30 02 00 40 00 00 00
+- SEC_RT (1660 bytes): runtime ucode at 00000000..00000678 (0x678=1656 bytes, sha256=d3a7a7b0bd5d9a5daa74860a56835466eae9b973788aa59bd1796d30ba018d45)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 01 03 22 20 ea 30 02 00 40 00 00 00
 - SEC_RT (32772 bytes): runtime ucode at 01000000..01008000 (0x8000=32768 bytes, sha256=a0ba0a5f806455ec1f38fd80a7a816585f067b7e1e40fac38220d5bc48d0ab6a)
     Hexdump of start: f1 c0 22 20 80 0f 08 c0 30 15 cf 70 00 01 a4 e0 00 80 04 d9 e1 c0 8b 72 cf 70 00 00 01 f4 22 20
 - SEC_RT (32772 bytes): runtime ucode at 01008000..01010000 (0x8000=32768 bytes, sha256=51d9696d0084c5b78c5b312ffe9172934deb15820fa1f17a94f52dd00f84e553)

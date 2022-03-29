@@ -1,18 +1,15 @@
 Header: version 71 'release/core68::058653f6' build 0x58653f6
-- DEF_CALIB (12 bytes): ucode_type=REGULAR flow_trigger=0x5FD601F3 event_trigger=0x5B8695AB
+- DEF_CALIB (12 bytes): ucode_type=REGULAR flow_trigger=0x5F1601D3 event_trigger=0x5B06958B
     flow_trigger:
         [ 0] XTAL_IDX = 0x1
         [ 1] TEMPERATURE_IDX = 0x2
         [ 4] TX_PWR_IDX = 0x10
-        [ 5] DC_IDX = 0x20
         [ 6] BB_FILTER_IDX = 0x40
         [ 7] LO_LEAKAGE_IDX = 0x80
         [ 8] TX_IQ_IDX = 0x100
         [17] ABS_IDX = 0x20000
         [18] AGC_IDX = 0x40000
         [20] unknown = 0x100000
-        [22] unknown = 0x400000
-        [23] unknown = 0x800000
         [24] unknown = 0x1000000
         [25] unknown = 0x2000000
         [26] unknown = 0x4000000
@@ -23,7 +20,6 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         [ 0] XTAL_IDX = 0x1
         [ 1] TEMPERATURE_IDX = 0x2
         [ 3] PAPD_IDX = 0x8
-        [ 5] DC_IDX = 0x20
         [ 7] LO_LEAKAGE_IDX = 0x80
         [ 8] TX_IQ_IDX = 0x100
         [10] RX_IQ_IDX = 0x400
@@ -31,7 +27,6 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         [15] ANT_COUPLING_IDX = 0x8000
         [17] ABS_IDX = 0x20000
         [18] AGC_IDX = 0x40000
-        [23] unknown = 0x800000
         [24] unknown = 0x1000000
         [25] unknown = 0x2000000
         [27] unknown = 0x8000000
@@ -39,11 +34,11 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         [30] unknown = 0x40000000
 - FW_VERSION (12 bytes): 71.058653f6.0
 - LMAC_DEBUG_ADDRS (32 bytes):
-    error_event_table_ptr = 0x004F2A5C
-    log_event_table_ptr = 0x004F196C
-    cpu_register_ptr = 0x004F1E68
-    dbgm_config_ptr = 0x008015D8
-    alive_counter_ptr = 0x004F1E64
+    error_event_table_ptr = 0x004F750C
+    log_event_table_ptr = 0x004F64B4
+    cpu_register_ptr = 0x004F69B0
+    dbgm_config_ptr = 0x008015C8
+    alive_counter_ptr = 0x004F69AC
     scd_base_ptr = 0x00000000
     st_fwrd_addr = 0x00000000
     st_fwrd_size = 0x00000000
@@ -73,7 +68,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     LONG(0x1).POWER_TABLE_CMD(0x77)                      cmd_ver= 6 notif_ver= 0
     LONG(0x1).TX_ANT_CONFIGURATION_CMD(0x98)             cmd_ver= 1 notif_ver= 0
     LONG(0x1).BT_CONFIG(0x9B)                            cmd_ver= 6 notif_ver= 0
-    LONG(0x1).REDUCE_TX_POWER_CMD(0x9F)                  cmd_ver= 6 notif_ver= 0
+    LONG(0x1).REDUCE_TX_POWER_CMD(0x9F)                  cmd_ver= 5 notif_ver= 0
     REGULATORY_AND_NVM(0xc).SAR_OFFSET_MAPPING_TABLE_CMD(0x04) cmd_ver= 2 notif_ver= 0
     LONG(0x1).MAC_PM_POWER_TABLE(0xA9)                   cmd_ver= 1 notif_ver= 0
     LEGACY(0x0).REPLY_RX_MPDU_CMD(0xC1)                  cmd_ver=99 notif_ver= 5
@@ -97,9 +92,9 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     LEGACY(0x0).MFUART_LOAD_NOTIFICATION(0xB1)           cmd_ver=99 notif_ver= 2
     PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03)                   cmd_ver= 1 notif_ver= 0
     PHY_OPS(0x4).TEMP_REPORTING_THRESHOLDS_CMD(0x04)     cmd_ver= 1 notif_ver= 0
-    PHY_OPS(0x4).PER_CHAIN_LIMIT_OFFSET_CMD(0x05)        cmd_ver= 5 notif_ver= 1
-    LONG(0x1).MCC_UPDATE_CMD(0xC8)                       cmd_ver= 1 notif_ver= 6
-    PHY_OPS(0x4).PER_PLATFORM_ANT_GAIN_CMD(0x07)         cmd_ver= 3 notif_ver= 0
+    PHY_OPS(0x4).PER_CHAIN_LIMIT_OFFSET_CMD(0x05)        cmd_ver= 4 notif_ver= 1
+    LONG(0x1).MCC_UPDATE_CMD(0xC8)                       cmd_ver= 1 notif_ver= 5
+    PHY_OPS(0x4).PER_PLATFORM_ANT_GAIN_CMD(0x07)         cmd_ver= 1 notif_ver= 0
     DATA_PATH(0x5).0x11                                  cmd_ver= 1 notif_ver= 0
     DATA_PATH(0x5).STA_HE_CTXT_CMD(0x07)                 cmd_ver= 2 notif_ver= 0
     REGULATORY_AND_NVM(0xc).NVM_ACCESS_COMPLETE(0x00)    cmd_ver= 1 notif_ver= 0
@@ -125,17 +120,17 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     0x0E.0xFC                                            cmd_ver=99 notif_ver= 1
     LONG(0x1).0x40                                       cmd_ver= 1 notif_ver= 0
     LONG(0x1).0x42                                       cmd_ver=99 notif_ver= 2
-    0x0E.0x32                                            cmd_ver= 8 notif_ver= 0
-    REGULATORY_AND_NVM(0xc).LARI_CONFIG_CHANGE(0x01)     cmd_ver= 5 notif_ver= 0
-    0x0E.0x35                                            cmd_ver= 3 notif_ver= 2
+    0x0E.0x32                                            cmd_ver= 7 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).LARI_CONFIG_CHANGE(0x01)     cmd_ver= 4 notif_ver= 0
+    0x0E.0x35                                            cmd_ver= 2 notif_ver= 2
     LEGACY(0x0).0x4A                                     cmd_ver=99 notif_ver= 1
-    LONG(0x1).BEACON_TEMPLATE_CMD(0x91)                  cmd_ver=12 notif_ver= 0
+    LONG(0x1).BEACON_TEMPLATE_CMD(0x91)                  cmd_ver=11 notif_ver= 0
     LONG(0x1).0x41                                       cmd_ver=99 notif_ver= 1
     DATA_PATH(0x5).RLC_CONFIG_CMD(0x08)                  cmd_ver= 2 notif_ver= 0
-    0x0E.0x00                                            cmd_ver= 2 notif_ver= 4
-    0x0E.0x05                                            cmd_ver= 2 notif_ver= 0
-    0x0E.0x06                                            cmd_ver=99 notif_ver= 6
-    0x0E.0x07                                            cmd_ver= 4 notif_ver= 0
+    0x0E.0x00                                            cmd_ver= 2 notif_ver= 3
+    0x0E.0x05                                            cmd_ver= 1 notif_ver= 0
+    0x0E.0x06                                            cmd_ver=99 notif_ver= 5
+    0x0E.0x07                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x08                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x09                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x0B                                            cmd_ver= 1 notif_ver= 0
@@ -161,7 +156,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     LONG(0x1).NVM_ACCESS_CMD(0x88)                       cmd_ver= 3 notif_ver= 3
     0x0E.0x36                                            cmd_ver= 2 notif_ver= 0
     0x0E.0x38                                            cmd_ver= 6 notif_ver= 0
-    0x0E.0x39                                            cmd_ver=99 notif_ver= 9
+    0x0E.0x39                                            cmd_ver=99 notif_ver= 5
     0x0E.0x2D                                            cmd_ver= 4 notif_ver= 0
     0x0E.0x34                                            cmd_ver= 1 notif_ver= 1
     0x0E.0x33                                            cmd_ver= 4 notif_ver= 0
@@ -195,7 +190,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     0x0E.0xFD                                            cmd_ver=99 notif_ver= 0
     0x0E.0xFE                                            cmd_ver=99 notif_ver= 0
     LEGACY(0x0).0xAD                                     cmd_ver=99 notif_ver= 3
-    LEGACY(0x0).0xC4                                     cmd_ver=99 notif_ver= 9
+    LEGACY(0x0).0xC4                                     cmd_ver=99 notif_ver= 8
     LONG(0x1).0xAE                                       cmd_ver= 1 notif_ver= 0
     PHY_OPS(0x4).CT_KILL_NOTIFICATION(0xFE)              cmd_ver=99 notif_ver= 2
     0x0E.0x11                                            cmd_ver= 1 notif_ver= 0
@@ -214,7 +209,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     0x0E.0x4E                                            cmd_ver=99 notif_ver= 1
     LONG(0x1).0xBD                                       cmd_ver=88 notif_ver= 1
     SYSTEM(0x2).0x0E                                     cmd_ver= 1 notif_ver= 0
-    PHY_OPS(0x4).0x0A                                    cmd_ver= 1 notif_ver= 0
+    PHY_OPS(0x4).0x0A                                    cmd_ver=99 notif_ver= 0
     SYSTEM(0x2).RFI_GET_FREQ_TABLE_CMD(0x0C)             cmd_ver=99 notif_ver= 1
     0x0E.0x4F                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x50                                            cmd_ver=99 notif_ver= 1
@@ -281,66 +276,60 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - API_CHANGES_SET (8 bytes): index=1 flags=0xFFF7FFFF
 - API_CHANGES_SET (8 bytes): index=2 flags=0x00000003
 - TYPE_REGIONS (64 bytes): id=196620 name='error_table_lmac1' type=SPECIAL_DEVICE_MEMORY.7.4 domain=ALWAYS_ON version=3
-    special_mem: type=2 version=4 base_addr=0x004F2A5C size=0x0000012C offset=0x00000000
+    special_mem: type=2 version=4 base_addr=0x004F750C size=0x0000012C offset=0x00000000
 - TYPE_REGIONS (64 bytes): id=196632 name='txf_config_lmac1' type=SPECIAL_DEVICE_MEMORY.8.1 domain=ALWAYS_ON version=3
-    special_mem: type=4 version=1 base_addr=0x004F28A8 size=0x00000168 offset=0x00000000
-- TYPE_REGIONS (64 bytes): id=196622 name='error_table_lmac2' type=SPECIAL_DEVICE_MEMORY.10.4 domain=ALWAYS_ON version=3
-    special_mem: type=3 version=4 base_addr=0x004F2A5C size=0x0000012C offset=0x0000D400
-- TYPE_REGIONS (64 bytes): id=196633 name='txf_config_lmac2' type=SPECIAL_DEVICE_MEMORY.11.1 domain=ALWAYS_ON version=3
-    special_mem: type=5 version=1 base_addr=0x004F28A8 size=0x00000168 offset=0x0000D400
+    special_mem: type=4 version=1 base_addr=0x004F737C size=0x00000168 offset=0x00000000
 - PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
 - FW_MEM_SEG (12 bytes): data_type=0 at 00800000..00808000 (0x8000=32768 bytes)
 - FW_MEM_SEG (12 bytes): data_type=1 at 00880000..00888000 (0x8000=32768 bytes)
 - FW_MEM_SEG (12 bytes): data_type=2 at 00400000..00438000 (0x38000=229376 bytes)
 - FW_MEM_SEG (12 bytes): data_type=8 at 00620000..00636000 (0x16000=90112 bytes)
-- FW_MEM_SEG (12 bytes): data_type=11 at 00840000..00848000 (0x8000=32768 bytes)
 - PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
 - MEM_DESC (0 bytes): empty
 - NUM_OF_CPU (4 bytes): 2
-- SEC_RT (1660 bytes): runtime ucode at 00440000..00440678 (0x678=1656 bytes, sha256=628dd59b047706ce5fe53c6f430ae971ac9f14c444678d302a81353123eb3d2a)
-    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 01 03 22 20 56 98 01 00 18 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 00800000..00808000 (0x8000=32768 bytes, sha256=e5874b85bd238e66a5f81f7fec7f357d2f99fa1f4faa5c1952a6d2324125a24a)
+- SEC_RT (1660 bytes): runtime ucode at 00440000..00440678 (0x678=1656 bytes, sha256=796eb45c6f8d5fb51b295c58a14392a486ff1e4f481faac48ef9a5a37fd06293)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 6b a3 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 00800000..00808000 (0x8000=32768 bytes, sha256=b3978f3a8f63427051e97fa1a3ec51c7a4c64b29d0080809a4475b8139a7559c)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 00000000..00008000 (0x8000=32768 bytes, sha256=08823c74b0718d7117f5934bbd5d97c8a0671d926c46069d1a4dce0be41b43c6)
-    Hexdump of start: 60 00 00 00 18 2d 4d 00 9c 15 4d 00 4c 2b 4d 00 d0 e1 4d 00 d0 e1 4d 00 20 4a 4d 00 80 49 4d 00
-- SEC_RT (32772 bytes): runtime ucode at 00008000..00010000 (0x8000=32768 bytes, sha256=1a614af508f5d56efda087e52afd0e3f5a582841b7cb3a2a1a4bffa0a7e943cd)
-    Hexdump of start: 22 0e a0 06 80 21 0f 0a 0d 08 5f 43 00 86 2f 26 08 f0 0e f2 00 85 40 18 41 00 0a 08 e0 05 0c 71
-- SEC_RT (32764 bytes): runtime ucode at 00010000..00017ff8 (0x7ff8=32760 bytes, sha256=c36bf49a23604e99473d1a8e5b18e1b6ddd440fc9cd30f7358fa62e50acd6e50)
-    Hexdump of start: 05 7d 03 f0 a2 bd 0f 08 be 44 20 d8 16 0e a0 02 2c 70 b6 a6 00 c5 03 c1 01 c8 4d 08 61 00 a1 40
-- SEC_RT (32772 bytes): runtime ucode at 004b8000..004c0000 (0x8000=32768 bytes, sha256=bcf9820826f7de351cf587a33aa2441695471e160513e1412da72b42ccfe232c)
-    Hexdump of start: f1 c0 20 42 be 08 6d ac 00 43 15 6b 00 20 80 0f 66 00 00 08 20 d9 da 0c 60 0d 20 db 86 08 4d ac
-- SEC_RT (32772 bytes): runtime ucode at 004c0000..004c8000 (0x8000=32768 bytes, sha256=0a4248d3aa8178009443130aec43ad088285b1e004900043669cf603e0a00a35)
-    Hexdump of start: cc 63 00 23 8e 0f 4e 00 c0 16 11 0a 70 00 ca 26 41 10 00 85 02 e8 c4 c4 0c 70 c3 43 4e 00 50 17
-- SEC_RT (32772 bytes): runtime ucode at 004c8000..004d0000 (0x8000=32768 bytes, sha256=f1add06cf991bb43b755362b4d128865798ecd43b56fb354f1548a1a250a85b8)
-    Hexdump of start: 2c 70 9e 0a a0 07 4c 70 05 c0 8a e8 c3 41 4f 00 27 1a 00 89 04 1c 01 30 04 71 00 a9 04 85 0c d9
-- SEC_RT (32772 bytes): runtime ucode at 004d0000..004d8000 (0x8000=32768 bytes, sha256=b087b46ca9b56899e608fc092e13f15e3c557a300d3f343d20060a45ba2d0262)
-    Hexdump of start: 0d 71 33 f0 74 72 62 40 4b dd ca 20 01 03 8c 22 02 89 90 bd ca 23 0d 20 40 25 0e 1d 4a 21 00 22
-- SEC_RT (32772 bytes): runtime ucode at 004d8000..004e0000 (0x8000=32768 bytes, sha256=492b348d3e90a52fb1a46c7de849c8eef4cce86250acb2e23f58f8b83d1affac)
-    Hexdump of start: 00 00 80 a0 9d bb 00 81 ed 70 15 22 00 00 bc 18 c0 80 00 81 40 2e 43 14 85 7b 15 22 00 00 60 a0
-- SEC_RT (32772 bytes): runtime ucode at 004e0000..004e8000 (0x8000=32768 bytes, sha256=44a43acb6b921ff3999a66d8d30bf46d7a886481cb110525998ef807cecd6b9b)
+- SEC_RT (32772 bytes): runtime ucode at 00000000..00008000 (0x8000=32768 bytes, sha256=06cb7732419ea70d605787251db5c735920f7ea7ebde9266699610f8ac997916)
+    Hexdump of start: 60 00 00 00 2c 0d 4d 00 2c f6 4c 00 60 0b 4d 00 60 b9 4d 00 60 b9 4d 00 a8 25 4d 00 08 25 4d 00
+- SEC_RT (32772 bytes): runtime ucode at 00008000..00010000 (0x8000=32768 bytes, sha256=6f33e97a47cb3154b3bb8afb2980481b7bf5958ccd337883b04bf71a7025e340)
+    Hexdump of start: ad 75 00 1e c1 70 a0 00 1c 08 98 bd 4e f0 cb 46 80 00 c8 68 1b e9 07 86 04 71 07 a6 40 f0 c3 41
+- SEC_RT (32764 bytes): runtime ucode at 00010000..00017ff8 (0x7ff8=32760 bytes, sha256=4e43448bb839349287ea3fe73cb352fda47233364e20b5560810a0a69d71755a)
+    Hexdump of start: f1 c0 ba 08 00 00 c6 08 00 00 0c 71 00 1e 00 70 a0 00 24 10 d1 c0 e0 7e e9 07 cf ff eb b9 8a 21
+- SEC_RT (32772 bytes): runtime ucode at 004b8000..004c0000 (0x8000=32768 bytes, sha256=682fc68143974c04e10b807496c73831dabb05558f07eb64ef310fd5f42d80f8)
+    Hexdump of start: f1 c0 20 42 8a 0c 2d ac 00 43 15 6b 00 20 80 0f 66 00 00 08 20 d9 ee 0c 60 0c 20 db 52 0c 0d ac
+- SEC_RT (32772 bytes): runtime ucode at 004c0000..004c8000 (0x8000=32768 bytes, sha256=aeacaee94bd9b1467735f98b247528def05578a21c3c4a5824b7bc87982d5149)
+    Hexdump of start: e0 7f 20 aa f1 c0 fa 0f 00 02 22 0b 60 0a 0c 70 a2 0e 20 0a 0c 70 a6 0b 20 03 0c 71 5a 0e c0 08
+- SEC_RT (32772 bytes): runtime ucode at 004c8000..004d0000 (0x8000=32768 bytes, sha256=badcb979268d56402670d72ea7edea6e0ce7d34fce01bfd202ea745b4c5aeda0)
+    Hexdump of start: 40 24 05 31 cc 74 04 1c 01 30 5a 0f e0 01 02 1c c4 33 02 c1 01 c8 09 08 41 00 c6 c7 e6 09 cd 9c
+- SEC_RT (32772 bytes): runtime ucode at 004d0000..004d8000 (0x8000=32768 bytes, sha256=a86effec9916f4dbd5f78d798679781606fa2b55b9537b52cffc5b6b0b6141f1)
+    Hexdump of start: 21 81 00 19 41 00 00 80 14 70 e0 7c c3 40 80 00 d0 6a c3 41 00 00 88 13 b5 04 0d a1 e2 c2 96 09
+- SEC_RT (32772 bytes): runtime ucode at 004d8000..004e0000 (0x8000=32768 bytes, sha256=9290bd47257e7facf88b842426c10396a6b45fd5b05f4046f6b0cba2341f3353)
+    Hexdump of start: 2c 1c 83 30 3a 08 2d 99 16 1c 02 34 10 41 40 d8 c3 41 c5 ee 82 46 4c 71 00 1e 00 74 a0 00 10 20
+- SEC_RT (32772 bytes): runtime ucode at 004e0000..004e8000 (0x8000=32768 bytes, sha256=9017edf1998e3a316022cf48acfde4ea87df54d7bec44ffa9283dff6f5b2c139)
     Hexdump of start: 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e
-- SEC_RT (32772 bytes): runtime ucode at 004e8000..004f0000 (0x8000=32768 bytes, sha256=6df0df722a860775bb7c7d2a4a058f02d314380d07e976a1b990095fe681b870)
+- SEC_RT (32772 bytes): runtime ucode at 004e8000..004f0000 (0x8000=32768 bytes, sha256=06678fbf47a087e406e204c309a810da9da1a1343df97416c0ed666813d3b6f0)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 004f0000..004f8000 (0x8000=32768 bytes, sha256=3e11757e493b1c0f97402227cdf66cbbfe27892262c6a51a9bd6a9106f5f1469)
-    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (2688 bytes): runtime ucode at 004f8000..004f8a7c (0xa7c=2684 bytes, sha256=c926a8a73a8ad47522a46e4f20833c9041c295a1938ab3fd568166db8e9a7b23)
-    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (21700 bytes): runtime ucode at 00629980..0062ee40 (0x54c0=21696 bytes, sha256=f674c27db49715341f15ffe7e683a324afdbc4ab6ea7300b3fbbf7000d2d0292)
+- SEC_RT (32772 bytes): runtime ucode at 004f0000..004f8000 (0x8000=32768 bytes, sha256=c091e8710e34beac834cfbf02f15c36fc566715b4aa493abb9a1ad89b132396f)
+    Hexdump of start: 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e
+- SEC_RT (13712 bytes): runtime ucode at 004f8000..004fb58c (0x358c=13708 bytes, sha256=c0efb884bb4031b2328d4c6eb18aea51f24c24479fda74aa050e161b9e63fb47)
+    Hexdump of start: 54 60 60 60 38 38 38 38 3c 40 48 4a 5a 60 60 60 38 38 38 38 3c 40 48 4a 54 5a 5a 5a 2c 2c 2c 2c
+- SEC_RT (21700 bytes): runtime ucode at 00629980..0062ee40 (0x54c0=21696 bytes, sha256=7c923ec007ea53010d6c36b73f6c036983191ad486025e0e0f8f639787cfc3d3)
     Hexdump of start: 20 20 c0 10 0f 1b 09 22 80 b0 c0 10 0a 00 1b 40 20 00 1b 6e 13 00 00 61 80 00 1b 6e 5b 00 00 61
 - IML (13944 bytes):
-    Hexdump: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 01 03 22 20 59 0c 00 00 18 00 00 00
-- HW_TYPE (12 bytes): mac_type=SO rf_type=GF
-- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880124 dbg_print_buff_addr=0x0048F7D4
+    Hexdump: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 aa 0c 00 00 40 00 00 00
+- HW_TYPE (12 bytes): mac_type=SO rf_type=HR2
+- UMAC_DEBUG_ADDRS (8 bytes): error_info_addr=0x00880124 dbg_print_buff_addr=0x00488894
 - FW_RECOVERY_INFO (8 bytes): addr=0x00880000 size=0x00000118
 - N_SCAN_CHANNELS (4 bytes): 67
-- ENABLED_CAPABILITIES (8 bytes): index=1 capa=0xBF7FFBEE
+- ENABLED_CAPABILITIES (8 bytes): index=1 capa=0xBF7FFAEE
         [33] (unknown)
         [34] NAN_SUPPORT
         [35] UMAC_UPLOAD
         [37] SOC_LATENCY_SUPPORT
         [38] STA_PM_NOTIF
         [39] BINDING_CDB_SUPPORT
-        [40] CDB_SUPPORT
         [41] D0I3_END_FIRST
         [43] TLC_OFFLOAD
         [44] DYNAMIC_QUOTA
@@ -364,9 +353,9 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - TYPE_BUFFER_ALLOCATION (28 bytes): domain=ALWAYS_ON alloc_id=DBGC1 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
 - TYPE_BUFFER_ALLOCATION (28 bytes): domain=0x00800000 alloc_id=DBGC4 buf_location=SRAM_PATH req_size=0x00000000 max_frags_num=0 min_size=0x00000000
 - TYPE_REGIONS (64 bytes): id=65536 name='fw_rsp_or_notif' type=RSP_OR_NOTIF domain=ALWAYS_ON version=3
-- TYPE_REGIONS (7908 bytes): id=196609 name='prph_mac' type=PERIPHERY_MAC domain=ALWAYS_ON version=3
+- TYPE_REGIONS (5168 bytes): id=196609 name='prph_mac' type=PERIPHERY_MAC domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000004
-    addresses[1961] =
+    addresses[1276] =
         0x00d05c18 0x00d05c1c 0x00d0c000 0x00d0c004 0x00d0c008 0x00d0c00c 0x00d0c010 0x00d0c014
         0x00d0c018 0x00d0c020 0x00d0c024 0x00d0c028 0x00d0c03c 0x00d0c040 0x00d0c044 0x00d0c048
         0x00d0c04c 0x00d0c050 0x00d0c054 0x00d0c058 0x00d0c05c 0x00d0c060 0x00d0c064 0x00d0c068
@@ -515,113 +504,21 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         0x00a045cc 0x00a045d0 0x00a045d4 0x00a045d8 0x00a045dc 0x00a045e0 0x00a045e8 0x00a045ec
         0x00a045f0 0x00d030d8 0x00d030dc 0x00d030e0 0x00d0307c 0x00d030a0 0x00d030ac 0x00d030c0
         0x00d030c8 0x00d030cc 0x00d030d0 0x00d030d4 0x00d030e4 0x00d030e8 0x00d030ec 0x00d030f0
-        0x00d030f4 0x00d03044 0x00d05c20 0x00d0c400 0x00d0c404 0x00d0c408 0x00d0c40c 0x00d0c410
-        0x00d0c414 0x00d0c418 0x00d0c420 0x00d0c424 0x00d0c428 0x00d0c43c 0x00d0c440 0x00d0c444
-        0x00d0c448 0x00d0c44c 0x00d0c450 0x00d0c454 0x00d0c458 0x00d0c45c 0x00d0c460 0x00d0c464
-        0x00d0c468 0x00d0c46c 0x00d0c470 0x00d0c474 0x00d0c478 0x00d0c47c 0x00d0c480 0x00d0c484
-        0x00d0c488 0x00d0c4c0 0x00d0c4c4 0x00d0c4c8 0x00d0c4cc 0x00d0c4d0 0x00d0c4d4 0x00d0c4d8
-        0x00d0c4dc 0x00d0c4e0 0x00d0c4e4 0x00d0c4e8 0x00d0c4ec 0x00d0c4f0 0x00d0c4f4 0x00d0c4f8
-        0x00d0c4fc 0x00d0c500 0x00d0c504 0x00d0c50c 0x00d0c510 0x00d0c514 0x00d0c57c 0x00d0c580
-        0x00d0c584 0x00d0c588 0x00d0c590 0x00d0c594 0x00d0c598 0x00d0c5a0 0x00d0c5a4 0x00d0c5a8
-        0x00d0c600 0x00d0c604 0x00d0c608 0x00d0c60c 0x00d0c610 0x00d0c614 0x00d0c618 0x00d0c61c
-        0x00d0c620 0x00d0c624 0x00d0c628 0x00d0c62c 0x00d0c630 0x00d0c634 0x00d0c638 0x00d0c63c
-        0x00d0c640 0x00d0c644 0x00d0c648 0x00d0c64c 0x00d0c650 0x00d0c654 0x00d0c658 0x00d0c65c
-        0x00a26c64 0x00a26cf0 0x00a26cf4 0x00a26cf8 0x00a26c10 0x00b00410 0x00b00414 0x00b00418
-        0x00b0041c 0x00b00430 0x00b00434 0x00b00438 0x00b0043c 0x00b00444 0x00b0045c 0x00b00510
-        0x00b00514 0x00b00518 0x00b0051c 0x00b00530 0x00b00538 0x00b0053c 0x00b00488 0x00b0048c
-        0x00b00490 0x00b00494 0x00b0049c 0x00b004a0 0x00b004a4 0x00b004a8 0x00b004ac 0x00b004b0
-        0x00b00c20 0x00b00c2c 0x00b00c34 0x00b00c40 0x00b00c4c 0x00b00c50 0x00b00c54 0x00b00c84
-        0x00b00c88 0x00b00cc4 0x00b00cc8 0x00b00ce0 0x00b00ce4 0x00b00ce8 0x00b00850 0x00b00858
-        0x00b00810 0x00b0085c 0x00b00860 0x00b00880 0x00b00884 0x00b00888 0x00b00890 0x00b00894
-        0x00b00898 0x00b0089c 0x00b008a4 0x00b01004 0x00b01008 0x00b01010 0x00b01018 0x00b01024
-        0x00b0102c 0x00b01030 0x00b01034 0x00b0103c 0x00b01040 0x00b01048 0x00b0104c 0x00b01050
-        0x00b01058 0x00b01064 0x00b01068 0x00b0106c 0x00b01070 0x00b0108c 0x00b0109c 0x00b010a0
-        0x00b010a4 0x00b010a8 0x00b010ac 0x00b010b0 0x00b010b4 0x00b010b8 0x00b010bc 0x00b01108
-        0x00b0110c 0x00b01110 0x00b01114 0x00b01118 0x00b0111c 0x00b01120 0x00b01124 0x00b01100
-        0x00b01104 0x00b01128 0x00b0112c 0x00b01130 0x00b01134 0x00b01138 0x00b0113c 0x00b0d008
-        0x00b0d00c 0x00b0d018 0x00b0d024 0x00b0d028 0x00b0d02c 0x00b0d030 0x00b0d034 0x00b0d038
-        0x00b0d03c 0x00b0d040 0x00b0d044 0x00b0d048 0x00b0d04c 0x00b0d050 0x00b0d054 0x00b0d058
-        0x00b0d05c 0x00b0d060 0x00b0d064 0x00b0d068 0x00b0d06c 0x00b0d070 0x00b0d074 0x00b0d078
-        0x00b0d080 0x00b0d084 0x00b0d088 0x00b0d08c 0x00b0d094 0x00b0d09c 0x00b0d0a4 0x00b0d0ac
-        0x00b0d0b4 0x00b0d0b8 0x00b0d0c0 0x00b0d0c4 0x00b0d0c8 0x00b0d0cc 0x00b0d0d0 0x00b0d0d4
-        0x00b0d0d8 0x00b0d0dc 0x00b0d0e0 0x00b0d0e4 0x00b0d0e8 0x00b0d0ec 0x00b0d0f0 0x00b0d0f4
-        0x00b0d0f8 0x00b0d0fc 0x00b0d100 0x00b0d104 0x00b0d108 0x00b0d10c 0x00b0d110 0x00b0d114
-        0x00b0d118 0x00b0d11c 0x00b0d120 0x00b0d124 0x00b0d128 0x00b0d12c 0x00b0d130 0x00b0d134
-        0x00b0d138 0x00b0d13c 0x00b0d1c0 0x00b0d1c4 0x00b0d1c8 0x00b0d1cc 0x00b0d1d0 0x00b0d1d4
-        0x00b0d1d8 0x00b0d1dc 0x00b0d1e0 0x00b0d1e4 0x00b0d1e8 0x00b0d1ec 0x00b0d1f0 0x00b0d1f4
-        0x00b0d1f8 0x00b0d1fc 0x00b0d200 0x00b0d204 0x00b0d208 0x00b0d20c 0x00b0d210 0x00b0d214
-        0x00b0d218 0x00b0d21c 0x00b0d220 0x00b0d224 0x00b0d228 0x00b0d22c 0x00b0d230 0x00b0d234
-        0x00b0d238 0x00b0d23c 0x00b0d2d8 0x00b0d2e0 0x00b0d2e8 0x00b0d2ec 0x00b0d2f0 0x00b0d2f4
-        0x00b0d2f8 0x00b0d2fc 0x00b0d300 0x00b0d304 0x00b0d308 0x00b0d30c 0x00b0d310 0x00b0d314
-        0x00b0d318 0x00b0d31c 0x00b0d320 0x00b0d324 0x00b0d328 0x00b0d32c 0x00b0d330 0x00b0d334
-        0x00b0d338 0x00b0d33c 0x00b0d340 0x00b0d344 0x00b0d348 0x00b0d34c 0x00b0d350 0x00b0d354
-        0x00b0d358 0x00b0d35c 0x00b0d360 0x00b0d364 0x00b0d368 0x00b0d36c 0x00b0d370 0x00b0d374
-        0x00b0d378 0x00b0d37c 0x00b0d380 0x00b0d384 0x00b0d388 0x00b0d38c 0x00b0d390 0x00b0d394
-        0x00b0d398 0x00b0d39c 0x00b0d3a0 0x00b0d3a4 0x00b0d3a8 0x00b0d3ac 0x00b0d3b0 0x00b0d3b4
-        0x00b0d3b8 0x00b0d3bc 0x00b0d3c0 0x00b0d3c4 0x00b0d3c8 0x00b0d3cc 0x00b0d3d0 0x00b0d3d4
-        0x00b0d3d8 0x00b0d3dc 0x00b0d3e0 0x00b0d3e4 0x00b0d3e8 0x00b0d3ec 0x00b0d3f0 0x00b0d3f4
-        0x00b0d3f8 0x00b0d3fc 0x00b0d400 0x00b0d404 0x00b0d4f4 0x00b0d2c0 0x00b0d2c8 0x00b0d2d0
-        0x00b0d4f8 0x00b0d408 0x00b0d40c 0x00b0d410 0x00b0d414 0x00b0d418 0x00b0d41c 0x00b0d420
-        0x00b0d424 0x00b0d428 0x00b0d42c 0x00b0d430 0x00b0d434 0x00b0d438 0x00b0d4cc 0x00b0d4d0
-        0x00b0d4d4 0x00b0d4ec 0x00b0d4f0 0x00b0a400 0x00b0a410 0x00b0a420 0x00b0a430 0x00b0a440
-        0x00b0a450 0x00b0a460 0x00b0a470 0x00b0a480 0x00b0a490 0x00b0a4a0 0x00b0a4b0 0x00b0a404
-        0x00b0a414 0x00b0a424 0x00b0a434 0x00b0a444 0x00b0a454 0x00b0a464 0x00b0a474 0x00b0a484
-        0x00b0a494 0x00b0a4a4 0x00b0a4b4 0x00b0a408 0x00b0a418 0x00b0a428 0x00b0a438 0x00b0a448
-        0x00b0a458 0x00b0a468 0x00b0a478 0x00b0a488 0x00b0a498 0x00b0a4a8 0x00b0a4b8 0x00b0a40c
-        0x00b0a41c 0x00b0a42c 0x00b0a43c 0x00b0a44c 0x00b0a45c 0x00b0a46c 0x00b0a47c 0x00b0a48c
-        0x00b0a49c 0x00b0a4ac 0x00b0a4bc 0x00b0a4c0 0x00b0a4c4 0x00b0a4c8 0x00b0a4cc 0x00b0a4d4
-        0x00b0a4d8 0x00b0a4dc 0x00b0a4e0 0x00b0a4e4 0x00b0a4f0 0x00b0a4f4 0x00b0a4f8 0x00b0a4fc
-        0x00b0a500 0x00b0a504 0x00b0a508 0x00b0a50c 0x00b0a510 0x00b0a514 0x00b0a518 0x00b0a51c
-        0x00b0a520 0x00b0a524 0x00b0a528 0x00b0a52c 0x00b0a530 0x00b0a534 0x00b0a538 0x00b0a53c
-        0x00b0a540 0x00b0a544 0x00b0a54c 0x00b0a550 0x00b0a554 0x00b0a558 0x00b0a55c 0x00b0a560
-        0x00b01e00 0x00b01e04 0x00b01e08 0x00b01e0c 0x00b01e10 0x00b01e14 0x00b01e20 0x00b01e24
-        0x00b01e28 0x00b01e2c 0x00b01e30 0x00b01e34 0x00b01e60 0x00b01e64 0x00b01e80 0x00b01e84
-        0x00b01ea0 0x00b01ec4 0x00b01ec8 0x00b01ed0 0x00b01ed4 0x00b01c20 0x00b01c64 0x00b01c6c
-        0x00b01c70 0x00b01d00 0x00b01d08 0x00b01d10 0x00b01d18 0x00b01d1c 0x00b01d20 0x00b02000
-        0x00b02004 0x00b02008 0x00b0200c 0x00b02010 0x00b02014 0x00b02018 0x00b0201c 0x00d02c68
-        0x00b02024 0x00b02028 0x00b0202c 0x00b02080 0x00b02084 0x00b02088 0x00b0208c 0x00b02090
-        0x00b02094 0x00b020d0 0x00b020d4 0x00b020d8 0x00b020dc 0x00b020e4 0x00b020e8 0x00b02400
-        0x00b02404 0x00b02408 0x00b0240c 0x00b02410 0x00b02414 0x00b02420 0x00b0242c 0x00b02434
-        0x00b02438 0x00b0243c 0x00b02440 0x00b025a0 0x00b02448 0x00b0244c 0x00b02450 0x00b02454
-        0x00b02458 0x00b0245c 0x00b02460 0x00b02464 0x00b02468 0x00b0246c 0x00b02470 0x00b02474
-        0x00b02478 0x00b0247c 0x00b02480 0x00b02484 0x00b02488 0x00b0248c 0x00b02490 0x00b02494
-        0x00b02498 0x00b0249c 0x00b024a0 0x00b024a4 0x00b024a8 0x00b024ac 0x00b024b0 0x00b024b4
-        0x00b024b8 0x00b024bc 0x00b024c0 0x00b024c4 0x00b024cc 0x00b024d0 0x00b024d4 0x00b024d8
-        0x00b024dc 0x00b024e0 0x00b024e4 0x00b024e8 0x00b024ec 0x00b024f0 0x00b024f4 0x00b024f8
-        0x00b02520 0x00b0251c 0x00b0252c 0x00b02530 0x00b02534 0x00b02538 0x00b0253c 0x00b02540
-        0x00b026e4 0x00b026e8 0x00b026f0 0x00b026f8 0x00b02700 0x00b02708 0x00b02710 0x00b02718
-        0x00b02720 0x00b026ec 0x00b026f4 0x00b026fc 0x00b02704 0x00b0270c 0x00b02714 0x00b0271c
-        0x00b02724 0x00b02728 0x00b02730 0x00b02738 0x00b02740 0x00b02748 0x00b02750 0x00b02758
-        0x00b02760 0x00b0272c 0x00b02734 0x00b0273c 0x00b02744 0x00b0274c 0x00b02754 0x00b0275c
-        0x00b02764 0x00b02768 0x00b02770 0x00b02778 0x00b02780 0x00b02788 0x00b02790 0x00b02798
-        0x00b027a0 0x00b0276c 0x00b02774 0x00b0277c 0x00b02784 0x00b0278c 0x00b02794 0x00b0279c
-        0x00b027a4 0x00b0255c 0x00b02564 0x00b02570 0x00b02574 0x00b02598 0x00b0259c 0x00b025a8
-        0x00b025ac 0x00b025b0 0x00b025b4 0x00b025e8 0x00b025ec 0x00b025f0 0x00b025f4 0x00b025b8
-        0x00b025bc 0x00b025c4 0x00b025c8 0x00b025cc 0x00b025d0 0x00b025d4 0x00b025d8 0x00b025dc
-        0x00b025e0 0x00b025e4 0x00b02604 0x00b02608 0x00b02614 0x00b02618 0x00b0261c 0x00b02620
-        0x00b02624 0x00b02628 0x00b0262c 0x00b02638 0x00b02640 0x00b02644 0x00b0264c 0x00b02650
-        0x00b02654 0x00b02658 0x00b0265c 0x00b02660 0x00b02664 0x00b02668 0x00b0266c 0x00b02670
-        0x00b02674 0x00b02678 0x00b0267c 0x00b02680 0x00b02684 0x00b02688 0x00b026b4 0x00b026b8
-        0x00b026c8 0x00b026cc 0x00b04400 0x00b04404 0x00b04408 0x00b0440c 0x00b04410 0x00b04414
-        0x00b04418 0x00b0441c 0x00b04420 0x00b04424 0x00b04428 0x00b0442c 0x00b04430 0x00b04434
-        0x00b04438 0x00b0443c 0x00b04440 0x00b04444 0x00b04448 0x00b0444c 0x00b04450 0x00b04454
-        0x00b04460 0x00b04464 0x00b04468 0x00b0446c 0x00b04470 0x00b04474 0x00b04480 0x00b04484
-        0x00b04488 0x00b0448c 0x00b044c0 0x00b044c4 0x00b044c8 0x00b044cc 0x00b044d0 0x00b044d4
-        0x00b044d8 0x00b044e0 0x00b044e4 0x00b044e8 0x00b044ec 0x00b044f8 0x00b044fc 0x00b04500
-        0x00b04504 0x00b04510 0x00b04514 0x00b04518 0x00b0451c 0x00b04520 0x00b04524 0x00b04528
-        0x00b0452c 0x00b04530 0x00b04534 0x00b04538 0x00b04544 0x00b04548 0x00b04560 0x00b04570
-        0x00b04574 0x00b04578 0x00b0457c 0x00b04590 0x00b04598 0x00b045c0 0x00b045c4 0x00b045c8
-        0x00b045cc 0x00b045d0 0x00b045d4 0x00b045d8 0x00b045dc 0x00b045e0 0x00b045e8 0x00b045ec
-        0x00b045f0
+        0x00d030f4 0x00d03044 0x00d0c400 0x00d0c404 0x00d0c408 0x00d0c40c 0x00d0c410 0x00d0c414
+        0x00d0c418 0x00d0c420 0x00d0c424 0x00d0c428 0x00d0c43c 0x00d0c440 0x00d0c444 0x00d0c448
+        0x00d0c44c 0x00d0c450 0x00d0c454 0x00d0c458 0x00d0c45c 0x00d0c460 0x00d0c464 0x00d0c468
+        0x00d0c46c 0x00d0c470 0x00d0c474 0x00d0c478 0x00d0c47c 0x00d0c480 0x00d0c484 0x00d0c488
+        0x00d0c4c0 0x00d0c4c4 0x00d0c4c8 0x00d0c4cc 0x00d0c4d0 0x00d0c4d4 0x00d0c4d8 0x00d0c4dc
+        0x00d0c4e0 0x00d0c4e4 0x00d0c4e8 0x00d0c4ec 0x00d0c4f0 0x00d0c4f4 0x00d0c4f8 0x00d0c4fc
+        0x00d0c500 0x00d0c504 0x00d0c50c 0x00d0c510 0x00d0c514 0x00d0c57c 0x00d0c580 0x00d0c584
+        0x00d0c588 0x00d0c590 0x00d0c594 0x00d0c598 0x00d0c5a0 0x00d0c5a4 0x00d0c5a8 0x00d0c600
+        0x00d0c604 0x00d0c608 0x00d0c60c 0x00d0c610 0x00d0c614 0x00d0c618 0x00d0c61c 0x00d0c620
+        0x00d0c624 0x00d0c628 0x00d0c62c 0x00d0c630 0x00d0c634 0x00d0c638 0x00d0c63c 0x00d0c640
+        0x00d0c644 0x00d0c648 0x00d0c64c 0x00d0c650 0x00d0c654 0x00d0c658 0x00d0c65c 0x00a26c64
+        0x00a26cf0 0x00a26cf4 0x00a26cf8 0x00a26c10
 - TYPE_REGIONS (84 bytes): id=65538 name='prph_phy_lmac1' type=PERIPHERY_PHY domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000004
     addresses[5] = 0xa44420 0xa44424 0xa4443c 0xaa0000 0xac0404
-- TYPE_REGIONS (84 bytes): id=65539 name='prph_phy_lmac2' type=PERIPHERY_PHY domain=ALWAYS_ON version=3
-    dev_addr: offset=0x00100000 size=0x00000004
-    addresses[5] = 0xa44420 0xa44424 0xa4443c 0xaa0000 0xac0404
-- TYPE_REGIONS (68 bytes): id=196621 name='dccm_lmac2' type=DEVICE_MEMORY.9 (UNKNOWN_9) domain=ALWAYS_ON version=3
-    dev_addr: offset=0x00000000 size=0x00008000
-    addresses[1] = 0x840000
 - TYPE_REGIONS (68 bytes): id=65544 name='paged_mem' type=PAGING domain=ALWAYS_ON version=3
     addresses[1] = 0x0
 - TYPE_REGIONS (68 bytes): id=196617 name='dccm_umac' type=DEVICE_MEMORY.4 (UNKNOWN_4) domain=ALWAYS_ON version=3
@@ -639,7 +536,7 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
     dev_addr: offset=0x00000000 size=0x000CC000
     addresses[1] = 0x440000
 - TYPE_REGIONS (64 bytes): id=196624 name='monitor_smem' type=INTERNAL_BUFFER domain=ALWAYS_ON version=3
-    internal_buffer: alloc_id=1 base_addr=0x00400000 size=0x0001E000
+    internal_buffer: alloc_id=1 base_addr=0x00400000 size=0x00021000
 - TYPE_REGIONS (68 bytes): id=196625 name='chmem' type=DEVICE_MEMORY.3 (UNKNOWN_3) domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00016000
     addresses[1] = 0x620000
@@ -649,12 +546,12 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - TYPE_REGIONS (68 bytes): id=196627 name='pci_config' type=PCI_IOSF_CONFIG domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000100
     addresses[1] = 0x0
-- TYPE_REGIONS (76 bytes): id=196628 name='sw_events_mask' type=DEVICE_MEMORY domain=ALWAYS_ON version=3
+- TYPE_REGIONS (72 bytes): id=196628 name='sw_events_mask' type=DEVICE_MEMORY domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000004
-    addresses[3] = 0x4946f8 0x883d10 0x883d28
-- TYPE_REGIONS (492 bytes): id=196629 name='prph_debug' type=PERIPHERY_MAC domain=ALWAYS_ON version=3
+    addresses[2] = 0x48c934 0x88345c
+- TYPE_REGIONS (480 bytes): id=196629 name='prph_debug' type=PERIPHERY_MAC domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000004
-    addresses[107] =
+    addresses[104] =
         0x00d0c100 0x00d05464 0x00a0d4f4 0x00a0d4f8 0x00a0a50c 0x00d0c020 0x00d0c024 0x00d0c028
         0x00d0c018 0x00d0c008 0x00d0c10c 0x00d0c000 0x00d0c104 0x00d0c17c 0x00d0c180 0x00d0c184
         0x00d0c188 0x00d0c190 0x00d0c194 0x00d0c198 0x00d0c1a0 0x00d0c1a4 0x00d0c1a8 0x00d0c1b0
@@ -663,12 +560,11 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         0x00d0c0f8 0x00d0c0fc 0x00d0c080 0x00d0c084 0x00d0c088 0x00d0c08c 0x00d0c090 0x00d0c094
         0x00d0c118 0x00d0c2c0 0x00d0c2e0 0x00d0c2c4 0x00d0c2e4 0x00d0c2c8 0x00d0c2e8 0x00d0c2cc
         0x00d0c2ec 0x00d0c300 0x00d0c304 0x00d0c310 0x00d03c04 0x00d03c08 0x00d03d04 0x00d03d08
-        0x00d03e04 0x00d03e08 0x00b0d4f4 0x00b0d4f8 0x00b0a50c 0x00d0c500 0x00d0c420 0x00d0c424
-        0x00d0c428 0x00d0c418 0x00d0c408 0x00d0c50c 0x00d0c400 0x00d0c504 0x00d0c57c 0x00d0c580
-        0x00d0c584 0x00d0c588 0x00d0c590 0x00d0c594 0x00d0c598 0x00d0c5a0 0x00d0c5a4 0x00d0c5a8
-        0x00d0c4c0 0x00d0c4c4 0x00d0c4c8 0x00d0c4cc 0x00d0c4d0 0x00d0c4d4 0x00d0c4d8 0x00d0c4dc
-        0x00d0c4e0 0x00d0c4e4 0x00d0c4e8 0x00d0c4ec 0x00d0c4f0 0x00d0c4f4 0x00d0c4f8 0x00d0c4fc
-        0x00d0c480 0x00d0c484 0x00d0c488
+        0x00d03e04 0x00d03e08 0x00d0c500 0x00d0c420 0x00d0c424 0x00d0c428 0x00d0c418 0x00d0c408
+        0x00d0c50c 0x00d0c400 0x00d0c504 0x00d0c57c 0x00d0c580 0x00d0c584 0x00d0c588 0x00d0c590
+        0x00d0c594 0x00d0c598 0x00d0c5a0 0x00d0c5a4 0x00d0c5a8 0x00d0c4c0 0x00d0c4c4 0x00d0c4c8
+        0x00d0c4cc 0x00d0c4d0 0x00d0c4d4 0x00d0c4d8 0x00d0c4dc 0x00d0c4e0 0x00d0c4e4 0x00d0c4e8
+        0x00d0c4ec 0x00d0c4f0 0x00d0c4f4 0x00d0c4f8 0x00d0c4fc 0x00d0c480 0x00d0c484 0x00d0c488
 - TYPE_REGIONS (144 bytes): id=196630 name='rxf_config' type=PERIPHERY_MAC.1 domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000004
     addresses[20] =
@@ -676,24 +572,22 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
         0x00d00e54 0x00d00e4c 0x00d05a84 0x00d05a88 0x00d05a50 0x00d05a54 0x00d05a4c 0x00b00c84
         0x00b00c88 0x00b00c50 0x00b00c54 0x00b00c4c
 - TYPE_REGIONS (64 bytes): id=196634 name='dbg_extra_cfg_info' type=SPECIAL_DEVICE_MEMORY.12.16 domain=ALWAYS_ON version=3
-    special_mem: type=6 version=16 base_addr=0x80497158 size=0x0000006C offset=0x00000000
+    special_mem: type=6 version=16 base_addr=0x8048F0F0 size=0x0000006C offset=0x00000000
 - TYPE_REGIONS (68 bytes): id=65569 name='bt_mini_core' type=PERIPHERY_MAC.2 domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000400
     addresses[1] = 0xe37800
-- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000007FFFF0E
-- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000007FFFF0E
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000005FF9F06
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000005FF9F06
 - TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=12 trigger_reason=0x00001392 apply_policy=0x00000001 multi_dut=1
-- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 reset_fw=2 regions_mask=0x0000000004BFFF02
+- TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=13 trigger_reason=0x0000138C apply_policy=0x00000001 reset_fw=2 regions_mask=0x0000000004BF9F02
 - TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=9 trigger_reason=0x000017A2 apply_policy=0x00000001 multi_dut=1 regions_mask=0x0000000004310000
 - TYPE_TRIGGERS (56 bytes): domain=REPORT_PS time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=05000098
 - TYPE_TRIGGERS (56 bytes): domain=0x00000002 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=00000010
-- TYPE_TRIGGERS (56 bytes): domain=0x00000002 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=00000014
 - TYPE_TRIGGERS (56 bytes): domain=0x00000004 time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=03000018
 - TYPE_TRIGGERS (56 bytes): domain=REPORT_PS time_point=7 trigger_reason=0x00001A0A apply_policy=0x00000003 reserved=0x000000FF regions_mask=0x0000000000000001 data=0e000018
 - TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=600000 hcmd=LONG(0x1).0xF1 data[12]=010000000500009800000000
 - TYPE_HCMD (32 bytes): domain=REPORT_PS time_point=3 period_msec=0 hcmd=PHY_OPS(0x4).CTDP_CONFIG_CMD(0x03) data[12]=01000000ff1f000000000000
 - TYPE_HCMD (32 bytes): domain=0x00000002 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000001600009001000000
-- TYPE_HCMD (32 bytes): domain=0x00000002 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000001600009401000000
 - TYPE_HCMD (32 bytes): domain=0x00000004 time_point=3 period_msec=0 hcmd=LONG(0x1).0xF1 data[12]=010000000b00001801000000
 - TYPE_HCMD (28 bytes): domain=REPORT_PS time_point=3 period_msec=600000 hcmd=LONG(0x1).0xF1 data[8]=000000000e000018
 - TYPE_BUFFER_ALLOCATION (28 bytes): domain=0xffff0000 alloc_id=DBGC1 buf_location=DRAM_PATH req_size=0x00400000 max_frags_num=16 min_size=0x00000800
@@ -772,87 +666,81 @@ Header: version 71 'release/core68::058653f6' build 0x58653f6
 - TYPE_TRIGGERS (56 bytes): domain=0x48000000 time_point=8 trigger_reason=0x00001A0A apply_policy=0x00000003 multi_dut=1 regions_mask=0xF000000004000001 data=fb0f0000
 - TYPE_CONF_SET (28 bytes):
     Hexdump: 01 00 00 00 00 00 06 58 01 00 00 00 06 00 00 00 00 00 00 00 00 00 40 00 ff ba dd 0a
-- TYPE_CONF_SET (396 bytes):
+- TYPE_CONF_SET (276 bytes):
     Hexdump: 01 00 00 00 00 00 06 58 01 00 00 00 01 00 00 00 00 00 00 00 00 c1 d0 00 80 00 00 00 20 c0 d0 00
 - FW_FSEQ_VERSION (52 bytes): version='FSEQ Version: 0.0.2.36' sha1='FSEQ SHA1:0x43c9666d'
-- PHY_INTEGRATION_VERSION (40 bytes): 'PHY Integration Version: 1.8.1'
-- FW_NUM_STATIONS (4 bytes): 14
+- PHY_INTEGRATION_VERSION (40 bytes): 'PHY Integration Version: 0.0.0'
+- FW_NUM_STATIONS (4 bytes): 15
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
-- SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=a306f9cfd04de62da3946ac9d448eaf61c997fdd76fe1a6b10a78861061b914e)
-    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 01 03 22 20 3f b3 01 00 18 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at c0080000..c0088000 (0x8000=32768 bytes, sha256=ac3f38de9c40855972059a49b87736f423c9adcff64e2d4f7db66622071a926f)
-    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 2c 47 20 20 80 0f 08 c0 74 45 69 20 00 00 69 20 40 00
-- SEC_RT (32772 bytes): runtime ucode at c0088000..c0090000 (0x8000=32768 bytes, sha256=5e2dd4d57a0cf219bb8070b0a4387493796a838240f3714cf731f71941dde281)
-    Hexdump of start: 79 61 11 aa 1a 14 c0 10 90 1a 02 00 1a 11 c0 00 91 1a 02 00 20 20 80 0f 08 c0 48 19 f1 c0 22 20
-- SEC_RT (32772 bytes): runtime ucode at c0880000..c0888000 (0x8000=32768 bytes, sha256=472eb529a87fe6782fc97eb04cf23b9b705c0ebe0acd04038ace7c8ab0c0f93b)
+- SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=fa112f02442ed6997e607846668aa2c1b57efc06f14fd0628acb01c630e4b1a8)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 39 89 01 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at c0080000..c0088000 (0x8000=32768 bytes, sha256=7988dd94eec557c88f5317700b1c323485abcdd77e0237500c624a0c1a6635f7)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 80 46 20 20 80 0f 08 c0 c8 44 69 20 00 00 69 20 40 00
+- SEC_RT (32772 bytes): runtime ucode at c0088000..c0090000 (0x8000=32768 bytes, sha256=48ec1ee3a7df6576b2e95a20588c9fbce3191400c7f53f5fdc2da76e62316ace)
+    Hexdump of start: 80 03 0f 78 40 22 81 03 10 f0 88 e0 d4 f7 0e 69 0f 78 06 e1 2f 79 c9 72 22 20 80 0f 08 c0 3c 81
+- SEC_RT (32772 bytes): runtime ucode at c0880000..c0888000 (0x8000=32768 bytes, sha256=615dbf424525f1f90d47646ab7840af57f03c8ad6aecb7ee8b4e9cc3eaa71600)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 80447000..8044f000 (0x8000=32768 bytes, sha256=264f46353d0d64e47fdf1e95c6a4aea3583ad0abcc3c2a338d8e3f8ab2b88b82)
-    Hexdump of start: f1 c0 22 20 80 0f 08 c0 88 18 4a 26 00 00 cf 70 41 80 0c 52 00 80 cf 75 41 80 08 52 00 a5 22 20
-- SEC_RT (32772 bytes): runtime ucode at 80458000..80460000 (0x8000=32768 bytes, sha256=c74f2e19c0bebe37d5eecd688594eec6da8e9064c2d6439639ae422c5d00e288)
-    Hexdump of start: f1 c0 cf 70 49 80 58 04 22 20 80 0f 08 c0 28 49 22 20 80 0f 48 80 60 20 00 d8 8a 21 1f 04 22 20
-- SEC_RT (32772 bytes): runtime ucode at 80460000..80468000 (0x8000=32768 bytes, sha256=0c48a83232d701b42b639c36816c51565f489d2dd3cf73c3f3371cb1629a2dd7)
-    Hexdump of start: 70 18 a4 c1 08 77 4f c1 cf 76 ad de ef be cf 70 88 c0 98 3e 00 80 22 20 80 0f 47 80 6c c0 82 c0
-- SEC_RT (32772 bytes): runtime ucode at 80468000..80470000 (0x8000=32768 bytes, sha256=2642ef9badb68594cf3fc407c1d1167d41a3af6b58e48075a4fae143861ce405)
-    Hexdump of start: a0 f0 cf 75 49 80 dc 6e f5 7d 08 73 00 15 04 10 8a 20 10 00 cf 71 c0 ee 84 c2 01 da c5 7b 0a 25
-- SEC_RT (32772 bytes): runtime ucode at 80470000..80478000 (0x8000=32768 bytes, sha256=3337ff511fb9a12604e1e573d1b07901d60da985dfe8f75ac26d64c188972623)
-    Hexdump of start: 88 c0 6c 30 8c 20 ff 8f ca 20 41 00 05 f2 05 b8 00 62 2d b8 c0 b8 e0 7e 80 e0 00 d9 07 f2 cf 70
-- SEC_RT (32772 bytes): runtime ucode at 80478000..80480000 (0x8000=32768 bytes, sha256=9614cef10525a91f36548deb9436ee4cb5e627736d29f691ba323c17469d319d)
-    Hexdump of start: 80 0f 08 c0 50 19 e0 78 00 d9 65 18 58 00 20 20 80 0f 47 80 44 30 e0 78 cf 71 49 80 d4 01 40 81
-- SEC_RT (32772 bytes): runtime ucode at 80480000..80488000 (0x8000=32768 bytes, sha256=04b5c2afd1ceb57dca01da5b0934f1c4307249328be7f6793d51f07eb74ea19a)
-    Hexdump of start: 06 80 04 20 80 0f 00 00 00 10 42 20 00 80 e0 7f ca 20 62 00 f1 c0 22 20 80 0f 08 c0 60 18 a9 c1
-- SEC_RT (32772 bytes): runtime ucode at 80488000..80490000 (0x8000=32768 bytes, sha256=c7a1176d08515bd659f20a7a43f9451e7345c4e5b20a820078d08a92bf406630)
+- SEC_RT (32772 bytes): runtime ucode at 80447000..8044f000 (0x8000=32768 bytes, sha256=699a6c1108de3e1c2824dee759df0b4ec4ef67671f0c5b7d74f0d4eb1a1eadf0)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 60 18 cf 75 41 80 10 50 20 85 cf 70 e3 c0 80 40 10 18 60 00 17 d8 0b b8
+- SEC_RT (32772 bytes): runtime ucode at 80458000..80460000 (0x8000=32768 bytes, sha256=45655c9f4a8c5e02415427812f68f7319b769f8129b738b4d0dfbc72b784be37)
+    Hexdump of start: f1 c0 cf 70 48 80 8c 93 22 20 80 0f 08 c0 7c 48 22 20 80 0f 47 80 10 cf 00 d8 8a 21 1f 04 22 20
+- SEC_RT (32772 bytes): runtime ucode at 80460000..80468000 (0x8000=32768 bytes, sha256=6426eea2ae1ac92c37c6f5e3fd5a9878e466930464da103ebd19402ea0cc9147)
+    Hexdump of start: 02 f2 04 d8 22 20 80 0f 47 80 2c d6 20 20 80 0f 08 c0 20 19 f1 c0 22 20 80 0f 08 c0 4c 18 08 77
+- SEC_RT (32772 bytes): runtime ucode at 80468000..80470000 (0x8000=32768 bytes, sha256=0cbfc3764172e2bee6ddf5b11e2b74b828335f27d4938a1c32e220bc983ea49a)
+    Hexdump of start: 00 d8 24 12 02 20 5a 70 18 a7 50 71 40 20 11 25 11 f2 0d 87 80 e0 05 f2 19 87 80 e0 0b f4 a9 70
+- SEC_RT (32772 bytes): runtime ucode at 80470000..80478000 (0x8000=32768 bytes, sha256=8d789770bd8129fed84a1735a09ac2b9e085e85563333d5d42785d211f560370)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 60 18 08 75 cf 70 88 c0 08 3a 09 80 8c 20 c3 8f ca 20 82 0f 00 00 23 32
+- SEC_RT (32772 bytes): runtime ucode at 80478000..80480000 (0x8000=32768 bytes, sha256=128b7596bad4fe6f6833a4cd102a440c41741f1f81372c4ec7a71240d535ccb0)
+    Hexdump of start: 08 f4 cf 71 45 80 bc c8 01 de c9 70 00 da 10 f0 80 e0 14 f4 cf 75 88 c0 84 49 00 8d 81 e0 0e f4
+- SEC_RT (32772 bytes): runtime ucode at 80480000..80488000 (0x8000=32768 bytes, sha256=ea0dd75bad3125eae606a433624dc7c562a0ce60a329fa54fd95ec4994fa2952)
+    Hexdump of start: 47 80 ac 29 cf 70 48 80 c8 f0 00 80 80 e0 e2 20 82 0f 47 80 d0 7a 22 20 80 0f 47 80 20 7b 80 e5
+- SEC_RT (32772 bytes): runtime ucode at 80488000..80490000 (0x8000=32768 bytes, sha256=5037b92ce79df0e846066bb636a87f8e8f5595a4a559c2a736af4454176c1914)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 80490000..80498000 (0x8000=32768 bytes, sha256=811599df9e14763708e641a52b882e979cb5295ddd1c93bbd3f94185831ef638)
+- SEC_RT (12184 bytes): runtime ucode at 80490000..80492f94 (0x2f94=12180 bytes, sha256=7882ebc9ccef94c5e29c457eca19b81d1b114e299fceed46d359c0658aedcfe7)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (21392 bytes): runtime ucode at 80498000..8049d38c (0x538c=21388 bytes, sha256=02a880bb40f6f5eda91e2c9b138654621678086afe06976f4227a9e956cdd162)
-    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (5772 bytes): runtime ucode at 80415000..80416688 (0x1688=5768 bytes, sha256=3cd0ac4f5562c7300ec17cc812b91f63412732db370da3fba84faa58eebe91ef)
-    Hexdump of start: cc 8f 00 00 00 00 00 00 c0 8f 00 00 ee 00 08 2a f4 8e 02 00 00 01 00 00 c0 8f 00 00 ec 00 08 2a
+- SEC_RT (4408 bytes): runtime ucode at 80415000..80416134 (0x1134=4404 bytes, sha256=a41733baaac1ac3f583a9dffa09c724a164df69b88053cd536f3b98e2098607b)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 6f 01 20 28 a1 00 00 84 6f 01 20
 - SEC_RT (24760 bytes): runtime ucode at 80409000..8040f0b4 (0x60b4=24756 bytes, sha256=0e37b2ce263a3d7dcc49e7aa949f21dde7855fb776bc3926760312cd5be2ad6e)
     Hexdump of start: 80 00 00 01 00 00 00 08 14 00 00 0c 00 00 00 00 80 00 00 02 00 00 60 94 00 00 40 00 20 20 80 0f
-- PAGING (4 bytes): 0xa3000 = 667648 bytes
+- PAGING (4 bytes): 0x91000 = 593920 bytes
 - SEC_RT (8 bytes): 0xAAAABBBB => PAGING_SEPARATOR_SECTION
-- SEC_RT (1660 bytes): runtime ucode at 00000000..00000678 (0x678=1656 bytes, sha256=bacff95c28fc001ec88e4b6ca82ed59d58a88e2aba069a99adf5692b1ba33fd2)
-    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 01 03 22 20 a5 8c 02 00 18 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01000000..01008000 (0x8000=32768 bytes, sha256=96c74713e9fbde45d97da0dbc1c0148049ea231e37b8feca09899e8c6aec9d18)
-    Hexdump of start: f1 c0 22 20 80 0f 08 c0 94 18 cf 71 00 01 a4 b0 20 81 f4 1c 48 b0 41 c0 08 1c 80 3f 00 00 ff ff
-- SEC_RT (32772 bytes): runtime ucode at 01008000..01010000 (0x8000=32768 bytes, sha256=b20f78ff1d227d6c63b2764f5af173ed86bce87f44b096154bdd6d9713f0f129)
-    Hexdump of start: 04 d9 22 20 80 0f 00 01 bc 7d ff dd 08 bd 04 d9 a4 78 07 24 04 00 41 2f 00 16 22 20 80 0f 00 01
-- SEC_RT (32772 bytes): runtime ucode at 01010000..01018000 (0x8000=32768 bytes, sha256=510ff2ca5e9411cd5fec14d9323137d021647e74dbdbfdad150bb8eac7e5f37e)
+- SEC_RT (1660 bytes): runtime ucode at 00000000..00000678 (0x678=1656 bytes, sha256=04dd92bec6132efb331dc228489ba275ef9d09370277a2418529ca0debc491b4)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 28 02 22 20 ee 44 02 00 40 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01000000..01008000 (0x8000=32768 bytes, sha256=0cac6d4554723b44b85bc1abf7d1e4d2f058a6392dd01364447ea99732621d0a)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 64 18 cf 71 00 01 a4 b0 20 81 f4 1c 48 b0 41 c0 08 1c 80 3f 00 00 ff ff
+- SEC_RT (32772 bytes): runtime ucode at 01008000..01010000 (0x8000=32768 bytes, sha256=41ae83ce6c748b2ef2d08dc9291d867a5c681507bd0cf40d00e4d5fe12392175)
+    Hexdump of start: 07 26 01 11 19 61 43 2d c0 16 c7 71 d9 6e a1 eb 38 60 20 20 80 0f 08 c0 08 19 e0 78 f1 c0 22 20
+- SEC_RT (32772 bytes): runtime ucode at 01010000..01018000 (0x8000=32768 bytes, sha256=757c7be1cfaeb1fe2bf0462fc864e08865787b2be71438f17bd69379998b4bc5)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01018000..01020000 (0x8000=32768 bytes, sha256=915edc7adc200fea78dea530643e034b329e4c07959e425f9cb71f1e47d13ce7)
+- SEC_RT (32772 bytes): runtime ucode at 01018000..01020000 (0x8000=32768 bytes, sha256=1d6aad6aa58fd107780a94d0ab23b1da302ba1ee83a7b87167d2f13c912177d3)
+    Hexdump of start: 00 00 00 00 84 82 01 01 00 ff 00 00 00 00 00 00 84 82 01 01 00 ff 00 00 98 90 01 01 f0 8f 01 01
+- SEC_RT (32772 bytes): runtime ucode at 01020000..01028000 (0x8000=32768 bytes, sha256=b483d4326c118eb15e7296ac6726c0bdd0d00ba462510d2a7f4890d16689b1f4)
+    Hexdump of start: 09 25 0d 10 00 a4 40 24 54 20 00 87 92 70 24 f6 d7 75 ff 7f ff ff ca 20 81 04 ca 20 42 03 a6 c0
+- SEC_RT (32772 bytes): runtime ucode at 01028000..01030000 (0x8000=32768 bytes, sha256=dfbb28f20a713f643cffcde1d8935e3cfef1b10505ac40239c62b9ea4120c78e)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01020000..01028000 (0x8000=32768 bytes, sha256=539430be9db8583b7140b1fb2ba25ff2581d8c5d8d0b40588df2660878581bb8)
-    Hexdump of start: 82 9f 00 80 80 00 21 f4 01 d8 28 f0 84 e5 17 f2 05 f6 82 e5 19 f4 03 d8 20 f0 8c 25 04 90 13 f2
-- SEC_RT (32772 bytes): runtime ucode at 01028000..01030000 (0x8000=32768 bytes, sha256=1774cc4725ac4b6da8e62698f7f77f5741862bfaf2bd64d4de672c230fbc639c)
-    Hexdump of start: 08 ef 02 01 18 ef 02 01 28 ef 02 01 f8 ee 02 01 00 00 00 00 00 00 00 00 00 40 00 00 00 40 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01030000..01038000 (0x8000=32768 bytes, sha256=018d5f0f6e6c5dd3e0790ab39b9a59d44200b849b03e5eac795e6d0a8e509fc5)
-    Hexdump of start: 07 21 81 0f 00 80 00 00 0d 00 00 00 07 23 83 0f 00 80 00 00 00 21 44 00 00 23 c5 00 0c 24 40 81
-- SEC_RT (32772 bytes): runtime ucode at 01038000..01040000 (0x8000=32768 bytes, sha256=f9f99e042d04adf25e1d9ff61aad416895cd7343e344bc3ae77ecbb71ffd9087)
+- SEC_RT (32772 bytes): runtime ucode at 01030000..01038000 (0x8000=32768 bytes, sha256=663923add7b127ef951edc452d28f018e1fdc549878e00a58bc17ef85607685d)
+    Hexdump of start: 40 01 0a 27 40 01 22 20 80 0f 02 01 5c e7 4a 27 40 20 00 de 0e f0 a9 71 5a 27 00 1c 8a 73 40 2d
+- SEC_RT (32772 bytes): runtime ucode at 01038000..01040000 (0x8000=32768 bytes, sha256=3f8791fe29bfe533b314a5cef069b3c87cf027f54d446fcf7dda559e0b2fd8a6)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01040000..01048000 (0x8000=32768 bytes, sha256=4cf7440cc87e5637cb2d769146edfab40daec29a8d9d6df5a2da0dd2f284b486)
-    Hexdump of start: 7f 1d 86 54 40 f1 91 54 f9 71 9e 54 78 a4 ab 54 8b 8d b9 54 01 32 c8 54 a5 96 d7 54 48 c0 e7 54
-- SEC_RT (32772 bytes): runtime ucode at 01048000..01050000 (0x8000=32768 bytes, sha256=9aedfc0590519535935e49cf6c00101592940350738b883d589be4febd45a289)
-    Hexdump of start: f1 c0 22 20 80 0f 08 c0 94 18 08 72 03 d8 08 71 22 20 80 0f 04 01 94 85 cf 71 49 80 58 9d 80 e0
-- SEC_RT (32772 bytes): runtime ucode at 01050000..01058000 (0x8000=32768 bytes, sha256=2744f4a72cee2d2ab2d732fb90060a6e115a6652e803eb7cd959534322809075)
+- SEC_RT (32772 bytes): runtime ucode at 01040000..01048000 (0x8000=32768 bytes, sha256=1839f40aef3fdd0be31fa41078ab36647fd18e8521ebb010fb3e2352552f29b1)
+    Hexdump of start: 31 34 3a 40 44 47 58 58 37 37 37 3a 47 45 49 4f 53 59 6b 6b 28 28 28 28 2c 30 38 3a 44 50 50 50
+- SEC_RT (32772 bytes): runtime ucode at 01048000..01050000 (0x8000=32768 bytes, sha256=56762d7e6566f62b783f7202c9488a229a19599c99799136b2eeffe2116eb06c)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01058000..01060000 (0x8000=32768 bytes, sha256=eb3e78327606d906016a6776ef197a8fdebfec929b727743ad47fd4410dc1f53)
+- SEC_RT (32772 bytes): runtime ucode at 01050000..01058000 (0x8000=32768 bytes, sha256=8efc7762bd4802c95a4f1f3262c40376784db4b5996c15cfe3a76bd60561bb2b)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-- SEC_RT (32772 bytes): runtime ucode at 01060000..01068000 (0x8000=32768 bytes, sha256=20cf48015e2c42bd24ac0ee021d9d989891ddd313687bb0ea86af9af1d83b8ef)
-    Hexdump of start: e0 7e e0 78 f1 c0 22 20 80 0f 08 c0 90 18 08 75 00 80 50 20 be 80 a4 c1 14 f4 22 20 80 0f 09 01
-- SEC_RT (32772 bytes): runtime ucode at 01068000..01070000 (0x8000=32768 bytes, sha256=e520ee2c3f896ebb234870c1c11b5dca20f8ba5d2825b5beeb82581a9d5e73bb)
-    Hexdump of start: 49 67 0c 1b 42 20 62 f0 ff be 1f df 05 f4 2f 28 81 03 4e 20 8f 07 4a 22 00 20 0f 22 d2 23 2f 24
-- SEC_RT (32772 bytes): runtime ucode at 01070000..01078000 (0x8000=32768 bytes, sha256=8d6a10392d1e97be4c7a9972939ff54207f48dd9eb1dc86621d76fbfa5cb930e)
-    Hexdump of start: 83 e0 27 f4 c9 70 22 20 80 0f 06 01 70 d4 81 e0 ca 21 21 00 ca 20 81 03 e2 20 81 0f 06 01 ac dc
-- SEC_RT (32772 bytes): runtime ucode at 01078000..01080000 (0x8000=32768 bytes, sha256=9e34af088eb14e92976e56fe390724ca074d82a0ea39285262ab05bff5d43eeb)
-    Hexdump of start: 00 64 00 00 64 64 00 64 00 00 64 64 00 64 00 00 64 64 00 64 00 00 64 64 00 64 00 00 64 64 00 64
-- SEC_RT (32772 bytes): runtime ucode at 01080000..01088000 (0x8000=32768 bytes, sha256=1d8ed9c60dddfcb7d1ac4f12a23e5af0ee282e6bb7e77b5034a687b6eb8b9d50)
-    Hexdump of start: 80 0f 08 c0 28 4e 22 20 80 0f 08 c0 98 5c 53 06 00 00 40 24 11 37 88 c6 00 12 00 20 40 28 01 24
-- SEC_RT (32772 bytes): runtime ucode at 01088000..01090000 (0x8000=32768 bytes, sha256=3d83bca049af3ac28b622c81c0b37f8e3cfa894f8d1a57d5c4439d755a4551b8)
-    Hexdump of start: f1 c0 22 20 80 0f 08 c0 90 18 cf 70 00 01 04 f0 00 80 80 e0 70 f2 22 20 80 0f 08 01 dc 60 22 20
-- SEC_RT (32772 bytes): runtime ucode at 01090000..01098000 (0x8000=32768 bytes, sha256=781bbb3ed90b938338ca152ad00e37e678d1cd7425bd64856f5109330f0cbdc1)
-    Hexdump of start: 09 0c 0b 0a 00 00 00 00 00 00 02 01 00 04 02 02 04 02 02 04 02 02 04 05 06 06 05 06 09 07 08 09
-- SEC_RT (32772 bytes): runtime ucode at 01098000..010a0000 (0x8000=32768 bytes, sha256=e1b043e375a1cba94fbf0340f5c3084272d3aa5c9c98c6611b08b33cb4f982e5)
-    Hexdump of start: 0a 21 00 80 ca 20 82 0f 10 00 9a 10 e2 20 82 0f 08 c0 e8 4d cf 72 09 01 c0 7a cf 70 49 80 e8 02
-- SEC_RT (12292 bytes): runtime ucode at 010a0000..010a3000 (0x3000=12288 bytes, sha256=b37fedf83b7742d44b14dfea532ea42024cf6525b9d7c06ab54ac98ef8766c8f)
+- SEC_RT (32772 bytes): runtime ucode at 01058000..01060000 (0x8000=32768 bytes, sha256=f7cc96323bf1091f530149186892b65595aaf1cc3192f373a9fa9d2e77eced3a)
+    Hexdump of start: 01 a5 0f f2 82 e6 29 f2 83 e6 31 f2 cf 70 10 00 a4 10 c9 71 22 20 80 0f 08 c0 10 4d 2b f0 22 20
+- SEC_RT (32772 bytes): runtime ucode at 01060000..01068000 (0x8000=32768 bytes, sha256=c873bafb605b4bbd1d5cc3154f5d771f059172a38145d401d47b6dce4ef2e1fb)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2c 00 06 01 30 00 06 01 34 00 06 01
+- SEC_RT (32772 bytes): runtime ucode at 01068000..01070000 (0x8000=32768 bytes, sha256=d0cdf02252beedac24f99227c87d799f01ad64bc231d6be84259da81139a60cb)
+    Hexdump of start: 3a 70 c9 70 2a 71 22 20 80 0f 06 01 d0 70 80 e0 00 df ca 27 62 10 a9 70 2a 71 22 20 80 0f 06 01
+- SEC_RT (32772 bytes): runtime ucode at 01070000..01078000 (0x8000=32768 bytes, sha256=c0201c6b97e264c8562a61293d124ed9384a077579e3b51ae5554dbc41f01c51)
+    Hexdump of start: f1 c0 22 20 80 0f 08 c0 64 18 22 20 80 0f 46 80 08 9a cf 71 88 c0 44 2b 30 21 81 0f 00 00 64 06
+- SEC_RT (32772 bytes): runtime ucode at 01078000..01080000 (0x8000=32768 bytes, sha256=9ca6747c5d77143bfe72c593dc2bd8cb659c0ed829a037857e5fae916281aa67)
     Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01080000..01088000 (0x8000=32768 bytes, sha256=b745bb9a3ff82714e38a444bd1b6afa90ce14ff310f2bfa3c620e1df70063624)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (32772 bytes): runtime ucode at 01088000..01090000 (0x8000=32768 bytes, sha256=05760d3ff10f2b2491688b312c7d7fc5f9b6adfe7cf640960510719ad593a8e3)
+    Hexdump of start: 07 03 09 04 0b 07 0b 06 10 0d 11 0b 11 0b 11 0b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- SEC_RT (4100 bytes): runtime ucode at 01090000..01091000 (0x1000=4096 bytes, sha256=7c0cbd7fddfc2dfa9eec1aeb7c64d587964a33330c170152fd3d84b14f1252b3)
+    Hexdump of start: fe ca fe ca 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e 7e

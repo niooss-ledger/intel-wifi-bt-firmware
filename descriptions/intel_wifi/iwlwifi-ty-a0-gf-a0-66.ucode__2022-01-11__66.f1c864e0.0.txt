@@ -278,7 +278,7 @@ Header: version 66 'release/core63::f1c864e0' build 0xf1c864e0
         [101] (unknown)
         [103] (unknown)
         [104] DRAM_FRAG_SUPPORT
-        [105] (unknown)
+        [105] DUMP_COMPLETE_SUPPORT
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
 - API_CHANGES_SET (8 bytes): index=1 flags=0xFFF7FFFD
 - API_CHANGES_SET (8 bytes): index=2 flags=0x00000003

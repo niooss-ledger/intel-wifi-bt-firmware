@@ -219,7 +219,7 @@ Header: version 68 'release/core66_LinADLPV::01d30b0c' build 0x1d30b0c
     0x0E.0x17                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x17                                            cmd_ver=99 notif_ver= 1
     0x0E.0x18                                            cmd_ver= 1 notif_ver= 0
-    MAC_CONF(0x3).0xF9                                   cmd_ver=99 notif_ver= 1
+    MAC_CONF(0x3).CHANNEL_SWITCH_ERROR_NOTIF(0xF9)       cmd_ver=99 notif_ver= 1
 - FLAGS (4 bytes): 0xFBFB4B7F
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x9DEF037F
         [ 0] D0I3_SUPPORT
@@ -273,7 +273,7 @@ Header: version 68 'release/core66_LinADLPV::01d30b0c' build 0x1d30b0c
         [101] (unknown)
         [103] (unknown)
         [104] DRAM_FRAG_SUPPORT
-        [105] (unknown)
+        [105] DUMP_COMPLETE_SUPPORT
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
 - API_CHANGES_SET (8 bytes): index=1 flags=0xFFF7FFFF
 - API_CHANGES_SET (8 bytes): index=2 flags=0x00000003

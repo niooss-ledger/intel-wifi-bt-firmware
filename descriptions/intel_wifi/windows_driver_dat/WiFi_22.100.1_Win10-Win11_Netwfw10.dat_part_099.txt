@@ -186,7 +186,7 @@
     0x0E.0x17                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x17                                            cmd_ver=99 notif_ver= 1
     0x0E.0x18                                            cmd_ver= 1 notif_ver= 0
-    MAC_CONF(0x3).0xF9                                   cmd_ver=99 notif_ver= 1
+    MAC_CONF(0x3).CHANNEL_SWITCH_ERROR_NOTIF(0xF9)       cmd_ver=99 notif_ver= 1
 - WOWLAN_INST (4 bytes): 7f 4b fb fb
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f03ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee91bb

@@ -12,7 +12,7 @@ References:
 - For macOS version: https://github.com/OpenIntelWireless/itlwm
   (archived project) https://github.com/AppleIntelWifi/adapter
 
-Wifi command codes are defined:
+Wi-Fi command codes are defined:
 - in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlwifi/fw/api
 - in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/intel/iwlegacy/commands.h?h=v5.16
 - in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/iwlegacy/commands.h?id=dbdac2b581811e1f2a573454451136c2497de4fc
@@ -75,9 +75,10 @@ class CalibCfg(enum.IntFlag):
     AGC_IDX = 0x40000
 
 
-# Macros with prefix IWL_CFG_MAC_TYPE_
 @enum.unique
 class CfgMacType(enum.IntEnum):
+    """Macros with prefix IWL_CFG_MAC_TYPE_"""
+
     PU = 0x31
     PNJ_TH = 0x32  # Both PNJ and TH
     QU = 0x33
@@ -90,17 +91,33 @@ class CfgMacType(enum.IntEnum):
     BZ = 0x46
     GL = 0x47
 
+    @classmethod
+    def from_name(cls, name: str) -> "CfgMacType":
+        if name in {"PNJ", "TH"}:
+            return cls.PNJ_TH
+        return getattr(cls, name)
 
-# Macros with prefix IWL_CFG_RF_TYPE_
+
 @enum.unique
 class CfgRfType(enum.IntEnum):
+    """Macros with prefix IWL_CFG_RF_TYPE_"""
+
     TH_JF2 = 0x105  # Both TH and JF2
     TH1_JF1 = 0x108  # Both TH1 and JF1
     HR2 = 0x10A
     HR1 = 0x10C
     GF = 0x10D
     MR = 0x110
+    MS = 0x111
     FM = 0x112
+
+    @classmethod
+    def from_name(cls, name: str) -> "CfgRfType":
+        if name in {"TH", "JF2"}:
+            return cls.TH_JF2
+        if name in {"TH1", "JF1"}:
+            return cls.TH1_JF1
+        return getattr(cls, name)
 
 
 @enum.unique
@@ -128,6 +145,20 @@ class FwIniAllocationId(enum.IntEnum):
     DBGC2 = 2
     DBGC3 = 3
     DBGC4 = 4
+    FW_DUMP = 5
+    USER_DEFINED = 6
+
+    @classmethod
+    def from_name(cls, name: str) -> "FwIniAllocationId":
+        if name == "SDFX":
+            # Removed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b87384af8d6701c0fe6ffbe885feb200150b1ee4  # noqa
+            # and later replaced with INTERNAL
+            return cls.DBGC4
+        if name == "INTERNAL":
+            # Removed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e75bc5f3f110aa6c4c372e574bd2c37a8cad495f  # noqa
+            # and later replaced with DBGC4
+            return cls.DBGC4
+        return getattr(cls, name)
 
 
 @enum.unique
@@ -138,6 +169,13 @@ class FwIniBufferLocation(enum.IntEnum):
     SRAM_PATH = 1
     DRAM_PATH = 2
     NPK_PATH = 3
+
+    @classmethod
+    def from_name(cls, name: str) -> "FwIniBufferLocation":
+        if name == "SRAM_INVALID":
+            # Rename in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=56ea8e3b4ef6a319ac8297bc50f6909dccc684ec  # noqa
+            return cls.INVALID
+        return getattr(cls, name)
 
 
 @enum.unique
@@ -165,6 +203,32 @@ class FwIniRegionDeviceMemorySubtype(enum.IntEnum):
     TCM_2_ERROR_TABLE = 16
     RCM_1_ERROR_TABLE = 18
     RCM_2_ERROR_TABLE = 20
+
+
+@enum.unique
+class OldFwIniRegionType(enum.IntEnum):
+    """old enum iwl_fw_ini_region_type (prefix IWL_FW_INI_REGION_)
+
+    Commit https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c9fe75e9f347044fda99a0da9c61983b153b8ed9  # noqa
+    introduced new values, without renaming the enum
+    """
+
+    INVALID = 0
+    DEVICE_MEMORY = 1
+    PERIPHERY_MAC = 2
+    PERIPHERY_PHY = 3
+    PERIPHERY_AUX = 4
+    DRAM_BUFFER = 5
+    DRAM_IMR = 6
+    INTERNAL_BUFFER = 7
+    TXF = 8
+    RXF = 9
+    PAGING = 10
+    CSR = 11
+    NOTIFICATION = 12
+    DHC = 13
+    LMAC_ERROR_TABLE = 14
+    UMAC_ERROR_TABLE = 15
 
 
 @enum.unique
@@ -196,10 +260,27 @@ class FwIniRegionType(enum.IntEnum):
 class UcodeTlvApi(enum.IntEnum):
     """enum iwl_ucode_tlv_api (prefix IWL_UCODE_TLV_API_)"""
 
+    WOWLAN_CONFIG_TID = 0
+    CAPA_EXTENDED_BEACON = 1
+    BT_COEX_SPLIT = 3
+    CSA_FLOW = 4
+    DISABLE_STA_TX = 5
+    LMAC_SCAN = 6
+    SF_NO_DUMMY_NOTIF = 7
     FRAGMENTED_SCAN = 8
     WIFI_MCC_UPDATE = 9
+    HDC_PHASE_0 = 10
+    TX_POWER_DEV = 11
+    BASIC_DWELL = 13
+    WIDE_CMD_HDR = 14
+    SCD_CFG = 15
+    SINGLE_SCAN_EBS = 16
+    ASYNC_DTM = 17
     LQ_SS_PARAMS = 18
+    STATS_V10 = 19
     NEW_VERSION = 20
+    EXT_SCAN_PRIORITY = 24
+    TX_POWER_CHAIN = 27
     SCAN_TSF_REPORT = 28
     TKIP_MIC_KEYS = 29
     STA_TYPE = 30
@@ -209,6 +290,7 @@ class UcodeTlvApi(enum.IntEnum):
     NEW_BEACON_TEMPLATE = 34
     NEW_RX_STATS = 35
     WOWLAN_KEY_MATERIAL = 36
+    COEX_ATS_EXTERNAL = 37
     QUOTA_LOW_LATENCY = 38
     DEPRECATE_TTAK = 41
     ADAPTIVE_DWELL_V2 = 42
@@ -311,10 +393,24 @@ class UcodeTlvCapa(enum.IntEnum):
     DRAM_FRAG_SUPPORT = 104
     DUMP_COMPLETE_SUPPORT = 105
 
+    @classmethod
+    def from_name(cls, name: str) -> "UcodeTlvCapa":
+        if name == "LAR_SUPPORT_V2":
+            # Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=47fe2f8ed5ebe76411285994619f71d22519d550
+            return cls.LAR_SUPPORT_V3
+        if name == "P2P_STANDALONE_UAPSD":
+            # Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c5241b0c8c0bb2bfd69effaa81e30fa26a16adda
+            return cls.P2P_SCM_UAPSD
+
+        return getattr(cls, name)
+
 
 @enum.unique
 class UcodeTlvType(enum.IntEnum):
-    """enum iwl_ucode_tlv_type (prefix IWL_UCODE_TLV_, type in Type-Length-Value fields)"""
+    """enum iwl_ucode_tlv_type (prefix IWL_UCODE_TLV_)
+
+    This is the type in Type-Length-Value fields.
+    """
 
     INVALID = 0
     INST = 1
@@ -406,6 +502,36 @@ class UcodeTlvType(enum.IntEnum):
     def __str__(self) -> str:
         return str(self.name)
 
+    @classmethod
+    def from_name(cls, name: str) -> "UcodeTlvType":
+        if name == "PAN":
+            # DVM "PAN" is MVM "MEM_DESC"
+            return cls.MEM_DESC
+
+        if name == "OLD_TYPE_DEBUG_FLOW":
+            # TYPE_DEBUG_INFO moved on 0x1000005
+            return cls.TYPE_DEBUG_INFO
+
+        if name == "TYPE_DEBUG_FLOW":
+            # IWL_UCODE_TLV_DEBUG_BASE + 5 was moved to 0x100000A
+            return cls.TYPE_CONF_SET
+
+        return getattr(cls, name)
+
+
+@enum.unique
+class OldUcodeType(enum.IntEnum):
+    """old enum iwl_ucode_type (prefix IWL_UCODE_)
+
+    Commit https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b5ea1624833b816184aa262c190f2774b8d2ea63  # noqa
+    removed IWL_UCODE_NONE from this structure, shifted the values down by one.
+    """
+
+    NONE = 0
+    REGULAR = 1
+    INIT = 2
+    WOWLAN = 3
+
 
 @enum.unique
 class UcodeType(enum.IntEnum):
@@ -419,7 +545,7 @@ class UcodeType(enum.IntEnum):
 
 @enum.unique
 class MvmCommandGroups(enum.IntEnum):
-    """enum iwl_mvm_command_groups (_GROUP suffix)
+    """enum iwl_mvm_command_groups (suffix _GROUP)
 
     https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/tree/drivers/net/wireless/intel/iwlwifi/fw/api/commands.h
     """
@@ -592,6 +718,18 @@ class LegacyCmds(enum.IntEnum):
         if name == "MVM_ALIVE":
             # Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9422b978355e569c2791b67f78274668102eb750  # noqa
             return cls.UCODE_ALIVE_NTFY
+        if name == "SCAN_RESULTS_NOTIFICATION":
+            # SCAN_RESULTS_NOTIFICATION was removed, then DC2DC_CONFIG_CMD was created with the same ID (0x83)
+            return cls.DC2DC_CONFIG_CMD
+
+        # NET_DETECT_... were renamed SCAN_OFFLOAD_...
+        if name == "NET_DETECT_PROFILES_QUERY_CMD":
+            return cls.SCAN_OFFLOAD_PROFILES_QUERY_CMD
+        if name == "NET_DETECT_HOTSPOTS_CMD":
+            return cls.SCAN_OFFLOAD_HOTSPOTS_CONFIG_CMD
+        if name == "NET_DETECT_HOTSPOTS_QUERY_CMD":
+            return cls.SCAN_OFFLOAD_HOTSPOTS_QUERY_CMD
+
         return getattr(cls, name)
 
 

@@ -270,7 +270,7 @@ Header: version 67 'release/core64::8f59b80b' build 0x8f59b80b
         [99] (unknown)
         [101] (unknown)
         [103] (unknown)
-        [105] (unknown)
+        [105] DUMP_COMPLETE_SUPPORT
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
 - API_CHANGES_SET (8 bytes): index=1 flags=0xFFF7FFFD
 - API_CHANGES_SET (8 bytes): index=2 flags=0x00000003
