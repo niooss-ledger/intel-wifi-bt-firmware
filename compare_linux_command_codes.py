@@ -78,6 +78,7 @@ def compare_linux_command_codes(linux_path: Path, verbose: bool) -> None:
                             current_enum_cls = GROUP_CMD_ENUM[MvmCommandGroups.LEGACY]
                             state = "in_enum"
                     elif state == "in_enum":  # Dirty parsing of a C header
+                        assert current_enum_cls is not None
                         if line == "":
                             continue
                         if line == "enum {":

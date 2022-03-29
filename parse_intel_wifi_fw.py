@@ -27,7 +27,7 @@ import hashlib
 import io
 from pathlib import Path
 import sys
-from typing import Any, BinaryIO, Generator, List, Mapping, Optional, TextIO, Tuple, Type
+from typing import Any, BinaryIO, Generator, List, Mapping, Optional, TextIO, Tuple, Type, Union
 
 from construct import (
     Array,
@@ -1218,7 +1218,7 @@ class IntelWifiFirmware:
             return cls(entries, header_type="UcodeHeaderV2", header=header)
 
         # Parse TLV entries
-        entries: List[Container] = []
+        entries = []
         while True:
             peeked_data = stream.read(16)
             if peeked_data == b"":
@@ -1289,18 +1289,21 @@ class IntelWifiFirmware:
         if self.header_type is None:
             return
         if self.header_type == "UcodeHeaderV1":
+            assert self.header is not None
             print(
                 f"Header: version {self.header.version_major}.{self.header.version_minor}.{self.header.version_api}.{self.header.version_serial} runtime {self.header.inst_size}+{self.header.data_size} bytes, init {self.header.init_size}+{self.header.init_data_size} bytes, bootstrap {self.header.boot_size} bytes",  # noqa
                 file=out,
             )
             return
         if self.header_type == "UcodeHeaderV2":
+            assert self.header is not None
             print(
                 f"Header: version {self.header.version_major}.{self.header.version_minor}.{self.header.version_api}.{self.header.version_serial} build {self.header.build} runtime {self.header.inst_size}+{self.header.data_size} bytes, init {self.header.init_size}+{self.header.init_data_size} bytes, bootstrap {self.header.boot_size} bytes",  # noqa
                 file=out,
             )
             return
         if self.header_type == "TlvUcodeHeader":
+            assert self.header is not None
             if self.header.build == 0:
                 print(f"Header: version {self.header.version} {self.header.human_readable!r}", file=out)
             else:
