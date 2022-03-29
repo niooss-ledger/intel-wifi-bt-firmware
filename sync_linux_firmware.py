@@ -214,21 +214,21 @@ def sync_linux_firmware(fw_repo: Path, check_fw: bool = False) -> None:
                 all_fw = list(IntelWifiFirmware.parse_all_bytes(file_bytes))
                 if len(all_fw) != 1:
                     raise RuntimeError(f"Unexpected {len(all_fw)} firmware for {file_name!r} in commit {commit_hash}")
-                for entry in all_fw[0].entries:
-                    if int(entry.type_) == UcodeTlvType.FW_VERSION:
-                        _, ent_ver = IntelWifiFirmware.decode_entry(entry)
-                        ent_ver_minor = str(ent_ver.minor) if ent_ver.minor < 0x1000000 else f"{ent_ver.minor:08x}"
-                        ent_ver_str = f"{ent_ver.major}.{ent_ver_minor}.{ent_ver.local_comp}"
-                        if version != ent_ver_str:
-                            if (version, ent_ver_str) in {
-                                ("34.610288.0", "34.0.1"),
-                                ("34.618819.0", "34.0.0"),
-                                ("38.0cef09c1.0", "38.0cef09c1.1"),
-                            }:
-                                # Skip known false-positives
-                                pass
-                            else:
-                                raise RuntimeError(f"File {file_name!r} associated with version {version!r} uses version {ent_ver_str!r} in commit {commit_hash}")
+                for ent_ver in all_fw[0].get_entries_by_type(UcodeTlvType.FW_VERSION):
+                    ent_ver_minor = str(ent_ver.minor) if ent_ver.minor < 0x1000000 else f"{ent_ver.minor:08x}"
+                    ent_ver_str = f"{ent_ver.major}.{ent_ver_minor}.{ent_ver.local_comp}"
+                    if version != ent_ver_str:
+                        if (version, ent_ver_str) in {
+                            ("34.610288.0", "34.0.1"),
+                            ("34.618819.0", "34.0.0"),
+                            ("38.0cef09c1.0", "38.0cef09c1.1"),
+                        }:
+                            # Skip known false-positives
+                            pass
+                        else:
+                            raise RuntimeError(
+                                f"File {file_name!r} associated with version {version!r} uses version {ent_ver_str!r} in commit {commit_hash}"
+                            )
 
             file_bytes_digest = hashlib.sha256(file_bytes).digest()
             if local_file_name in all_file_hashes:

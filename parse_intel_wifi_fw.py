@@ -1284,6 +1284,14 @@ class IntelWifiFirmware:
         self.write_stream(buffer)
         return buffer.getbuffer()
 
+    def get_entries_by_type(self, entry_type: Union[int, UcodeTlvType]) -> Generator[Any, None, None]:
+        """Iterate all entries of the specified type"""
+        for entry in self.entries:
+            if int(entry.type_) == entry_type:
+                current_type, decoded_entry = self.decode_entry(entry)
+                assert current_type == entry_type
+                yield decoded_entry
+
     def print_header(self, out: Optional[TextIO] = None) -> None:
         """Print the header"""
         if self.header_type is None:
