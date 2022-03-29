@@ -280,6 +280,7 @@ class UcodeTlvCapa(enum.IntEnum):
     BROADCAST_TWT = 60
     COEX_HIGH_PRIO = 61
     RFIM_SUPPORT = 62
+    BAID_ML_SUPPORT = 63
     EXTENDED_DTS_MEASURE = 64
     SHORT_PM_TIMEOUTS = 65
     BT_MPLUT_SUPPORT = 67
@@ -308,6 +309,7 @@ class UcodeTlvCapa(enum.IntEnum):
     BIGTK_SUPPORT = 100
     # RFIM_SUPPORT = 102  # This value was updated in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9da090cdbcfa1ef864bfcbad9ad7e18691395867  # noqa
     DRAM_FRAG_SUPPORT = 104
+    DUMP_COMPLETE_SUPPORT = 105
 
 
 @enum.unique
@@ -604,10 +606,14 @@ class SystemSubcmdIds(enum.IntEnum):
     RFI_CONFIG_CMD = 0x0B
     RFI_GET_FREQ_TABLE_CMD = 0x0C
     SYSTEM_FEATURES_CONTROL_CMD = 0x0D
-    FSEQ_VER_MISMATCH_NTF = 0xFF
+    RFI_DEACTIVATE_NOTIF = 0xFF
 
     @classmethod
     def from_name(cls, name: str) -> "SystemSubcmdIds":
+        if name == "FSEQ_VER_MISMATCH_NTF":
+            # Removed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=07fb3299adc40b2e87bbe7047b7b1614deae0d05  # noqa
+            # and later replaced with RFI_DEACTIVATE_NOTIF in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=63b62a2df04135ca1da7c735ac18fc34cd87bbfb  # noqa
+            return cls.RFI_DEACTIVATE_NOTIF
         return getattr(cls, name)
 
 
@@ -619,6 +625,8 @@ class MacConfSubcmdIds(enum.IntEnum):
     LOW_LATENCY_CMD = 0x03
     CHANNEL_SWITCH_TIME_EVENT_CMD = 0x04
     SESSION_PROTECTION_CMD = 0x05
+    CANCEL_CHANNEL_SWITCH_CMD = 0x06
+    CHANNEL_SWITCH_ERROR_NOTIF = 0xF9
     MISSED_VAP_NOTIF = 0xFA
     SESSION_PROTECTION_NOTIF = 0xFB
     PROBE_RESPONSE_DATA_NOTIF = 0xFC
@@ -667,6 +675,8 @@ class DataPathSubcmdIds(enum.IntEnum):
     TLC_MNG_NOTIF_REQ_CMD = 0x10
     HE_AIR_SNIFFER_CONFIG_CMD = 0x13
     CHEST_COLLECTOR_FILTER_CONFIG_CMD = 0x14
+    RX_BAID_ALLOCATION_CONFIG_CMD = 0x16
+    SCD_QUEUE_CONFIG_CMD = 0x17
     MONITOR_NOTIF = 0xF4
     RX_NO_DATA_NOTIF = 0xF5
     THERMAL_DUAL_CHAIN_REQUEST = 0xF6
@@ -757,6 +767,7 @@ class DebugCmds(enum.IntEnum):
     HOST_EVENT_CFG = 0x03
     DBGC_SUSPEND_RESUME = 0x07
     BUFFER_ALLOCATION = 0x08
+    FW_DUMP_COMPLETE_CMD = 0x0B
     MFU_ASSERT_DUMP_NTF = 0xFE
 
     @classmethod
