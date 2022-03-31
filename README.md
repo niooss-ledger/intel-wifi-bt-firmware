@@ -19,6 +19,12 @@ Source of files:
     - 2021-04-10 <https://downloadmirror.intel.com/655277/WiFi-21.80.1-all.zip>
     - 2021-08-25 <https://downloadmirror.intel.com/646221/WiFi_22.70.0_all.zip>
 
+  - <https://www.intel.com/content/www/us/en/download/19351/706169/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html>
+
+    - 2022-01-01 <https://downloadmirror.intel.com/706169/WiFi-22.100.1-Driver64-Win10-Win11.exe>
+    - 2022-01-26 <https://downloadmirror.intel.com/715194/WiFi-22.110.1-Driver64-Win10-Win11.exe>
+    - 2022-02-01 <https://downloadmirror.intel.com/723926/WiFi-22.120.1-Driver64-Win10-Win11.exe>
+
   - From Gigabyte:
 
     - 2021-11-05 <https://download.gigabyte.com/FileList/Driver/22.50.1.1.zip?v=4dda8cd82fed8ce6d0e0020fdc1da7e9> (from <https://www.gigabyte.com/fr/Mini-PcBarebone/GB-BER7HS-5700/support#support-dl-driver-wlan>)

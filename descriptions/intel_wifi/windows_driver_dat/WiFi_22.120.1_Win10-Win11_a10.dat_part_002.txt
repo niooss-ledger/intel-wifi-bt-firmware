@@ -1,0 +1,18 @@
+- INST (4 bytes): date 2021-12-29
+- DATA (64 bytes): 'release/core33::6a146e89'
+- FW_VERSION (12 bytes): 36.6a146e89.0
+- INIT_DATA (4 bytes): 10 01 00 00
+- BOOT (4 bytes): 18 00 33 00
+- PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
+- RUNT_EVTLOG_SIZE (4 bytes): 0xffffffff = 4294967295 bytes
+- WOWLAN_INST (4 bytes): 07 00 00 00
+- SEC_RT (8 bytes): 0x00000001, 4 bytes: 06020000
+- D3_KEK_KCK_ADDR (8 bytes): addr=0x01020000 size=0x00000154
+- MEM_DESC (704 bytes): memory at 00405000..004052b8 (0x2b8=696 bytes, sha256=f7f618c901ec6f890ee95fb30e21760a169320cd6e53f67d28bee8c7ce5a5f25)
+    Hexdump of start: 06 00 00 00 a1 00 00 00 00 00 01 00 00 00 00 00 86 80 00 00 29 12 21 20 d9 9a 00 00 40 00 00 00
+- MEM_DESC (65544 bytes): memory at c0080000..c0090000 (0x10000=65536 bytes, sha256=46fb6f55eba7fd151e6314abe9de020d5ac9bf93f0cd12631681cdff422150ae)
+    Hexdump of start: 20 20 80 0f 08 c0 50 00 20 20 80 0f 08 c0 44 35 20 20 80 0f 08 c0 fc 33 69 20 00 00 69 20 40 00
+- MEM_DESC (32776 bytes): memory at c0880000..c0888000 (0x8000=32768 bytes, sha256=db110689a6861651c38687208f2d65b95834be931708fc9bee2f563c20531826)
+    Hexdump of start: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+- MEM_DESC (59572 bytes): memory at 80458000..804668ac (0xe8ac=59564 bytes, sha256=2fc60c7f21213b1ddbe3f002794571b704419d12281e776f661c922b9e68d6c5)
+    Hexdump of start: aa aa 03 00 00 00 08 06 00 01 08 00 06 04 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
