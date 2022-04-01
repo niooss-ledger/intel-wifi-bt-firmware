@@ -181,3 +181,5 @@ Header: version 29 'CoreCycle26_stab::09bd31e1' build 0x9bd31e1
     max_number_of_white_listed_ssid = 0
     max_number_of_black_listed_ssid = 0
 - FW_VERSION (12 bytes): 29.09bd31e1.0
+
+No signature

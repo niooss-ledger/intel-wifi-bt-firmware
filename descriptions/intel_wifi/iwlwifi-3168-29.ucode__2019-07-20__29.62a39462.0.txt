@@ -181,3 +181,5 @@ Header: version 29 '62a39462fb9b36672f1aa43da9ac02caf628ab07::62a39462' build 0x
     max_number_of_white_listed_ssid = 0
     max_number_of_black_listed_ssid = 0
 - FW_VERSION (12 bytes): 29.62a39462.0
+
+No signature

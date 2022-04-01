@@ -168,3 +168,5 @@ Header: version 16 'stream:CoreCycle13_stab@242414' build 0x3b2ee
     LEGACY(0x0).BINDING_CONTEXT_CMD(0x2B)                cmd_ver= 1 notif_ver= 0
 - SDIO_ADMA_ADDR (4 bytes): 0x00407000
 - FW_VERSION (12 bytes): 16.242414.0
+
+No signature

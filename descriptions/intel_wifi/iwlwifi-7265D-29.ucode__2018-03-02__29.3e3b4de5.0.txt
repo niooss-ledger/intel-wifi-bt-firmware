@@ -179,3 +179,5 @@ Header: version 29 'C35::3e3b4de5' build 0x3e3b4de5
     max_number_of_white_listed_ssid = 0
     max_number_of_black_listed_ssid = 0
 - FW_VERSION (12 bytes): 29.3e3b4de5.0
+
+No signature

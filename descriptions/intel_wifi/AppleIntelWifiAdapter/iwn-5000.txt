@@ -15,3 +15,5 @@ Header: version 139658497 '5000 fw v8.83.5.1 build 33692\n' build 0x839c
 - INIT_EVTLOG_SIZE (4 bytes): 0xc10 = 3088 bytes
 - INIT_ERRLOG_PTR (4 bytes): 0x00800B78
 - PHY_CALIBRATION_SIZE (4 bytes): 18
+
+No signature

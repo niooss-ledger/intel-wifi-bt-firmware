@@ -37,9 +37,7 @@ def update_descriptions() -> None:
             desc_file = desc_file.parent / f"{desc_file.name}.txt"
             fw = all_fw[0]
             with desc_file.open("w") as fout:
-                fw.print_header(out=fout)
-                for entry in fw.entries:
-                    fw.print_entry(entry, out=fout)
+                fw.print_description(out=fout)
 
             # Check that write_bytes works
             with file_path.open("rb") as stream:
@@ -54,9 +52,7 @@ def update_descriptions() -> None:
             for idx, fw in enumerate(all_fw):
                 part_desc_file = desc_file.parent / f"{desc_file.name}_part_{idx:03d}.txt"
                 with part_desc_file.open("w") as fout:
-                    fw.print_header(out=fout)
-                    for entry in fw.entries:
-                        fw.print_entry(entry, out=fout)
+                    fw.print_description(out=fout)
 
 
 if __name__ == "__main__":

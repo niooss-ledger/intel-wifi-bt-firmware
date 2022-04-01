@@ -179,3 +179,5 @@ Header: version 29 'stream:CoreCycle26_stab@588277' build 0x8f9f5
     max_number_of_white_listed_ssid = 0
     max_number_of_black_listed_ssid = 0
 - FW_VERSION (12 bytes): 29.588277.0
+
+No signature

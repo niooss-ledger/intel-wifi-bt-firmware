@@ -29,6 +29,10 @@ from pathlib import Path
 import sys
 from typing import Any, BinaryIO, Generator, List, Mapping, Optional, TextIO, Tuple, Type, Union
 
+import cryptography.hazmat.primitives.asymmetric.ec
+import cryptography.hazmat.primitives.asymmetric.utils
+import cryptography.hazmat.primitives.hashes
+
 from construct import (
     Array,
     Bytes,
@@ -1293,6 +1297,96 @@ TlvCalibData = Struct(
 )
 assert TlvCalibData.sizeof() == 0xC
 
+# "CSS", section with signature information. The header looks like ACM
+# (Authenticated Code Modules) used by Intel TXT
+CodeSignatureSectionInfo = Struct(
+    "flags" / Hex(Int32ul),
+    "size_plus_8" / Hex(Int32ul),
+    "addr" / Hex(Int32ul),
+    "size" / Hex(Int32ul),
+)
+# CSS signed using RSA 2048 and SHA256
+CodeSignatureSectionRsa2048 = Struct(
+    "module_type" / Const(6, Int16ul),
+    "module_subtype" / Const(0, Int16ul),
+    "header_size" / Const(0xA1, Int32ul),  # Header size in 32-bit words (0x284 bytes)
+    "header_version_major" / Const(0, Int16ul),
+    "header_version_minor" / Const(1, Int16ul),
+    "module_id" / Const(0, Int16ul),
+    "flags" / Hex(Int16ul),
+    "module_vendor" / Const(0x8086, Hex(Int32ul)),
+    "date" / Hex(Int32ul),
+    "size" / Hex(Int32ul),
+    "unknown_0x1c" / Hex(Int32ul),
+    "unknown_0x20" / Hex(Int32ul),
+    "unknown_0x24" / Hex(Int32ul),
+    "unknown_0x28" / Hex(Int32ul),
+    "unknown_0x2c" / Hex(Int32ul),
+    "unknown_0x30" / Hex(Int32ul),
+    "reserved" / Bytes(0x4C),
+    "rsa_modulus" / Bytes(0x100),
+    "rsa_pubexp" / Int32ul,
+    "rsa_signature" / Bytes(0x100),
+    "num_sections" / Rebuild(Int32ul, len_(this.sections)),
+    "sections" / CodeSignatureSectionInfo[this.num_sections],
+)
+# CSS signed using secp384r1 Elliptic Curve and SHA384
+CodeSignatureSectionEcSecp384r1 = Struct(
+    "module_type" / Const(6, Int16ul),
+    "module_subtype" / Const(0, Int16ul),
+    "header_size" / Const(0x50, Int32ul),  # Header size in 32-bit words (0x140 bytes)
+    "header_version_major" / Const(0, Int16ul),
+    "header_version_minor" / Const(2, Int16ul),
+    "module_id" / Const(0, Int16ul),
+    "flags" / Hex(Int16ul),
+    "module_vendor" / Const(0x8086, Hex(Int32ul)),
+    "date" / Hex(Int32ul),
+    "size" / Hex(Int32ul),
+    "unknown_0x1c" / Hex(Int32ul),
+    "unknown_0x20" / Hex(Int32ul),
+    "unknown_0x24" / Hex(Int32ul),
+    "unknown_0x28" / Hex(Int32ul),
+    "unknown_0x2c" / Hex(Int32ul),
+    "unknown_0x30" / Hex(Int32ul),
+    "unknown_0x34" / Hex(Int32ul),
+    "unknown_0x38" / Hex(Int32ul),
+    "reserved" / Bytes(0x44),
+    "ec_pub_x" / Bytes(0x30),
+    "ec_pub_y" / Bytes(0x30),
+    "ec_signature_r" / Bytes(0x30),
+    "ec_signature_s" / Bytes(0x30),
+    "padding" / Bytes(0x144),
+    "num_sections" / Rebuild(Int32ul, len_(this.sections)),
+    "sections" / CodeSignatureSectionInfo[this.num_sections],
+)
+
+# PKCS#1 v1.5 padding for RSA-SHA256 sinatures
+PKCS1_SHA256_PREFIX = bytes.fromhex(
+    """
+0001ffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffff00303130
+0d060960864801650304020105000420
+""".replace(
+        "\n", ""
+    )
+)
+
+# secp384r1 (NIST P-384) parameters
+SECP384R1_PRIME = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFF0000000000000000FFFFFFFF
+SECP384R1_A = -3
+SECP384R1_B = 0xB3312FA7E23EE7E4988E056BE3F82D19181D9C6EFE8141120314088F5013875AC656398D8A2ED19D2A85C8EDD3EC2AEF
+
 
 class EmptyStreamError(Exception):
     pass
@@ -1440,6 +1534,14 @@ class IntelWifiFirmware:
                 current_type, decoded_entry = self.decode_entry(entry)
                 assert current_type == entry_type
                 yield decoded_entry
+
+    def print_description(self, out: Optional[TextIO] = None) -> None:
+        """Print a description of this firmware"""
+        self.print_header(out=out)
+        for entry in self.entries:
+            self.print_entry(entry, out=out)
+        print("", file=out)
+        self.print_signatures(out=out)
 
     def print_header(self, out: Optional[TextIO] = None) -> None:
         """Print the header"""
@@ -2143,6 +2245,214 @@ class IntelWifiFirmware:
                 print(f"- {entry_type} ({len(entry_data)} bytes): empty", file=out)
         return entry_type, entry_data
 
+    def get_signatures(self) -> List[Tuple[UcodeTlvType, int, Container]]:
+        """Retrieve sections with signature information"""
+        signatures: List[Tuple[UcodeTlvType, int, Container]] = []
+        current_signature_section: Optional[Container] = None
+        current_signature_algid = None
+        current_signature_hash = None
+        current_signature_entry_type = None
+        current_signature_sec_index = 0
+        for entry in self.entries:
+            if int(entry.type_) not in {
+                UcodeTlvType.MEM_DESC,
+                UcodeTlvType.SEC_RT,
+                UcodeTlvType.SEC_INIT,
+                UcodeTlvType.SEC_WOWLAN,
+                UcodeTlvType.SECURE_SEC_RT,
+                UcodeTlvType.SECURE_SEC_INIT,
+                UcodeTlvType.SECURE_SEC_WOWLAN,
+                UcodeTlvType.SEC_RT_USNIFFER,
+            }:
+                continue
+            entry_type, entry_data = self.decode_entry(entry)
+            # Skip empty MEM_DESC entries
+            if entry_type == UcodeTlvType.MEM_DESC and entry_data is None:
+                continue
+            entry_addr = entry_data.addr
+            entry_size = len(entry_data.data)
+            # print(f"{entry_type} {entry_addr:#010x}..{entry_addr + entry_size:#010x}")
+            if current_signature_section is None:
+                # Skip specials sections
+                if entry_addr in {0, 1, 2, 3, 0xAAAABBBB, 0xFFFFCCCC} and entry_size == 4:
+                    continue
+                # Some firmware include data from the previous section in a
+                # CPU1_CPU2_SEPARATOR_SECTION section
+                if entry_addr == 0xFFFFCCCC and entry_size == 0x20:
+                    continue
+                # Parse a new signature, if it is not too large
+                if entry_size >= 0x1000:
+                    # Detect firmware with no signtaure information,
+                    # if they directly start with an address which is known to not be CSS
+                    if entry_addr == 0x00800000 and not signatures:
+                        return []
+                    raise ValueError(
+                        f"Trying to parse a large CSS of {entry_size} bytes ({entry_type}, {entry_addr:#010x})"
+                    )
+                if entry_data.data.startswith(b"\x06\0\0\0\xa1\0\0\0"):
+                    current_signature_algid = "rsa2048"
+                    current_signature_section = CodeSignatureSectionRsa2048.parse(entry_data.data)
+                    current_signature_hash = hashlib.sha256()
+                    assert current_signature_section.reserved == b"\0" * len(current_signature_section.reserved)
+                elif entry_data.data.startswith(b"\x06\0\0\0\x50\0\0\0"):
+                    current_signature_algid = "secp384r1"
+                    current_signature_section = CodeSignatureSectionEcSecp384r1.parse(entry_data.data)
+                    current_signature_hash = hashlib.sha384()
+                    assert current_signature_section.reserved == b"\0" * len(current_signature_section.reserved)
+                    assert current_signature_section.padding == b"\0" * len(current_signature_section.padding)
+                else:
+                    raise NotImplementedError(f"Unknown module type: {entry_data.data[:0x20].hex()}")
+                assert len(current_signature_section.sections) == current_signature_section.num_sections
+                css_end = 0x288 + current_signature_section.num_sections * 0x10
+                assert css_end <= entry_size
+                assert entry_data.data[css_end:] == b"\0" * (entry_size - css_end)
+                for sect_info in current_signature_section.sections:
+                    assert sect_info.flags == 7  # Unknown flags
+                    assert sect_info.size_plus_8 == sect_info.size + 8
+                current_signature_hash.update(entry_data.data[:0x80])
+                current_signature_hash.update(entry_data.data[0x284:css_end])
+                current_signature_entry_type = entry_type
+                current_signature_sec_index = 0
+                signatures.append((entry_type, entry_addr, current_signature_section))
+            else:
+                if entry_type != current_signature_entry_type:
+                    raise ValueError(
+                        f"Unexpected entry {entry_type} while analyzing signatures for {current_signature_entry_type}"
+                    )
+                assert current_signature_section is not None
+                assert current_signature_hash is not None
+                expected_info = current_signature_section.sections[current_signature_sec_index]
+                if entry_addr != expected_info.addr:
+                    raise ValueError(
+                        f"Unexpected address for entry {entry_type}: {entry_addr:#x} != {expected_info.addr:#x}"
+                    )
+                if entry_size != expected_info.size:
+                    raise ValueError(
+                        f"Unexpected size for entry {entry_type} at {entry_addr:#x}: {entry_size:#x} != {expected_info.size:#x}"  # noqa
+                    )
+                current_signature_hash.update(entry_data.data)
+                current_signature_sec_index += 1
+                if current_signature_sec_index == current_signature_section.num_sections:
+                    # Finalize the signature verification
+                    computed_digest = current_signature_hash.digest()
+                    if current_signature_algid == "rsa2048":
+                        rsa_modulus = int.from_bytes(current_signature_section.rsa_modulus, "little")
+                        rsa_pubexp = current_signature_section.rsa_pubexp
+                        rsa_signature = int.from_bytes(current_signature_section.rsa_signature, "little")
+                        signed_digest = pow(rsa_signature, rsa_pubexp, rsa_modulus).to_bytes(256, "big")
+                        if signed_digest != PKCS1_SHA256_PREFIX + computed_digest:
+                            raise ValueError(
+                                f"Unexpected SHA256 digest: {computed_digest.hex()} != {signed_digest.hex()}"
+                            )
+                    elif current_signature_algid == "secp384r1":
+                        ec_pub_x = int.from_bytes(current_signature_section.ec_pub_x, "little")
+                        ec_pub_y = int.from_bytes(current_signature_section.ec_pub_y, "little")
+                        ecdsa_r = int.from_bytes(current_signature_section.ec_signature_r, "little")
+                        ecdsa_s = int.from_bytes(current_signature_section.ec_signature_s, "little")
+
+                        # Ensure that the public point is on the curve
+                        assert (
+                            pow(ec_pub_y, 2, SECP384R1_PRIME)
+                            == (pow(ec_pub_x, 3, SECP384R1_PRIME) + SECP384R1_A * ec_pub_x + SECP384R1_B)
+                            % SECP384R1_PRIME
+                        )
+
+                        # Verify the signature
+                        ec_pubkey = (
+                            cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePublicKey.from_encoded_point(
+                                cryptography.hazmat.primitives.asymmetric.ec.SECP384R1(),
+                                b"\x04" + ec_pub_x.to_bytes(48, "big") + ec_pub_y.to_bytes(48, "big"),
+                            )
+                        )
+                        ec_pubkey.verify(
+                            cryptography.hazmat.primitives.asymmetric.utils.encode_dss_signature(ecdsa_r, ecdsa_s),
+                            computed_digest,
+                            cryptography.hazmat.primitives.asymmetric.ec.ECDSA(
+                                cryptography.hazmat.primitives.asymmetric.utils.Prehashed(
+                                    cryptography.hazmat.primitives.hashes.SHA384()
+                                )
+                            ),
+                        )
+                    else:
+                        raise NotImplementedError(f"Unimplemented signature algorithm {current_signature_algid}")
+                    current_signature_algid = None
+                    current_signature_section = None
+        assert current_signature_section is None  # Ensure that all signatures were fully processed
+        return signatures
+
+    def print_signatures(self, out: Optional[TextIO] = None) -> None:
+        signatures = self.get_signatures()
+        if not signatures:
+            print("No signature", file=out)
+            return
+        print(f"Signatures (count {len(signatures)}):", file=out)
+        for entry_type, entry_addr, signature in signatures:
+            date_str = f"{signature.date:08x}"
+            date_str = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}"
+            sect_num_str = f"{signature.num_sections} {'sections' if signature.num_sections >= 2 else 'section'}"
+            total_size = signature.size * 4
+            if (
+                signature.header_size == 0xA1
+                and signature.header_version_major == 0
+                and signature.header_version_minor == 1
+            ):  # RSA 2048
+                unk_str = f"unknown={signature.unknown_0x1c:#x},{signature.unknown_0x20:#x},{signature.unknown_0x24:#x},{signature.unknown_0x28:#x},{signature.unknown_0x2c:#x},{signature.unknown_0x30:#x}"  # noqa
+                print(
+                    f"- {entry_type} {entry_addr:#010x} (RSA-2048, {date_str}, {total_size:#x}={total_size} bytes, {sect_num_str}, {unk_str})",  # noqa
+                    file=out,
+                )
+                print(f"    RSA modulus: 0x{signature.rsa_modulus[::-1].hex()}", file=out)
+                print(f"    RSA pubexp: {signature.rsa_pubexp}", file=out)
+                print(f"    RSA signature: 0x{signature.rsa_signature[::-1].hex()}", file=out)
+                # TODO: understand the fields and rename them in the structure
+                assert signature.unknown_0x1c == 0x40  # Signature length?
+                assert signature.unknown_0x20 == 0x40  # Public key length?
+                assert signature.unknown_0x24 == 1
+                # signature.unknown_0x28 is the file version
+                assert signature.unknown_0x2c == 0
+                assert signature.unknown_0x30 in {0, 1, 2, 3, 4}  # Index in the file? Or kind?
+            elif (
+                signature.header_size == 0x50
+                and signature.header_version_major == 0
+                and signature.header_version_minor == 2
+            ):  # EC secp384r1
+                unk_str = f"unknown={signature.unknown_0x1c:#x},{signature.unknown_0x20:#x},{signature.unknown_0x24:#x},{signature.unknown_0x28:#x},{signature.unknown_0x2c:#x},{signature.unknown_0x30:#x},{signature.unknown_0x34:#x},{signature.unknown_0x38:#x}"  # noqa
+                print(
+                    f"- {entry_type} {entry_addr:#010x} (secp384r1, {date_str}, {total_size:#x}={total_size} bytes, {sect_num_str}, {unk_str})",  # noqa
+                    file=out,
+                )
+                print(f"    EC pub x: 0x{signature.ec_pub_x[::-1].hex()}", file=out)
+                print(f"    EC pub y: 0x{signature.ec_pub_y[::-1].hex()}", file=out)
+                print(f"    EC signature r: 0x{signature.ec_signature_r[::-1].hex()}", file=out)
+                print(f"    EC signature s: 0x{signature.ec_signature_s[::-1].hex()}", file=out)
+                # TODO: understand the fields and rename in the structure
+                assert signature.unknown_0x1c == 0x18
+                assert signature.unknown_0x20 == 0xC
+                assert signature.unknown_0x24 == 0xC
+                assert signature.unknown_0x28 in {0, 0x100}
+                assert signature.unknown_0x2c == 0
+                assert signature.unknown_0x30 in {0, 1, 2, 3, 4, 5}
+                # signature.unknown_0x34 is the file version
+                assert signature.unknown_0x38 in {0, 3}
+            else:
+                raise NotImplementedError("Unimplemented signature algorithm")
+            print(f"    {signature.num_sections} {'sections' if signature.num_sections >= 2 else 'section'}:", file=out)
+            for sect_info in signature.sections:
+                print(
+                    f"        {sect_info.addr:#010x}..{sect_info.addr + sect_info.size:#010x} ({sect_info.size:#x}={sect_info.size:d} bytes)",  # noqa
+                    file=out,
+                )
+                assert sect_info.flags == 7  # Unknown flags
+                assert sect_info.size_plus_8 == sect_info.size + 8
+            computed_total_size = (
+                signature.header_size * 4
+                + 4
+                + signature.num_sections * 0x10
+                + sum(sect_info.size for sect_info in signature.sections)
+            )
+            if computed_total_size != total_size:
+                raise ValueError(f"Mismatched computed size {computed_total_size:#x} != declared {total_size:#x}")
+
 
 def parse_wifi_fw(path: Path, with_hex: bool = False) -> None:
     for idx, fw in enumerate(IntelWifiFirmware.parse_all_file(path)):
@@ -2168,6 +2478,9 @@ def parse_wifi_fw(path: Path, with_hex: bool = False) -> None:
                     print(f"  {iline:06x}: {hex_line} {asc_line}")
             else:
                 fw.print_entry(entry, show_hexdump=True)
+
+        print("")
+        fw.print_signatures()
 
 
 if __name__ == "__main__":

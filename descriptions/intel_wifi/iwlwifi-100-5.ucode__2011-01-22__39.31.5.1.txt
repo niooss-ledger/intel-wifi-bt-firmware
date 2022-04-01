@@ -16,3 +16,5 @@ Header: version 656344321 '100 fw v39.31.5.1 build 32895\n' build 0x807f
 - INIT_EVTLOG_SIZE (4 bytes): 0x610 = 1552 bytes
 - INIT_ERRLOG_PTR (4 bytes): 0x00800B48
 - PHY_CALIBRATION_SIZE (4 bytes): 18
+
+No signature

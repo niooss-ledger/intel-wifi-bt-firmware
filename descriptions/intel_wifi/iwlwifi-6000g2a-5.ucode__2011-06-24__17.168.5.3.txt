@@ -17,3 +17,5 @@ Header: version 296224003 '6000g2a fw v17.168.5.3 build 42301\n' build 0xa53d
 - INIT_ERRLOG_PTR (4 bytes): 0x00803D6C
 - ENHANCE_SENS_TBL (0 bytes): present
 - PHY_CALIBRATION_SIZE (4 bytes): 19
+
+No signature

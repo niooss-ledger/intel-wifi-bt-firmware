@@ -16,3 +16,5 @@ Header: version 689702145 '6050 fw v41.28.5.1 build 33926\n' build 0x8486
 - INIT_EVTLOG_SIZE (4 bytes): 0x3010 = 12304 bytes
 - INIT_ERRLOG_PTR (4 bytes): 0x00800994
 - PHY_CALIBRATION_SIZE (4 bytes): 18
+
+No signature

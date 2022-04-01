@@ -22,3 +22,5 @@ Header: version 313001473 '135 fw v18.168.6.1 build 0\n'
 - INIT_ERRLOG_PTR (4 bytes): 0x008040D8
 - ENHANCE_SENS_TBL (0 bytes): present
 - PHY_CALIBRATION_SIZE (4 bytes): 22
+
+No signature

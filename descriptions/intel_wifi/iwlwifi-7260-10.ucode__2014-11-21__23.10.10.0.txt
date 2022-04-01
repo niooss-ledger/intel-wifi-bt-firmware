@@ -99,3 +99,5 @@ Header: version 386533888 'stream:CoreCycle7_stab@83355'
         [12] SENSITIVITY_IDX = 0x1000
 - PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
 - N_SCAN_CHANNELS (4 bytes): 40
+
+No signature

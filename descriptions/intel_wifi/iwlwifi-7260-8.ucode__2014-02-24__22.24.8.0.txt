@@ -83,3 +83,5 @@ Header: version 370673664 'baseline:Linux_stab_CoreCycle4_25'
         [ 8] TX_IQ_IDX = 0x100
         [12] SENSITIVITY_IDX = 0x1000
 - PHY_SKU (4 bytes): 0x00330018 (radio:type=0,step=2,dash=1 valid_tx_ant=3 valid_rx_ant=3)
+
+No signature

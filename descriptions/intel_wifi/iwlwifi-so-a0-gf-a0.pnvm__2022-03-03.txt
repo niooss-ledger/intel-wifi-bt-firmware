@@ -22,3 +22,26 @@
     Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 01 03 22 20 35 0c 00 00 18 00 00 00
 - SEC_RT (12164 bytes): runtime ucode at deadcafe..deadfa7e (0x2f80=12160 bytes, sha256=3c30ede7ef9652846cb51410f63cd2183b664c7fb6275c81615ac98481870002)
     Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 00 13 00 00 00 00 00 00 00 00 00 00 da 0b 00 30 09 81 03 00 4b 03 4b 03
+
+Signatures (count 3):
+- SEC_RT 0xcafedead (secp384r1, 2022-03-01, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+    EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
+    EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
+    EC signature r: 0x4ea68ded6ab5dddbbedeb7a26b03f0afd1bf733de9bcc14bac2c1f82a36f71028f660cec61c5d714d68b5845e1055b3b
+    EC signature s: 0x65f1afe2ee7db3f427025d2b8e3fb971ef53acb01c5c3e5103636e2e944a7c3e444ff54e96b8937e7bf58ecd72459805
+    1 section:
+        0xdeadcafe..0xdeadfa4a (0x2f4c=12108 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2022-03-01, 0x3150=12624 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x3)
+    EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
+    EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
+    EC signature r: 0xd37f5eb66aedaffeeeeee654f06d8bc72596bf8c0a3c1957c7de3f90b8ea7658814cdcffffbbdb72e16ee8dea547f236
+    EC signature s: 0x3941e5f4dbbf981da2c4897df8a7f073f15ddafb2a2e772d3459857bf7539afb15d24ec92f54c8a64336d63f2afaac96
+    1 section:
+        0xdeadcafe..0xdeadfafa (0x2ffc=12284 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2022-03-01, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+    EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
+    EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
+    EC signature r: 0xb79fca4ed4b0a02b52a776fa7914395b0c120e87deb8c2db20e4b2bd47d4e08f26b1dbe455c0fe6f0bdeceef83a5b1d4
+    EC signature s: 0x66c429441418ab104b6c24a3c83981d0f9cb512d55fd82d7f93f28fd18fe6655d64c5e922884623c052683c559502e00
+    1 section:
+        0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)

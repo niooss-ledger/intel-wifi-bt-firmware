@@ -168,3 +168,5 @@ Header: version 17 'N/A::bfb58538' build 0xbfb58538
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 17.bfb58538.0
+
+No signature

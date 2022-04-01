@@ -175,3 +175,5 @@ Header: version 27 'stream:CoreCycle24_stab@541033' build 0x84169
     max_number_of_white_listed_ssid = 0
     max_number_of_black_listed_ssid = 0
 - FW_VERSION (12 bytes): 27.541033.0
+
+No signature

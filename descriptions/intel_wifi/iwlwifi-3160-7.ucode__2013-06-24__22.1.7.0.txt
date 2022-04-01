@@ -71,3 +71,5 @@ Header: version 369166080 'baseline:Linux_16_1_stab_MWG100194730bugFix_15_12.693
         [ 8] TX_IQ_IDX = 0x100
         [12] SENSITIVITY_IDX = 0x1000
 - PHY_SKU (4 bytes): 0x00110018 (radio:type=0,step=2,dash=1 valid_tx_ant=1 valid_rx_ant=1)
+
+No signature

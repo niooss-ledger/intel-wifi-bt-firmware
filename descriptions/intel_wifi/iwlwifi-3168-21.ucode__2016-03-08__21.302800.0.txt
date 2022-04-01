@@ -188,3 +188,5 @@ Header: version 21 'stream:CoreCycle18_stab@302800' build 0x49ed0
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 21.302800.0
+
+No signature

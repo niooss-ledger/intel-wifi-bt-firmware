@@ -187,3 +187,5 @@ Header: version 18 'stream:CoreCycle15_stab@266249' build 0x41009
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 18.266249.0
+
+No signature

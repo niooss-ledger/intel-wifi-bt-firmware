@@ -168,3 +168,5 @@ Header: version 17 'stream:Linux_CoreCycle14_stab@608620' build 0x9496c
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 17.608620.0
+
+No signature

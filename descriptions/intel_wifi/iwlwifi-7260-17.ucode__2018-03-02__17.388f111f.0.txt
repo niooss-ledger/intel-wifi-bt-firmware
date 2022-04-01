@@ -157,3 +157,5 @@ Header: version 17 'N/release_core35::388f111f' build 0x388f111f
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 17.388f111f.0
+
+No signature

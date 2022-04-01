@@ -190,3 +190,5 @@ Header: version 20 'stream:CoreCycle17_stab@332117' build 0x51155
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 20.332117.0
+
+No signature

@@ -178,3 +178,5 @@ Header: version 17 'stream:CoreCycle14_stab@265642' build 0x40daa
     max_significant_change_aps = 8
     max_bssid_history_entries = 50
 - FW_VERSION (12 bytes): 17.265642.0
+
+No signature
