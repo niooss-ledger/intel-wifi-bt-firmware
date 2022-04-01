@@ -70,8 +70,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: db6e9101
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
-- FLAGS (8 bytes): 0x00000000, 0xDD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x00426FDD
+- FLAGS (8 bytes): index=0 flags=0xDD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x00426FDD
 - OLD_TYPE_DEBUG_INFO (112 bytes):
     Hexdump: 01 00 00 00 01 00 00 00 20 00 00 00 4c 4d 41 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - OLD_TYPE_REGIONS (84 bytes):

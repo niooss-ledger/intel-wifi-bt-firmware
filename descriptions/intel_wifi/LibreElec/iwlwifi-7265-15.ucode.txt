@@ -2,6 +2,29 @@ Header: version 15 'stream:CoreCycle12_stab@195093' build 0x2fa15
 - PROBE_MAX_LEN (4 bytes): 0x200 = 512 bytes
 - MEM_DESC (0 bytes): empty
 - FLAGS (4 bytes): 0x5BFB4B7F
+        [ 0] PAN
+        [ 1] NEWSCAN
+        [ 2] MFP
+        [ 3] P2P
+        [ 4] DW_BC_TABLE
+        [ 5] NEWBT_COEX
+        [ 6] PM_CMD_SUPPORT
+        [ 8] RX_ENERGY_API
+        [ 9] TIME_EVENT_API_V2
+        [11] BF_UPDATED
+        [14] D3_CONTINUITY_API
+        [16] NEW_NSOFFL_LARGE
+        [17] SCHED_SCAN
+        [19] STA_KEY_CMD
+        [20] DEVICE_PS_CMD
+        [21] P2P_PM
+        [22] BSS_P2P_PS_DCM
+        [23] BSS_P2P_PS_SCM
+        [24] UAPSD_SUPPORT
+        [25] EBS_SUPPORT
+        [27] (unknown)
+        [28] (unknown)
+        [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x001BBCFB
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x03050018
         [ 3] BEAMFORMER

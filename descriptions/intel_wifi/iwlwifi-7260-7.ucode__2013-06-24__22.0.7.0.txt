@@ -2,6 +2,12 @@ Header: version 369100544 'baseline:Linux_16_1_stab_UCODE_API_VER_MAJOR_change.8
 - PROBE_MAX_LEN (4 bytes): 0x12c = 300 bytes
 - MEM_DESC (0 bytes): empty
 - FLAGS (4 bytes): 0x0200001F
+        [ 0] PAN
+        [ 1] NEWSCAN
+        [ 2] MFP
+        [ 3] P2P
+        [ 4] DW_BC_TABLE
+        [25] EBS_SUPPORT
 - SEC_RT (81924 bytes): runtime ucode at 00800000..00814000 (0x14000=81920 bytes, sha256=f7134f8400bfb70f0a6832328dec0d5ebb3e0122e25b8acc06e9a8032b69b667)
     Hexdump of start: 00 00 00 00 00 16 32 00 00 07 00 01 00 00 00 00 00 00 00 00 30 91 80 00 a4 3b 80 00 c0 ba 80 00
 - SEC_RT (165052 bytes): runtime ucode at 00000000..000284b8 (0x284b8=165048 bytes, sha256=0c088af836746150183f7b96da36eb5334db3f21f0c7a8a966d53b764a37f017)

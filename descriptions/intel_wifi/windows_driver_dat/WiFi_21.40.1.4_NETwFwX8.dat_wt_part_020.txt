@@ -73,8 +73,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f03ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee911b
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
-- FLAGS (8 bytes): 0x00000000, 0xFD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x03D7FFDD
+- FLAGS (8 bytes): index=0 flags=0xFD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x03D7FFDD
 - TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=3 debug_cfg_name='LMAC DEFAULT DEBUG CONFIG'
 - TYPE_REGIONS (64 bytes): id=12 name='error_table_lmac1' type=LMAC_ERROR_TABLE domain=ALWAYS_ON version=1
     err_table: version=4 base_addr=0x0080E180 size=0x0000012C offset=0x00000000

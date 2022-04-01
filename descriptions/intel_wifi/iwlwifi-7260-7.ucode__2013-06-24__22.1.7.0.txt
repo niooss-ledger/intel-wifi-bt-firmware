@@ -2,6 +2,12 @@ Header: version 369166080 'baseline:Linux_16_1_stab_MWG100194730bugFix_15_12.693
 - PROBE_MAX_LEN (4 bytes): 0x12c = 300 bytes
 - MEM_DESC (0 bytes): empty
 - FLAGS (4 bytes): 0x0200001F
+        [ 0] PAN
+        [ 1] NEWSCAN
+        [ 2] MFP
+        [ 3] P2P
+        [ 4] DW_BC_TABLE
+        [25] EBS_SUPPORT
 - SEC_RT (81924 bytes): runtime ucode at 00800000..00814000 (0x14000=81920 bytes, sha256=a3007d2b2e1207471d047d62cf4145b57d3d74ee60b8aaa6882f87e2153ae611)
     Hexdump of start: 00 00 00 00 01 16 32 00 00 07 00 01 00 00 00 00 00 00 00 00 38 91 80 00 a4 3b 80 00 c0 ba 80 00
 - SEC_RT (165376 bytes): runtime ucode at 00000000..000285fc (0x285fc=165372 bytes, sha256=41c3595a26bd0b204c54f1a92fe2c481fe3baf673b2bb647ee975221994d3bfa)

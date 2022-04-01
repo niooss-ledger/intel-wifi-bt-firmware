@@ -70,8 +70,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: db7e9119
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
-- FLAGS (8 bytes): 0x00000000, 0xDD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x00C26FDD
+- FLAGS (8 bytes): index=0 flags=0xDD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x00C26FDD
 - TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=2 debug_cfg_name='LMAC INIT DEFAULT DEBUG CONFIG'
 - INST (4 bytes): date 2019-08-06
 - DATA (64 bytes): 'e163229a6d92ca2f5e6c9a8522d3e0d0fc511470::e163229a'

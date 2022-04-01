@@ -7,7 +7,7 @@
 - RUNT_EVTLOG_SIZE (4 bytes): 0x1011901 = 16849153 bytes
 - WOWLAN_INST (4 bytes): 7f 4b fb 5b
 - WOWLAN_DATA (8 bytes): fb 35 8c 00 33 b1 00 00
-- FLAGS (8 bytes): 0x00000000, 0x0D9BFCFB
+- FLAGS (8 bytes): index=0 flags=0x0D9BFCFB
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 18000503
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: 00000000
 - N_SCAN_CHANNELS (4 bytes): 40

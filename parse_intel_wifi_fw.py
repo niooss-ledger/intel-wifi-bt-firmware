@@ -410,6 +410,55 @@ class UcodeTlvCapa(enum.IntEnum):
 
 
 @enum.unique
+class UcodeTlvFlag(enum.IntEnum):
+    """enum iwl_ucode_tlv_flag (prefix IWL_UCODE_TLV_FLAGS_)"""
+
+    PAN = 0
+    NEWSCAN = 1
+    MFP = 2  # Management Frame Protection (802.11w)
+    P2P = 3
+    DW_BC_TABLE = 4
+    NEWBT_COEX = 5
+    PM_CMD_SUPPORT = 6
+    SHORT_BL = 7  # Short black list
+    RX_ENERGY_API = 8
+    TIME_EVENT_API_V2 = 9
+    D3_6_IPV6_ADDRS = 10
+    BF_UPDATED = 11  # New beacon filtering command
+    NO_BASIC_SSID = 12
+    D3_CONTINUITY_API = 14
+    NEW_NSOFFL_SMALL = 15
+    NEW_NSOFFL_LARGE = 16
+    SCHED_SCAN = 17  # Scheduled Scan
+    STA_KEY_CMD = 19
+    DEVICE_PS_CMD = 20
+    P2P_PM = 21
+    BSS_P2P_PS_DCM = 22
+    BSS_P2P_PS_SCM = 23
+    UAPSD_SUPPORT = 24
+    EBS_SUPPORT = 25  # Energy Based Scan
+    P2P_PS_UAPSD = 26
+    BCAST_FILTERING = 29
+    GO_UAPSD = 30
+
+    @classmethod
+    def from_name(cls, name: str) -> "UcodeTlvFlag":
+        if name == "BTSTATS" or name == "RESERVED_1":
+            # Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0da0e5bf1522d75d446f5124e17016628d0a149e
+            # and in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d2690c0db7146b12e4fc2d572053c823e512758a
+            return cls.NEWSCAN
+        if name == "UAPSD":
+            # Renamed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e8e626ad0ca88cc3278279a43f1cef55badf3e46
+            return cls.PM_CMD_SUPPORT
+        if name == "P2P_PS":
+            # Removed in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7303dd7f312f0d07a4bf45c62608d5233b5e8062
+            # Added in https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=198890258fc0f9e3270ed1c1794b7610dad92ada
+            return cls.P2P_PM
+
+        return getattr(cls, name)
+
+
+@enum.unique
 class UcodeTlvType(enum.IntEnum):
     """enum iwl_ucode_tlv_type (prefix IWL_UCODE_TLV_)
 
@@ -1678,12 +1727,28 @@ class IntelWifiFirmware:
                 print(f"- {entry_type} ({len(entry_data)} bytes): {phy_calibration_size}", file=out)
             return entry_type, phy_calibration_size
 
-        if entry_type == UcodeTlvType.FLAGS:  # 18
-            flags = GreedyRange(Hex(Int32ul)).parse(entry_data)
-            assert len(entry_data) == len(flags) * 4
+        if entry_type == UcodeTlvType.FLAGS and len(entry_data) == 4:  # 18
+            flags = Hex(Int32ul).parse(entry_data)
             if out is not None:
-                print(f"- {entry_type} ({len(entry_data)} bytes): {', '.join(str(f) for f in flags)}", file=out)
+                print(f"- {entry_type} ({len(entry_data)} bytes): {flags}", file=out)
+                for bitpos in range(32):
+                    if flags & (1 << bitpos):
+                        try:
+                            flag_name = UcodeTlvFlag(bitpos).name
+                        except ValueError:
+                            flag_name = "(unknown)"
+                        print(f"        [{bitpos:2}] {flag_name}", file=out)
             return entry_type, flags
+
+        if entry_type == UcodeTlvType.FLAGS and len(entry_data) == 8:  # 18
+            # It is actually API_CHANGES_SET in DVM firmware
+            assert len(entry_data) == UcodeApi.sizeof()
+            api = UcodeApi.parse(entry_data)
+            if out is not None:
+                print(
+                    f"- {entry_type} ({len(entry_data)} bytes): index={api.api_index} flags={api.api_flags}", file=out
+                )
+            return entry_type, api
 
         if entry_type in {UcodeTlvType.SEC_RT, UcodeTlvType.SECURE_SEC_RT}:  # 19, 24 "Runtime" or "Regular" microcode
             section = SecData.parse(entry_data)

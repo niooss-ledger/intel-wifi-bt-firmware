@@ -444,7 +444,7 @@ def compare_linux_command_codes(linux_path: Path, verbose: bool) -> None:
                                         f"Mismatched value: {current_enum_cls.__name__}.{name} = {cur_item.value:#x}, not {value:#x}"  # noqa
                                     )
                                 continue
-                        if current_enum_prefix in {"IWL_UCODE_TLV_CAPA_", "IWL_UCODE_TLV_API_"}:
+                        if current_enum_prefix in {"IWL_UCODE_TLV_CAPA_", "IWL_UCODE_TLV_FLAGS_", "IWL_UCODE_TLV_API_"}:
                             if matches := re.match(
                                 r"^\s*([0-9A-Z_]+)\s*= BIT\(([0-9a-fA-Fx]+)\),$",
                                 line,

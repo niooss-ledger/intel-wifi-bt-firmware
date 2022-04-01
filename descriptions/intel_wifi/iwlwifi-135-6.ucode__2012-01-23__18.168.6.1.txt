@@ -14,6 +14,9 @@ Header: version 313001473 '135 fw v18.168.6.1 build 0\n'
 - PROBE_MAX_LEN (4 bytes): 0x12c = 300 bytes
 - MEM_DESC (0 bytes): empty
 - FLAGS (4 bytes): 0x0000000B
+        [ 0] PAN
+        [ 1] NEWSCAN
+        [ 3] P2P
 - RUNT_EVTLOG_PTR (4 bytes): 0x008043CC
 - RUNT_EVTLOG_SIZE (4 bytes): 0x1810 = 6160 bytes
 - RUNT_ERRLOG_PTR (4 bytes): 0x00804338

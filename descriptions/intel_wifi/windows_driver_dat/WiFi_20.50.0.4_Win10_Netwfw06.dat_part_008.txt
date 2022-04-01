@@ -7,8 +7,8 @@
 - PROBE_MAX_LEN (4 bytes): 0x1000003 = 16777219 bytes
 - RUNT_EVTLOG_SIZE (4 bytes): 0x1010000 = 16842752 bytes
 - WOWLAN_INST (4 bytes): 7f 4b fb fb
-- FLAGS (8 bytes): 0x00000000, 0xDD9AFFFB
-- FLAGS (8 bytes): 0x00000001, 0x000003CF
+- FLAGS (8 bytes): index=0 flags=0xDD9AFFFB
+- FLAGS (8 bytes): index=1 flags=0x000003CF
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f33ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: df7e1300
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000

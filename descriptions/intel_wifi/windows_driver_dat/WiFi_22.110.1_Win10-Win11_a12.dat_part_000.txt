@@ -192,9 +192,9 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f03ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee91db
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: ae020000
-- FLAGS (8 bytes): 0x00000000, 0xFD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0xFFF7EFFF
-- FLAGS (8 bytes): 0x00000002, 0x00000003
+- FLAGS (8 bytes): index=0 flags=0xFD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0xFFF7EFFF
+- FLAGS (8 bytes): index=2 flags=0x00000003
 - TYPE_REGIONS (64 bytes): id=196620 name='error_table_lmac1' type=SPECIAL_DEVICE_MEMORY.7.4 domain=ALWAYS_ON version=3
     special_mem: type=2 version=4 base_addr=0x005B7724 size=0x0000012C offset=0x00000000
 - TYPE_REGIONS (64 bytes): id=196632 name='txf_config_lmac1' type=SPECIAL_DEVICE_MEMORY.8.1 domain=ALWAYS_ON version=3

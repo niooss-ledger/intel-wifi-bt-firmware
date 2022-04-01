@@ -71,8 +71,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: db7e9119
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 02000000
-- FLAGS (8 bytes): 0x00000000, 0xDD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x00C26FDD
+- FLAGS (8 bytes): index=0 flags=0xDD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x00C26FDD
 - TYPE_DEBUG_INFO (76 bytes): domain=ALWAYS_ON image_type=2 debug_cfg_name='LMAC INIT DEFAULT DEBUG CONFIG'
 - INST (4 bytes): date 2021-05-19
 - DATA (64 bytes): 'release/core43::b8ed9695'

@@ -70,8 +70,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee9103
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
-- FLAGS (8 bytes): 0x00000000, 0xFD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x00002FDF
+- FLAGS (8 bytes): index=0 flags=0xFD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x00002FDF
 - INST (4 bytes): date 2018-10-22
 - DATA (64 bytes): '9111a87e938bfaa2b5a104a5f5833d37284b988d::9111a87e'
 - INIT_DATA (4 bytes): f4 00 00 00

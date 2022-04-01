@@ -72,8 +72,8 @@
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f13ef9d
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee9103
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: 00000000
-- FLAGS (8 bytes): 0x00000000, 0xFD9BFFFB
-- FLAGS (8 bytes): 0x00000001, 0x0007EFDD
+- FLAGS (8 bytes): index=0 flags=0xFD9BFFFB
+- FLAGS (8 bytes): index=1 flags=0x0007EFDD
 - OLD_TYPE_REGIONS (156 bytes):
     Hexdump: 01 00 00 00 01 00 00 00 01 00 00 00 0c 00 00 00 01 00 00 00 00 00 00 00 20 00 00 00 6c 6d 61 63
 - INST (4 bytes): date 2019-04-21
