@@ -191,8 +191,68 @@
 - SEC_RT (8 bytes): 0x00000002, 4 bytes: dbee91db
 - SEC_RT (8 bytes): 0x00000003, 4 bytes: bc030000
 - FLAGS (8 bytes): index=0 flags=0xFD9BFFFB
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 3] BT_COEX_SPLIT
+        [ 4] CSA_FLOW
+        [ 5] DISABLE_STA_TX
+        [ 6] LMAC_SCAN
+        [ 7] SF_NO_DUMMY_NOTIF
+        [ 8] FRAGMENTED_SCAN
+        [ 9] WIFI_MCC_UPDATE
+        [10] HDC_PHASE_0
+        [11] TX_POWER_DEV
+        [12] (unknown)
+        [13] BASIC_DWELL
+        [14] WIDE_CMD_HDR
+        [15] SCD_CFG
+        [16] SINGLE_SCAN_EBS
+        [17] ASYNC_DTM
+        [19] STATS_V10
+        [20] NEW_VERSION
+        [23] (unknown)
+        [24] EXT_SCAN_PRIORITY
+        [26] (unknown)
+        [27] TX_POWER_CHAIN
+        [28] SCAN_TSF_REPORT
+        [29] TKIP_MIC_KEYS
+        [30] STA_TYPE
+        [31] NAN2_VER2
 - FLAGS (8 bytes): index=1 flags=0xFFF7FFFF
+        [32] ADAPTIVE_DWELL
+        [33] OCE
+        [34] NEW_BEACON_TEMPLATE
+        [35] NEW_RX_STATS
+        [36] WOWLAN_KEY_MATERIAL
+        [37] COEX_ATS_EXTERNAL
+        [38] QUOTA_LOW_LATENCY
+        [39] (unknown)
+        [40] (unknown)
+        [41] DEPRECATE_TTAK
+        [42] ADAPTIVE_DWELL_V2
+        [43] (unknown)
+        [44] FRAG_EBS
+        [45] REDUCE_TX_POWER
+        [46] SHORT_BEACON_NOTIF
+        [47] BEACON_FILTER_V4
+        [48] REGULATORY_NVM_INFO
+        [49] FTM_NEW_RANGE_REQ
+        [50] SCAN_OFFLOAD_CHANS
+        [52] MBSSID_HE
+        [53] WOWLAN_TCP_SYN_WAKE
+        [54] FTM_RTT_ACCURACY
+        [55] SAR_TABLE_VER
+        [56] REDUCED_SCAN_CONFIG
+        [57] ADWELL_HB_DEF_N_AP
+        [58] SCAN_EXT_CHAN_VER
+        [59] BAND_IN_RX_DATA
+        [60] (unknown)
+        [61] (unknown)
+        [62] (unknown)
+        [63] (unknown)
 - FLAGS (8 bytes): index=2 flags=0x00000003
+        [64] (unknown)
+        [65] (unknown)
 - TYPE_REGIONS (64 bytes): id=196620 name='error_table_lmac1' type=SPECIAL_DEVICE_MEMORY.7.4 domain=ALWAYS_ON version=3
     special_mem: type=2 version=4 base_addr=0x004F2A5C size=0x0000012C offset=0x00000000
 - TYPE_REGIONS (64 bytes): id=196632 name='txf_config_lmac1' type=SPECIAL_DEVICE_MEMORY.8.1 domain=ALWAYS_ON version=3

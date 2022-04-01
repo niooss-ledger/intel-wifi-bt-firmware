@@ -1748,6 +1748,14 @@ class IntelWifiFirmware:
                 print(
                     f"- {entry_type} ({len(entry_data)} bytes): index={api.api_index} flags={api.api_flags}", file=out
                 )
+                for bitpos in range(32):
+                    if api.api_flags & (1 << bitpos):
+                        full_bitpos = 32 * api.api_index + bitpos
+                        try:
+                            api_name = UcodeTlvApi(full_bitpos).name
+                        except ValueError:
+                            api_name = "(unknown)"
+                        print(f"        [{full_bitpos:2}] {api_name}", file=out)
             return entry_type, api
 
         if entry_type in {UcodeTlvType.SEC_RT, UcodeTlvType.SECURE_SEC_RT}:  # 19, 24 "Runtime" or "Regular" microcode
@@ -1894,6 +1902,14 @@ class IntelWifiFirmware:
                 print(
                     f"- {entry_type} ({len(entry_data)} bytes): index={api.api_index} flags={api.api_flags}", file=out
                 )
+                for bitpos in range(32):
+                    if api.api_flags & (1 << bitpos):
+                        full_bitpos = 32 * api.api_index + bitpos
+                        try:
+                            api_name = UcodeTlvApi(full_bitpos).name
+                        except ValueError:
+                            api_name = "(unknown)"
+                        print(f"        [{full_bitpos:2}] {api_name}", file=out)
             return entry_type, api
 
         if entry_type == UcodeTlvType.ENABLED_CAPABILITIES:  # 30

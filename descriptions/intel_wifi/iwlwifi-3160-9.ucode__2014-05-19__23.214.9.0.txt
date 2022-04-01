@@ -23,6 +23,9 @@ Header: version 399902976 'stream:CoreCycle1_stab@23321'
         [29] BCAST_FILTERING
         [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x00000013
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 4] CSA_FLOW
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x00008080
         [ 7] (unknown)
         [15] (unknown)

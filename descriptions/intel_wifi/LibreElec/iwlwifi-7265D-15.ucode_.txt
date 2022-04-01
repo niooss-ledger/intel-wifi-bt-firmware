@@ -26,6 +26,23 @@ Header: version 15 'stream:CoreCycle12_stab@232263' build 0x38b47
         [28] (unknown)
         [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x001BBEFB
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 3] BT_COEX_SPLIT
+        [ 4] CSA_FLOW
+        [ 5] DISABLE_STA_TX
+        [ 6] LMAC_SCAN
+        [ 7] SF_NO_DUMMY_NOTIF
+        [ 9] WIFI_MCC_UPDATE
+        [10] HDC_PHASE_0
+        [11] TX_POWER_DEV
+        [12] (unknown)
+        [13] BASIC_DWELL
+        [15] SCD_CFG
+        [16] SINGLE_SCAN_EBS
+        [17] ASYNC_DTM
+        [19] STATS_V10
+        [20] NEW_VERSION
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x0305205A
         [ 1] LAR_SUPPORT
         [ 3] BEAMFORMER

@@ -25,6 +25,13 @@ Header: version 420416512 'stream:CoreCycle9_stab@115811'
         [28] (unknown)
         [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x000020F3
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 4] CSA_FLOW
+        [ 5] DISABLE_STA_TX
+        [ 6] LMAC_SCAN
+        [ 7] SF_NO_DUMMY_NOTIF
+        [13] BASIC_DWELL
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x00008090
         [ 4] (unknown)
         [ 7] (unknown)

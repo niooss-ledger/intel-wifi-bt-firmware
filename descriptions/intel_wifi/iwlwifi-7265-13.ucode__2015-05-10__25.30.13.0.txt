@@ -26,6 +26,20 @@ Header: version 421399808 'stream:CoreCycle10_stab@183742'
         [28] (unknown)
         [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x000BBCF3
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 4] CSA_FLOW
+        [ 5] DISABLE_STA_TX
+        [ 6] LMAC_SCAN
+        [ 7] SF_NO_DUMMY_NOTIF
+        [10] HDC_PHASE_0
+        [11] TX_POWER_DEV
+        [12] (unknown)
+        [13] BASIC_DWELL
+        [15] SCD_CFG
+        [16] SINGLE_SCAN_EBS
+        [17] ASYNC_DTM
+        [19] STATS_V10
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x03050018
         [ 3] BEAMFORMER
         [ 4] (unknown)

@@ -25,6 +25,26 @@ Header: version 17 'stream:Linux_CoreCycle14_stab@352738' build 0x561e2
         [28] (unknown)
         [30] GO_UAPSD
 - API_CHANGES_SET (8 bytes): index=0 flags=0x0D9AFCFB
+        [ 0] WOWLAN_CONFIG_TID
+        [ 1] CAPA_EXTENDED_BEACON
+        [ 3] BT_COEX_SPLIT
+        [ 4] CSA_FLOW
+        [ 5] DISABLE_STA_TX
+        [ 6] LMAC_SCAN
+        [ 7] SF_NO_DUMMY_NOTIF
+        [10] HDC_PHASE_0
+        [11] TX_POWER_DEV
+        [12] (unknown)
+        [13] BASIC_DWELL
+        [14] WIDE_CMD_HDR
+        [15] SCD_CFG
+        [17] ASYNC_DTM
+        [19] STATS_V10
+        [20] NEW_VERSION
+        [23] (unknown)
+        [24] EXT_SCAN_PRIORITY
+        [26] (unknown)
+        [27] TX_POWER_CHAIN
 - ENABLED_CAPABILITIES (8 bytes): index=0 capa=0x01051010
         [ 4] (unknown)
         [12] DQA_SUPPORT
