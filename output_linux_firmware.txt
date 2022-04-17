@@ -1698,3 +1698,54 @@
   - iwlwifi-so-a0-jf-b0-71.ucode version 71.058653f6.0 (1400056 bytes)
   - iwlwifi-ty-a0-gf-a0-71.ucode version 71.058653f6.0 (1494024 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2022-03-03 (41588 bytes)
+
+2022-04-01 d4059961b2dcfcb76b2bc56821b41721e5cd4590 added 2 files
+  - intel/ibt-18-16-1.sfi version BT_ThunderPeak_B0_B0_REL20182 (674952 bytes)
+  - intel/ibt-18-2.sfi version BT_ThunderPeak_B0_B0_REL20182 (674952 bytes)
+
+2022-04-01 bfa7cfbd1180ed1bbbb6d90e63b7dc48548d9b2d added 2 files
+  - intel/ibt-17-16-1.sfi version BT_JeffersonPeak_B0_B0_REL20182 (674952 bytes)
+  - intel/ibt-17-2.sfi version BT_JeffersonPeak_B0_B0_REL20182 (674952 bytes)
+
+2022-04-01 522a7b8708ff307bdcdd79a488b4230e6254d13f added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL41522 (804648 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL41522 (804648 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL41522 (804648 bytes)
+
+2022-04-01 97301e9c0c969bdd48fd2a9cfb0c08bc016d3288 added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL41522 (804648 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL41522 (804648 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL41522 (803272 bytes)
+
+2022-04-01 af9a10c8d6003fa961893def32d49bf4cc5f71d6 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL41819 (684024 bytes)
+
+2022-04-01 ced9312d10fe58a71fbf185e0c091c321e15f919 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL41819 (744200 bytes)
+
+2022-04-01 3187c4685e695d38c1a643b1ee3710b9d67b7473 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL41819 (744200 bytes)
+
+2022-04-01 f280b90c8d43e343709f6fb72397d0a660d44a64 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_HrP2_REL41819 (744200 bytes)
+
+2022-04-01 0167639605e2fdc8711e4948f99f787fe7b98e74 added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_HrP2_REL41819 (744200 bytes)
+
+2022-04-01 b61ecf09f85dd5ea899f3da71fc476d8de80d06d added 1 files
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL41819 (744200 bytes)
+
+2022-04-01 8ac1a41019bf7db1486c3a413f22fd2c9ead5692 added 1 files
+  - intel/ibt-1040-2120.sfi version BT_SolarF_JfP2_REL41819 (744200 bytes)
+
+2022-04-01 f431758adf19a87688d99437af1f64f2f2814985 added 1 files
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL41819 (744200 bytes)
+
+2022-04-01 50cd76452cfe5d08431a90ff8236673c0e8f4dfd added 1 files
+  - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL41819 (744200 bytes)
