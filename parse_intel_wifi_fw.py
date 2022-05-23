@@ -203,9 +203,13 @@ class FwIniRegionDeviceMemorySubtype(enum.IntEnum):
     LMAC_1_ERROR_TABLE = 7
     UNKNOWN_9 = 9  # Seen in iwlwifi-Qu-c0-jf-b0-71.ucode 71.058653f6.0 for "dccm_lmac2"
     LMAC_2_ERROR_TABLE = 10
+    UNKNOWN_13 = 13  # Seen in WiFi-22.130.0-Driver64-Win10-Win11.exe for "dccm_tcm1"
     TCM_1_ERROR_TABLE = 14
+    UNKNOWN_15 = 15  # Seen in WiFi-22.130.0-Driver64-Win10-Win11.exe for "dccm_tcm2"
     TCM_2_ERROR_TABLE = 16
+    UNKNOWN_17 = 17  # Seen in WiFi-22.130.0-Driver64-Win10-Win11.exe for "dccm_rcm1"
     RCM_1_ERROR_TABLE = 18
+    UNKNOWN_19 = 19  # Seen in WiFi-22.130.0-Driver64-Win10-Win11.exe for "dccm_rcm2"
     RCM_2_ERROR_TABLE = 20
 
 

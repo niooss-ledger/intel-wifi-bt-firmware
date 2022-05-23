@@ -19,11 +19,12 @@ Source of files:
     - 2021-04-10 <https://downloadmirror.intel.com/655277/WiFi-21.80.1-all.zip>
     - 2021-08-25 <https://downloadmirror.intel.com/646221/WiFi_22.70.0_all.zip>
 
-  - <https://www.intel.com/content/www/us/en/download/19351/706169/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html>
+  - <https://www.intel.com/content/www/us/en/download/19351/windows-10-and-windows-11-wi-fi-drivers-for-intel-wireless-adapters.html>
 
     - 2022-01-01 <https://downloadmirror.intel.com/706169/WiFi-22.100.1-Driver64-Win10-Win11.exe>
     - 2022-01-26 <https://downloadmirror.intel.com/715194/WiFi-22.110.1-Driver64-Win10-Win11.exe>
     - 2022-02-01 <https://downloadmirror.intel.com/723926/WiFi-22.120.1-Driver64-Win10-Win11.exe>
+    - 2022-03-25 <https://downloadmirror.intel.com/729063/WiFi-22.130.0-Driver64-Win10-Win11.exe>
 
   - From Gigabyte:
 
