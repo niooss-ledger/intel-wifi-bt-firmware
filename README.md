@@ -25,6 +25,8 @@ Source of files:
     - 2022-01-26 <https://downloadmirror.intel.com/715194/WiFi-22.110.1-Driver64-Win10-Win11.exe>
     - 2022-02-01 <https://downloadmirror.intel.com/723926/WiFi-22.120.1-Driver64-Win10-Win11.exe>
     - 2022-03-25 <https://downloadmirror.intel.com/729063/WiFi-22.130.0-Driver64-Win10-Win11.exe>
+    - 2022-03-25 <https://downloadmirror.intel.com/732828/WiFi-22.140.0-Driver64-Win10-Win11.exe>
+    - 2022-07-12 <https://downloadmirror.intel.com/736239/WiFi-22.150.0-Driver64-Win10-Win11.exe>
 
   - From Gigabyte:
 
