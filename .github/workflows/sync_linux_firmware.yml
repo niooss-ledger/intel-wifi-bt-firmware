@@ -20,6 +20,9 @@ jobs:
     - name: Sync linux-firmware repository
       run: ./sync_linux_firmware.py && ./sync_linux_firmware.py > output_linux_firmware.txt
 
+    - name: Update SHA256SUM.txt
+      run: ./update_sha256sum.sh
+
     - name: Show git status
       run: git status
 
