@@ -188,9 +188,9 @@
     MAC_CONF(0x3).CHANNEL_SWITCH_ERROR_NOTIF(0xF9)       cmd_ver=99 notif_ver= 1
     DATA_PATH(0x5).RX_BAID_ALLOCATION_CONFIG_CMD(0x16)   cmd_ver= 2 notif_ver= 1
     0x0E.0x53                                            cmd_ver= 1 notif_ver= 0
-    PROT_OFFLOAD(0xb).0xFD                               cmd_ver=99 notif_ver= 1
-    PROT_OFFLOAD(0xb).0xFC                               cmd_ver=99 notif_ver= 1
-    PROT_OFFLOAD(0xb).0xFE                               cmd_ver=99 notif_ver= 1
+    PROT_OFFLOAD(0xb).WOWLAN_INFO_NOTIFICATION(0xFD)     cmd_ver=99 notif_ver= 1
+    PROT_OFFLOAD(0xb).WOWLAN_WAKE_PKT_NOTIFICATION(0xFC) cmd_ver=99 notif_ver= 1
+    PROT_OFFLOAD(0xb).D3_END_NOTIFICATION(0xFE)          cmd_ver=99 notif_ver= 1
     PROT_OFFLOAD(0xb).0xFB                               cmd_ver=99 notif_ver= 1
 - WOWLAN_INST (4 bytes): 7f 4b fb fb
 - SEC_RT (8 bytes): 0x00000000, 4 bytes: 7f03ef9d
