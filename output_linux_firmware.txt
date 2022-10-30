@@ -1920,3 +1920,21 @@
   - iwlwifi-so-a0-jf-b0-74.ucode version 74.a5e9588b.0 (1417940 bytes)
   - iwlwifi-ty-a0-gf-a0-74.ucode version 74.a5e9588b.0 (1533444 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2022-10-13 (41588 bytes)
+
+2022-10-26 06dbfbc74388a2e9a7228f4215b884a3139ece56 added 12 files
+  - iwlwifi-Qu-b0-hr-b0-72.ucode version 72.daa05125.0 (1370236 bytes)
+  - iwlwifi-Qu-b0-jf-b0-72.ucode version 72.daa05125.0 (1285968 bytes)
+  - iwlwifi-Qu-c0-hr-b0-72.ucode version 72.daa05125.0 (1370252 bytes)
+  - iwlwifi-Qu-c0-jf-b0-72.ucode version 72.daa05125.0 (1285984 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-72.ucode version 72.daa05125.0 (1370356 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-72.ucode version 72.daa05125.0 (1286088 bytes)
+  - iwlwifi-cc-a0-72.ucode version 72.daa05125.0 (1329780 bytes)
+  - iwlwifi-so-a0-gf-a0-72.ucode version 72.daa05125.0 (1560532 bytes)
+  - iwlwifi-so-a0-gf4-a0-72.ucode version 72.daa05125.0 (1580900 bytes)
+  - iwlwifi-so-a0-hr-b0-72.ucode version 72.daa05125.0 (1470384 bytes)
+  - iwlwifi-so-a0-jf-b0-72.ucode version 72.daa05125.0 (1406312 bytes)
+  - iwlwifi-ty-a0-gf-a0-72.ucode version 72.daa05125.0 (1499284 bytes)
+
+2022-10-26 20d9516de4cdc041e2aa83009e5b0464b1c3ed81 added 2 files
+  - iwlwifi-so-a0-gf-a0.pnvm version 2022-10-26 (42092 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2022-10-26 (41876 bytes)
