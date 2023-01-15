@@ -1177,6 +1177,7 @@ bedc8c9e8155383281bfe82619416829ede048ba948ea3e763c6bcb244a10091  intel_wifi/iwl
 d71655335340d92914f4ee0ee1c322ab65cc7a6b7d3e6ba86807e1c5f73923fa  intel_wifi/iwlwifi-so-a0-gf-a0-74.ucode__2022-10-13__74.a5e9588b.0
 87590ea9535a8939fddb296bc7622f3a900f28f47b45cb4e435a2a1d5f496ccd  intel_wifi/iwlwifi-so-a0-gf-a0-77.ucode__2022-11-08__74.f92b5fed.0
 a81a1c766dda18d1ec2886a87c195d62e26cce6f4be1cbbfa8ab5b009985bf42  intel_wifi/iwlwifi-so-a0-gf-a0-78.ucode__2023-01-04__74.3bfdc55f.0
+3c902b36204e1e1c0a5b194516fd8ad03820debd7ae09e60e4649f6267429ec8  intel_wifi/iwlwifi-so-a0-gf-a0-79.ucode__2023-01-04__75.27f1c37b.0
 53736f7f7a0f262be8a61cd923a0c7ee0d86eb50e6e38566c3eabe87f9fbc63c  intel_wifi/iwlwifi-so-a0-gf-a0.pnvm__2021-08-31
 2322057a730bbb63c23de1fb8f9d5a9fb3d56af00ab2f19ba044c9f69a5404e9  intel_wifi/iwlwifi-so-a0-gf-a0.pnvm__2021-11-01
 aedadb2c9e6ef9019902837d52c5ceb191603db8ea0a34d522c164250d1e02e9  intel_wifi/iwlwifi-so-a0-gf-a0.pnvm__2022-01-10

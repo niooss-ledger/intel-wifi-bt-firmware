@@ -1999,11 +1999,11 @@
 2022-11-06 712460ccb1ce9abf28e3bbf0820d31c224b5c6ce added 1 files
   - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL52159 (763992 bytes)
 
-2022-12-21 525cb4030e384a48782288d0163e29be5c494c46 added 2 files
+2022-12-21 e20a687969174b64ffa36b3ff179c84d6057611d added 2 files
   - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.ea3728ee.0 (1518788 bytes)
   - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.ea3728ee.0 (1489668 bytes)
 
-2023-01-04 fd7454a165aafea263893a99682a6e488633118e added 6 files
+2023-01-04 8bbec220bf323808b7478df14be33a4680c0a466 added 6 files
   - iwlwifi-so-a0-gf-a0-78.ucode version 74.3bfdc55f.0 (1667236 bytes)
   - iwlwifi-so-a0-gf-a0.pnvm version 2023-01-04 (56048 bytes)
   - iwlwifi-so-a0-gf4-a0-78.ucode version 75.3bfdc55f.0 (1711100 bytes)
@@ -2011,7 +2011,7 @@
   - iwlwifi-ty-a0-gf-a0-78.ucode version 75.3bfdc55f.0 (1620004 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2023-01-04 (41876 bytes)
 
-2023-01-04 bf255ff82b4149bd48bdd84be1f14953c776ebfb added 6 files
+2023-01-04 5630963e0feaad4d12bd28b2e9083cbf5f9f56ac added 6 files
   - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.2dda880d.0 (1404048 bytes)
   - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.2dda880d.0 (1321720 bytes)
   - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.2dda880d.0 (1404064 bytes)
@@ -2019,7 +2019,8 @@
   - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.2dda880d.0 (1404184 bytes)
   - iwlwifi-cc-a0-77.ucode version 74.2dda880d.0 (1365484 bytes)
 
-2023-01-04 def1e169a7fe571eb1a0fd306c8fc8851906b7df added 6 files
+2023-01-04 c8ff1f4651a0a1a7b9720e9635a2b19aa2319df1 added 7 files
+  - iwlwifi-so-a0-gf-a0-79.ucode version 75.27f1c37b.0 (1672988 bytes)
   - iwlwifi-so-a0-gf-a0.pnvm version 2023-01-04 (56048 bytes)
     Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0.pnvm__2023-01-04_
   - iwlwifi-so-a0-gf4-a0-79.ucode version 76.27f1c37b.0 (1712776 bytes)
