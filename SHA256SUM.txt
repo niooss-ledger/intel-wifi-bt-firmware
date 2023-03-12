@@ -1250,8 +1250,10 @@ cc3e18861bbba5f9683f4b923b5aa6b2e2b54ca53915168acdd9059f1ca1ab71  intel_wifi/iwl
 6cbc5c1d375e901c7cf57b2151cdb661b39157112884bb7d12ded69c210375eb  intel_wifi/iwlwifi-ty-a0-gf-a0-68.ucode__2022-01-10__68.01d30b0c.0
 a4a0c77a84f9bb279c5b4e83a8949073f4a93f248fcfff90ff2147ac658eba95  intel_wifi/iwlwifi-ty-a0-gf-a0-71.ucode__2022-03-03__71.058653f6.0
 0e6b9e42a20348fd3cf191ff26a59c3521f0e5b388044720e1b5c5a2a9784583  intel_wifi/iwlwifi-ty-a0-gf-a0-72.ucode__2022-10-26__72.daa05125.0
+aab2f7dfddb0db3ecd096910e552ba53f07200179382c2725e29b6b00409cd4f  intel_wifi/iwlwifi-ty-a0-gf-a0-72.ucode__2023-03-06__72.a764baac.0
 48258caf6befdca40a9136d8dbbe1a4325cbbdd0c36724f735d9c5c0b9596229  intel_wifi/iwlwifi-ty-a0-gf-a0-73.ucode__2022-06-09__73.35c0a2c6.0
 99469c2238e968aba672b95c5b200a2d6a55fac7571811fcd8cf3dc2ea658b73  intel_wifi/iwlwifi-ty-a0-gf-a0-74.ucode__2022-10-13__74.a5e9588b.0
+6bbe249c7bdade5cf1772c0c3c4f79dab1396e5c9ee42b14c94faa7c2a202252  intel_wifi/iwlwifi-ty-a0-gf-a0-74.ucode__2023-03-06__74.fe17486e.0
 fd8977dbfacfe50b8a6601479aa9ffd21d01e274e4a9efd13935dd9d667fd45b  intel_wifi/iwlwifi-ty-a0-gf-a0-77.ucode__2022-11-08__74.f92b5fed.0
 36ca635c8f613ea4b3773780a8f0bd7745f9d708ee3e0526b95d86feba8a7a23  intel_wifi/iwlwifi-ty-a0-gf-a0-78.ucode__2023-01-04__75.3bfdc55f.0
 df91dca738356a59f55ce25814a2d0e51264fb9a1146e38091a97b836acc8d6f  intel_wifi/iwlwifi-ty-a0-gf-a0-79.ucode__2023-01-04__76.27f1c37b.0

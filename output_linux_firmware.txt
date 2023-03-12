@@ -2069,3 +2069,7 @@
 
 2023-01-17 32d3199a01e1bf882f5d978d41fd341fd35b470d added 1 files
   - intel/ibt-1040-4150.sfi version BT_SolarF_HrP2_REL56683 (771264 bytes)
+
+2023-03-06 4309412c0d872897dc913c7d2797bb5ce05893ad added 2 files
+  - iwlwifi-ty-a0-gf-a0-72.ucode version 72.a764baac.0 (1499284 bytes)
+  - iwlwifi-ty-a0-gf-a0-74.ucode version 74.fe17486e.0 (1533444 bytes)
