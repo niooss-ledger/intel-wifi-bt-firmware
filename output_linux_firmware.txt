@@ -2073,3 +2073,9 @@
 2023-03-06 4309412c0d872897dc913c7d2797bb5ce05893ad added 2 files
   - iwlwifi-ty-a0-gf-a0-72.ucode version 72.a764baac.0 (1499284 bytes)
   - iwlwifi-ty-a0-gf-a0-74.ucode version 74.fe17486e.0 (1533444 bytes)
+
+2023-03-12 5bc279fb161d529baaf8e837d900235fbbe9bf2f added 4 files
+  - iwlwifi-so-a0-gf-a0-72.ucode version 72.a764baac.0 (1560532 bytes)
+  - iwlwifi-so-a0-gf-a0-74.ucode version 74.fe17486e.0 (1577460 bytes)
+  - iwlwifi-so-a0-gf4-a0-72.ucode version 72.a764baac.0 (1580900 bytes)
+  - iwlwifi-so-a0-gf4-a0-74.ucode version 74.fe17486e.0 (1602068 bytes)
