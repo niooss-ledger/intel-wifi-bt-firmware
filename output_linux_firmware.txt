@@ -2079,3 +2079,34 @@
   - iwlwifi-so-a0-gf-a0-74.ucode version 74.fe17486e.0 (1577460 bytes)
   - iwlwifi-so-a0-gf4-a0-72.ucode version 72.a764baac.0 (1580900 bytes)
   - iwlwifi-so-a0-gf4-a0-74.ucode version 74.fe17486e.0 (1602068 bytes)
+
+2023-03-20 61d581948308af51db77131f3ffee6fce8f2af97 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL59564 (700720 bytes)
+
+2023-03-20 45319be8b36f391b0fa9be53c4fb694a437a2272 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL59564 (775728 bytes)
+
+2023-03-20 9cc9745df5f5f2855885d07021e8b13e6879ecc8 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL59564 (775728 bytes)
+
+2023-03-20 53c086b3e582b9200091e6622806a71bf5b7b62a added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_JnP2_REL59564 (775728 bytes)
+
+2023-03-20 1d797f86a305a327fa97467f7d1ff31260754027 added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL59564 (775728 bytes)
+
+2023-03-20 46384d1c9a9408703b3d07ad6423dfc6bcb3dd18 added 1 files
+  - intel/ibt-0040-2120.sfi version BT_Solar_JfP2_REL52159 (764668 bytes)
+
+2023-03-20 6fcdb8e7b9b83b97bcb189d9b70bf417f474d164 added 1 files
+  - intel/ibt-1040-2120.sfi version BT_SolarF_JfP2_REL59564 (764668 bytes)
+
+2023-03-20 3e4c3b8d8ef5991494a972c7f0dd9e754056531d added 1 files
+  - intel/ibt-0040-1020.sfi version BT_Solar_JfP1_REL59564 (764668 bytes)
+
+2023-03-20 b422cdd655d4053261e947007ba97d634ef9cbd6 added 1 files
+  - intel/ibt-1040-1020.sfi version BT_SolarF_JfP1_REL59564 (764668 bytes)
+
+2023-03-20 bcdcfbcf0a8f24a914b8c163906e6ce93d7f8897 added 2 files
+  - intel/ibt-19-0-3.ddc version BT_Quasar_REL53263 (9 bytes)
+  - intel/ibt-19-0-3.sfi version BT_Quasar_REL53263 (801128 bytes)
