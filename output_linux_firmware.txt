@@ -2110,3 +2110,23 @@
 2023-03-20 bcdcfbcf0a8f24a914b8c163906e6ce93d7f8897 added 2 files
   - intel/ibt-19-0-3.ddc version BT_Quasar_REL53263 (9 bytes)
   - intel/ibt-19-0-3.sfi version BT_Quasar_REL53263 (801128 bytes)
+
+2023-03-30 a91d0e7832eb20e051598d7ce0aa25ad57360bc1 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.ff18e32a.0 (1518772 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.ff18e32a.0 (1489652 bytes)
+
+2023-03-30 78a8782a9e51e502a6ed267d270c6925fb738805 added 14 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.206b0184.0 (1404676 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.206b0184.0 (1321900 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.206b0184.0 (1404692 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.206b0184.0 (1321916 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.206b0184.0 (1404820 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.206b0184.0 (1321956 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.206b0184.0 (1366120 bytes)
+  - iwlwifi-so-a0-gf-a0-81.ucode version 78.31fc9ae6.0 (1682852 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2023-03-30 (56048 bytes)
+  - iwlwifi-so-a0-gf4-a0-81.ucode version 78.31fc9ae6.0 (1691804 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2023-03-30 (28252 bytes)
+  - iwlwifi-so-a0-hr-b0-81.ucode version 78.31fc9ae6.0 (1539288 bytes)
+  - iwlwifi-ty-a0-gf-a0-81.ucode version 78.31fc9ae6.0 (1628828 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2023-03-30 (41876 bytes)
