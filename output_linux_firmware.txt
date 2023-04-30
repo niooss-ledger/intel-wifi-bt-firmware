@@ -2130,3 +2130,34 @@
   - iwlwifi-so-a0-hr-b0-81.ucode version 78.31fc9ae6.0 (1539288 bytes)
   - iwlwifi-ty-a0-gf-a0-81.ucode version 78.31fc9ae6.0 (1628828 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2023-03-30 (41876 bytes)
+
+2023-04-27 40ba7eeee356d48b17dd2b3e44915c27e471cb5e added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL62562 (712688 bytes)
+
+2023-04-27 1ee587d5efd9d82f0ba61070ab2fbd9399237398 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL62562 (779712 bytes)
+
+2023-04-27 a2739f057add3a20ac4e1aecdf832264c29c842f added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL62562 (779712 bytes)
+
+2023-04-27 209ba08379fa016dd48631b39d04fa12b4eacb3d added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_JnP2_REL62562 (779712 bytes)
+
+2023-04-27 7610656f02c501c46bf7c81cd510bccb7f68aa0a added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL62562 (779712 bytes)
+
+2023-04-27 2ca1787600eaf035937982d74c0ac4de43acfc9b added 9 files
+  - intel/ibt-19-0-0.sfi version BT_Quasar_REL53392 (801132 bytes)
+  - intel/ibt-19-0-1.sfi version BT_Quasar_REL53392 (801132 bytes)
+  - intel/ibt-19-0-4.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-16-4.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-240-1.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-240-4.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-32-0.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-32-1.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+  - intel/ibt-19-32-4.sfi version BT_HarrisonPeak_REL53392 (801132 bytes)
+
+2023-04-27 6536a964bd96d3d3069d053c78c69c7e52a0a35c added 3 files
+  - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
+  - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
+  - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
