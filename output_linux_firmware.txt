@@ -2161,3 +2161,19 @@
   - intel/ibt-20-0-3.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
   - intel/ibt-20-1-3.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
   - intel/ibt-20-1-4.sfi version BT_CyclonePeak_A0_REL53392 (799756 bytes)
+
+2023-06-22 fa5d30b5c69be636b98b9a97c0f41a1bab38ce86 added 6 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.2df8986f.0 (1404704 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.2df8986f.0 (1322436 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.2df8986f.0 (1404720 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.2df8986f.0 (1322452 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.2df8986f.0 (1404840 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.2df8986f.0 (1366144 bytes)
+
+2023-06-22 b255f5b92998d0277f1068e69768e3e70aae5210 added 6 files
+  - iwlwifi-so-a0-gf-a0-83.ucode version 80.e8f84e98.0 (1739988 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2023-06-22 (55580 bytes)
+  - iwlwifi-so-a0-gf4-a0-83.ucode version 80.e8f84e98.0 (1703968 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2023-06-22 (28064 bytes)
+  - iwlwifi-ty-a0-gf-a0-83.ucode version 80.e8f84e98.0 (1683076 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2023-06-22 (55484 bytes)
