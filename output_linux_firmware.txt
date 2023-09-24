@@ -2239,3 +2239,20 @@
 
 2023-08-18 51e9ea589baec9758951de528c5aa8624856be73 added 1 files
   - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL68350 (733144 bytes)
+
+2023-09-21 08532e36dc1aa749ca69e2ba7b543fe7f3aa9c59 added 6 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.bd067429.0 (1404744 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.bd067429.0 (1322476 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.bd067429.0 (1404760 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.bd067429.0 (1322492 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.bd06742.0 (1404880 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.bd067429.0 (1366184 bytes)
+
+2023-09-21 765492b8b90e3985fe60b3cf8d386538aa38b6ac added 7 files
+  - iwlwifi-so-a0-gf-a0-84.ucode version 81.8e5c544c.0 (1737644 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2023-09-21 (55580 bytes)
+  - iwlwifi-so-a0-gf4-a0-84.ucode version 81.8e5c544c.0 (1709900 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2023-09-21 (28064 bytes)
+  - iwlwifi-so-a0-hr-b0-84.ucode version 81.8e5c544c.0 (1549088 bytes)
+  - iwlwifi-ty-a0-gf-a0-84.ucode version 81.8e5c544c.0 (1676912 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2023-09-21 (55484 bytes)
