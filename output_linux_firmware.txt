@@ -2256,3 +2256,12 @@
   - iwlwifi-so-a0-hr-b0-84.ucode version 81.8e5c544c.0 (1549088 bytes)
   - iwlwifi-ty-a0-gf-a0-84.ucode version 81.8e5c544c.0 (1676912 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2023-09-21 (55484 bytes)
+
+2023-09-27 a6744df81a307cfee5b0271dae65f8fcdeb84fcf added 7 files
+  - iwlwifi-gl-c0-fm-c0-83.ucode version 80.d24e06ed.0 (1799504 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2023-09-27 (246228 bytes)
+  - iwlwifi-ma-b0-gf-a0-83.ucode version 80.d24e06ed.0 (1753308 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2023-09-27 (55500 bytes)
+  - iwlwifi-ma-b0-gf4-a0-83.ucode version 80.d24e06ed.0 (1721448 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2023-09-27 (28024 bytes)
+  - iwlwifi-ma-b0-hr-b0-83.ucode version 80.d24e06ed.0 (1572104 bytes)
