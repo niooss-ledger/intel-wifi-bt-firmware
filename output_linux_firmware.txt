@@ -2292,3 +2292,6 @@
 2023-09-29 ab0c0a78363252c9bd9e4a36e7258bb09f7df697 added 2 files
   - intel/ibt-0080-0041.ddc version BT_Magnetar_REL88938 (9 bytes)
   - intel/ibt-0080-0041.sfi version BT_Magnetar_REL88938 (827956 bytes)
+
+2023-10-12 92e24e048136d6ebf29bd9f3afaba0f24f8997cd added 1 files
+  - iwlwifi-so-a0-hr-b0-83.ucode version 80.e8f84e98.0 (1552480 bytes)
