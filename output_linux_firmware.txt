@@ -2295,3 +2295,21 @@
 
 2023-10-12 92e24e048136d6ebf29bd9f3afaba0f24f8997cd added 1 files
   - iwlwifi-so-a0-hr-b0-83.ucode version 80.e8f84e98.0 (1552480 bytes)
+
+2023-10-18 37761e2b861b89843652069cf5d90fd20ce6bb95 added 2 files
+  - intel/ibt-0291-0291.ddc version BT_GalePeak_REL39025 (9 bytes)
+  - intel/ibt-0291-0291.sfi version BT_GalePeak_REL39025 (941968 bytes)
+
+2023-10-18 dd6368d9f3f6a30e887c8bd3e33c0be2c4892ae7 added 2 files
+  - intel/ibt-0180-0041.ddc version BT_Magnetar_GfP2_REL82221 (9 bytes)
+  - intel/ibt-0180-0041.sfi version BT_Magnetar_GfP2_REL82221 (810556 bytes)
+
+2023-10-25 fabc67bf6c5cd45efb433631575b7d0c1fc53f41 added 2 files
+  - intel/ibt-0180-4150.ddc version BT_Magnetar_HrP2_REL82221 (9 bytes)
+  - intel/ibt-0180-4150.sfi version BT_Magnetar_HrP2_REL82221 (810556 bytes)
+
+2023-10-26 581a25e67c972a551a9b32e168b6e61f1077481d added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_JnP2_REL66410 (782016 bytes)
+
+2023-10-26 bc0b7dfa1f2345195d67050427c15f0f6417c19e added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL66410 (782016 bytes)
