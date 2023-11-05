@@ -2313,3 +2313,16 @@
 
 2023-10-26 bc0b7dfa1f2345195d67050427c15f0f6417c19e added 1 files
   - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL66410 (782016 bytes)
+
+2023-10-30 dcec764d717338ccedce871a0edb371bbe1477b0 added 2 files
+  - intel/ibt-0180-1050.ddc version BT_Magnetar_HrP1_REL82221 (9 bytes)
+  - intel/ibt-0180-1050.sfi version BT_Magnetar_HrP1_REL82221 (810556 bytes)
+
+2023-10-30 1962446e07262d7f0d43bdc906555a2a73b8a758 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL66410 (715036 bytes)
+
+2023-10-30 4c0928136cef780f32065867481467aa11b183f2 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL66410 (782016 bytes)
+
+2023-10-30 59aaeac9b03fdeeeb06bd98aaa817bac9ed258a6 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL66410 (782016 bytes)
