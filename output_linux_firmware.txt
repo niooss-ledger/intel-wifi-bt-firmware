@@ -2353,3 +2353,92 @@
 
 2023-11-06 a5a6dded0c7f32daab022a77d0b5f2a85d17f2b5 added 1 files
   - intel/ibt-0291-0291.sfi version BT_GalePeak_REL43914 (960112 bytes)
+
+2023-11-12 bf5150dd88d682a6b85bc3b8c08c884e53f203e7 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL73111 (735284 bytes)
+
+2023-11-12 80a378a2051d1bccabc969f45652fbbc7384b790 added 1 files
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL73111 (744296 bytes)
+
+2023-11-12 b021ad7ccae7a4ac67641df10fca51e38b144a5d added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL73111 (744296 bytes)
+
+2023-11-12 bfc7dbe7ec44607368c52e4c1d0c142e786813e1 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_JnP2_REL73111 (744296 bytes)
+
+2023-11-12 4eb64f9b5f4a29c037d0e6ba5ad3bc1e6b63645a added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL73111 (744296 bytes)
+
+2023-11-12 c7c5ca392684b6ea79be8242d72e3a83758343e1 added 2 files
+  - intel/ibt-0040-1050.ddc version BT_Solar_HrP1_REL73111 (9 bytes)
+  - intel/ibt-0040-1050.sfi version BT_Solar_HrP1_REL73111 (744296 bytes)
+
+2023-11-12 80907d766a306f540a5c6f8a19a496b1df35f224 added 2 files
+  - intel/ibt-1040-1050.ddc version BT_SolarF_HrP1_REL73111 (9 bytes)
+  - intel/ibt-1040-1050.sfi version BT_SolarF_HrP1_REL73111 (744296 bytes)
+
+2023-11-12 8b5a4168a5db2a676b1cec3c625c4bc3cdc86e2f added 1 files
+  - intel/ibt-0180-0041.sfi version BT_Magnetar_GfP2_REL91648 (848404 bytes)
+
+2023-11-12 5e40b6aa59c4a93b7bde01f85fa8fb60a08d442a added 1 files
+  - intel/ibt-0180-4150.sfi version BT_Magnetar_JnP2_REL91648 (848404 bytes)
+
+2023-11-12 307a4e505d8a91b1593800f357bba8486e5ee726 added 1 files
+  - intel/ibt-0180-1050.sfi version BT_Magnetar_HrP1_REL91648 (848404 bytes)
+
+2023-09-21 4fc5801ee0e7d41d945a8a6c06e0542ec9fa47e0 added 6 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.ad46c98b.0 (1404824 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.ad46c98b.0 (1322476 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.ad46c98b.0 (1404840 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.ad46c98b.0 (1322492 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.ad46c98b.0 (1404968 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.ad46c98b.0 (1366272 bytes)
+
+2023-09-21 a07fd0b96b5adfb6614f11ca0bdb5a7f5b40410e added 14 files
+  - iwlwifi-gl-c0-fm-c0-86.ucode version 83.fb5c9aeb.0 (1840116 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2023-09-21 (226668 bytes)
+  - iwlwifi-ma-b0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1695788 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2023-09-21 (55092 bytes)
+  - iwlwifi-ma-b0-gf4-a0-86.ucode version 83.fb5c9aeb.0 (1670940 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2023-09-21 (27820 bytes)
+  - iwlwifi-ma-b0-hr-b0-86.ucode version 83.fb5c9aeb.0 (1520636 bytes)
+  - iwlwifi-so-a0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1679788 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2023-09-21 (55172 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0.pnvm__2023-09-21_
+  - iwlwifi-so-a0-gf4-a0-86.ucode version 83.fb5c9aeb.0 (1653836 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2023-09-21 (27860 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf4-a0.pnvm__2023-09-21_
+  - iwlwifi-so-a0-hr-b0-86.ucode version 83.fb5c9aeb.0 (1507388 bytes)
+  - iwlwifi-ty-a0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1632464 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2023-09-21 (55020 bytes)
+    Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2023-09-21_
+
+2023-09-21 f27dec616e29e44cd90645926c1459639d112c3d added 14 files
+  - iwlwifi-gl-c0-fm-c0-86.ucode version 83.fb5c9aeb.0 (1840116 bytes)
+    Warning: duplicate local file name, using iwlwifi-gl-c0-fm-c0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2023-09-21 (226668 bytes)
+    Warning: duplicate local file name, using iwlwifi-gl-c0-fm-c0.pnvm__2023-09-21_
+  - iwlwifi-ma-b0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1695788 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2023-09-21 (55092 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf-a0.pnvm__2023-09-21_
+  - iwlwifi-ma-b0-gf4-a0-86.ucode version 83.fb5c9aeb.0 (1670940 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf4-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2023-09-21 (27820 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf4-a0.pnvm__2023-09-21_
+  - iwlwifi-ma-b0-hr-b0-86.ucode version 83.fb5c9aeb.0 (1520636 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-hr-b0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-so-a0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1679788 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-so-a0-gf-a0.pnvm version 2023-09-21 (55172 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0.pnvm__2023-09-21__
+  - iwlwifi-so-a0-gf4-a0-86.ucode version 83.fb5c9aeb.0 (1653836 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf4-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2023-09-21 (27860 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf4-a0.pnvm__2023-09-21__
+  - iwlwifi-so-a0-hr-b0-86.ucode version 83.fb5c9aeb.0 (1507388 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-hr-b0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-ty-a0-gf-a0-86.ucode version 83.fb5c9aeb.0 (1632464 bytes)
+    Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2023-09-21 (55020 bytes)
+    Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2023-09-21__
