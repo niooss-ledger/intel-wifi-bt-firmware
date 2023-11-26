@@ -1303,7 +1303,7 @@ Header: version 78 'release/core75::3bfdc55f' build 0x3bfdc55f
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=811b8633806019f0569d0f369bd21f226ff255c0ef84b18f186d5c37d8968a68)

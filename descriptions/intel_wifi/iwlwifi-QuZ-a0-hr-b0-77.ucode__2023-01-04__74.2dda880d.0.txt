@@ -740,7 +740,7 @@ Header: version 77 'release/core74::2dda880d' build 0x2dda880d
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80433000..80433678 (0x678=1656 bytes, sha256=00c9572a4046268aae676c3b16c741939ce2d2d97889aa7bdfcb8da69ffbf44e)

@@ -1282,7 +1282,7 @@ Header: version 83 'jenkins-Core_manual_signed_core80_GaP_PV1-102::d24e06ed' bui
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80200000..80200678 (0x678=1656 bytes, sha256=cbcd131b46b494935f756de36ece292758b576501a0c455d0929db62d928e0da)

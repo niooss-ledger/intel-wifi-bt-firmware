@@ -733,7 +733,7 @@ Header: version 77 'release/core74::bd067429' build 0xbd067429
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80433000..80433678 (0x678=1656 bytes, sha256=2265edb4516c3e50d532e707b2f2689bb4814850776ff7a508f9a09619289427)

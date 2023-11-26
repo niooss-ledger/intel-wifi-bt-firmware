@@ -1193,7 +1193,7 @@ Header: version 84 'release/core81::8e5c544c' build 0x8e5c544c
 - TYPE_REGIONS (68 bytes): id=65570 name='mbx_hsif_init' type=PERIPHERY_MAC domain=ALWAYS_ON version=3
     dev_addr: offset=0x00000000 size=0x00000300
     addresses[1] = 0xe35500
-- TYPE_REGIONS (72 bytes): id=196628 name='prph_mac_range' type=UNKNOWN_REGTYPE_19 domain=ALWAYS_ON version=3
+- TYPE_REGIONS (72 bytes): id=196628 name='prph_mac_range' type=PERIPHERY_MAC_RANGE domain=ALWAYS_ON version=3
     addresses[2] = 0xd03c00 0x10
 - TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=4 trigger_reason=0x0000138A apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000405DF9F06
 - TYPE_TRIGGERS (52 bytes): domain=ALWAYS_ON time_point=5 trigger_reason=0x000013BF apply_policy=0x00000001 reset_fw=2 multi_dut=1 regions_mask=0x0000000405DF9F06
@@ -1340,7 +1340,7 @@ Header: version 84 'release/core81::8e5c544c' build 0x8e5c544c
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=9117e983ba1ef64f92cc66e20b31d923955faf520d655197b933804fd81f3d47)

@@ -1254,7 +1254,7 @@ Header: version 79 'release/core76::27f1c37b' build 0x27f1c37b
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=e48c80fe25eb80d2fd6214e106bd4bec96a37971bcc355a308efd1e329993853)

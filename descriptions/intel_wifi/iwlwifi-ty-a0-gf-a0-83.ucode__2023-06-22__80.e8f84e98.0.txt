@@ -1316,7 +1316,7 @@ Header: version 83 'release/core80::e8f84e98' build 0xe8f84e98
     Hexdump: 04 00 00 00
 - UNKNOWN_102 (4 bytes):
     Hexdump: 01 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=c1891e72183101ba2eb21e68d360195bcd0f30ac9c285454f0188a56777866c7)

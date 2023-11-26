@@ -774,7 +774,7 @@ Header: version 74 'release/core72::fe17486e' build 0xfe17486e
 - FW_NUM_STATIONS (4 bytes): 15
 - UNKNOWN_101 (4 bytes):
     Hexdump: 04 00 00 00
-- UNKNOWN_68 (72 bytes):
+- TLV_CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=24feed39721204ddf7e6472fd699eb6a9899cef006a41d20e3e11744cc6461b6)
