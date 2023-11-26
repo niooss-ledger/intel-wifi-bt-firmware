@@ -2442,3 +2442,7 @@
     Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0-86.ucode__2023-09-21__83.fb5c9aeb.0_
   - iwlwifi-ty-a0-gf-a0.pnvm version 2023-09-21 (55020 bytes)
     Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2023-09-21__
+
+2023-11-12 ba1aa06f37477a702ebabf14b5753378460c9343 added 2 files
+  - intel/ibt-0291-0291.ddc version BT_GalePeak_REL45894 (20 bytes)
+  - intel/ibt-0291-0291.sfi version BT_GalePeak_REL45894 (982096 bytes)
