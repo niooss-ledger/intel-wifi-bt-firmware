@@ -2446,3 +2446,7 @@
 2023-11-12 ba1aa06f37477a702ebabf14b5753378460c9343 added 2 files
   - intel/ibt-0291-0291.ddc version BT_GalePeak_REL45894 (20 bytes)
   - intel/ibt-0291-0291.sfi version BT_GalePeak_REL45894 (982096 bytes)
+
+2023-12-21 318c64abfb33c4211b002f5e5b4ff25cd19f712b added 2 files
+  - iwlwifi-gl-c0-fm-c0-83.ucode version 80.ec13314b.0 (1797996 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2023-12-21 (246228 bytes)
