@@ -213,7 +213,7 @@ def compare_linux_command_codes(linux_path: Path, verbose: bool) -> None:
                             current_enum_suffix = None
                             current_enum_last_value = None
                             continue
-                        if line in {"\t/**", "\t/*"}:
+                        if line in {"/*", "\t/**", "\t/*"}:
                             state = "in_enum/comment"
                             continue
                         if re.match(r"^\t/\* .*\*/$", line):
@@ -485,9 +485,9 @@ def compare_linux_command_codes(linux_path: Path, verbose: bool) -> None:
                                 continue
                         raise NotImplementedError(f"[{state} {current_enum_cls}] line {line!r}")
                     elif state == "in_enum/comment":
-                        if line.startswith("\t *") and "*/" not in line:
+                        if line.startswith((" * ", "\t *")) and "*/" not in line:
                             continue
-                        if line == "\t */":
+                        if line in {"\t */", " */"}:
                             state = "in_enum"
                             continue
                         raise NotImplementedError(f"[{state} {current_enum_cls}] line {line!r}")
@@ -499,8 +499,14 @@ def compare_linux_command_codes(linux_path: Path, verbose: bool) -> None:
                             continue
                         if line in {
                             "\t\t= 128",
+                            "\t\t= (__force iwl_ucode_tlv_api_t)__CHECKER_NUM_IWL_UCODE_TLV_API,",
+                            "\t\t= (__force iwl_ucode_tlv_capa_t)__CHECKER_NUM_IWL_UCODE_TLV_CAPA,",
+                            "#define __CHECKER_NUM_IWL_UCODE_TLV_API\t128",
+                            "#define __CHECKER_NUM_IWL_UCODE_TLV_CAPA\t128",
                             "#define NUM_IWL_UCODE_TLV_API 128",
+                            "#define NUM_IWL_UCODE_TLV_API __CHECKER_NUM_IWL_UCODE_TLV_API",
                             "#define NUM_IWL_UCODE_TLV_CAPA 128",
+                            "#define NUM_IWL_UCODE_TLV_CAPA __CHECKER_NUM_IWL_UCODE_TLV_CAPA",
                             "#else",
                             "\tNUM_IWL_UCODE_TLV_API",
                             "\tNUM_IWL_UCODE_TLV_CAPA",
