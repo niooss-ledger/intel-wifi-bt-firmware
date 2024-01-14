@@ -2450,3 +2450,15 @@
 2023-12-21 318c64abfb33c4211b002f5e5b4ff25cd19f712b added 2 files
   - iwlwifi-gl-c0-fm-c0-83.ucode version 80.ec13314b.0 (1797996 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2023-12-21 (246228 bytes)
+
+2024-01-05 36766a1cba902a9414ab9297675b900a655acae6 added 1 files
+  - intel/ibt-0041-0041.sfi version BT_TyphoonPeak_REL75234 (737744 bytes)
+
+2024-01-05 6335a2eb3c6a9a0f06e366a744a3a6a45aa5b0c2 added 1 files
+  - intel/ibt-0040-4150.sfi version BT_Solar_JnP2_REL75234 (746916 bytes)
+
+2024-01-05 dca1a3dc5fb6725981991095f81de03553b5daa2 added 1 files
+  - intel/ibt-0040-1050.sfi version BT_Solar_HrP1_REL75234 (746916 bytes)
+
+2024-01-05 c22d359dd1862ba7b5ca5566216037a37ad21408 added 1 files
+  - intel/ibt-0180-0041.sfi version BT_Magnetar_GfP2_REL94759 (851200 bytes)
