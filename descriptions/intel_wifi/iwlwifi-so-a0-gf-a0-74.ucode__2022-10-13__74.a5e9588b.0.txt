@@ -89,7 +89,7 @@ Header: version 74 'release/core72::a5e9588b' build 0xa5e9588b
     LONG(0x1).WOWLAN_TSC_RSC_PARAM(0xE2)                 cmd_ver= 5 notif_ver= 0
     LONG(0x1).WOWLAN_GET_STATUSES(0xE5)                  cmd_ver= 1 notif_ver=12
     PROT_OFFLOAD(0xb).STORED_BEACON_NTF(0xFF)            cmd_ver=99 notif_ver= 4
-    DEBUG(0xf).0x0A                                      cmd_ver=99 notif_ver= 2
+    DEBUG(0xf).GET_TAS_STATUS(0x0A)                      cmd_ver=99 notif_ver= 2
     PHY_OPS(0x4).CMD_DTS_MEASUREMENT_TRIGGER_WIDE(0x00)  cmd_ver= 1 notif_ver= 1
     LONG(0x1).LTR_CONFIG(0xEE)                           cmd_ver= 3 notif_ver= 0
     LONG(0x1).0xF1                                       cmd_ver=88 notif_ver= 3
@@ -176,7 +176,7 @@ Header: version 74 'release/core72::a5e9588b' build 0xa5e9588b
     DATA_PATH(0x5).0x09                                  cmd_ver=99 notif_ver=99
     DATA_PATH(0x5).0x0B                                  cmd_ver=99 notif_ver=99
     0x0E.0x3B                                            cmd_ver= 1 notif_ver= 1
-    DATA_PATH(0x5).0x04                                  cmd_ver= 1 notif_ver= 0
+    DATA_PATH(0x5).WNM_80211V_TIMING_MEASUREMENT_CONFIG_CMD(0x04) cmd_ver= 1 notif_ver= 0
     0x0E.0x3C                                            cmd_ver= 1 notif_ver= 0
     0x0E.0x3D                                            cmd_ver=99 notif_ver= 1
     0x0E.0x45                                            cmd_ver= 1 notif_ver= 0
@@ -311,9 +311,9 @@ Header: version 74 'release/core72::a5e9588b' build 0xa5e9588b
         [103] (unknown)
         [104] DRAM_FRAG_SUPPORT
         [105] DUMP_COMPLETE_SUPPORT
-        [106] (unknown)
+        [106] SYNCED_TIME
         [107] (unknown)
-        [108] (unknown)
+        [108] TIME_SYNC_BOTH_FTM_TM
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
         [ 0] WOWLAN_CONFIG_TID
         [ 1] CAPA_EXTENDED_BEACON
@@ -776,7 +776,7 @@ Header: version 74 'release/core72::a5e9588b' build 0xa5e9588b
 - FW_NUM_STATIONS (4 bytes): 15
 - UNKNOWN_101 (4 bytes):
     Hexdump: 04 00 00 00
-- TLV_CURRENT_PC (72 bytes):
+- CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80440000..80440678 (0x678=1656 bytes, sha256=463ce9f39f39af300de3ade333d036dcb6523eddfc474ab76c1ac5457d8423b4)

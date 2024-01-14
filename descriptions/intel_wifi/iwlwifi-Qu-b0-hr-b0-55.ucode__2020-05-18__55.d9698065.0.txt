@@ -84,7 +84,7 @@ Header: version 55 'release/core52::d9698065' build 0xd9698065
     LONG(0x1).WOWLAN_TSC_RSC_PARAM(0xE2)                 cmd_ver= 2 notif_ver= 0
     LEGACY(0x0).WOWLAN_GET_STATUSES(0xE5)                cmd_ver=99 notif_ver= 9
     LEGACY(0x0).0x23                                     cmd_ver=99 notif_ver= 1
-    DEBUG(0xf).0x0A                                      cmd_ver=99 notif_ver= 1
+    DEBUG(0xf).GET_TAS_STATUS(0x0A)                      cmd_ver=99 notif_ver= 1
     LONG(0x1).LTR_CONFIG(0xEE)                           cmd_ver= 3 notif_ver= 0
     LONG(0x1).0xF2                                       cmd_ver= 7 notif_ver= 0
     LONG(0x1).LDBG_CONFIG_CMD(0xF6)                      cmd_ver= 7 notif_ver= 0

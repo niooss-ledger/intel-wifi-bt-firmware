@@ -84,7 +84,7 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
     LONG(0x1).WOWLAN_CONFIGURATION(0xE1)                 cmd_ver= 6 notif_ver= 0
     LONG(0x1).WOWLAN_TSC_RSC_PARAM(0xE2)                 cmd_ver= 5 notif_ver= 0
     PROT_OFFLOAD(0xb).STORED_BEACON_NTF(0xFF)            cmd_ver=99 notif_ver= 4
-    DEBUG(0xf).0x0A                                      cmd_ver=99 notif_ver= 3
+    DEBUG(0xf).GET_TAS_STATUS(0x0A)                      cmd_ver=99 notif_ver= 3
     PHY_OPS(0x4).CMD_DTS_MEASUREMENT_TRIGGER_WIDE(0x00)  cmd_ver= 1 notif_ver= 1
     LONG(0x1).LTR_CONFIG(0xEE)                           cmd_ver= 3 notif_ver= 0
     LONG(0x1).0xF1                                       cmd_ver=88 notif_ver= 3
@@ -169,7 +169,7 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
     DATA_PATH(0x5).0x09                                  cmd_ver=99 notif_ver=99
     DATA_PATH(0x5).0x0B                                  cmd_ver=99 notif_ver=99
     0x0E.0x3B                                            cmd_ver= 1 notif_ver= 1
-    DATA_PATH(0x5).0x04                                  cmd_ver= 1 notif_ver= 0
+    DATA_PATH(0x5).WNM_80211V_TIMING_MEASUREMENT_CONFIG_CMD(0x04) cmd_ver= 1 notif_ver= 0
     0x0E.0x3C                                            cmd_ver=99 notif_ver= 0
     0x0E.0x3D                                            cmd_ver=99 notif_ver=99
     0x0E.0x45                                            cmd_ver= 1 notif_ver= 0
@@ -239,7 +239,7 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
     0x0E.0x64                                            cmd_ver= 1 notif_ver= 0
     SYSTEM(0x2).RFI_CONFIG_CMD(0x0B)                     cmd_ver= 3 notif_ver= 0
     SYSTEM(0x2).0x02                                     cmd_ver= 1 notif_ver= 0
-    MAC_CONF(0x3).0x08                                   cmd_ver= 2 notif_ver= 0
+    MAC_CONF(0x3).MAC_CONFIG_CMD(0x08)                   cmd_ver= 2 notif_ver= 0
     SYSTEM(0x2).RFI_DEACTIVATE_NOTIF(0xFF)               cmd_ver=99 notif_ver= 1
     DATA_PATH(0x5).RX_NO_DATA_NOTIF(0xF5)                cmd_ver=99 notif_ver= 3
     0x0E.0x66                                            cmd_ver= 1 notif_ver= 1
@@ -248,20 +248,20 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
     0x0E.0x54                                            cmd_ver= 2 notif_ver= 2
     0x0E.0x55                                            cmd_ver= 0 notif_ver= 1
     0x0E.0x67                                            cmd_ver= 1 notif_ver= 0
-    SYSTEM(0x2).0x0F                                     cmd_ver= 1 notif_ver= 0
-    0x10.0x00                                            cmd_ver=99 notif_ver= 3
-    0x10.0x01                                            cmd_ver=99 notif_ver= 4
-    0x10.0x02                                            cmd_ver=99 notif_ver= 4
-    0x10.0x03                                            cmd_ver=99 notif_ver= 3
-    0x10.0x04                                            cmd_ver=99 notif_ver= 3
-    0x10.0x05                                            cmd_ver=99 notif_ver= 1
-    SYSTEM(0x2).0xFD                                     cmd_ver=99 notif_ver= 1
+    SYSTEM(0x2).SYSTEM_STATISTICS_CMD(0x0F)              cmd_ver= 1 notif_ver= 0
+    STATISTICS(0x10).STATISTICS_OPER_NOTIF(0x00)         cmd_ver=99 notif_ver= 3
+    STATISTICS(0x10).STATISTICS_OPER_PART1_NOTIF(0x01)   cmd_ver=99 notif_ver= 4
+    STATISTICS(0x10).0x02                                cmd_ver=99 notif_ver= 4
+    STATISTICS(0x10).0x03                                cmd_ver=99 notif_ver= 3
+    STATISTICS(0x10).0x04                                cmd_ver=99 notif_ver= 3
+    STATISTICS(0x10).0x05                                cmd_ver=99 notif_ver= 1
+    SYSTEM(0x2).SYSTEM_STATISTICS_END_NOTIF(0xFD)        cmd_ver=99 notif_ver= 1
     DATA_PATH(0x5).RFH_QUEUE_CONFIG_CMD(0x0D)            cmd_ver= 1 notif_ver= 0
-    REGULATORY_AND_NVM(0xc).0x05                         cmd_ver= 1 notif_ver= 0
+    REGULATORY_AND_NVM(0xc).UATS_TABLE_CMD(0x05)         cmd_ver= 1 notif_ver= 0
     PHY_OPS(0x4).0x0C                                    cmd_ver= 1 notif_ver= 0
     0x0E.0x68                                            cmd_ver= 1 notif_ver= 0
-    MAC_CONF(0x3).0x0E                                   cmd_ver= 3 notif_ver= 0
-    MAC_CONF(0x3).0xF8                                   cmd_ver=99 notif_ver= 1
+    MAC_CONF(0x3).ROC_CMD(0x0E)                          cmd_ver= 3 notif_ver= 0
+    MAC_CONF(0x3).ROC_NOTIF(0xF8)                        cmd_ver=99 notif_ver= 1
     LEGACY(0x0).0x00                                     cmd_ver= 0 notif_ver= 0
 - FLAGS (4 bytes): 0xDBFB4B7F
         [ 0] PAN
@@ -339,17 +339,17 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
         [103] (unknown)
         [104] DRAM_FRAG_SUPPORT
         [105] DUMP_COMPLETE_SUPPORT
-        [106] (unknown)
+        [106] SYNCED_TIME
         [107] (unknown)
-        [108] (unknown)
-        [110] (unknown)
-        [111] (unknown)
-        [112] (unknown)
-        [113] (unknown)
-        [114] (unknown)
+        [108] TIME_SYNC_BOTH_FTM_TM
+        [110] MLD_API_SUPPORT
+        [111] SCAN_DONT_TOGGLE_ANT
+        [112] PPAG_CHINA_BIOS_SUPPORT
+        [113] OFFLOAD_BTM_SUPPORT
+        [114] STA_EXP_MFP_SUPPORT
         [115] (unknown)
-        [116] (unknown)
-        [117] (unknown)
+        [116] SNIFF_VALIDATE_SUPPORT
+        [117] CHINA_22_REG_SUPPORT
 - API_CHANGES_SET (8 bytes): index=0 flags=0xFD9BFFFB
         [ 0] WOWLAN_CONFIG_TID
         [ 1] CAPA_EXTENDED_BEACON
@@ -464,7 +464,7 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
 - FW_RECOVERY_INFO (8 bytes): addr=0x00880000 size=0x00000118
 - N_SCAN_CHANNELS (4 bytes): 67
 - ENABLED_CAPABILITIES (8 bytes): index=1 capa=0xFF7F7AEF
-        [32] (unknown)
+        [32] FRAGMENTED_PNVM_IMG
         [33] (unknown)
         [34] NAN_SUPPORT
         [35] UMAC_UPLOAD
@@ -1369,9 +1369,9 @@ Header: version 86 'jenkins-Core_manual_signed_core83-73::fb5c9aeb' build 0xfb5c
 - FW_NUM_STATIONS (4 bytes): 15
 - UNKNOWN_101 (4 bytes):
     Hexdump: 04 00 00 00
-- UNKNOWN_102 (4 bytes):
+- FW_NUM_BEACONS (4 bytes):
     Hexdump: 01 00 00 00
-- TLV_CURRENT_PC (72 bytes):
+- CURRENT_PC (72 bytes):
     Hexdump: 55 4d 41 43 20 43 55 52 52 45 4e 54 20 50 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 - SEC_RT (8 bytes): 0xFFFFCCCC => CPU1_CPU2_SEPARATOR_SECTION
 - SEC_RT (1660 bytes): runtime ucode at 80200000..80200678 (0x678=1656 bytes, sha256=e439ca9100de553a34982403429bdbbb59eeb2c66642ab73861b53fc85105a81)
