@@ -2462,3 +2462,19 @@
 
 2024-01-05 c22d359dd1862ba7b5ca5566216037a37ad21408 added 1 files
   - intel/ibt-0180-0041.sfi version BT_Magnetar_GfP2_REL94759 (851200 bytes)
+
+2024-01-05 8ffda1adfe7cf56cea96973ca021bf3c1e7fa34b added 2 files
+  - intel/ibt-0040-0041.ddc version BT_Solar_GfP2_REL75234 (9 bytes)
+  - intel/ibt-0040-0041.sfi version BT_Solar_GfP2_REL75234 (746916 bytes)
+
+2024-01-05 a3a65a430d0e16b036a8cd11ef9e837906a994a6 added 1 files
+  - intel/ibt-1040-0041.sfi version BT_SolarF_GfP2_REL75234 (746916 bytes)
+
+2024-01-05 52d1bca9f7d6912fe2c5d01d9ddf557527d29a96 added 1 files
+  - intel/ibt-1040-4150.sfi version BT_SolarF_JnP2_REL75234 (746916 bytes)
+
+2024-01-05 20d6cbc6c06c6d52fe8ac4481181e5b784a86ca9 added 1 files
+  - intel/ibt-0180-4150.sfi version BT_Magnetar_JnP2_REL94759 (851200 bytes)
+
+2024-01-05 927c51e8753d19ad102e407a0d380c8ce05291e4 added 1 files
+  - intel/ibt-0180-1050.sfi version BT_Magnetar_HrP1_REL94759 (851200 bytes)
