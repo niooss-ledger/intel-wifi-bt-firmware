@@ -2478,3 +2478,7 @@
 
 2024-01-05 927c51e8753d19ad102e407a0d380c8ce05291e4 added 1 files
   - intel/ibt-0180-1050.sfi version BT_Magnetar_HrP1_REL94759 (851200 bytes)
+
+2024-03-10 195e420f34c5c029d27ee57c57e3b3a8a164f8c4 added 2 files
+  - iwlwifi-9000-pu-b0-jf-b0-46.ucode version 46.7e3e4b69.0 (1519568 bytes)
+  - iwlwifi-9260-th-b0-jf-b0-46.ucode version 46.7e3e4b69.0 (1490508 bytes)
