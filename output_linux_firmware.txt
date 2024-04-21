@@ -2540,3 +2540,53 @@
 2024-03-19 d3cc8b9b304af1671d47726f77177c28067d5c04 added 2 files
   - intel/ibt-0291-0291.ddc version BT_GalePeak_REL53617 (9 bytes)
   - intel/ibt-0291-0291.sfi version BT_GalePeak_REL53617 (990924 bytes)
+
+2024-04-17 ac11b265c6ccc95f7c1345430e1fc1806ff32a99 added 6 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.a20fb07d.0 (1405980 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.a20fb07d.0 (1322684 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.a20fb07d.0 (1405996 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.a20fb07d.0 (1322700 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.a20fb07d.0 (1406116 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.a20fb07d.0 (1367432 bytes)
+
+2024-04-17 d3e2123944fae54dc5b54f5d41dbd196e9e21b57 added 11 files
+  - iwlwifi-ma-b0-gf-a0-89.ucode version 87.e9cec78e.0 (1721440 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55096 bytes)
+  - iwlwifi-ma-b0-gf4-a0-89.ucode version 87.e9cec78e.0 (1598424 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-04-17 (27820 bytes)
+  - iwlwifi-so-a0-gf-a0-89.ucode version 87.e9cec78e.0 (1709992 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2024-04-17 (55176 bytes)
+  - iwlwifi-so-a0-gf4-a0-89.ucode version 87.e9cec78e.0 (1589216 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-04-17 (27860 bytes)
+  - iwlwifi-so-a0-hr-b0-89.ucode version 87.e9cec78e.0 (1526136 bytes)
+  - iwlwifi-ty-a0-gf-a0-89.ucode version 87.e9cec78e.0 (1651956 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55020 bytes)
+
+2024-04-17 f3363b57042099edc95165bfcf9779ac701394f2 added 2 files
+  - iwlwifi-gl-c0-fm-c0-90.ucode version 87.38c93dbc.0 (1890864 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (267272 bytes)
+
+2024-04-17 1500033b4def4cf6301954ff8b7561b98363efe1 added 6 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.a20fb07d.0 (1405980 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.a20fb07d.0 (1322684 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.a20fb07d.0 (1405996 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.a20fb07d.0 (1322700 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.a20fb07d.0 (1406116 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.a20fb07d.0 (1367432 bytes)
+
+2024-04-17 4ff50358b36b2e302f55a7fed41163ce47e83a7a added 11 files
+  - iwlwifi-ma-b0-gf-a0-89.ucode version 87.e9cec78e.0 (1721440 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55096 bytes)
+  - iwlwifi-ma-b0-gf4-a0-89.ucode version 87.e9cec78e.0 (1598424 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-04-17 (27820 bytes)
+  - iwlwifi-so-a0-gf-a0-89.ucode version 87.e9cec78e.0 (1709992 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2024-04-17 (55176 bytes)
+  - iwlwifi-so-a0-gf4-a0-89.ucode version 87.e9cec78e.0 (1589216 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-04-17 (27860 bytes)
+  - iwlwifi-so-a0-hr-b0-89.ucode version 87.e9cec78e.0 (1526136 bytes)
+  - iwlwifi-ty-a0-gf-a0-89.ucode version 87.e9cec78e.0 (1651956 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55020 bytes)
+
+2024-04-17 da7133bbdfa9019e261e7c94e70eb4a63f18a975 added 2 files
+  - iwlwifi-gl-c0-fm-c0-90.ucode version 87.38c93dbc.0 (1890864 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (267272 bytes)
