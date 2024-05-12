@@ -2590,3 +2590,26 @@
 2024-04-17 da7133bbdfa9019e261e7c94e70eb4a63f18a975 added 2 files
   - iwlwifi-gl-c0-fm-c0-90.ucode version 87.38c93dbc.0 (1890864 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (267272 bytes)
+
+2024-05-10 35f49f414be3b7d9742f8c272be34c40f07bb673 added 7 files
+  - intel/ibt-0040-0041.sfi version 2024-05-10 (718704 bytes)
+  - intel/ibt-0040-1050.sfi version 2024-05-10 (718704 bytes)
+  - intel/ibt-0040-4150.sfi version 2024-05-10 (718704 bytes)
+  - intel/ibt-0041-0041.sfi version 2024-05-10 (711284 bytes)
+  - intel/ibt-1040-0041.sfi version 2024-05-10 (718704 bytes)
+  - intel/ibt-1040-1050.sfi version 2024-05-10 (718704 bytes)
+  - intel/ibt-1040-4150.sfi version 2024-05-10 (718704 bytes)
+
+2024-05-10 07da2073e0ff76cca0fbf491b7954644a9d95463 added 4 files
+  - intel/ibt-0040-1020.sfi version 2024-05-10 (764772 bytes)
+  - intel/ibt-0040-2120.sfi version 2024-05-10 (764772 bytes)
+  - intel/ibt-1040-1020.sfi version 2024-05-10 (764772 bytes)
+  - intel/ibt-1040-2120.sfi version 2024-05-10 (764772 bytes)
+
+2024-05-10 55f8f9afdadae25284df0295e8d71248dd920f08 added 3 files
+  - intel/ibt-0180-0041.sfi version 2024-05-10 (824316 bytes)
+  - intel/ibt-0180-1050.sfi version 2024-05-10 (824316 bytes)
+  - intel/ibt-0180-4150.sfi version 2024-05-10 (824316 bytes)
+
+2024-05-10 14ec675bfd318fcf82b2d1f2beb0303fe5ed6531 added 1 files
+  - intel/ibt-0291-0291.sfi version 2024-05-10 (983456 bytes)
