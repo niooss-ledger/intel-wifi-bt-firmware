@@ -1,0 +1,58 @@
+- PNVM_SKU (12 bytes): 0x610d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x35148B80
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=21d237de8d087b38bfab9adf91ec3815aab4e9e398e47abb945e570e766cf0aa)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 13 06 24 20 0f 0c 00 00 18 00 00 00
+- SEC_RT (12012 bytes): runtime ucode at deadcafe..deadf9e6 (0x2ee8=12008 bytes, sha256=189ba3a5790a1b8eea6638211ad2e6da1ab381adaa222849a57d55c340c77029)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 b4 0b 00 30 09 81 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x610d1 0x3 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x35148B80
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=ee8b7ca487a48f225b7442d02238837dcc3f1541c1140633dae577c44c37494b)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 13 06 24 20 3c 0c 00 00 18 00 00 00
+- SEC_RT (12192 bytes): runtime ucode at deadcafe..deadfa9a (0x2f9c=12188 bytes, sha256=49abbefb9d0589b2da5250865488f093ab115d6111b8cd6f9758a4c93ffa10df)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 e1 0b 00 30 09 81 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0xa10d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x35148B80
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=f58e58b846cfa6025bf7864535fbbefe1473ede779a82c6e954559bdc82f493b)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 13 06 24 20 fc 0b 00 00 18 00 00 00
+- SEC_RT (11936 bytes): runtime ucode at deadcafe..deadf99a (0x2e9c=11932 bytes, sha256=b0540cc9e0e3980652039187f3ae1d5b6d34dcb89733366421257330bc559e8c)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 a1 0b 00 30 09 81 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d1 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x35148B80
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=7900c9344df21c0fbe812dabb228e8228743fca4c926b56b017c5dae4daf95aa)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 13 06 24 20 1b 0c 00 00 18 00 00 00
+- SEC_RT (12060 bytes): runtime ucode at deadcafe..deadfa16 (0x2f18=12056 bytes, sha256=072d83912086c7b8b45781c6077491f3f2cd4de270d0a4f456756b14d0c3ffbb)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 c0 0b 00 30 09 81 03 00 4b 03 4b 03
+
+Signatures (count 4):
+- SEC_RT 0xcafedead (secp384r1, 2024-06-13, 0x303c=12348 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0x9f8b96d0a6460559c9db9544581fc235ca2532ca6f7cd5fb07ff797d233c26f8f60f369cdd11f6c692d9ab1e19d14b6e
+    EC signature s: 0x07cc1173296df9561c00439424cb3c7ee6143cffe68cdd817bf5db6ba2a8d7ea39139348a67d646d466bde2855ead106
+    1 section:
+        0xdeadcafe..0xdeadf9e6 (0x2ee8=12008 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2024-06-13, 0x30f0=12528 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x3)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0xc117c4b40fa50ef44601d16bb1910d1c23cea3f32fe5251579849bf6623e8d0e46c8dc8e40c76368675d3ac4b9094cfd
+    EC signature s: 0xa47e576a252948077ac3554746d94d9dabb30991dd7246b18fe67ea42b81ec377f90d4d8fe3fa2b5fba427966c69929f
+    1 section:
+        0xdeadcafe..0xdeadfa9a (0x2f9c=12188 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2024-06-13, 0x2ff0=12272 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0xa10d1,0x0)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0x3b57c982d9294f958b3283f6aa75991e9b59c1d523516c9f5b8c4a5bbf052b61e9f71ce1f8a9b9faa83ec798ba99dfe1
+    EC signature s: 0x65dc4fedf97401e422469096df9a94334f9f3017d58adb9702292420b557d7381021c14d93b19aefe4c9c70e1a6705ae
+    1 section:
+        0xdeadcafe..0xdeadf99a (0x2e9c=11932 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2024-06-13, 0x306c=12396 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0xb2b85bf47032891b8bddfd9a324a22e1afbbd7524d1a0ec3f45e1cdb5fc4ec19c5a462223c1ced8ce1ad5ae419dd9a9a
+    EC signature s: 0x88125441697642c3a9f72bf82878635bdbf6f4a9badf9ab9d1345f70f795543007021a0454789d8ccac1076621520a39
+    1 section:
+        0xdeadcafe..0xdeadfa16 (0x2f18=12056 bytes)
