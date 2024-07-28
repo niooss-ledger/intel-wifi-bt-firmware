@@ -2589,7 +2589,7 @@
 2024-05-10 14ec675bfd318fcf82b2d1f2beb0303fe5ed6531 added 1 files
   - intel/ibt-0291-0291.sfi version 2024-05-10 (983456 bytes)
 
-2024-04-17 12b8c626a0cc6496029d07891d31f1702c3416ed added 7 files
+2024-04-17 87e7465fa9626415814c51c76c7a37a29c2266cc added 7 files
   - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.c360c4b1.0 (1405980 bytes)
   - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.c360c4b1.0 (1322684 bytes)
   - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.c360c4b1.0 (1405996 bytes)
@@ -2598,7 +2598,7 @@
   - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.c360c4b1.0 (1322760 bytes)
   - iwlwifi-cc-a0-77.ucode version 74.c360c4b1.0 (1367496 bytes)
 
-2024-04-17 d68c9718308b8dcc352c5d9923c25e9ea25817d9 added 12 files
+2024-04-17 77d842685c71b9415df573e80a6b0ee7042394fc added 12 files
   - iwlwifi-ma-b0-gf-a0-89.ucode version 87.202a2f7b.0 (1746844 bytes)
   - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55112 bytes)
     Warning: duplicate local file name, using iwlwifi-ma-b0-gf-a0.pnvm__2024-04-17_
@@ -2616,29 +2616,6 @@
   - iwlwifi-ty-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1681232 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55036 bytes)
     Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2024-04-17_
-
-2024-04-17 87e7465fa9626415814c51c76c7a37a29c2266cc added 7 files
-  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.c360c4b1.0 (1405980 bytes)
-  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.c360c4b1.0 (1322684 bytes)
-  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.c360c4b1.0 (1405996 bytes)
-  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.c360c4b1.0 (1322700 bytes)
-  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.c360c4b1.0 (1406116 bytes)
-  - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.c360c4b1.0 (1322760 bytes)
-  - iwlwifi-cc-a0-77.ucode version 74.c360c4b1.0 (1367496 bytes)
-
-2024-04-17 77d842685c71b9415df573e80a6b0ee7042394fc added 12 files
-  - iwlwifi-ma-b0-gf-a0-89.ucode version 87.202a2f7b.0 (1746844 bytes)
-  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55112 bytes)
-  - iwlwifi-ma-b0-gf4-a0-89.ucode version 87.202a2f7b.0 (1599272 bytes)
-  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-04-17 (27828 bytes)
-  - iwlwifi-ma-b0-hr-b0-89.ucode version 83.202a2f7b.0 (1539360 bytes)
-  - iwlwifi-so-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1731172 bytes)
-  - iwlwifi-so-a0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
-  - iwlwifi-so-a0-gf4-a0-89.ucode version 87.202a2f7b.0 (1589864 bytes)
-  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-04-17 (27868 bytes)
-  - iwlwifi-so-a0-hr-b0-89.ucode version 87.202a2f7b.0 (1530624 bytes)
-  - iwlwifi-ty-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1681232 bytes)
-  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55036 bytes)
 
 2024-06-18 c402d0cd6278e4d0a865fd5351758ceff7d49a4b added 4 files
   - intel/ibt-17-16-1.sfi version 2024-06-18 (675500 bytes)
@@ -2661,3 +2638,50 @@
 
 2024-06-18 3ba1644a2199b7fa21c071231215ee2dedbdd7f1 added 1 files
   - intel/ibt-0291-0291.sfi version 2024-06-18 (983472 bytes)
+
+2024-04-17 79f03377d23d5776b7ed680e74f7aca2b4fb75d3 added 7 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.85be44d3.0 (1405980 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.85be44d3.0 (1322684 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.85be44d3.0 (1405996 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.85be44d3.0 (1322700 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.85be44d3.0 (1406116 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.85be44d3.0 (1322760 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.85be44d3.0 (1367496 bytes)
+
+2024-04-17 ef7be90bbbfd1f2a4b4a2fa94a7cf8e2ca9c1108 added 12 files
+  - iwlwifi-ma-b0-gf-a0-89.ucode version 87.23bfe245.0 (1746904 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55112 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf-a0.pnvm__2024-04-17__
+  - iwlwifi-ma-b0-gf4-a0-89.ucode version 87.23bfe245.0 (1599332 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-04-17 (27828 bytes)
+    Warning: duplicate local file name, using iwlwifi-ma-b0-gf4-a0.pnvm__2024-04-17__
+  - iwlwifi-ma-b0-hr-b0-89.ucode version 83.23bfe245.0 (1539360 bytes)
+  - iwlwifi-so-a0-gf-a0-89.ucode version 87.23bfe245.0 (1739424 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf-a0.pnvm__2024-04-17__
+  - iwlwifi-so-a0-gf4-a0-89.ucode version 87.23bfe245.0 (1589924 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-04-17 (27868 bytes)
+    Warning: duplicate local file name, using iwlwifi-so-a0-gf4-a0.pnvm__2024-04-17__
+  - iwlwifi-so-a0-hr-b0-89.ucode version 87.23bfe245.0 (1530624 bytes)
+  - iwlwifi-ty-a0-gf-a0-89.ucode version 87.23bfe245.0 (1681292 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55036 bytes)
+    Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2024-04-17__
+
+2024-04-17 f032eea14345546dd09457358413b186c08006bf added 2 files
+  - iwlwifi-gl-c0-fm-c0-92.ucode version 89.67ce4588.0 (1913128 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (295512 bytes)
+    Warning: duplicate local file name, using iwlwifi-gl-c0-fm-c0.pnvm__2024-04-17_
+
+2024-07-25 f1e56cc8218a35770f1c1fd3756912297258d750 added 12 files
+  - iwlwifi-ma-b0-gf-a0-89.ucode version 87.202a2f7b.0 (1746844 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-07-25 (55112 bytes)
+  - iwlwifi-ma-b0-gf4-a0-89.ucode version 87.202a2f7b.0 (1599272 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-07-25 (27828 bytes)
+  - iwlwifi-ma-b0-hr-b0-89.ucode version 83.202a2f7b.0 (1539360 bytes)
+  - iwlwifi-so-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1731172 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2024-07-25 (55192 bytes)
+  - iwlwifi-so-a0-gf4-a0-89.ucode version 87.202a2f7b.0 (1589864 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-07-25 (27868 bytes)
+  - iwlwifi-so-a0-hr-b0-89.ucode version 87.202a2f7b.0 (1530624 bytes)
+  - iwlwifi-ty-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1681232 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-07-25 (55036 bytes)
