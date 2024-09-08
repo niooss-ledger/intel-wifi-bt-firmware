@@ -1384,6 +1384,8 @@ e95b82cb03c5c031deb50071c6233f3fd9de11b028c1c0102c7242b1d2e35ef2  intel_wifi/iwl
 82c5488dc3e52cb6573e989ad478eae70a76240234677265196a35fcbe2f098c  intel_wifi/iwlwifi-QuZ-a0-jf-b0-77.ucode__2023-03-30__74.206b0184.0
 bd93c6ecd011e06e741b295712da3fb2b04df56557846355914832830965b056  intel_wifi/iwlwifi-QuZ-a0-jf-b0-77.ucode__2024-04-17__74.85be44d3.0
 55c7f2929b8e0fec57db3ea3bd78fe394ed5d21649594a2c9fae234df0edcba1  intel_wifi/iwlwifi-QuZ-a0-jf-b0-77.ucode__2024-04-17__74.c360c4b1.0
+820f9fb78e43b424befdc2d9253e2b56f9d2bb250d8a42217d9bb1d8b6d7957d  intel_wifi/iwlwifi-bz-b0-fm-c0-92.ucode__2024-04-17__89.67ce4588.0
+e9727e4f7857fc947c36202f0ba5eea6696430ddf078ac5a074c0823fa2a9f0a  intel_wifi/iwlwifi-bz-b0-fm-c0.pnvm__2024-04-17
 13eaefeb5257f3fee2e2e5faa9f2e1b7036bcb5657132cfc090e122ac1df7fd9  intel_wifi/iwlwifi-cc-a0-46.ucode__2019-04-03__46.3cfab8da.0
 fa8c48448c742a371d71a9dc67a84c2fa85634ebc21a95f20f8f3ee611512b93  intel_wifi/iwlwifi-cc-a0-46.ucode__2019-05-03__46.3cfab8da.0
 68a71ea256a7d67ae880472ae440fb8cd5cd0ec9c8bd67b352b34daec3af8387  intel_wifi/iwlwifi-cc-a0-46.ucode__2019-07-20__46.177b3e46.0

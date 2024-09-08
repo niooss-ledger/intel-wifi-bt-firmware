@@ -2685,3 +2685,7 @@
   - iwlwifi-so-a0-hr-b0-89.ucode version 87.202a2f7b.0 (1530624 bytes)
   - iwlwifi-ty-a0-gf-a0-89.ucode version 87.202a2f7b.0 (1681232 bytes)
   - iwlwifi-ty-a0-gf-a0.pnvm version 2024-07-25 (55036 bytes)
+
+2024-04-17 a19bb447e57a0caa2bcc1ddbda0476c1df2e098a added 2 files
+  - iwlwifi-bz-b0-fm-c0-92.ucode version 89.67ce4588.0 (1926176 bytes)
+  - iwlwifi-bz-b0-fm-c0.pnvm version 2024-04-17 (295832 bytes)
