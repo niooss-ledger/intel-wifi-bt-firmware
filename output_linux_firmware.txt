@@ -2689,3 +2689,18 @@
 2024-04-17 a19bb447e57a0caa2bcc1ddbda0476c1df2e098a added 2 files
   - iwlwifi-bz-b0-fm-c0-92.ucode version 89.67ce4588.0 (1926176 bytes)
   - iwlwifi-bz-b0-fm-c0.pnvm version 2024-04-17 (295832 bytes)
+
+2024-09-12 bf24e495b1a009e926ddc8816580cbbc9e58cb8b added 5 files
+  - intel/ibt-0040-0041.sfi version 2024-09-12 (718936 bytes)
+  - intel/ibt-0040-4150.sfi version 2024-09-12 (718936 bytes)
+  - intel/ibt-0041-0041.sfi version 2024-09-12 (711532 bytes)
+  - intel/ibt-1040-0041.sfi version 2024-09-12 (718936 bytes)
+  - intel/ibt-1040-4150.sfi version 2024-09-12 (718936 bytes)
+
+2024-09-12 299fe5853c7a9a2a80b0d9eac95f29475636b9d1 added 1 files
+  - intel/ibt-0291-0291.sfi version 2024-09-12 (978908 bytes)
+
+2024-09-12 aa5bbc85644411dc2abd631126703d9ba69637ad added 3 files
+  - intel/ibt-0180-0041.sfi version 2024-09-12 (824672 bytes)
+  - intel/ibt-0180-1050.sfi version 2024-09-12 (824672 bytes)
+  - intel/ibt-0180-4150.sfi version 2024-09-12 (824672 bytes)
