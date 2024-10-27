@@ -2769,3 +2769,10 @@
   - iwlwifi-bz-b0-fm-c0.pnvm version 2024-04-17 (295324 bytes)
   - iwlwifi-gl-c0-fm-c0-94.ucode version 91.62990553.0 (1919788 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (295004 bytes)
+
+2024-10-22 65c4b9b74b00b70777ca216474f2f7f8affba095 added 5 files
+  - intel/ibt-0093-0041.ddc version 2024-10-22 (9 bytes)
+  - intel/ibt-0093-0041.sfi version 2024-10-22 (908200 bytes)
+  - intel/ibt-0093-0291.ddc version 2024-10-22 (9 bytes)
+  - intel/ibt-0093-0291.sfi version 2024-10-22 (980580 bytes)
+  - intel/ibt-0291-0291.sfi version 2024-10-22 (980580 bytes)
