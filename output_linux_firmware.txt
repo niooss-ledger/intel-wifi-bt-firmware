@@ -2776,3 +2776,11 @@
   - intel/ibt-0093-0291.ddc version 2024-10-22 (9 bytes)
   - intel/ibt-0093-0291.sfi version 2024-10-22 (980580 bytes)
   - intel/ibt-0291-0291.sfi version 2024-10-22 (980580 bytes)
+
+2024-11-04 fe16af92ca833cf1dcb1020fd58a5bf5513f8ff7 added 6 files
+  - intel/ibt-0190-0041-iml.sfi version 2024-11-04 (51308 bytes)
+  - intel/ibt-0190-0041.ddc version BT_BlazarI_S_REL64160_23.70.24233.64160 (9 bytes)
+  - intel/ibt-0190-0041.sfi version 2024-11-04 (813904 bytes)
+  - intel/ibt-0190-0291-iml.sfi version 2024-11-04 (51308 bytes)
+  - intel/ibt-0190-0291.ddc version 2024-11-04 (9 bytes)
+  - intel/ibt-0190-0291.sfi version 2024-11-04 (866772 bytes)
