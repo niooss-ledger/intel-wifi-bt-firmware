@@ -2705,7 +2705,7 @@
   - intel/ibt-0180-1050.sfi version 2024-09-12 (824672 bytes)
   - intel/ibt-0180-4150.sfi version 2024-09-12 (824672 bytes)
 
-2024-04-17 795518f925b92fc658d86e47af7d0172087340fe added 7 files
+2024-04-17 d032dfb87ee4690c0bbdd6ad10b52f39c33b750c added 7 files
   - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.0b4c06ad.0 (1405988 bytes)
   - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.0b4c06ad.0 (1322744 bytes)
   - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.0b4c06ad.0 (1406004 bytes)
@@ -2714,7 +2714,7 @@
   - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.0b4c06ad.0 (1322828 bytes)
   - iwlwifi-cc-a0-77.ucode version 74.0b4c06ad.0 (1367504 bytes)
 
-2024-04-17 0be3990ce4f7dfbe7737c5ff073ac53d5a83dec5 added 12 files
+2024-04-17 b67630c6ff066e5929b8b47bcb37b498c9ea1642 added 12 files
   - iwlwifi-ma-b0-gf-a0-89.ucode version 86.6b44fa0b.0 (1747384 bytes)
   - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55112 bytes)
     Warning: duplicate local file name, using iwlwifi-ma-b0-gf-a0.pnvm__2024-04-17___
@@ -2733,42 +2733,13 @@
   - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55036 bytes)
     Warning: duplicate local file name, using iwlwifi-ty-a0-gf-a0.pnvm__2024-04-17___
 
-2024-04-17 d232b8dc6d48cc5bd6847d945b4e615c066458d2 added 4 files
+2024-04-17 99f9c7ed1f4ad78fd3e3d3764be01e6e2febbe9a added 4 files
   - iwlwifi-bz-b0-fm-c0-94.ucode version 91.62990553.0 (1933520 bytes)
   - iwlwifi-bz-b0-fm-c0.pnvm version 2024-04-17 (295324 bytes)
     Warning: duplicate local file name, using iwlwifi-bz-b0-fm-c0.pnvm__2024-04-17_
   - iwlwifi-gl-c0-fm-c0-94.ucode version 91.62990553.0 (1919788 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (295004 bytes)
     Warning: duplicate local file name, using iwlwifi-gl-c0-fm-c0.pnvm__2024-04-17__
-
-2024-04-17 d032dfb87ee4690c0bbdd6ad10b52f39c33b750c added 7 files
-  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.0b4c06ad.0 (1405988 bytes)
-  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.0b4c06ad.0 (1322744 bytes)
-  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.0b4c06ad.0 (1406004 bytes)
-  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.0b4c06ad.0 (1322760 bytes)
-  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.0b4c06ad.0 (1406124 bytes)
-  - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.0b4c06ad.0 (1322828 bytes)
-  - iwlwifi-cc-a0-77.ucode version 74.0b4c06ad.0 (1367504 bytes)
-
-2024-04-17 b67630c6ff066e5929b8b47bcb37b498c9ea1642 added 12 files
-  - iwlwifi-ma-b0-gf-a0-89.ucode version 86.6b44fa0b.0 (1747384 bytes)
-  - iwlwifi-ma-b0-gf-a0.pnvm version 2024-04-17 (55112 bytes)
-  - iwlwifi-ma-b0-gf4-a0-89.ucode version 86.6b44fa0b.0 (1599724 bytes)
-  - iwlwifi-ma-b0-gf4-a0.pnvm version 2024-04-17 (27828 bytes)
-  - iwlwifi-ma-b0-hr-b0-89.ucode version 86.6b44fa0b.0 (1539472 bytes)
-  - iwlwifi-so-a0-gf-a0-89.ucode version 86.6b44fa0b.0 (1739904 bytes)
-  - iwlwifi-so-a0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
-  - iwlwifi-so-a0-gf4-a0-89.ucode version 86.6b44fa0b.0 (1590316 bytes)
-  - iwlwifi-so-a0-gf4-a0.pnvm version 2024-04-17 (27868 bytes)
-  - iwlwifi-so-a0-hr-b0-89.ucode version 86.6b44fa0b.0 (1530736 bytes)
-  - iwlwifi-ty-a0-gf-a0-89.ucode version 86.6b44fa0b.0 (1681772 bytes)
-  - iwlwifi-ty-a0-gf-a0.pnvm version 2024-04-17 (55036 bytes)
-
-2024-04-17 99f9c7ed1f4ad78fd3e3d3764be01e6e2febbe9a added 4 files
-  - iwlwifi-bz-b0-fm-c0-94.ucode version 91.62990553.0 (1933520 bytes)
-  - iwlwifi-bz-b0-fm-c0.pnvm version 2024-04-17 (295324 bytes)
-  - iwlwifi-gl-c0-fm-c0-94.ucode version 91.62990553.0 (1919788 bytes)
-  - iwlwifi-gl-c0-fm-c0.pnvm version 2024-04-17 (295004 bytes)
 
 2024-10-22 65c4b9b74b00b70777ca216474f2f7f8affba095 added 5 files
   - intel/ibt-0093-0041.ddc version 2024-10-22 (9 bytes)
@@ -2784,3 +2755,7 @@
   - intel/ibt-0190-0291-iml.sfi version 2024-11-04 (51308 bytes)
   - intel/ibt-0190-0291.ddc version 2024-11-04 (9 bytes)
   - intel/ibt-0190-0291.sfi version 2024-11-04 (866772 bytes)
+
+2024-04-17 60cdfe1831e8ad39f7644693b1d6da01e4e80e2a added 2 files
+  - iwlwifi-bz-b0-gf-a0-94.ucode version 91.62990553.0 (1760372 bytes)
+  - iwlwifi-bz-b0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
