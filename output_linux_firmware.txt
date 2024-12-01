@@ -2759,3 +2759,8 @@
 2024-04-17 60cdfe1831e8ad39f7644693b1d6da01e4e80e2a added 2 files
   - iwlwifi-bz-b0-gf-a0-94.ucode version 91.62990553.0 (1760372 bytes)
   - iwlwifi-bz-b0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
+
+2024-04-17 42b01d49689c754438c7b9c32aadfa722da98429 added 2 files
+  - iwlwifi-bz-b0-gf-a0-92.ucode version 89.7541f516.0 (1757392 bytes)
+  - iwlwifi-bz-b0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
+    Warning: duplicate local file name, using iwlwifi-bz-b0-gf-a0.pnvm__2024-04-17_
