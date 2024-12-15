@@ -2764,3 +2764,9 @@
   - iwlwifi-bz-b0-gf-a0-92.ucode version 89.7541f516.0 (1757392 bytes)
   - iwlwifi-bz-b0-gf-a0.pnvm version 2024-04-17 (55192 bytes)
     Warning: duplicate local file name, using iwlwifi-bz-b0-gf-a0.pnvm__2024-04-17_
+
+2024-12-09 7012ac979728ca15077941089c7c0ff596952800 added 4 files
+  - intel/ibt-0093-1050.ddc version BT_BlazarU_S_REL67159_23.90.24382.67159 (9 bytes)
+  - intel/ibt-0093-1050.sfi version 2024-12-09 (908200 bytes)
+  - intel/ibt-0093-4150.ddc version 2024-12-09 (9 bytes)
+  - intel/ibt-0093-4150.sfi version 2024-12-09 (908200 bytes)
