@@ -2770,3 +2770,24 @@
   - intel/ibt-0093-1050.sfi version 2024-12-09 (908200 bytes)
   - intel/ibt-0093-4150.ddc version 2024-12-09 (9 bytes)
   - intel/ibt-0093-4150.sfi version 2024-12-09 (908200 bytes)
+
+2025-01-10 127ac45251734830570ff7f80e82a2c25dc787ef added 7 files
+  - intel/ibt-0040-0041.sfi version 2025-01-10 (719012 bytes)
+  - intel/ibt-0040-1050.sfi version 2025-01-10 (719012 bytes)
+  - intel/ibt-0040-4150.sfi version 2025-01-10 (719012 bytes)
+  - intel/ibt-0041-0041.sfi version 2025-01-10 (711580 bytes)
+  - intel/ibt-1040-0041.sfi version 2025-01-10 (719012 bytes)
+  - intel/ibt-1040-1050.sfi version 2025-01-10 (719012 bytes)
+  - intel/ibt-1040-4150.sfi version 2025-01-10 (719012 bytes)
+
+2025-01-10 35f74899c39fe2bb7e4de643e7d2f78a6d3445ae added 5 files
+  - intel/ibt-0093-0041.sfi version 2025-01-10 (909140 bytes)
+  - intel/ibt-0093-0291.sfi version 2025-01-10 (981776 bytes)
+  - intel/ibt-0093-1050.sfi version 2025-01-10 (909140 bytes)
+  - intel/ibt-0093-4150.sfi version 2025-01-10 (909140 bytes)
+  - intel/ibt-0291-0291.sfi version 2025-01-10 (981776 bytes)
+
+2025-01-10 7ccc69cfa488ac0a180bebe495ab6282d733f4fe added 3 files
+  - intel/ibt-0180-0041.sfi version 2025-01-10 (824688 bytes)
+  - intel/ibt-0180-1050.sfi version 2025-01-10 (824688 bytes)
+  - intel/ibt-0180-4150.sfi version 2025-01-10 (824688 bytes)
