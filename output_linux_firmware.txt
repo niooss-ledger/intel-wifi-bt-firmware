@@ -2791,3 +2791,9 @@
   - intel/ibt-0180-0041.sfi version 2025-01-10 (824688 bytes)
   - intel/ibt-0180-1050.sfi version 2025-01-10 (824688 bytes)
   - intel/ibt-0180-4150.sfi version 2025-01-10 (824688 bytes)
+
+2024-04-17 04e6d3f371ab3ad6970603be194023bd4c700126 added 1 files
+  - iwlwifi-bz-b0-fm-c0-93.ucode version 90.26a2cb89.0 (1931432 bytes)
+
+2024-04-17 fd01e80868dcf1b2c8dd4daf8ec9a6e87ea33c1f added 1 files
+  - iwlwifi-bz-b0-fm-c0-93.ucode version 90.26a2cb89.0 (1931432 bytes)
