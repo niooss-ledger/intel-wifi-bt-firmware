@@ -1,0 +1,30 @@
+- PNVM_SKU (12 bytes): 0x610d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x581D4936
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=ab033972cfb6c10a4e93ac983bdaa334e36684190f6eddcf27a08a8f1ccfe8e3)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 06 02 25 20 37 0c 00 00 18 00 00 00
+- SEC_RT (12172 bytes): runtime ucode at deadcafe..deadfa86 (0x2f88=12168 bytes, sha256=66822312d1f5f87f848baf5990bed70e5e1fdca608116a3482e58f9893dd1357)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 dc 0b 00 30 09 80 03 00 4b 03 4b 03
+- PNVM_SKU (12 bytes): 0x510d3 0x0 0x0
+- HW_TYPE (12 bytes): mac_type=MA rf_type=GF
+- PNVM_VERSION (4 bytes): 0x581D4936
+- SEC_RT (1660 bytes): runtime ucode at cafedead..cafee525 (0x678=1656 bytes, sha256=02cef7d889fe222791be858b8901ed0a429de5338980ad502443e0bd5fba1d6c)
+    Hexdump of start: 06 00 00 00 50 00 00 00 00 00 02 00 00 00 00 00 86 80 00 00 06 02 25 20 40 0c 00 00 18 00 00 00
+- SEC_RT (12208 bytes): runtime ucode at deadcafe..deadfaaa (0x2fac=12204 bytes, sha256=6e662e4f67acb78a4eabaa059686d619340878f1d1674ab64007c330e000a28b)
+    Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 e5 0b 00 30 09 80 03 00 4b 03 4b 03
+
+Signatures (count 2):
+- SEC_RT 0xcafedead (secp384r1, 2025-02-06, 0x30dc=12508 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0xc580cf9526802b48729f10c76fe491dceaaa530632d4d67068feb31c26c26c5007f87cd934f74cfe56deb572d275894d
+    EC signature s: 0x81322c93fb4dd2934e605d8614cd5ecc33d9e669e63a9f806ab5045e509f6605916ee2f220ef4f912dcc5542f54fa034
+    1 section:
+        0xdeadcafe..0xdeadfa86 (0x2f88=12168 bytes)
+- SEC_RT 0xcafedead (secp384r1, 2025-02-06, 0x3100=12544 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+    EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
+    EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
+    EC signature r: 0x6cae2dc51aa55b7d0c65cad962a7186884953f7cfa1adfc7d75847614079256140c3703801ad1024fee4e4bd30e2fb73
+    EC signature s: 0xf236eca10504d08189357a0e58e5d479acb489778f051175b85a53dca7d3d7055da7711e281f9c1ac438062fc7a10d9f
+    1 section:
+        0xdeadcafe..0xdeadfaaa (0x2fac=12204 bytes)
