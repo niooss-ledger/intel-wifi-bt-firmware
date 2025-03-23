@@ -2880,3 +2880,13 @@
   - iwlwifi-bz-b0-gf-a0.pnvm version 2025-03-11 (55208 bytes)
   - iwlwifi-gl-c0-fm-c0-97.ucode version 94.8049d69b.0 (1911436 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2025-03-11 (295036 bytes)
+
+2025-03-14 47bc8a2407426274d099607d5af419cb616d9209 added 8 files
+  - intel/ibt-0190-0041-pci.ddc version 2025-03-14 (4 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2025-03-14 (792468 bytes)
+  - intel/ibt-0190-0041-usb.ddc version 2025-03-14 (4 bytes)
+  - intel/ibt-0190-0041-usb.sfi version 2025-03-14 (800156 bytes)
+  - intel/ibt-0190-0291-pci.ddc version 2025-03-14 (4 bytes)
+  - intel/ibt-0190-0291-pci.sfi version 2025-03-14 (856928 bytes)
+  - intel/ibt-0190-0291-usb.ddc version 2025-03-14 (4 bytes)
+  - intel/ibt-0190-0291-usb.sfi version BT_BlazarI_S_REL82746_23.120.25071.82746 (864464 bytes)
