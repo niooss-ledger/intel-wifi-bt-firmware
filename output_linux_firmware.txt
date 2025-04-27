@@ -2890,3 +2890,40 @@
   - intel/ibt-0190-0291-pci.sfi version 2025-03-14 (856928 bytes)
   - intel/ibt-0190-0291-usb.ddc version 2025-03-14 (4 bytes)
   - intel/ibt-0190-0291-usb.sfi version BT_BlazarI_S_REL82746_23.120.25071.82746 (864464 bytes)
+
+2025-03-11 821f99ab2308103a51b1fcefb938885e3f5573b5 added 2 files
+  - iwlwifi-bz-b0-hr-b0-96.ucode version 93.44729d4e.0 (1570700 bytes)
+  - iwlwifi-bz-b0-hr-b0.pnvm version 2025-03-11 (1788 bytes)
+
+2025-04-22 ee2e7b5fbdcaa13504b6c83ddb4d239d5e1a478b added 7 files
+  - iwlwifi-Qu-b0-hr-b0-77.ucode version 74.f31a351f.0 (1406184 bytes)
+  - iwlwifi-Qu-b0-jf-b0-77.ucode version 74.f31a351f.0 (1322896 bytes)
+  - iwlwifi-Qu-c0-hr-b0-77.ucode version 74.f31a351f.0 (1406200 bytes)
+  - iwlwifi-Qu-c0-jf-b0-77.ucode version 74.f31a351f.0 (1322912 bytes)
+  - iwlwifi-QuZ-a0-hr-b0-77.ucode version 74.f31a351f.0 (1406320 bytes)
+  - iwlwifi-QuZ-a0-jf-b0-77.ucode version 74.f31a351f.0 (1322988 bytes)
+  - iwlwifi-cc-a0-77.ucode version 74.f31a351f.0 (1367700 bytes)
+
+2025-04-22 52665c0a6efef92665acd6441f0cc6c667407c1f added 12 files
+  - iwlwifi-ma-b0-gf-a0-89.ucode version 86.7f71c7f4.0 (1747520 bytes)
+  - iwlwifi-ma-b0-gf-a0.pnvm version 2025-04-22 (55128 bytes)
+  - iwlwifi-ma-b0-gf4-a0-89.ucode version 86.7f71c7f4.0 (1599864 bytes)
+  - iwlwifi-ma-b0-gf4-a0.pnvm version 2025-04-22 (27836 bytes)
+  - iwlwifi-ma-b0-hr-b0-89.ucode version 86.7f71c7f4.0 (1539572 bytes)
+  - iwlwifi-so-a0-gf-a0-89.ucode version 86.7f71c7f4.0 (1735944 bytes)
+  - iwlwifi-so-a0-gf-a0.pnvm version 2025-04-22 (55208 bytes)
+  - iwlwifi-so-a0-gf4-a0-89.ucode version 86.7f71c7f4.0 (1590456 bytes)
+  - iwlwifi-so-a0-gf4-a0.pnvm version 2025-04-22 (27876 bytes)
+  - iwlwifi-so-a0-hr-b0-89.ucode version 86.7f71c7f4.0 (1526740 bytes)
+  - iwlwifi-ty-a0-gf-a0-89.ucode version 86.7f71c7f4.0 (1677812 bytes)
+  - iwlwifi-ty-a0-gf-a0.pnvm version 2025-04-22 (55052 bytes)
+
+2025-04-22 c1d4c8991f615ebf3545bb9335f98479e346fe30 added 8 files
+  - iwlwifi-bz-b0-fm-c0-98.ucode version 95.d661c37c.0 (1925092 bytes)
+  - iwlwifi-bz-b0-fm-c0.pnvm version 2025-04-22 (295356 bytes)
+  - iwlwifi-bz-b0-gf-a0-98.ucode version 95.d661c37c.0 (1772684 bytes)
+  - iwlwifi-bz-b0-gf-a0.pnvm version 2025-04-22 (55208 bytes)
+  - iwlwifi-bz-b0-hr-b0-98.ucode version 95.d661c37c.0 (1569048 bytes)
+  - iwlwifi-bz-b0-hr-b0.pnvm version 2025-04-22 (1788 bytes)
+  - iwlwifi-gl-c0-fm-c0-98.ucode version 95.d661c37c.0 (1910432 bytes)
+  - iwlwifi-gl-c0-fm-c0.pnvm version 2025-04-22 (295036 bytes)
