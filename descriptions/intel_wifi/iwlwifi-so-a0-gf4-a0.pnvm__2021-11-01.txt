@@ -16,14 +16,14 @@
     Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 81 12 00 00 00 00 00 00 00 00 00 00 cd 08 00 30 09 80 03 00 4b 03 4b 03
 
 Signatures (count 2):
-- SEC_RT 0xcafedead (secp384r1, 2021-10-21, 0x24a0=9376 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- SEC_RT 0xcafedead (secp384r1, 2021-10-21, 0x24a0=9376 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x0c3de2d94bd920c4424b29d5587cb62709aaa21892cca7f6a5ebcdafce27fe2639e57ec5f46592074622524bb566287e
     EC signature s: 0x91ec2bb30f709fbb5c7016075b1a81cf48a9173705345446d4dfe0d705aac09878e39a4de6c41360a2eba9b31040c766
     1 section:
         0xdeadcafe..0xdeadee4a (0x234c=9036 bytes)
-- SEC_RT 0xcafedead (secp384r1, 2021-10-21, 0x24a0=9376 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- SEC_RT 0xcafedead (secp384r1, 2021-10-21, 0x24a0=9376 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0xbb9c9a81f809156ae85b533038b0c59b8eab9b027ded2a705d817a903880b26b0b3d3aaddd72241c83a031b9278df487

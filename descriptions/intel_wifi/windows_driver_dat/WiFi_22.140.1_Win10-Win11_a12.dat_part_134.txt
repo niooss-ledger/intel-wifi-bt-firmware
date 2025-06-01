@@ -285,7 +285,7 @@
     Hexdump of start: 54 4c 50 2a 2a 4d 56 4e f0 13 00 00 00 00 00 00 00 00 00 00 19 07 00 30 09 80 03 00 4b 03 4b 03
 
 Signatures (count 38):
-- MEM_DESC 0x80200000 (secp384r1, 2022-04-26, 0x3164=12644 bytes, 2 sections, unknown=0x18,0xc,0xc,0x100,0x0,0x1,0x0,0x0)
+- MEM_DESC 0x80200000 (secp384r1, 2022-04-26, 0x3164=12644 bytes, 2 sections, unknown=0x18,0xc,0xc,0x100,0x0,0x1)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x3ba8ae6bc22283ba2f9bb6064190db43388e6599107a3d489a56d0d56bf118a71962ecaf762f415247ae83ef52bd4ceb
@@ -293,105 +293,105 @@ Signatures (count 38):
     2 sections:
         0x80204000..0x80206600 (0x2600=9728 bytes)
         0x80206600..0x80207000 (0xa00=2560 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0xb3ebc887f28a1e5fdd58f03c29cd842dd3431df5ca2da0bc16770f660ce62f2d3be83fc4f5e1d8d103ac714d64e052b2
     EC signature s: 0xfc6134f9cedd79e19842fc91601e92aa56bbdb4d45d34e0bb2546752efefbc328c3da106d81f2dc98b10b084aeb2a7f5
     1 section:
         0xdeadcafe..0xdeadfade (0x2fe0=12256 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x6d1ab6d40de92bf1773b696ca96aa1b1be52d65f0c5ce5c46ad6f3e2f1cc020c3a11c65f6bea193204027320ea65e353
     EC signature s: 0xc47453e022170211dded4564bbb3837afe547eafd151cd8e469c59d5e820c18a76daa7f7fcdc7e53deee549b8b025088
     1 section:
         0xdeadcafe..0xdeadfade (0x2fe0=12256 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0x23d64281ee0c4d93c8da463145f5af5e8b7472dcd1fa8f042d541013254f176dcde26d21b666fbf20ad36e053b61898d
     EC signature s: 0xc8549bdc34bce864016978c2367c0e43a7bc23a8bd732255bd98dd02796eafc19a58dac89495ed736e3e9be4e1907205
     1 section:
         0xdeadcafe..0xdeadfade (0x2fe0=12256 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x6f768b7bf44efcbaefa20e27f6ed728478554a083db58d9b0ae6c5001e7220a33d7053a1eb4c54fd719688dab1ff6667
     EC signature s: 0x922a193d2003694d6bba53cbfe631549f4ca2ceacd412acf92adb9a33a41a61452ab3714bfb6e63cda326e24424aecaa
     1 section:
         0xdeadcafe..0xdeadfade (0x2fe0=12256 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3134=12596 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x70342ad294c0c73a342e8172a2501dc7776b9e3711de9ddb19174ae7f27fc6851b26e9626835b293c2266635fe4d3296
     EC signature s: 0x9de973a51c0cbac3a17671af86380e4d45050cbcb68aee468e9313989912e50c605598c55576a3b093117b1b5c036533
     1 section:
         0xdeadcafe..0xdeadfade (0x2fe0=12256 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x2db8675d9d2759f38e230af0df8058262497fa9b324fb983bb45368ba4e41cf4f77930967ef97b389f214dba5bec0bde
     EC signature s: 0xd9dd21e4dce53c852e478eba2462f18d16d0c1452a4049e05b8e708fab014a261ae709a1fb1e605499edf57899ff6739
     1 section:
         0xdeadcafe..0xdeadfb0e (0x3010=12304 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0xf0bfc2eef7715237188c6711e952039dfba9e346a7de7c0e6893f9cb40e3d8f77edf56cf854a9c0cb93f9edf2af01cf3
     EC signature s: 0xe084ee3c04c94e2fd89d54951c12c0ef5861eaba0f0d1bedfd4f9b9a86d5e3f6d652297ba634b96950a464e3722b71e0
     1 section:
         0xdeadcafe..0xdeadfb0e (0x3010=12304 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0x0b14fa95c3d5b9904e29c28affcac6d0152ea9579966652b7ba97b8dc7ace9dce922807dcbcb65004f14c3b89a0f9057
     EC signature s: 0x9867b89741975bc2836a2e98b4aca8ce70686100829dd0a478c969c411c2c23f416b2505395b55184130112ac914dced
     1 section:
         0xdeadcafe..0xdeadfb0e (0x3010=12304 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0xe14836b2b9f9b1475eb9fdc82a4b9082544875ccb841f6a56866a6b2fa4fddd5836253e767899f35f9a0d76eae5f2515
     EC signature s: 0x4d6b7581ec1eecb4085c4b982d2e0ee7b729a1e63776fc30bdb69e8db3607340cf3dba41d154189e7597147bb908edf5
     1 section:
         0xdeadcafe..0xdeadfb0e (0x3010=12304 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x3164=12644 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d3)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x19b70e150e58888b7d567853577c0d61823915623dfc66c573e034ae83fd97b777fc5a421b3e9af8ad68c0b6b4a0911f
     EC signature s: 0xbde00d9c30729525f12c9cc23d621585f565bb5fc8ab09dc44d00b0df9e882f6f433e9f11c6f2b94e10e22b3384c1330
     1 section:
         0xdeadcafe..0xdeadfb0e (0x3010=12304 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x8cc9291f7433d467cbff7a99c32d3fbc552bb3a7e71aaea9e8b30bb850aa4416a0adf642e7677044c9e051ba36a8471e
     EC signature s: 0xa747ecedc1cd35c698cc117495f918adafee8e08923935d883dbe4cc6e670b177553095da52421f13d02b32e09ee1868
     1 section:
         0xdeadcafe..0xdeadfa4a (0x2f4c=12108 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0xc2465f320a738f80f0fd1f3d262786982745cf6852ab16374b5c93798cbc4e407fa0df2baee16c29ac4157f082231678
     EC signature s: 0x4bdb460c768f03f24a7cb4393934bc49b8f9431ba2a7d96510b3fd67f529ae4618ea00f5d83c49c07ad03906361729fd
     1 section:
         0xdeadcafe..0xdeadfa4a (0x2f4c=12108 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0xf25b835b33959ca803a1fda247e039f15933d79aaf256bcd566bcaacbbaeae2f4a1da4b6b83927067723014dec30fc82
     EC signature s: 0xc236124185335ef3682476a0becdc88bd8cac9ccbf9f6cd2cb58a2c96aed6015d39b1cb03cec6565e5ceacca682e3f6b
     1 section:
         0xdeadcafe..0xdeadfa4a (0x2f4c=12108 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0xb095614b9b863202db24bdf5a3b9d44b62a8f2b0ed66d454fcb39b59e9671208e6a6621635f4354a24c4c01bfd5eb457
     EC signature s: 0x36a5ff291e609ec0952f649a1b76aa52e2b4e14b9cd1c1a96926144c7390ce60cd2755d5932214068373057fe6bbf845
     1 section:
         0xdeadcafe..0xdeadfa4a (0x2f4c=12108 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30a0=12448 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x4e962fa9f0114f1883a8f36b12c6479f2665c7130e42ad5d33107235defd11fe56bd8caaf77bfdc2fdb919b8bc2b0a0f
@@ -433,119 +433,119 @@ Signatures (count 38):
     EC signature s: 0xac1e95ac7a441acf6f24ee4ec3a7b363a939f55a6fb38ab3ddc86d7c0df1bdae35e92e75996229c36e99a4f998b75255
     1 section:
         0xdeadcafe..0xdeadfafa (0x2ffc=12284 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x3cc7b3cd93ea4783a9352bebcf6a1babc9969fd2a8b3fc8a450d43149d3e0caf6d0a4a621238d131895a8b0123758511
     EC signature s: 0x881d805388e192edfd98821c8bb869a606623a805dc73640e844f464603698d4151e1208d6c19019d2b313cfd0eda057
     1 section:
         0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x420fac0ce9a324a6991af94d4dfd40112da77663798357a0a615fced55e38557685b426969b31ae91524ad3094579a50
     EC signature s: 0x2eefe1a666b604c91fe456fc28bae1b2dd1fc572aba94f19f29537ba51f13956f61e9460704955c9e262363695ab0e08
     1 section:
         0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0xcb9b713e44c12b34d0262da16b9ead70214dd456f9a16d786b2e15fed6f831ec87f18d57091076ff242fcfe145202fb1
     EC signature s: 0x0d36807e717f9fc7abe2547b9c77818714511b45f8804143ad00573d194905506f0a631cba091888412eda5d53cb5b59
     1 section:
         0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x4543e758278d1d10142222e781e7bf813678fc175b83969a702f7bed1a910096a154cefab9e37d95c32212230d489607
     EC signature s: 0x7c76aa8a2b56fd4365966989aef8442561281d0559392a47119336ad68fdd70ee13164c0c74fbf44eb15207d8c703468
     1 section:
         0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x30d4=12500 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0xaf0bbf0dd63d3274c0a0ad8e72699f8b32cf7209758f1bf8b565208f2197e56d21a861884df4f18ff9559a17beb67773
     EC signature s: 0x4cbb0aa1202f9ea3a104cc2fc1053c5f0b4edbec6970a14aeebc4bbee6358151babb174649444ba7572f0f0a06fc16a3
     1 section:
         0xdeadcafe..0xdeadfa7e (0x2f80=12160 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x3090=12432 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d0,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x3090=12432 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d0)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x3486ff306934018496b463c6865ac635789dae31580c333c6d05d3a29d341da60f0cb986d7086beb7d94899adcf5e182
     EC signature s: 0x2f5c9d910772946f3639bc7f3c33e2b6a133f49a49e6d192c839a2278b28f6506f8730a31c961eb98465f19d81c4059c
     1 section:
         0xdeadcafe..0xdeadfa3a (0x2f3c=12092 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30c8=12488 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d0,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30c8=12488 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d0)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0xa3433c78e2b16b9a4da1482ef5c5a1643dc1015142f865e8ccf345cf7571371d9246a8b889829a458bbaf7daf500a9b4
     EC signature s: 0xc2d121362c038eb706f8c8fccdca7a0d0321c128fd38690738cfe0cb0d483e767968fa2c896fe4e9fad28c238bc889f2
     1 section:
         0xdeadcafe..0xdeadfa72 (0x2f74=12148 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30cc=12492 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x4510d0,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-25, 0x30cc=12492 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x4510d0)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x4fb3aa5b1796ed84dc6308a99c58b2595b5c602008193bc8dab58161ea238c75d7ac2f92955fb22eeb1267715b618b74
     EC signature s: 0x80314fde69ae687a048c50ef16ca19546dc7a1650e2c0119daa48e8feb2d7dd6773daf8da5164cfb5be6f1c4bbb5e623
     1 section:
         0xdeadcafe..0xdeadfa76 (0x2f78=12152 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0x0cb8f5f46a5078d017ba507f3b73dd299cc534a8e79fd42094242a7ec5a1e869b16e22206df2a0623e48f7b4fdd00624
     EC signature s: 0x61f32020267a34d29d3cd18016f439e4aa760002699bf60cbf9f8a0a2366b8154a6e7a017db032571f989a65c6f1bd52
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x30e7b59e17290a9a2d665869cbc74d55bb1df2bcc085d6ad0946b03d2d4bb7b1c9299b524bb98770a76cfbd4b6ce8f70
     EC signature s: 0xeaf6d50bacb92e3a9e81e09afe46de7591a6dae786db4489ffc53ead88534c5cccb92e5d4ac64f1dee56fc63fff4387e
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51101)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x7ec2ce11a461dc0a29a40bfa900f4ac7c56dcfe8570a01aba3d27fe19c15863140c5b5bea8fe731c28215d0168a011c4
     EC signature s: 0x7bd1ed81aa49116cdd15a458e6e23e82da7aa9891b43f66ebfe2e26b68b3ee4a2cbd43d9a73e2bde9a7a1f8194f4d1a4
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0x6e67a11aee2da982338266e363bf0e0140efdc49351091be22c05ca1850f6d0be65e3ffb9a9f6c9fd5008baa89c4fa34
     EC signature s: 0xe49f1a57058e5c88398481a67ba7014516a3fc53c98fae49d81368c8d1507592a21023a013039f1e7bc25e0a6bbeb210
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x4e04e9c2239db4151ec4bc5ecc9b5179939da29e2f1005ded9b3320d6a8ded170b66e74745150787815d7a7ad5441444
     EC signature s: 0x849022e902423b5a1a75571ef0a0b2c81ff447f9ba2fd23205263d5767d4449c0d44b63acbade4385806804550215e3a
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x61111)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x2a23656e24f0cbb0957d38b390be8768c71bbb242132b7edbc3e14eab76c13113d525cae16ee1f517325bc97f351583d
     EC signature s: 0x1dc27630669a08079dd8b9ec3684c08189952b1df6b4dc0aa2edefe552c44ce863a570c127686533bac09cbd47e454d2
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111)
     EC pub x: 0x992cbdb7aaac2c9356533cf569ff9ce4659917fb84fbb08f610f377884b8b98de3f07ff7e333604d14681a5252419ad5
     EC pub y: 0x95a8ecc41fe224761e315aef627b2462eb5fa083be2cee077a89a860f89256844e91bad2f6b325e64c33f39aabe06003
     EC signature r: 0xffa0075c54535ce2fc0bb35b6af91622943327e0e3963277fbc20cb77f095d3ef311e1ff5e4ea5ea9e016d4c8fdf6b25
     EC signature s: 0xb9311c30c7bb12f3378e803a7c2518bc66580d7be6e352ca696f10e29a45ad7274196c632064436fb140a4363ad0f920
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x04049c2405c2d1fac8701038d39cf75cd7d7e17f9fb1c074716579eb9349a9760876df6b7352baa063a1b658d4767458
     EC signature s: 0xf73b0d7d60bc064510d32f9d4786c579ee7214ef90555801618a4b1d2a6d55b759bb85487a65c6d4794a6a6f34f10c0e
     1 section:
         0xdeadcafe..0xdeade77a (0x1c7c=7292 bytes)
-- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111,0x0)
+- MEM_DESC 0xcafedead (secp384r1, 2022-04-26, 0x1dd0=7632 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x51111)
     EC pub x: 0x31f7c8b7aa4e1f7813811bf66f049258997d647f958cb980c93e14a02187f265b1753cf3956fd0c32c6e6c9a86f439b2
     EC pub y: 0x8e7a637954de2d51d650e23d8ba55fff4c7c77e4ba6a198bb5093fb039ea91174114bf73292676eeb30588c0495dac69
     EC signature r: 0x17a04aa6c23d2aba29ed7f36d31d5b35e6e879341a6d1e04c7a374e200668804c008f4e787b44c099f5bb46c91a1e54f

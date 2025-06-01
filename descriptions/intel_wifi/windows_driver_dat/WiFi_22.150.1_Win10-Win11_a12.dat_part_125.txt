@@ -36,7 +36,7 @@
     Hexdump of start: ee c2 08 45 e7 e0 50 42 42 00 2d 00 30 43 cb 46 08 01 00 10 b0 26 51 13 33 09 30 20 f8 df 2f 20
 
 Signatures (count 1):
-- MEM_DESC 0x00000000 (secp384r1, 2022-05-18, 0x84254=541268 bytes, 17 sections, unknown=0x18,0xc,0xc,0x100,0x0,0x4,0x0,0x0)
+- MEM_DESC 0x00000000 (secp384r1, 2022-05-18, 0x84254=541268 bytes, 17 sections, unknown=0x18,0xc,0xc,0x100,0x0,0x4)
     EC pub x: 0x4d5bf42cf60f82f36e87593e3f5c40c2fd25e6fbf7bc44cb0757ded5fbae9dc8c326222cde4dd4b74b979bd4255ee7c9
     EC pub y: 0x5f12c60b070b2e8f301b3a37fa046c8ff2721cee085a1ae966936c8e3396a99a007f50d604669148830b5b2cfbf0be94
     EC signature r: 0x95f3df2cb9df57dec04fbdd45436ca2de88a7f2107940f8ae35235ca07d69ba45bf41fc0bfd38c9c3c7788855365c28d

@@ -1480,7 +1480,8 @@ CodeSignatureSectionEcSecp384r1 = Struct(
     "unknown_0x30" / Hex(Int32ul),
     "unknown_0x34" / Hex(Int32ul),
     "unknown_0x38" / Hex(Int32ul),
-    "reserved" / Bytes(0x44),
+    "unknown_0x3c" / Hex(Int32ul),
+    "reserved" / Bytes(0x40),
     "ec_pub_x" / Bytes(0x30),
     "ec_pub_y" / Bytes(0x30),
     "ec_signature_r" / Bytes(0x30),
@@ -2579,7 +2580,10 @@ class IntelWifiFirmware:
                 and signature.header_version_major == 0
                 and signature.header_version_minor == 2
             ):  # EC secp384r1
-                unk_str = f"unknown={signature.unknown_0x1c:#x},{signature.unknown_0x20:#x},{signature.unknown_0x24:#x},{signature.unknown_0x28:#x},{signature.unknown_0x2c:#x},{signature.unknown_0x30:#x},{signature.unknown_0x34:#x},{signature.unknown_0x38:#x}"  # noqa
+                unk_str = f"unknown={signature.unknown_0x1c:#x},{signature.unknown_0x20:#x},{signature.unknown_0x24:#x},{signature.unknown_0x28:#x},{signature.unknown_0x2c:#x},{signature.unknown_0x30:#x},{signature.unknown_0x34:#x},{signature.unknown_0x38:#x},{signature.unknown_0x3c:#x}"  # noqa
+                while unk_str.endswith(",0x0"):
+                    # Strip reserved data
+                    unk_str = unk_str[:-4]
                 print(
                     f"- {entry_type} {entry_addr:#010x} (secp384r1, {date_str}, {total_size:#x}={total_size} bytes, {sect_num_str}, {unk_str})",  # noqa
                     file=out,
@@ -2596,7 +2600,8 @@ class IntelWifiFirmware:
                 assert signature.unknown_0x2c in {0, 1}
                 assert signature.unknown_0x30 in {0, 1, 2, 3, 4, 5}
                 # signature.unknown_0x34 is the file version
-                assert signature.unknown_0x38 in {0, 3}
+                assert signature.unknown_0x38 in {0, 3, 0xffffffff}
+                assert signature.unknown_0x3c in {0, 0xffffffff}
             else:
                 raise NotImplementedError("Unimplemented signature algorithm")
             print(f"    {signature.num_sections} {'sections' if signature.num_sections >= 2 else 'section'}:", file=out)

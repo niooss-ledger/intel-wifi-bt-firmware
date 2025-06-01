@@ -32,7 +32,7 @@
     Hexdump of start: 54 4c 50 2a 2a 4d 56 4e 0a 13 00 00 00 00 00 00 00 00 00 00 c1 0b 00 30 09 81 03 00 4b 03 4b 03
 
 Signatures (count 4):
-- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x3040=12352 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1,0x0)
+- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x3040=12352 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x610d1)
     EC pub x: 0x3a3a06f9623952a423ab8f4e1f34eae771be59798ad44dd47645764ac5b9cda7114ff60967df9991f21b4bdbc4e0420a
     EC pub y: 0xe5d530aa9525b3f3308c2f2823756610bde06f463d659ada3727efbb09e1af5821a438fa7115f7feeb9631a58dcfb333
     EC signature r: 0x207d544e1f341d45e954dcf7e33392a15a779e0dbdc4ca443274bbb3001e9066e448cd181e01b564c4d6fa6a435a56a3
@@ -46,14 +46,14 @@ Signatures (count 4):
     EC signature s: 0x316837884728fbf4bc97c6aefe60a56119a96526eebc736d4221678de0a0cc36f769655ed865267cbd34aea184d2141f
     1 section:
         0xdeadcafe..0xdeadfa9e (0x2fa0=12192 bytes)
-- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x2ff4=12276 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0xa10d1,0x0)
+- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x2ff4=12276 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0xa10d1)
     EC pub x: 0x3a3a06f9623952a423ab8f4e1f34eae771be59798ad44dd47645764ac5b9cda7114ff60967df9991f21b4bdbc4e0420a
     EC pub y: 0xe5d530aa9525b3f3308c2f2823756610bde06f463d659ada3727efbb09e1af5821a438fa7115f7feeb9631a58dcfb333
     EC signature r: 0xea5ea35ad8c5ad0939fbc2c65dc06b880b7b91c50c0c8f1eda079f9bbb43f26f69a9c4aaa494163eadbe6632313f10ff
     EC signature s: 0xfcea368140d72f3c2dfc3d44a54d8eb1ac1b2bcd7967dffe1371f91ac6acf3b28d9c9b4f42d01ea7c564314ccf861cf7
     1 section:
         0xdeadcafe..0xdeadf99e (0x2ea0=11936 bytes)
-- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x3070=12400 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1,0x0)
+- SEC_RT 0xcafedead (secp384r1, 2025-03-10, 0x3070=12400 bytes, 1 section, unknown=0x18,0xc,0xc,0x0,0x0,0x5,0x510d1)
     EC pub x: 0x3a3a06f9623952a423ab8f4e1f34eae771be59798ad44dd47645764ac5b9cda7114ff60967df9991f21b4bdbc4e0420a
     EC pub y: 0xe5d530aa9525b3f3308c2f2823756610bde06f463d659ada3727efbb09e1af5821a438fa7115f7feeb9631a58dcfb333
     EC signature r: 0xcc010a25eb59c422f313ed034dc25cc1f262dfa50e7613a294926117aed885da84c5d455915d8655f0cd03875ba62809
