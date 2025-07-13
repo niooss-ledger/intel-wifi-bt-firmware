@@ -3031,3 +3031,8 @@
   - iwlwifi-bz-b0-gf-a0.pnvm version 2025-06-09 (55208 bytes)
   - iwlwifi-bz-b0-hr-b0.pnvm version 2025-06-09 (1788 bytes)
   - iwlwifi-gl-c0-fm-c0.pnvm version 2025-06-09 (295036 bytes)
+
+2025-07-07 f534fd76aaa8019b4106f7fad363f52ec40adca4 added 3 files
+  - intel/ibt-17-2.sfi version 2025-07-07 (675500 bytes)
+  - intel/ibt-18-16-1.sfi version 2025-07-07 (675500 bytes)
+  - intel/ibt-18-2.sfi version 2025-07-07 (675500 bytes)
