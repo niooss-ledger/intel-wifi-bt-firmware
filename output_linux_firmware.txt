@@ -3036,3 +3036,27 @@
   - intel/ibt-17-2.sfi version 2025-07-07 (675500 bytes)
   - intel/ibt-18-16-1.sfi version 2025-07-07 (675500 bytes)
   - intel/ibt-18-2.sfi version 2025-07-07 (675500 bytes)
+
+2025-07-13 9ec63315f4c1047e780e471fc4554826953f4881 added 6 files
+  - intel/ibt-0190-0041-iml.sfi version 2025-07-13 (56372 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2025-07-13 (794928 bytes)
+  - intel/ibt-0190-0041-usb.sfi version 2025-07-13 (802852 bytes)
+  - intel/ibt-0190-0291-iml.sfi version 2025-07-13 (56372 bytes)
+  - intel/ibt-0190-0291-pci.sfi version 2025-07-13 (861920 bytes)
+  - intel/ibt-0190-0291-usb.sfi version BT_BlazarI_S_REL95112_23.150.25254.95112 (869820 bytes)
+
+2025-07-13 a7be448d356ee62d0671908d9a0695399e1b5ace added 5 files
+  - intel/ibt-0093-0041.sfi version 2025-07-13 (868752 bytes)
+  - intel/ibt-0093-0291.sfi version 2025-07-13 (955280 bytes)
+  - intel/ibt-0093-1050.sfi version 2025-07-13 (868752 bytes)
+  - intel/ibt-0093-4150.sfi version 2025-07-13 (868752 bytes)
+  - intel/ibt-0291-0291.sfi version 2025-07-13 (955280 bytes)
+
+2025-07-13 40c52dd245b4bff51ca3700a4c89f1c300228203 added 7 files
+  - intel/ibt-0040-0041.sfi version 2025-07-13 (721036 bytes)
+  - intel/ibt-0040-1050.sfi version 2025-07-13 (721036 bytes)
+  - intel/ibt-0040-4150.sfi version 2025-07-13 (721036 bytes)
+  - intel/ibt-0041-0041.sfi version 2025-07-13 (713492 bytes)
+  - intel/ibt-1040-0041.sfi version 2025-07-13 (721036 bytes)
+  - intel/ibt-1040-1050.sfi version 2025-07-13 (721036 bytes)
+  - intel/ibt-1040-4150.sfi version 2025-07-13 (721036 bytes)
