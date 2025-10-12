@@ -3083,3 +3083,23 @@
   - iwlwifi-bz-b0-gf-a0-100.ucode version 97.09e46595.0 (1837024 bytes)
   - iwlwifi-bz-b0-hr-b0-100.ucode version 97.09e46595.0 (1584684 bytes)
   - iwlwifi-gl-c0-fm-c0-100.ucode version 97.3f3ef548.0 (2210748 bytes)
+
+2025-10-10 7bbab634ede0387f245242500de9f3a59c43440b added 6 files
+  - intel/ibt-0190-0041-iml.sfi version 2025-10-10 (57976 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2025-10-10 (802420 bytes)
+  - intel/ibt-0190-0041-usb.sfi version 2025-10-10 (808764 bytes)
+  - intel/ibt-0190-0291-iml.sfi version 2025-10-10 (57976 bytes)
+  - intel/ibt-0190-0291-pci.sfi version 2025-10-10 (872088 bytes)
+  - intel/ibt-0190-0291-usb.sfi version BT_BlazarI_S_REL99289_23.160.25341.99289 (878432 bytes)
+
+2025-10-10 890cad9f83875ce38865f0847babefd61fa5e44e added 5 files
+  - intel/ibt-0093-0041.sfi version 2025-10-10 (874800 bytes)
+  - intel/ibt-0093-0291.sfi version 2025-10-10 (964128 bytes)
+  - intel/ibt-0093-1050.sfi version 2025-10-10 (874800 bytes)
+  - intel/ibt-0093-4150.sfi version 2025-10-10 (874800 bytes)
+  - intel/ibt-0291-0291.sfi version 2025-10-10 (964128 bytes)
+
+2025-10-10 55d8d2fa006b94e7e0ff04725298bb8295082aff added 3 files
+  - intel/ibt-0180-0041.sfi version 2025-10-10 (826380 bytes)
+  - intel/ibt-0180-1050.sfi version 2025-10-10 (826380 bytes)
+  - intel/ibt-0180-4150.sfi version 2025-10-10 (826380 bytes)
