@@ -3086,3 +3086,18 @@
   - intel/ibt-0180-0041.sfi version 2025-10-10 (826380 bytes)
   - intel/ibt-0180-1050.sfi version 2025-10-10 (826380 bytes)
   - intel/ibt-0180-4150.sfi version 2025-10-10 (826380 bytes)
+
+2025-11-04 5a689a2fb8376e13ec097f3d78d03df31a18b1f0 added 6 files
+  - intel/ibt-0190-0041-iml.sfi version 2025-11-04 (58008 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2025-11-04 (804460 bytes)
+  - intel/ibt-0190-0041-usb.sfi version 2025-11-04 (810684 bytes)
+  - intel/ibt-0190-0291-iml.sfi version 2025-11-04 (58008 bytes)
+  - intel/ibt-0190-0291-pci.sfi version 2025-11-04 (874120 bytes)
+  - intel/ibt-0190-0291-usb.sfi version BT_BlazarI_S_REL100876_23.170.25375.100876 (880344 bytes)
+
+2025-11-04 a976b0aa25c90fc3b196b50ad99a5b4399a5295e added 5 files
+  - intel/ibt-0093-0041.sfi version 2025-11-04 (876724 bytes)
+  - intel/ibt-0093-0291.sfi version 2025-11-04 (966004 bytes)
+  - intel/ibt-0093-1050.sfi version 2025-11-04 (876724 bytes)
+  - intel/ibt-0093-4150.sfi version 2025-11-04 (876724 bytes)
+  - intel/ibt-0291-0291.sfi version 2025-11-04 (966004 bytes)
