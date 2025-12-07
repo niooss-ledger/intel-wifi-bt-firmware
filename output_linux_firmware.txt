@@ -3101,3 +3101,34 @@
   - intel/ibt-0093-1050.sfi version 2025-11-04 (876724 bytes)
   - intel/ibt-0093-4150.sfi version 2025-11-04 (876724 bytes)
   - intel/ibt-0291-0291.sfi version 2025-11-04 (966004 bytes)
+
+2025-12-02 4d8ef73cb73e5373001cda9842d6310a44372299 added 2 files
+  - intel/ibt-0093-0291.sfi version 2025-12-02 (970016 bytes)
+  - intel/ibt-0291-0291.sfi version 2025-12-02 (970016 bytes)
+
+2025-12-02 de8211b56b768db5047f0ef49daf333e01d731ba added 3 files
+  - intel/ibt-0093-0041.sfi version 2025-12-02 (876792 bytes)
+  - intel/ibt-0093-1050.sfi version 2025-12-02 (876792 bytes)
+  - intel/ibt-0093-4150.sfi version 2025-12-02 (876792 bytes)
+
+2025-12-02 70a4bb64e5b3f6c5e136f6629b6dc16606355390 added 3 files
+  - intel/ibt-0190-0291-iml.sfi version 2025-12-02 (60844 bytes)
+  - intel/ibt-0190-0291-pci.sfi version BT_BlazarI_S_REL104829_24.10.25461.104829 (871168 bytes)
+  - intel/ibt-0190-0291-usb.sfi version 2025-12-02 (876728 bytes)
+
+2025-12-02 ee03c5fb3d99996c67fdc11d897dc8e7eb04abe4 added 3 files
+  - intel/ibt-0190-0041-iml.sfi version 2025-12-02 (58024 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2025-12-02 (804520 bytes)
+  - intel/ibt-0190-0041-usb.sfi version BT_BlazariGfp_S_REL145_24.00.25461.145 (810744 bytes)
+
+2025-12-02 c56e10ea830f7f03e37a6d5975e7796d6e9bb57f added 10 files
+  - intel/ibt-00a0-01a1-iml.sfi version 2025-12-02 (66236 bytes)
+  - intel/ibt-00a0-01a1-pci.ddc version 2025-12-02 (4 bytes)
+  - intel/ibt-00a0-01a1-pci.sfi version 2025-12-02 (1081792 bytes)
+  - intel/ibt-00a0-01a1-usb.ddc version 2025-12-02 (4 bytes)
+  - intel/ibt-00a0-01a1-usb.sfi version 2025-12-02 (1085296 bytes)
+  - intel/ibt-00a0-0291-iml.sfi version 2025-12-02 (66236 bytes)
+  - intel/ibt-00a0-0291-pci.ddc version 2025-12-02 (4 bytes)
+  - intel/ibt-00a0-0291-pci.sfi version 2025-12-02 (988312 bytes)
+  - intel/ibt-00a0-0291-usb.ddc version 2025-12-02 (4 bytes)
+  - intel/ibt-00a0-0291-usb.sfi version BT_Scorpius_S_REL68935_24.10.25461.68935 (991836 bytes)
