@@ -3132,3 +3132,8 @@
   - intel/ibt-00a0-0291-pci.sfi version 2025-12-02 (988312 bytes)
   - intel/ibt-00a0-0291-usb.ddc version 2025-12-02 (4 bytes)
   - intel/ibt-00a0-0291-usb.sfi version BT_Scorpius_S_REL68935_24.10.25461.68935 (991836 bytes)
+
+2025-12-18 f383a26428bfbf9e2cd2445aba8b7de4dafc308c added 3 files
+  - intel/ibt-00a0-0041-iml.sfi version 2025-12-18 (61964 bytes)
+  - intel/ibt-00a0-0041-pci.ddc version 2025-12-18 (4 bytes)
+  - intel/ibt-00a0-0041-pci.sfi version BT_Scorpius_S_REL63418_24.00.25374.63418 (909808 bytes)
