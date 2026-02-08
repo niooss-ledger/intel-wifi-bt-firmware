@@ -3168,3 +3168,12 @@
 2026-01-16 9e79ce04180f60edb300feda8cbe4314c17d49de added 2 files
   - intel/ibt-00a0-0041-iml.sfi version 2026-01-16 (61976 bytes)
   - intel/ibt-00a0-0041-pci.sfi version BT_ScorpiusGfp_S_REL199_24.00.25462.199 (910144 bytes)
+
+2026-02-02 87972e1334055edfcb958abbb61cbd742646bf97 added 7 files
+  - intel/ibt-0040-0041.sfi version 2026-02-02 (720988 bytes)
+  - intel/ibt-0040-1050.sfi version 2026-02-02 (720988 bytes)
+  - intel/ibt-0040-4150.sfi version 2026-02-02 (720988 bytes)
+  - intel/ibt-0041-0041.sfi version 2026-02-02 (713448 bytes)
+  - intel/ibt-1040-0041.sfi version 2026-02-02 (720988 bytes)
+  - intel/ibt-1040-1050.sfi version 2026-02-02 (720988 bytes)
+  - intel/ibt-1040-4150.sfi version 2026-02-02 (720988 bytes)
