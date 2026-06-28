@@ -3277,3 +3277,22 @@
 2026-04-23 d4e97389c0c02b684c9c4234e4042ef37ba5189f added 2 files
   - intel/ibt-1190-01a1-iml.sfi version 2026-04-23 (60668 bytes)
   - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL117603_24.40.26135.117603 (843708 bytes)
+
+2026-06-16 431e7f03d2c77c3d027d02c9160b15f0f245d882 added 4 files
+  - intel/ibt-00a0-01a1-iml.sfi version 2026-06-16 (62892 bytes)
+  - intel/ibt-00a0-01a1-pci.sfi version 2026-06-16 (1106876 bytes)
+  - intel/ibt-00a0-0291-iml.sfi version 2026-06-16 (62892 bytes)
+  - intel/ibt-00a0-0291-pci.sfi version 2026-06-16 (997224 bytes)
+
+2026-06-16 7bf0edbf74a2d4783ba2cdef26822d85aeea10ac added 3 files
+  - intel/ibt-0190-0291-iml.sfi version 2026-06-16 (59556 bytes)
+  - intel/ibt-0190-0291-pci.sfi version BT_BlazarI_S_REL120290_24.50.26182.120290 (890424 bytes)
+  - intel/ibt-0190-0291-usb.sfi version 2026-06-16 (889032 bytes)
+
+2026-06-16 4a32fece257f9168536ff68f8e17532bedaa3869 added 2 files
+  - intel/ibt-0093-0291.sfi version 2026-06-16 (997092 bytes)
+  - intel/ibt-0291-0291.sfi version 2026-06-16 (997092 bytes)
+
+2026-06-16 aba75bb237b646b53b5d8a1b08c1de25f0419176 added 2 files
+  - intel/ibt-1190-01a1-iml.sfi version 2026-06-16 (59556 bytes)
+  - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL120290_24.50.26182.120290 (852168 bytes)
