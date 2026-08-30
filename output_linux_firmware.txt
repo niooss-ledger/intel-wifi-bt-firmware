@@ -3315,3 +3315,18 @@
 2026-07-20 c410f2d2706ba980eb3111e1a9554817463f0d22 added 2 files
   - intel/ibt-1190-01a1-iml.sfi version 2026-07-20 (57436 bytes)
   - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL125325_24.60.26262.125325 (852824 bytes)
+
+2026-08-27 f6a848e7ddb764af397aff1cad1488b57daa5382 added 5 files
+  - intel/ibt-00a0-01a1-iml.sfi version 2026-08-27 (62920 bytes)
+  - intel/ibt-00a0-01a1-pci.ddc version 2026-08-27 (16 bytes)
+  - intel/ibt-00a0-01a1-pci.sfi version 2026-08-27 (1133444 bytes)
+  - intel/ibt-00a0-0291-iml.sfi version 2026-08-27 (62920 bytes)
+  - intel/ibt-00a0-0291-pci.sfi version BT_Scorpius_S_REL96982_24.70.26293.96982 (1010688 bytes)
+
+2026-08-27 d4070db56a9c881e185ed0e657a2b8ef0aecac43 added 2 files
+  - intel/ibt-0093-0291.sfi version 2026-08-27 (985568 bytes)
+  - intel/ibt-0291-0291.sfi version 2026-08-27 (985568 bytes)
+
+2026-08-27 df9a23cc65d4770d29dee5658366193a1d097169 added 2 files
+  - intel/ibt-1190-01a1-iml.sfi version 2026-08-27 (57344 bytes)
+  - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL127988_24.70.26293.127988 (858316 bytes)
