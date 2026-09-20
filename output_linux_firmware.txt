@@ -3330,3 +3330,6 @@
 2026-08-27 df9a23cc65d4770d29dee5658366193a1d097169 added 2 files
   - intel/ibt-1190-01a1-iml.sfi version 2026-08-27 (57344 bytes)
   - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL127988_24.70.26293.127988 (858316 bytes)
+
+2026-09-18 a98a6daa9f4dee2f662cc8a48610287189b23499 added 1 files
+  - intel/ibt-00a0-01a1-pci.ddc version 2026-09-18 (15 bytes)
