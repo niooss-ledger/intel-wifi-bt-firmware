@@ -3333,3 +3333,51 @@
 
 2026-09-18 a98a6daa9f4dee2f662cc8a48610287189b23499 added 1 files
   - intel/ibt-00a0-01a1-pci.ddc version 2026-09-18 (15 bytes)
+
+2026-10-01 8a2941fae0d02364d8ae6542ba890fd496681b55 added 4 files
+  - intel/ibt-00a0-01a1-iml.sfi version 2026-10-01 (63056 bytes)
+  - intel/ibt-00a0-01a1-pci.sfi version 2026-10-01 (1134832 bytes)
+  - intel/ibt-00a0-0291-iml.sfi version 2026-10-01 (63056 bytes)
+  - intel/ibt-00a0-0291-pci.sfi version BT_Scorpius_S_REL102163_24.80.26362.102163 (998916 bytes)
+
+2026-10-01 5c1ebeca629fe23c7a22597e89d6a1ff325c49e8 added 2 files
+  - intel/ibt-00a0-0041-iml.sfi version 2026-10-01 (61976 bytes)
+  - intel/ibt-00a0-0041-pci.sfi version BT_ScorpiusGfp_S_REL384_24.00.26304.384 (912040 bytes)
+
+2026-10-01 138a87a2591cc7ebc342cf699163fe6d5cd4d25d added 1 files
+  - intel/ibt-0291-0291.sfi version 2026-10-01 (978976 bytes)
+
+2026-10-01 8956e3383e949bb865681e00889cd43996ed5819 added 3 files
+  - intel/ibt-0190-0291-iml.sfi version 2026-10-01 (57344 bytes)
+  - intel/ibt-0190-0291-pci.sfi version BT_BlazariFmp_S_REL62_24.70.26333.62 (865716 bytes)
+  - intel/ibt-0190-0291-usb.sfi version 2026-10-01 (864564 bytes)
+
+2026-10-01 a385fbdf167845cc75b4d9a3fa681e88b2f708e1 added 2 files
+  - intel/ibt-1190-01a1-iml.sfi version 2026-10-01 (57872 bytes)
+  - intel/ibt-1190-01a1-pci.sfi version BT_BlazarI_S_REL132931_24.80.26362.132931 (850180 bytes)
+
+2026-10-01 458831d07217d420a438a14f974c23c0349afdd0 added 1 files
+  - intel/ibt-0093-0291.sfi version 2026-10-01 (985652 bytes)
+
+2026-10-01 b593e397a7c8815e45efb8432e0e66208b60d017 added 6 files
+  - intel/ibt-0190-0041-iml.sfi version 2026-10-01 (58024 bytes)
+  - intel/ibt-0190-0041-pci.sfi version 2026-10-01 (806484 bytes)
+  - intel/ibt-0190-0041-usb.sfi version 2026-10-01 (812724 bytes)
+  - intel/ibt-1190-0041-iml.sfi version 2026-10-01 (58024 bytes)
+  - intel/ibt-1190-0041-pci.sfi version 2026-10-01 (806484 bytes)
+  - intel/ibt-1190-0041-usb.sfi version 2026-10-01 (812724 bytes)
+
+2026-10-01 2ce099f2c91390344405e9bad7250744426cdd0d added 3 files
+  - intel/ibt-0093-0041.sfi version 2026-10-01 (878684 bytes)
+  - intel/ibt-0093-1050.sfi version 2026-10-01 (878684 bytes)
+  - intel/ibt-0093-4150.sfi version 2026-10-01 (878684 bytes)
+
+2026-10-01 b95a9e9319583d9c92a98d9027edb52d63d23052 added 3 files
+  - intel/ibt-0180-0041.sfi version 2026-10-01 (826428 bytes)
+  - intel/ibt-0180-1050.sfi version 2026-10-01 (826428 bytes)
+  - intel/ibt-0180-4150.sfi version 2026-10-01 (826428 bytes)
+
+2026-10-01 6163f5ba0c3357372bdc9aa743ed6071cbbed07f added 3 files
+  - intel/ibt-0040-0041.sfi version 2026-10-01 (721052 bytes)
+  - intel/ibt-0041-0041.sfi version 2026-10-01 (713524 bytes)
+  - intel/ibt-1040-0041.sfi version 2026-10-01 (721052 bytes)
