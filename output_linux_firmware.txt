@@ -3381,3 +3381,14 @@
   - intel/ibt-0040-0041.sfi version 2026-10-01 (721052 bytes)
   - intel/ibt-0041-0041.sfi version 2026-10-01 (713524 bytes)
   - intel/ibt-1040-0041.sfi version 2026-10-01 (721052 bytes)
+
+2026-11-03 ca47bdb2ff05bcea2f6543d09086adede0109a99 added 3 files
+  - intel/ibt-02a2-01a1-iml.sfi version 2026-11-03 (47372 bytes)
+  - intel/ibt-02a2-01a1.ddc version BT_Scorpius2_S_REL89063_24.70.26413.89063 (4 bytes)
+  - intel/ibt-02a2-01a1.sfi version 2026-11-03 (1145196 bytes)
+
+2026-11-03 416a692f3492af7cecda552f33c304d9def241bb added 2 files
+  - intel/ibt-02a2-01a1-iml.sfi version 2026-11-03 (47504 bytes)
+    Warning: duplicate local file name, using ibt-02a2-01a1-iml.sfi__2026-11-03_
+  - intel/ibt-02a2-01a1.sfi version 2026-11-03 (1143816 bytes)
+    Warning: duplicate local file name, using ibt-02a2-01a1.sfi__2026-11-03_
